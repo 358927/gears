@@ -1,0 +1,1218 @@
+<Item class="Model" referent="RBXC3EEE16FE50A42C7AF9EA1F34810C2B8">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">73232825</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBXB11341FDEBFF4FB1B0FA2122BE49B357">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">ScreamPotion</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=73140108</url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>0</X>
+							<Y>0.5</Y>
+							<Z>1.1920929e-07</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>0</R20>
+							<R21>-1</R21>
+							<R22>0</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Script" referent="RBXCF8C6D9796284CDC9415DB50712E83C3">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Scream_Global</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{50E5E9AA-DB02-4DE6-BF66-8DD2E20CBFB3}</string>
+						<ProtectedString name="Source" />
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX44FBFA67D4B348E1A73EE036C7655FF5">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Scream_Main</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{33BA0228-9168-4D2D-9A4F-B9D9AB9B6E7A}</string>
+						<ProtectedString name="Source">--local mDebugId = game.Workspace.DebugId.Value
+--game.Workspace.DebugId.Value = game.Workspace.DebugId.Value+1
+--print("Running swordscript &lt;"..mDebugId.."&gt;")
+
+-------------------------------------
+-- Makes an RBX::Lua Instance using
+-- a table of key-value pairs to
+-- initialize it. Values with numeric
+-- keys will be parented to the object
+-- and other values will be set
+-- as members of the object.
+function Create(ty)
+	return function(data)
+		local obj = Instance.new(ty)
+		for k, v in pairs(data) do
+			if type(k) == 'number' then
+				v.Parent = obj
+			else
+				obj[k] = v
+			end
+		end
+		return obj
+	end
+end
+
+---------------------------------------
+-- Same as Make, but modifies an existing
+-- object rather than creating ones.
+function Modify(obj, data)
+	for k, v in pairs(data) do
+		if type(data) == 'number' then
+			data.Parent = obj
+		else
+			data[k] = v
+		end
+	end
+	return obj
+end
+
+-----------------------------------------
+-- Creates a class which can be instantiated
+-- using `CreateCLASSNAME( ... )`.
+---usage:
+--class'MyClass'(function(this, arg1)
+--	this.ClassMember = value
+--	function this.ClassMethod(...) ... end
+--end, function(def)
+--	def.StaticMember = value
+--	 function def.StaticMethod(...) ... end
+--end)
+--local obj = CreateMyClass(arg1)
+------------------------------------------
+local function class(name)
+	local def = {}
+	getfenv(0)[name] = def
+	return function(ctor, static)
+		local nctor = function(...)
+			local this = {}
+			if ctor then
+				ctor(this, ...)
+			end
+			return this
+		end
+		getfenv(0)['Create'..name] = nctor
+		if static then static(def) end
+	end
+end
+
+
+---------------------------------------------
+-- Signal class for custom-made events
+--API:
+-- Signal:connect(callback)
+-- Signal:fire(...)
+-- Signal:wait()
+---------------------------------------------
+class'Signal'(function(this)
+	local mListeners = {}
+	local mWaitObject = Create'BoolValue'{}
+
+	function this:connect(func)
+		local connection = {}
+		function connection:disconnect()
+			mListeners[func] = nil
+		end
+		mListeners[func] = connection
+		return connection
+	end
+
+	function this:fire(...)
+		--print("Fire evt&lt;"..tostring(this).."&gt; from script&lt;"..mDebugId.."&gt;")
+		for func, conn in pairs(mListeners) do
+			--print("-&gt; "..tostring(func).."( ... )")
+			func(...)
+		end
+		mWaitObject.Value = not mWaitObject.Value
+	end
+
+	function this:wait()
+		mWaitObject.Changed:wait()
+	end
+end)
+
+
+--------------------------------------------------
+-- Bin class for cleaning up assets
+--API:
+-- Bin:add(func: Function, ident: String)
+-- Bin:clean(ident: String)
+-- Bin:cleanAll()
+--------------------------------------------------
+class'Bin'(function(this)
+	local mGarbage = {}
+
+	function this:add(func, ident)
+		ident = ident or '__unnamed'
+		if not mGarbage[ident] then
+			mGarbage[ident] = {}
+		end
+		mGarbage[ident][#mGarbage[ident]+1] = func
+	end
+
+	function this:clean(ident)
+		local listToCall = mGarbage[ident]
+		if listToCall then
+			for _, func in pairs(listToCall) do
+				func()
+			end
+			mGarbage[ident] = nil
+		end
+	end
+
+	function this:cleanAll()
+		for ident, list in pairs(mGarbage) do
+			for _, func in pairs(list) do
+				func()
+			end
+			mGarbage[ident] = nil
+		end
+	end
+end)
+
+
+-----------------------------------------------------
+-- AnimationProvider class for easy loading of
+-- animation assets into animationtracks once
+-- a humanoid is available.
+--API:
+-- AnimationProvider:registerAnimation(ident, assetid)
+-- AnimationProvider:setHumanoid(humanoid)
+-- AnimationProvider:setTool(tool)
+-- AnimationProvider:getAnimation(ident)
+-----------------------------------------------------
+class'AnimationProvider'(function(this)
+	local mAnimations = {--[[ident =&gt; {AnimationId, CurrentTrack, CurrentAnim} ]]}
+	local mCurrentHumanoid = nil
+
+	function this:registerAnimation(ident, assetid)
+		--check for an existing copy of the anim
+		local existingAnim = Tool.Tool:FindFirstChild('ANIM_'..ident)
+
+		--make the data for this anim
+		local animdat = {
+			AnimationId = assetid,
+			CurrentAnim = existingAnim or Create'Animation'{
+				Name = "ANIM_"..ident,
+				AnimationId = assetid,
+			},
+		}
+		mAnimations[ident] = animdat
+
+		--if there's a current tool, put it in there
+		if Tool.Tool then
+			Tool.HUGE_EQUIP_HACK = true
+			animdat.CurrentAnim.Parent = Tool.Tool
+			Tool.HUGE_EQUIP_HACK = false
+		end
+
+		--if there's a humanoid load the animation track
+		if mCurrentHumanoid then
+			animdat.CurrentTrack = mCurrentHumanoid:LoadAnimation(animdat.CurrentAnim)
+		end
+	end
+
+	function this:setHumanoid(humanoid)
+		mCurrentHumanoid = humanoid
+		for _, anim in pairs(mAnimations) do
+			anim.CurrentTrack = humanoid:LoadAnimation(anim.CurrentAnim)
+		end
+	end
+
+	function this:getAnimation(ident)
+		local dat = mAnimations[ident]
+		if not dat then error("Gear Fatal Error: Animation `"..ident.."` not found") end
+		if not dat.CurrentTrack then
+			error("Gear Fatal Error: No Humanoid for animation `"..ident.."` to run in")
+		end
+		return dat.CurrentTrack
+	end
+end)
+
+
+----------------------------------------------
+-- SoundProvider class
+-- functions similarily to the animationprovider
+----------------------------------------------
+class'SoundProvider'(function(this)
+	local mSounds = {}
+
+	function this:registerSound(ident, assetid, inpart)
+		inpart = inpart or Tool.Tool:FindFirstChild('Handle')
+		if not inpart then
+			repeat
+				inpart = Tool.Tool.ChildAdded:wait()
+			until inpart.Name == 'Handle'
+		end
+		local existingSound = inpart:FindFirstChild('SOUND_'..ident)
+		local sounddat = {
+			SoundId = assetid,
+			CurrentSound = existingSound or Create'Sound'{
+				Name = 'SOUND_'..ident,
+				SoundId = assetid,
+				Parent = inpart,
+			},
+		}
+		mSounds[ident] = sounddat
+	end
+
+	function this:getSound(ident)
+		local dat = mSounds[ident]
+		if dat then
+			return dat.CurrentSound
+		end
+	end
+end)
+
+
+----------------------------------------------
+-- DebounceProvider class -- Prevent events
+-- from happening in too rapid succession
+----------------------------------------------
+class'DebounceProvider'(function(this)
+	local mFlagNameToLastTime = {}
+
+	function this:test(ident, delta)
+		local t = tick()
+		local lastTime = mFlagNameToLastTime[ident] or 0
+		if delta then
+			return (t-lastTime) &gt; delta
+		else
+			return mFlagNameToLastTime[ident]
+		end
+	end
+	function this:set(ident, state)
+		if state then
+			mFlagNameToLastTime[ident] = state
+		elseif state == false then
+			mFlagNameToLastTime[ident] = false
+		else
+			mFlagNameToLastTime[ident] = tick()
+		end
+	end
+end)
+
+
+function TagHumanoid(humanoid)
+	if Tool.Player then
+		local tag = Create'ObjectValue'{
+			Name = "creator",
+			Value = Tool.Player,
+			Parent = humanoid,
+		}
+		game.Debris:AddItem(tag, 1)
+	end
+end
+
+
+------- wait for any event in a set of events  to fire ------
+function WaitForAny(tb)
+	local evt = tb
+	local conn = {}
+	local eventargs = nil
+	local waitProxy = Create'BoolValue'{}
+	for _, e in pairs(evt) do
+		local c = e:connect(function(...)
+			for _, c in pairs(conn) do
+				c:disconnect()
+			end
+			eventargs = {...}
+			waitProxy.Value = not waitProxy.Value
+		end)
+		conn[#conn+1] = c
+	end
+	--
+	waitProxy.Changed:wait()
+	--
+	return unpack(eventargs)
+end
+
+
+----------------------------------------------
+-- Tool singleton class
+--API:
+-- ...
+class'Tool'(nil, function(this)
+	--need this here for the animationprovider to use
+	this.HUGE_EQUIP_HACK = false
+
+	this.Bin = CreateBin()
+	this.AnimationProvider = CreateAnimationProvider()
+	this.DebounceProvider = CreateDebounceProvider()
+	this.SoundProvider = CreateSoundProvider()
+
+	--general values
+	this.Tool = script.Parent
+	this.Player = nil
+	this.Humanoid = nil
+	this.Character = nil
+
+	--============ several flags for the gear
+	--nothing
+
+	--some events
+	this.Equipped = CreateSignal()
+	this.Unequipped = CreateSignal()
+	this.OwnerChange = CreateSignal()
+
+	--mouse utility events
+	this.MouseClick = CreateSignal()
+	this.MouseRelease = CreateSignal()
+	this.MouseDoubleClick = CreateSignal()
+	this.DoubleClickThreshold = 0.2
+	this.MouseDown = false
+	this.KeyDown = CreateSignal()
+	this.KeyUp = CreateSignal()
+	this.KeyState = {}
+
+	local mLastClickTime = 0
+
+	--
+	local mCharacterChangedCn = nil
+	local mCharacterChildAddedCn = nil
+	local function locateAndAssignParts(ch)
+		if ch:FindFirstChild('Humanoid') then this.Humanoid = ch.Humanoid end
+		if ch:FindFirstChild('Head') then this.HeadPart = ch.Head end
+		if ch:FindFirstChild('Torso') then this.TorsoPart = ch.Torso end
+		if ch:FindFirstChild('Right Arm') then 	this.RightArmPart = ch['Right Arm'] end
+		if ch:FindFirstChild('Left Arm') then 	this.LeftArmPart = 	ch['Left Arm'] end
+		if ch:FindFirstChild('Right Leg') then 	this.RightLegPart = ch['Right Leg'] end
+		if ch:FindFirstChild('Left Leg') then 	this.LeftLegPart = 	ch['Left Leg'] end
+	end
+	local function listenForCharacterAndParts(player)
+		this.Tool = script.Parent
+		this.Player = player
+		--
+		if mCharacterChangedCn then mCharacterChangedCn:disconnect() end
+		mCharacterChangedCn = player.Changed:connect(function(prop)
+			if prop == 'Character' and player.Character then
+				if mCharacterChildAddedCn then mCharacterChildAddedCn:disconnect() end
+				mCharacterChildAddedCn = player.Character.ChildAdded:connect(function(ch)
+					locateAndAssignParts(player.Character)
+				end)
+			end
+		end)
+		if player.Character then
+			if mCharacterChildAddedCn then mCharacterChildAddedCn:disconnect() end
+			mCharacterChildAddedCn = player.Character.ChildAdded:connect(function(ch)
+				locateAndAssignParts(player.Character)
+			end)
+		end
+	end
+	script.Parent.Changed:connect(function(prop)
+		if prop == 'Parent' then
+			--if it's in a character or backpack, find stuff
+			local backpack = script.Parent.Parent
+			if backpack and backpack:IsA('Backpack') then
+				listenForCharacterAndParts(backpack.Parent)
+			end
+		end
+	end)
+	--if I'm allready in the backpack, listen for character
+	if script.Parent.Parent:IsA('Backpack') then
+		listenForCharacterAndParts(script.Parent.Parent.Parent)
+	end
+	script.Parent.Equipped:connect(function(mouse)
+		--print("Internal Equipped: Time b: "..time())
+		--set up general values in the tool
+		this.Mouse = mouse
+		local curOwner = game.Players:GetPlayerFromCharacter(script.Parent.Parent)
+		if curOwner ~= this.Player then
+			this.Player = curOwner
+			this.OwnerChange:fire(this.Player)
+		end
+		this.Character = this.Player.Character
+		this.Humanoid = this.Character.Humanoid
+		this.AnimationProvider:setHumanoid(this.Humanoid)
+		locateAndAssignParts(this.Player.Character)
+
+		--set up the mouse events
+		mouse.Button1Down:connect(function()
+			this.MouseDown = true
+			local t = tick()
+			if (t-mLastClickTime) &lt; this.DoubleClickThreshold then
+				--prvent multiple double-clicks in a row
+				mLastClickTime = 0
+				this.MouseDoubleClick:fire(mouse)
+			else
+				mLastClickTime = t
+				this.MouseClick:fire(mouse)
+			end
+		end)
+		mouse.Button1Up:connect(function()
+			this.MouseDown = false
+			this.MouseRelease:fire()
+		end)
+		mouse.KeyDown:connect(function(key)
+			this.KeyState[key] = true
+			this.KeyDown:fire(key)
+		end)
+		mouse.KeyUp:connect(function(key)
+			this.KeyState[key] = false
+			this.KeyUp:fire(key)
+		end)
+
+		--done setup, call the equipped function
+		if this.HUGE_EQUIP_HACK then
+			--the HUGE_EQUIP_HACK flags tells the tool that the equip is a synchronous
+			--call as a result of parenting an animation to the character, which happens
+			--when the tool is picked up from the workspace, but not during normal equips
+			--(Why does this happen???), if this is the case, the call should be rederrred
+			--one tick to ensure that all of the gear's loading can complete before it's
+			--equipped event is called.
+			--TODO: Blame John for this.
+			Delay(0, function()
+				this.Equipped:fire(mouse)
+			end)
+		else
+			--otherwise, proceed as normal
+			this.Equipped:fire(mouse)
+		end
+	end)
+
+	script.Parent.Unequipped:connect(function()
+		--before my teardown, fire the event
+		this.Unequipped:fire()
+
+		--delete all my garbage
+		this.Bin:cleanAll()
+	end)
+end)
+
+
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+local RECHARGE_TIME = 3.5   --(seconds)
+local ATTACK_DURATION = 2   --(seconds)
+local STUN_LENGTH = 2       --(seconds)
+local STUN_RADIUS = 40      --(studs)
+local STUN_EXPAND_RATE = 40 --(studs/second)
+
+Tool.AnimationProvider:registerAnimation('equip', 'http://www.roblox.com/asset/?id=73148224')
+Tool.AnimationProvider:registerAnimation('drink', 'http://www.roblox.com/asset/?id=73148207')
+Tool.AnimationProvider:registerAnimation('screamer', 'http://www.roblox.com/asset/?id=73137669')
+Tool.SoundProvider:registerSound('scream', 'http://www.roblox.com/asset/?id=73137902')
+
+local Selected = false
+local Firing = false
+
+Tool.MouseClick:connect(function()
+	if tick() &lt; Tool.Tool.NextAttack.Value then return end
+	Tool.Tool.NextAttack.Value = tick()+RECHARGE_TIME+ATTACK_DURATION+0.5
+	--
+	Firing = true
+	local shockwaves = {}
+	Tool.Bin:add(function()
+		--clean up shockwaves
+		for s, _ in pairs(shockwaves) do
+			s.Part:Destroy()
+		end
+		Firing = false
+		Tool.AnimationProvider:getAnimation('screamer'):Stop()
+	end, 'shockwaves')
+	--
+	Tool.AnimationProvider:getAnimation('drink'):Play(0, 1, 4)
+	repeat until Tool.AnimationProvider:getAnimation('drink').KeyframeReached:wait() == 'complete'
+	if not Selected then return end
+	Tool.AnimationProvider:getAnimation('screamer'):Play(0.1, 1, 4)
+	Tool.SoundProvider:getSound('scream'):Play()
+	--
+	local StartTime = tick()
+	local Ticks = 0
+	while true do
+		Ticks = Ticks + 1
+		if not Selected then break end
+		if tick()-StartTime &gt; ATTACK_DURATION then break end
+		--
+		--crate a new shockwave
+		if Ticks % 4 == 0 then
+			local shock = {}
+			shock.Part = Create'Part'{
+				Name = "Scream_Shockwave";
+				Anchored = true;
+				CanCollide = false;
+				FormFactor = 'Custom';
+				Parent = Tool.Character;
+				Size = Vector3.new(2, 1, 2);
+				Transparency = 1;
+				--
+				Create'Decal'{
+					Name = 'TopDecal';
+					Texture = 'http://www.roblox.com/asset/?id=11187115';
+					Face = 'Top';
+				};
+				Create'Decal'{
+					Name = 'BottomDecal';
+					Texture = 'http://www.roblox.com/asset/?id=11187115';
+					Face = 'Bottom';
+				};
+			}
+			shock.Part.CFrame = CFrame.new(Tool.HeadPart.Position)*
+			                    CFrame.Angles(math.random(-10,10)/30, 0, math.random(-10,10)/30)
+			shock.SkewX = math.random(8,12)/10
+			shock.SkewZ = math.random(8,12)/10
+			shock.Part.Touched:connect(function(part)
+				local hum = part.Parent:FindFirstChild('Humanoid')
+				if hum and hum ~= Tool.Humanoid then
+					local stunScript = hum.Parent:FindFirstChild('StunScriptRef')
+					if not stunScript then
+						stunScript = script.Parent.ScreamerScript:Clone()
+						stunScript.TargetModel.Value = part.Parent
+						local stunScriptRef = Create'ObjectValue'{
+							Name = 'StunScriptRef';
+							Parent = part.Parent;
+							Value = stunScript;
+						}
+						if game.Players:GetPlayerFromCharacter(part.Parent) then
+							stunScript.Parent = hum.Parent
+						else
+							stunScript.Parent = Tool.Character
+						end
+						stunScript.Disabled = false
+						stunScript = stunScriptRef
+					end
+					local tm = STUN_LENGTH
+					if not stunScript.Value:FindFirstChild('EndTime') then
+						while not stunScript.Value:FindFirstChild('EndTime') do
+							stunScript.ChildAdded:wait()
+						end
+					end
+					stunScript.Value.EndTime.Value = not stunScript.Value.EndTime.Value
+				end
+			end)
+			shock.Radius = 1
+			shockwaves[shock] = true
+		end
+		--
+		--move shockwaves
+		for s, _ in pairs(shockwaves) do
+			s.Radius = s.Radius + STUN_EXPAND_RATE/30
+			s.Part.Parent = nil
+			s.Part.Size = Vector3.new(s.Radius*2*s.SkewX, 1, s.Radius*2*s.SkewZ)
+			s.Part.Parent = Tool.Character
+			--
+			local perc = s.Radius / STUN_RADIUS
+			if perc &gt; 1 then
+				shockwaves[s] = nil
+				s.Part:Destroy()
+			else
+				s.Part.TopDecal.Transparency = perc
+				s.Part.BottomDecal.Transparency = perc
+			end
+		end
+		--
+		wait()
+	end
+	--and do cleanup
+	Tool.Bin:clean('shockwaves')
+end)
+
+local RechargeGui = Create'ScreenGui'{
+	Name = 'DragonHeadGui',
+	Create'Frame'{
+		Name = 'MainFrame',
+		Style = 'RobloxRound',
+		Size = UDim2.new(0, 256, 0, 32),
+		Position = UDim2.new(0.5, -128, 1, -150),
+		Create'Frame'{
+			Name = 'ProgressBar',
+			BorderSizePixel = 0,
+			BackgroundColor3 = Color3.new(1, 0.2, 0.2),
+			Size = UDim2.new(1, 0, 1, 0),
+		},
+		Create'TextLabel'{
+			Name = 'ProgressText',
+			BorderSizePixel = 0,
+			BackgroundTransparency = 1,
+			Size = UDim2.new(1, 0, 1, 0),
+			Font = 'ArialBold',
+			FontSize = 'Size24',
+			Text = "~ Ready ~",
+			TextColor3 = Color3.new(0.9, 0.9, 0.9),
+		},
+	}
+}
+
+local function SetProgress(frac)
+	RechargeGui.MainFrame.ProgressBar.Size = UDim2.new(frac, 0, 1, 0)
+	if frac == 1 then
+		RechargeGui.MainFrame.ProgressText.Text = "~ Ready ~"
+	else
+		RechargeGui.MainFrame.ProgressText.Text = "Charging "..math.floor(frac*100).."%"
+	end
+end
+
+Tool.Equipped:connect(function()
+	RechargeGui.Parent = Tool.Player.PlayerGui
+	Selected = true
+	Tool.AnimationProvider:getAnimation('equip'):Play(0.1, 1, 4)
+	--
+	while Selected do
+		if Firing then
+			SetProgress(0)
+		else
+			local timeLeft = script.Parent.NextAttack.Value-tick()
+			local fracLeft = timeLeft/RECHARGE_TIME
+			SetProgress(math.max(math.min(1, 1-fracLeft), 0))
+		end
+		wait()
+	end
+end)
+
+Tool.Unequipped:connect(function()
+	RechargeGui.Parent = nil
+	Selected = false
+	Tool.AnimationProvider:getAnimation('equip'):Stop()
+end)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="Script" referent="RBX2131A26B59814A79B4F8EFE03048BA3B">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Disabled">false</bool>
+							<Content name="LinkedSource"><null /></Content>
+							<string name="Name">MotorizeRightGrip</string>
+							<token name="RunContext">0</token>
+							<string name="ScriptGuid">{2036C448-EB3C-4D0C-8031-7954A08C7B49}</string>
+							<ProtectedString name="Source">function Create(ty)
+	return function(data)
+		local obj = Instance.new(ty)
+		for k, v in pairs(data) do
+			if type(k) == 'number' then
+				v.Parent = obj
+			else
+				obj[k] = v
+			end
+		end
+		return obj
+	end
+end
+
+local Tool = script.Parent.Parent
+
+local armChildRemovedConn = nil
+local Motor6DGrip = nil
+local EquippedNum = 0
+
+Tool.Equipped:connect(function()
+	EquippedNum = EquippedNum + 1
+	local myEquip = EquippedNum
+	--some vars
+	local Player = game.Players:GetPlayerFromCharacter(Tool.Parent)
+	local Character = Player.Character
+
+	local rightarm = Character:FindFirstChild('Right Arm')
+	if rightarm and rightarm:FindFirstChild('RightGrip') then
+		local rightGrip = rightarm['RightGrip']
+		local handle = rightGrip.Part1
+
+		--kill my joint when the normal joint is removed
+		--this must be done here so that the joint is removed
+		--_right away_ after unequipping and the character doesn't
+		--glitch up.
+		local armChildRemovedConn = rightarm.ChildRemoved:connect(function(ch)
+			if ch == rightGrip then
+				Motor6DGrip:Remove()
+				Motor6DGrip = nil
+				--
+				if handle and Character:FindFirstChild('Torso') then
+					if Tool.Parent.Parent:IsA('Player') then
+						--the sword has been deselected
+						--put the sword far away so the user doesn't notice that the handle doesn't
+						--update for about 0.1 seconds after selecting the tool.
+						handle.CFrame = CFrame.new(100000, 100000, 100000)
+					else
+						--if in the workspace, position the handle where it should be dropped
+						--use the size of the handle to make sure it's dropped far enough away
+						handle.CFrame = Character.Torso.CFrame * CFrame.new(0, 0, -(handle.Size.magnitude+2))
+					end
+				end
+			end
+		end)
+
+		--make my new joint
+		Motor6DGrip = Create'Motor6D'{
+			Name = 'RightGrip_Motor',
+			Part0 = rightarm,
+			Part1 = handle,
+		}
+		--kill the old weld
+		rightGrip.Part1 = nil
+		rightGrip.Part0 = nil
+		Motor6DGrip.Parent = rightGrip.Parent
+	end
+end)
+
+Tool.Unequipped:connect(function()
+	EquippedNum = EquippedNum + 1
+	if armChildRemovedConn then
+		armChildRemovedConn:disconnect()
+		armChildRemovedConn = nil
+	end
+end)
+</ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBX31E07932302C422E83A368F191BECA4B">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">ScreamerScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{FB6FFFD2-5FAF-4BF3-8714-F896B3147EEB}</string>
+						<ProtectedString name="Source">while not script:FindFirstChild('DamageHelper') do
+	script.ChildAdded:wait()
+end
+while not script:FindFirstChild('EndTime') do
+	script.ChildAdded:wait()
+end
+script.DamageHelper.Disabled = false
+while not script:FindFirstChild('TargetModel') do
+	script.ChildAdded:wait()
+end
+local Target = script:FindFirstChild('TargetModel').Value
+while not Target:FindFirstChild('StunScriptRef') do
+	Target.ChildAdded:wait()
+end
+local StunScriptRef = Target:FindFirstChild('StunScriptRef')
+
+local Player = game.Players:GetPlayerFromCharacter(Target)
+local Humanoid = Target:FindFirstChild("Humanoid")
+
+if not Humanoid then
+	--we need a humanoid to proceed, so destroy us now
+	--if there is none
+	StunScriptRef:Destroy()
+	script:Destroy()
+	return
+end
+
+--we don't need a player, but we need to prevent equiping
+--of tools and dis-equip the current tool if there is a player
+Humanoid:UnequipTools()
+local PlayerCleanup;
+if Player then
+	local ToolEquipCnList = {}
+	for _, ch in pairs(Player.Backpack:GetChildren()) do
+		local cn = ch.Equipped:connect(function()
+			wait()
+			Humanoid:UnequipTools()
+		end)
+		ToolEquipCnList[cn] = true
+	end
+	PlayerCleanup = function()
+		for cn, _ in pairs(ToolEquipCnList) do
+			cn:disconnect()
+		end
+	end
+else
+	--stub to avoid a more branching later
+	PlayerCleanup = function() end
+end
+
+--now, make the player shield ears
+local ScreamAnim = Instance.new("Animation")
+ScreamAnim.AnimationId = 'http://www.roblox.com/asset/?id=73137648'
+ScreamAnim.Name = "ANIM_Scream"
+ScreamAnim.Parent = Target
+
+
+--play the anim, and put walkwpeed to 0
+local track = Humanoid:LoadAnimation(ScreamAnim)
+track:Play(0.2, 1, 4)
+Humanoid.WalkSpeed = 0
+
+local EndTime = tick() + 3
+script.EndTime.Changed:connect(function()
+	EndTime = tick() + 3
+end)
+
+while EndTime &gt; tick() do
+	wait(EndTime - tick())
+end
+
+--and stop the anim, and put walkspeed back to normal
+Humanoid.WalkSpeed = 16
+track:Stop()
+ScreamAnim:Destroy()
+
+--and clean up the player effects
+PlayerCleanup()
+
+StunScriptRef:Destroy()
+script:Destroy()</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="ObjectValue" referent="RBX06CB417FF95442B4A70FF5D3F0B1FD9C">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">TargetModel</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Ref name="Value">null</Ref>
+						</Properties>
+					</Item>
+					<Item class="Script" referent="RBXB62F053914CA44A396CFB197CDD32916">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Disabled">true</bool>
+							<Content name="LinkedSource"><null /></Content>
+							<string name="Name">DamageHelper</string>
+							<token name="RunContext">0</token>
+							<string name="ScriptGuid">{6BC4C15C-62DF-4935-8F21-AD3A29B03209}</string>
+							<ProtectedString name="Source">while not script.Parent:FindFirstChild('TargetModel') do
+	script.Parent.ChildAdded:wait()
+end
+
+local Target = script.Parent.TargetModel.Value
+
+local hum = Target:FindFirstChild('Humanoid')
+if hum then
+	for i = 1, 17 do
+		hum:TakeDamage(2)
+		wait(0.07)
+	end
+end
+</ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+						</Properties>
+					</Item>
+					<Item class="BoolValue" referent="RBX47504001276A44B299EBE6354B38AA6E">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">EndTime</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<bool name="Value">false</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="NumberValue" referent="RBX031CF709D88D43ABA9777DE50537A056">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">NextAttack</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<double name="Value">0</double>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBXD7909889094F4E35BAA0CC63A7C7BB43">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>0</X>
+							<Y>0.5</Y>
+							<Z>1.1920929e-07</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>0</R20>
+							<R21>-1</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>1</X>
+							<Y>1</Y>
+							<Z>1</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX125A02041D44425FB924958722CDEE83">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=73140089</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>2</X>
+								<Y>2</Y>
+								<Z>2</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=73140096</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Camera" referent="RBXF4FD06E4CF88443CA04B4E5128A4B89B">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>0.186735451</X>
+							<Y>1.14968252</Y>
+							<Z>2.99683881</Z>
+							<R00>0.999122858</R00>
+							<R01>-0.0089207748</R01>
+							<R02>0.0409143828</R02>
+							<R10>-0</R10>
+							<R11>0.977045596</R11>
+							<R12>0.213030308</R12>
+							<R20>-0.041875612</R20>
+							<R21>-0.212843448</R21>
+							<R22>0.97618854</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>-0.631552219</X>
+							<Y>-3.11092377</Y>
+							<Z>-16.5269318</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

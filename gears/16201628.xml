@@ -1,0 +1,552 @@
+<Item class="Model" referent="RBX34D319C7283D4126861FF1D273133356">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">16201628</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBX0DC5E9A033584667A7919064B2EFF0C8">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>-0.5</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>1</R10>
+						<R11>0</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">BuildDelete</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>rbxasset://icons/delete.png</url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>1.99982965</X>
+							<Y>1.57994771</Y>
+							<Z>-6.9999404</Z>
+							<R00>4.90864877e-05</R00>
+							<R01>0.000162490731</R01>
+							<R02>-0.99999994</R02>
+							<R10>6.67220911e-06</R10>
+							<R11>1</R11>
+							<R12>0.000162491051</R12>
+							<R20>1</R20>
+							<R21>-6.68017856e-06</R21>
+							<R22>4.90854036e-05</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBX1121C019ECDF47E1A174FEBB3547C07C">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>1.99982965</X>
+							<Y>1.57994771</Y>
+							<Z>-6.9999404</Z>
+							<R00>4.90864877e-05</R00>
+							<R01>0.000162490731</R01>
+							<R02>-0.99999994</R02>
+							<R10>6.67220911e-06</R10>
+							<R11>1</R11>
+							<R12>0.000162491051</R12>
+							<R20>1</R20>
+							<R21>-6.68017856e-06</R21>
+							<R22>4.90854036e-05</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0.400000006</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>1</X>
+							<Y>0.800000012</Y>
+							<Z>3</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX36ED62440D4B4D7691BB64613E76CFC1">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=16198309</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>1.20000005</X>
+								<Y>1.20000005</Y>
+								<Z>1.20000005</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=16198294</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+					<Item class="Sound" referent="RBXBB2AEDEBAC3148E38AEEFA0438025806">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="IsMutedForCapture">false</bool>
+							<NumberRange name="LoopRegion">0 60000 </NumberRange>
+							<bool name="Looped">false</bool>
+							<string name="Name">Sound</string>
+							<bool name="PlayOnRemove">false</bool>
+							<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+							<bool name="PlaybackRegionsEnabled">false</bool>
+							<float name="PlaybackSpeed">1</float>
+							<bool name="Playing">false</bool>
+							<float name="RollOffMaxDistance">10000</float>
+							<float name="RollOffMinDistance">10</float>
+							<token name="RollOffMode">0</token>
+							<Ref name="SoundGroup">null</Ref>
+							<Content name="SoundId"><url>http://www.roblox.com/Asset/?ID=12135982</url></Content>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<double name="TimePosition">0</double>
+							<float name="Volume">0.699999988</float>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBX25CEA85BC9274EAD850CDD8C8D7FCCCC">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Model Delete Local</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{B8ACF497-24B5-4628-AB15-A775ED972B57}</string>
+						<ProtectedString name="Source">local Tool = script.Parent
+
+enabled = true
+local origTexture = 	Tool.TextureId
+game:GetService("ContentProvider"):Preload("rbxasset://icons/delete_sel.png")
+
+local selectionBox
+local currentSelection
+local currentSelectionColors = {}
+local selectionLasso
+local inGui = false
+local inPalette = false
+local lockTime = 0
+
+function canSelectObject(part)
+	return part and not (part.Locked) and (part.Position - script.Parent.Parent.Head.Position).Magnitude &lt; 60
+end
+
+function findModel(part)
+	while part ~= nil do
+		if part.className == "Model" then
+			return part
+		end
+		part = part.Parent
+	end
+
+	return nil
+end
+
+function cleanOrphanedModel(parent)
+	if parent.className == "Model" then
+		local children = parent:GetChildren()
+		if #children == 0 then
+			local oldParent = parent.Parent
+			parent:Remove()
+			cleanOrphanedModel(oldParent)
+		end
+	end
+end
+
+function on3dButton1Down(mouse)
+	local part = mouse.Target
+	if canSelectObject(part) then
+		local model = findModel(part)
+		local oldParent
+		if model then
+			if Instance.Lock(model) then
+				if currentSelection == model then
+					currentSelection = nil
+					clearSelection()
+				end
+				oldParent = model.Parent
+				model:Remove()
+				--The lock will expire in 5 seconds, which is good enough since we deleted the model
+			end
+		else
+			if Instance.Lock(part) then
+				if currentSelection == part then
+					currentSelection = nil
+					clearSelection()
+				end
+				oldParent = part.Parent
+				part:Remove()
+				--The lock will expire in 5 seconds, which is good enough since we deleted the part
+			end
+		end
+		cleanOrphanedModel(oldParent)
+	end
+end
+
+function saveSelectionColor(instance)
+	if instance:IsA("BasePart") then
+		currentSelectionColors[instance] = instance.BrickColor
+		if instance.BrickColor == BrickColor.Red() then
+			instance.BrickColor = BrickColor.new("Really red")
+		else
+			instance.BrickColor = BrickColor.Red()
+		end
+	end
+
+	local children = instance:GetChildren()
+	if children then
+		for pos, child in pairs(children) do
+			saveSelectionColor(child)
+		end
+	end
+end
+
+function setSelection(partOrModel)
+	if partOrModel ~= currentSelection then
+		clearSelection()
+		if Instance.Lock(partOrModel) then
+			lockTime = time()
+			currentSelection = partOrModel
+			saveSelectionColor(currentSelection)
+			selectionBox.Adornee = currentSelection
+		end
+	else
+		if currentSelection ~= nil and time() - lockTime &gt; 2 then
+			--Maintain the lock
+			if not(Instance.Lock(currentSelection)) then
+				--we lost the lock
+				clearSelection()
+			else
+				lockTime = time()
+			end
+		end
+	end
+end
+
+function clearSelection()
+	if currentSelection ~= nil then
+		for part, color in pairs(currentSelectionColors) do
+			part.BrickColor = color
+		end
+		selectionBox.Adornee = nil
+		Instance.Unlock(currentSelection)
+	end
+	currentSelectionColors = {}
+	currentSelection = nil
+	selectionLasso.Part = nil
+	selectionBox.Adornee = nil
+end
+
+local alreadyMoving = false
+function on3dMouseMove(mouse)
+	if alreadyMoving then
+		return
+	end
+	alreadyMoving = true
+	if not(inGui) and not(inPalette) then
+		local part = mouse.Target
+		if canSelectObject(part) then
+			selectionLasso.Part = part
+			local model = findModel(part)
+			if model then
+				setSelection(model)
+			else
+				setSelection(part)
+			end
+		else
+			clearSelection()
+		end
+	end
+	alreadyMoving = false
+end
+
+function onEquippedLocal(mouse)
+	Tool.TextureId = "rbxasset://icons/delete_sel.png"
+	local character = script.Parent.Parent
+	local player = game.Players:GetPlayerFromCharacter(character)
+	guiMain = Instance.new("ScreenGui")
+	guiMain.Parent = player.PlayerGui
+
+	inGui = false
+	inPalette = false
+
+	mouse.Button1Down:connect(function() on3dButton1Down(mouse) end)
+	mouse.Move:connect(function() on3dMouseMove(mouse) end)
+	mouse.Icon ="rbxasset://textures\\HammerCursor.png"
+
+	selectionBox = Instance.new("SelectionBox")
+	selectionBox.Name = "Model Delete Selection"
+	selectionBox.Color = BrickColor.Red()
+	selectionBox.Adornee = nil
+	selectionBox.Parent = player.PlayerGui
+
+	selectionLasso = Instance.new("SelectionPartLasso")
+	selectionLasso.Name = "Model Delete Lasso"
+	selectionLasso.Humanoid = character.Humanoid
+	selectionLasso.archivable = false
+	selectionLasso.Visible = true
+	selectionLasso.Parent = game.workspace
+	selectionLasso.Color = BrickColor.Red()
+
+	alreadyMoving = false
+	--buildGui(guiMain, mouse)
+end
+
+function onUnequippedLocal()
+	Tool.TextureId = origTexture
+	clearSelection()
+	selectionBox:Remove()
+	selectionLasso:Remove()
+end
+
+
+Tool.Equipped:connect(onEquippedLocal)
+Tool.Unequipped:connect(onUnequippedLocal)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBXB2ADA02FDCF34316889B4249B789D611">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">SwordScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{3FE20288-4D39-4FA2-9714-E2E4F3C55CE3}</string>
+						<ProtectedString name="Source">-------- OMG HAX
+
+r = game:service("RunService")
+
+
+local damage = 0
+
+
+local slash_damage = 0
+
+
+sword = script.Parent.Handle
+Tool = script.Parent
+
+
+
+function attack()
+	local anim = Instance.new("StringValue")
+	anim.Name = "toolanim"
+	anim.Value = "Slash"
+	anim.Parent = Tool
+end
+
+
+function swordUp()
+	Tool.GripForward = Vector3.new(-1,0,0)
+	Tool.GripRight = Vector3.new(0,1,0)
+	Tool.GripUp = Vector3.new(0,0,1)
+end
+
+function swordOut()
+	Tool.GripForward = Vector3.new(0,0,1)
+	Tool.GripRight = Vector3.new(0,-1,0)
+	Tool.GripUp = Vector3.new(-1,0,0)
+end
+
+
+
+Tool.Enabled = true
+
+function onActivated()
+
+	if not Tool.Enabled then
+		return
+	end
+
+	Tool.Enabled = false
+
+	local character = Tool.Parent;
+	local humanoid = character.Humanoid
+	if humanoid == nil then
+		print("Humanoid not found")
+		return
+	end
+
+
+
+	attack()
+
+	wait(1)
+
+	Tool.Enabled = true
+end
+
+
+function onEquipped()
+	print("Running Delete")
+end
+
+
+script.Parent.Activated:connect(onActivated)
+script.Parent.Equipped:connect(onEquipped)
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

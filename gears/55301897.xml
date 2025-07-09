@@ -1,0 +1,764 @@
+<Item class="Model" referent="RBX0D40D230275E4333851937938CF6D15D">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">55301897</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBX021CD3BF209F4834A8352DE26442E28B">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>-0.899999976</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>-0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">BaseballBat</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=54983031</url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>0.100000001</X>
+							<Y>2.4000001</Y>
+							<Z>0.900000036</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBX5DDDE680737244BD9BB18C4B193622B0">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>0.100000001</X>
+							<Y>2.4000001</Y>
+							<Z>0.900000036</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">512</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>0.290000021</X>
+							<Y>0.340000153</Y>
+							<Z>4.24999857</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBXF2196C66213540D0BDDEC3B59086A2C6">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=54983181 </url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>1.5</X>
+								<Y>1.5</Y>
+								<Z>1.5</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=54983107</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBXE5149242FEA44AB7BCAFF7F7668DF609">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Local Gui</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{D390C271-BBDD-4B09-87D2-4610315B88A9}</string>
+						<ProtectedString name="Source">Tool = script.Parent
+
+local stillEquipped = false
+
+function onEquippedLocal(mouse)
+	stillEquipped = true
+	if mouse == nil then
+		print("Mouse not found")
+		return
+	end
+	while stillEquipped do
+		print("Setting Mouse to go")
+		mouse.Icon = "rbxasset://textures\\GunCursor.png"
+		while Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+		print("Setting Mouse to wait")
+		mouse.Icon = "rbxasset://textures\\GunWaitCursor.png"
+		while not Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+	end
+end
+
+
+function onUnequippedLocal()
+	stillEquipped = false
+end
+
+Tool.Equipped:connect(onEquippedLocal)
+Tool.Unequipped:connect(onUnequippedLocal)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX356068BE25AC4B1DB73727198A4BCA4B">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">BaseballBat LS</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{B238DCFC-676C-4B1B-A687-14E87A254619}</string>
+						<ProtectedString name="Source">-- Baseball bat. No damage, so it can be used for non-violent games. Though the giant baseballs can still kill you
+--   by knocking you off the stage.
+-- Code for number-of-baseballs-used GUI modeled on / copied from the one for ClamTrap (Seashell Snare).
+
+local Tool = script.Parent
+
+local SwingAnim
+local SwingSound
+
+local myCharacter
+local myHumanoid
+local myPlayer
+local LeftArm
+local RightArm
+local Torso
+
+local isBaseballisticObj
+local baseballisticScript
+
+local screenGui
+local frame
+local image
+local text
+local baseballsRemaining
+
+local Baseball = Instance.new("Part")
+Baseball.Name = "Baseball"
+Baseball.formFactor = 3	--Custom
+Baseball.Size = Vector3.new(0.3, 0.3, 0.3)
+Baseball.Shape = Enum.PartType.Ball
+Baseball.Material = "Grass"
+Baseball.Locked = true
+
+local BaseballMesh = Instance.new("SpecialMesh")
+BaseballMesh.MeshId = "http://www.roblox.com/asset/?id=55021861"
+BaseballMesh.TextureId = "http://www.roblox.com/asset/?id=55021914"
+BaseballMesh.Parent = Baseball
+
+local BaseballForce = Instance.new("BodyForce")
+BaseballForce.force = Vector3.new(0, Baseball:GetMass() * 1400, 0)
+BaseballForce.Name = "Baseball Force"
+
+Tool.Enabled = true
+
+function startSpecial(key)
+	isBaseballisticObj = Tool:FindFirstChild("IsBaseballistic")
+	if isBaseballisticObj then
+		if key:lower() == "x" and Tool.Enabled and not isBaseballisticObj.Value then
+			baseballsRemaining = Tool:FindFirstChild("BaseballsRemaining")
+			if baseballsRemaining then
+				baseballisticScript = Tool:FindFirstChild("BaseballisticScript")
+				if baseballisticScript ~= nil and baseballsRemaining.Value &gt; 0 then
+					Tool.Enabled = false
+					isBaseballisticObj.Value = true
+					baseballisticScript = baseballisticScript:Clone()
+					baseballisticScript.Name = "NewBaseballisticScript"
+					baseballisticScript.Parent = Tool
+					baseballisticScript.Disabled = false
+				end
+			end
+		end
+	end
+end
+
+function onActivated()
+	-- A few necessary checks
+	if not Tool.Enabled then return end
+	isBaseballisticObj = Tool:FindFirstChild("IsBaseballistic")
+	myCharacter = Tool.Parent
+	if not myCharacter then return end
+	myHumanoid = myCharacter:FindFirstChild("Humanoid")
+	Torso = myCharacter:FindFirstChild("Torso")
+	LeftArm = myCharacter:FindFirstChild("Left Arm")
+	RightArm = myCharacter:FindFirstChild("Right Arm")
+	if not (myHumanoid and Torso and LeftArm and RightArm) then return end
+
+	-- Now on to the action.
+	Tool.Enabled = false
+	SwingSound = Tool:FindFirstChild("BatCrack")
+	SwingAnim = myHumanoid:LoadAnimation(Tool:FindFirstChild("BaseballSwing"))
+	if SwingAnim then SwingAnim:Play() end
+
+	local Ball = Baseball:Clone()
+	Ball.Parent = game.Workspace
+	Ball.CanCollide = false
+
+	local BallWeld = Instance.new("Weld")
+	BallWeld.Name = "Baseball Weld"
+	BallWeld.Part0 = LeftArm
+	BallWeld.Part1 = Ball
+	BallWeld.C1 = CFrame.new(Vector3.new(0, 1, 0))
+	BallWeld.Parent = game.Workspace
+
+	wait (0.7)
+	BallWeld:Remove()
+
+	local BallForce = BaseballForce:Clone()
+	BallForce.Parent = Ball
+	wait()
+	BallForce:Remove()
+
+	wait(0.27)
+	if SwingSound then SwingSound:Play() end	--SwingSound has .13 secs of silence before really getting to the crack sound,
+	wait(0.13)											--  so we have to play it early.
+	Ball:Remove()
+
+	local ProjectileScript = Tool:FindFirstChild("Projectile Script")
+	if ProjectileScript then
+		ProjectileScript = ProjectileScript:Clone()
+		ProjectileScript.Parent = Tool
+		ProjectileScript.Disabled = false
+	end
+	wait(0.2)
+
+
+	Tool.Enabled = true
+end
+
+function onEquipped(mouse)
+	if mouse then mouse.KeyDown:connect(startSpecial) end
+
+	myCharacter = Tool.Parent
+	if not myCharacter then return end
+	myPlayer = game.Players:GetPlayerFromCharacter(myCharacter)
+	if not myPlayer then return end
+
+	-- Set up GUI displaying number of giant baseballs remaining for use.
+	baseballsRemaining = Tool:FindFirstChild("BaseballsRemaining")
+	screenGui = Instance.new("ScreenGui")
+	screenGui.Name = "BaseballsGui"
+	screenGui.Parent = myPlayer.PlayerGui
+
+	frame = Instance.new("Frame")
+	frame.Name = "BaseballContainer"
+	frame.Position = UDim2.new(0, 0, 0.75, 0)
+	frame.Size = UDim2.new(0, 75, 0, 75)
+	frame.Parent = screenGui
+	frame.BackgroundTransparency = 1.0
+
+	image = Instance.new("ImageLabel")
+	image.Name = "Baseball"
+	image.Image = "http://www.roblox.com/asset/?id=55120856"
+	image.Parent = frame
+	image.Position = UDim2.new(0, 2.5, 0, 2.5)
+	image.Size = UDim2.new(0, 70, 0, 70)
+	image.BackgroundTransparency = 1.0
+
+	text = Instance.new("TextLabel")
+	text.Text = baseballsRemaining.Value
+	if baseballsRemaining then
+		baseballsRemaining.Changed:connect(function() text.Text = baseballsRemaining.Value end)
+	end
+	text.Position = UDim2.new(0.75, 0, 0.75, 0)
+	text.Size = UDim2.new(0.5, 0, 0.5, 0)
+	text.Parent = frame
+	text.BackgroundTransparency = 1.0
+	text.TextColor = BrickColor.new("Bright red")
+	text.FontSize = 7
+end
+
+function onUnequipped()
+	if SwingAnim then SwingAnim:Stop() end
+	if SwingSound then SwingSound:Stop() end
+
+	if screenGui then screenGui.Parent = nil end
+end
+
+Tool.Activated:connect(onActivated)
+Tool.Equipped:connect(onEquipped)
+Tool.Unequipped:connect(onUnequipped)
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBX5D8AD835AEC847D2A4C9E9CD40941289">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=55020435</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">BaseballSwing</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBXE488888AFBCA4FB7809F9B6E30CF7A75">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Projectile Script</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{12164FAE-F80F-4916-85C3-AF2D21FFBB8E}</string>
+						<ProtectedString name="Source">math.randomseed(tick())
+
+-- First make some standard variable declarations and checks
+local Tool = script.Parent
+local myCharacter = Tool.Parent
+if not myCharacter then script:Remove() end
+local myHumanoid = myCharacter:FindFirstChild("Humanoid")
+local Torso = myCharacter:FindFirstChild("Torso")
+if myHumanoid and Torso then
+
+	LookVector = Torso.CFrame.lookVector.unit
+
+	local Baseball = Instance.new("Part")
+	Baseball.Name = "Baseball"
+	Baseball.formFactor = 3	--Custom
+	Baseball.Size = Vector3.new(0.3, 0.3, 0.3)
+	Baseball.Locked = true
+	Baseball.Material = "Grass"
+	Baseball.RotVelocity = Vector3.new(math.random(), math.random(), math.random())
+	Baseball.Position = Torso.Position + 2 * LookVector  + Vector3.new(LookVector.Z, 0, -LookVector.X)
+	Baseball.Parent = game.Workspace
+
+	local BaseballMesh = Instance.new("SpecialMesh")
+	BaseballMesh.MeshId = "http://www.roblox.com/asset/?id=55021861"
+	BaseballMesh.TextureId = "http://www.roblox.com/asset/?id=55021914"
+	BaseballMesh.Parent = Baseball
+
+	local Loft = Instance.new("BodyForce")
+	Loft.force = Baseball:GetMass() * Vector3.new(LookVector.Z*2000, 1000, -LookVector.X*2000)
+	Loft.Parent = Baseball
+
+	wait()
+	wait()
+	Loft:Remove()
+	wait(5)
+	Baseball:Remove()
+end
+script:Remove()
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Sound" referent="RBXC0156E27A105443080EB25881DCDE2B2">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="IsMutedForCapture">false</bool>
+						<NumberRange name="LoopRegion">0 60000 </NumberRange>
+						<bool name="Looped">false</bool>
+						<string name="Name">BatCrack</string>
+						<bool name="PlayOnRemove">false</bool>
+						<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+						<bool name="PlaybackRegionsEnabled">false</bool>
+						<float name="PlaybackSpeed">1</float>
+						<bool name="Playing">false</bool>
+						<float name="RollOffMaxDistance">10000</float>
+						<float name="RollOffMinDistance">10</float>
+						<token name="RollOffMode">0</token>
+						<Ref name="SoundGroup">null</Ref>
+						<Content name="SoundId"><url>http://www.roblox.com/asset/?id=55031910</url></Content>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<double name="TimePosition">0</double>
+						<float name="Volume">0.5</float>
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBX34E6C81FDC1349799C4F7FB9C74C0816">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">BaseballisticScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{550E7DCC-E6C2-4D9B-8DD8-F58F58EAD6F0}</string>
+						<ProtectedString name="Source">local Tool = script.Parent
+local Bat = Tool.Handle
+
+local myCharacter
+local myHumanoid
+local Torso
+
+local isBaseballisticObj = Tool.IsBaseballistic	 -- We know isBaseballisticObj ~= nil because we checked for that before enabling this script.
+local startPoint
+local targetPoint
+local targetDir
+local targetRay
+local partToAttack
+
+local debris = game:service("Debris")
+
+local baseballsRemaining
+
+local resetBaseballNumScript
+
+local Baseball = Instance.new("Part")
+Baseball.Name = "Baseball"
+Baseball.Size = Vector3.new(20, 20, 20)
+Baseball.Shape = Enum.PartType.Ball
+Baseball.Material = "Grass"
+Baseball.Locked = true
+
+local BaseballMesh = Instance.new("SpecialMesh")
+BaseballMesh.MeshId = "http://www.roblox.com/asset/?id=55021861"
+BaseballMesh.TextureId = "http://www.roblox.com/asset/?id=55021914"
+BaseballMesh.Scale = Vector3.new(85, 85, 85)
+BaseballMesh.Parent = Baseball
+
+local RedSparkles = Instance.new("Sparkles")
+RedSparkles.SparkleColor = Color3.new(1, 0, 0)
+local WhiteSparkles = Instance.new("Sparkles")
+WhiteSparkles.SparkleColor = Color3.new(1, 1, 1)
+
+if Bat then
+	RedSparkles.Parent = Bat
+	WhiteSparkles.Parent = Bat
+end
+
+function onActivated()
+	-- Standard checks, plus checking to make sure that the user's turned on baseballisticism. Yeah, that's a word now.
+	myCharacter = Tool.Parent
+	if not myCharacter then return end
+	myHumanoid = myCharacter:FindFirstChild("Humanoid")
+	Torso = myCharacter:FindFirstChild("Torso")
+	if not (myHumanoid and Torso) then return end
+	if not isBaseballisticObj.Value then return end
+	baseballsRemaining = Tool:FindFirstChild("BaseballsRemaining")
+	if not baseballsRemaining then return end
+	isBaseballisticObj.Value = false	-- To make sure you can't click multiple times for multiple baseballs
+
+	--Use a ray trace to find the part we want to attack.
+	startPoint = Torso.Position
+	targetPoint = myHumanoid.TargetPoint
+	targetDir = (targetPoint - startPoint).unit
+	print (targetDir)
+	targetRay = Ray.new(startPoint, 500*targetDir)
+	partToAttack, intersectionPoint = game.Workspace:FindPartOnRay(targetRay, myCharacter)
+
+	if partToAttack ~= nil then
+		-- Spawn a giant baseball above this part
+		local GiantBall = Baseball:Clone()
+		GiantBall.Position = partToAttack.Position + Vector3.new(0, 50, 0)
+		GiantBall.Name = "Giant Baseball"
+		GiantBall.Parent = game.Workspace
+		debris:AddItem(GiantBall, 15)
+		partToAttack = nil	-- To reset for the next time.
+		-- Remove sparkles :(
+		RedSparkles.Parent = nil
+		WhiteSparkles.Parent = nil
+		-- Set the number of balls remaining up to change
+		baseballsRemaining.Value = baseballsRemaining.Value - 1
+		-- Set everything else back to normal.
+		wait()	-- Wait necessary to avoid triggering BaseballBat LS's onActivated event.
+					-- However, this only matters in Play Solo; when playing on a server, the delay time between
+					--   local and server scripts provides enough of a wait.
+		Tool.Enabled = true
+		-- And, after a while, remove the script.
+		wait(15)
+		script:Remove()
+	else
+		isBaseballisticObj.Value = true	-- So that if we accidentally don't click on something, we can try again.
+	end
+
+end
+
+function onUnequipped()
+	RedSparkles.Parent = nil
+	WhiteSparkles.Parent = nil
+	Tool.Enabled = true
+	isBaseballisticObj.Value = false
+	script:Remove()
+end
+
+Tool.Activated:connect(onActivated)
+Tool.Unequipped:connect(onUnequipped)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="BoolValue" referent="RBX986540210120477CB991E904221AC8C1">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">IsBaseballistic</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="Value">false</bool>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXCBDAD71D621043FD9ABBD2A1D9206192">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">BaseballsRemaining</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<int64 name="Value">5</int64>
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBX4374E33EE471483194BFBB7522857669">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">ResetBaseballNum</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{A9DBFE2B-A841-4A5F-A9C6-B8FA390239A1}</string>
+						<ProtectedString name="Source">local Tool = script.Parent
+
+local baseballsRemaining
+
+function resetBaseballNumber(child)
+	if (child.Name == "Giant Baseball") then
+		baseballsRemaining = Tool:FindFirstChild("BaseballsRemaining")
+		if not baseballsRemaining then return end
+		baseballsRemaining.Value = baseballsRemaining.Value + 1
+	end
+end
+
+game.Workspace.ChildRemoved:connect(resetBaseballNumber)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Camera" referent="RBXFE672EE6C0FB4799B0D8C2DACB21191B">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>0.497137606</X>
+							<Y>7.2949028</Y>
+							<Z>-1.32744074</Z>
+							<R00>-0.999609828</R00>
+							<R01>0.0264986735</R01>
+							<R02>-0.00883352757</R02>
+							<R10>-0</R10>
+							<R11>0.316248268</R11>
+							<R12>0.948676467</R12>
+							<R20>0.0279322565</R20>
+							<R21>0.948306322</R21>
+							<R22>-0.316124886</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>0.673807979</X>
+							<Y>-11.6786079</Y>
+							<Z>4.99505091</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

@@ -1,0 +1,840 @@
+<Item class="Model" referent="RBX142B9E2687DA40C08F9798CDE9F510A1">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">143606407</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBX9D2A30AEAD38447D9436826D6405897E">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>1.20000005</X>
+						<Y>3.29999995</Y>
+						<Z>-1</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">Skis</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=142465162</url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>0.0400000028</X>
+							<Y>0.270000011</Y>
+							<Z>-0.0400000028</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="LocalScript" referent="RBXE40512AD2995427AB7773C4EDEA84C00">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">SkisScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{15D12A58-2753-4504-8E71-B4AD959CF32A}</string>
+						<ProtectedString name="Source">-- SolarCrane
+
+
+
+
+local SwingTrack = nil
+local TuckTrack = nil
+
+local SKI_MESH = 142468161
+local POLE_MESH = 142468332
+local SKI_TX1 = 142465527
+local SKI_TX2 = 142465545
+
+--- FRICTION COEFFIECIENTS ---
+local KineticWoodSnow = 0.1
+local KineticSkiSnow = 0.05
+local StaticWoodSnow = 0.14
+local StaticSkiSnow = 0.1
+
+local BodyVelocity = nil
+local BodyGyro = nil
+
+local Tool = script.Parent
+local Handle = Tool:WaitForChild('Handle')
+
+
+local SKI_SWING_ANIM = Tool:WaitForChild('Swing')
+local SKI_TUCK_ANIM =  Tool:WaitForChild('Tuck')
+
+local PlayersService = Game:GetService('Players')
+
+local Character, Torso, LeftLeg, RightLeg = nil
+local Skis = {}
+
+local function New(ty)
+	return function(data)
+		local obj = Instance.new(ty)
+		for k, v in pairs(data) do
+			if type(k) == 'number' then
+				v.Parent = obj
+			else
+				if type(v) == 'function' then
+					obj[k]:connect(v)
+				else
+					obj[k] = v
+				end
+			end
+		end
+		return obj
+	end
+end
+
+local function GetAssetUrl(assetId)
+	return 'http://www.roblox.com/asset/?id=' .. tostring(assetId)
+end
+
+local function GetCharacter()
+	if PlayersService:GetPlayerFromCharacter(Tool.Parent) then
+		return Tool.Parent
+	end
+end
+
+local function GetTorso()
+	return GetCharacter() and GetCharacter():FindFirstChild('HumanoidRootPart')
+end
+
+local function GetLeftLeg()
+	return GetCharacter() and GetCharacter():FindFirstChild('Left Leg')
+end
+
+local function GetRightLeg()
+	return GetCharacter() and GetCharacter():FindFirstChild('Right Leg')
+end
+
+local function GetPlayer()
+	return PlayersService:GetPlayerFromCharacter(Tool.Parent)
+end
+
+local function GetLA()
+	return GetCharacter() and GetCharacter():FindFirstChild('Left Arm')
+end
+
+local function GetRA()
+	return GetCharacter() and GetCharacter():FindFirstChild('Right Arm')
+end
+
+local NormalIdToSurfaceId =
+{
+	[Enum.NormalId.Back] = 'BackSurface';
+	[Enum.NormalId.Front] = 'FrontSurface';
+	[Enum.NormalId.Left] = 'LeftSurface';
+	[Enum.NormalId.Right] = 'RightSurface';
+	[Enum.NormalId.Top] = 'TopSurface';
+	[Enum.NormalId.Bottom] = 'BottomSurface';
+}
+
+local function ClassifySurface(part, point)
+	local psize = part.Size
+	local localPoint = part.CFrame:pointToObjectSpace(point)
+	local posDiff = psize/2 - localPoint
+	local negDiff = psize/2 + localPoint
+	local minDiff = Vector3.new(
+			math.min(math.abs(posDiff.x), math.abs(negDiff.x)),
+			math.min(math.abs(posDiff.y), math.abs(negDiff.y)),
+			math.min(math.abs(posDiff.z), math.abs(negDiff.z)))
+
+	if minDiff.x &lt;= math.min(minDiff.y, minDiff.z) then -- On x-axis
+		if math.abs(posDiff.x) &lt; math.abs(negDiff.x) then
+			return Enum.NormalId.Right
+		else
+			return Enum.NormalId.Left
+		end
+	elseif minDiff.y &lt;= minDiff.z then -- On y-axis
+		if math.abs(posDiff.y) &lt; math.abs(negDiff.y) then
+			return Enum.NormalId.Top
+		else
+			return Enum.NormalId.Bottom
+		end
+	else -- On z-axis
+		if math.abs(posDiff.z) &lt; math.abs(negDiff.z) then
+			return Enum.NormalId.Back
+		else
+			return Enum.NormalId.Front
+		end
+	end
+end
+
+
+local function GetNormal(part, point)
+	local normal = ClassifySurface(part, point)
+	return ((part.CFrame-part.CFrame.p)*Vector3.FromNormalId(normal))
+end
+
+local function AngleFromFlat(vec1)
+	local vec1 = vec1.unit
+	local flatVec = (vec1 * Vector3.new(1,0,1)).unit
+	local angle = math.acos(vec1:Dot(flatVec))
+	-- if the angle is nan then assume flat surface
+	if angle ~= angle then
+		return math.rad(90)
+	end
+	return math.rad(90) - angle
+end
+
+------ RAYCASTING FUNCTIONS ---------
+
+-- Defaulted ray ignore check if none specified
+local function RayIgnoreCheck(hit, pos)
+	return false
+end
+
+local function RayIgnoreCamera(hit, pos)
+	if hit then
+		if hit.CanCollide == false then return true end
+	end
+	return false
+end
+
+-- @preconditions: vec should be a unit vector, and 0 &lt; rayLength &lt;= 1000
+local function RayCast(startPos, vec, rayLength, ignoreFunc, ignoreList)
+	ignoreFunc = ignoreFunc or RayIgnoreCheck
+	ignoreList = ignoreList or {GetCharacter()}
+	vec = vec.unit
+	local ray = Ray.new(startPos, vec*rayLength)
+	local hitObject, hitPos = Workspace:FindPartOnRayWithIgnoreList(ray, ignoreList)
+	if hitObject and hitPos then
+		if ignoreFunc(hitObject, hitPos) then
+			table.insert(ignoreList, hitObject)
+			return RayCast(startPos, vec, rayLength, ignoreFunc, ignoreList)
+		end
+	end
+	return hitObject, hitPos
+end
+
+------ END RAYCASTING FUNCTIONS ---------
+
+
+local function GetGroundBelowCharacter(character)
+	local torso = GetTorso(character)
+	local leftLeg = GetLeftLeg()
+	if torso and leftLeg then
+		local torsoCFrame = torso.CFrame
+		local hitData = {}
+		for z = -1, 1, 2 do
+			for x = -1, 1, 2 do
+				local hit, pos = RayCast(
+					torsoCFrame.p + torsoCFrame:vectorToWorldSpace(Vector3.new(torso.Size.X/2*x,0,torso.Size.Z/2*z)),
+					Vector3.new(0,-1,0),
+					torso.Size.Y/2 + leftLeg.Size.Y + 6,
+					RayIgnoreCamera)
+				if hit and pos then
+					table.insert(hitData, {['Pos'] = CFrame.new(Vector3.new(torsoCFrame.p.X, pos.Y + 3, torsoCFrame.p.Z)), ['Part'] = hit})
+				end
+			end
+		end
+		table.sort(hitData, function(a,b) return a['Pos'].p.Y &gt; b['Pos'].p.Y end)
+		if #hitData &gt; 0 then
+			return hitData[1]['Pos'], hitData[1]['Part']
+		end
+		return torsoCFrame, nil
+	end
+end
+
+
+local function StudsPerSToMetersPerS(studs)
+	return studs / 2
+end
+
+local function MetersPerSToStudsPerS(meters)
+	return meters * 2.5
+end
+
+local LastUpdate = nil
+local State = "Stopped"
+local LastStateTime = tick()
+--[[
+Cd*Ap = 0.11 for an upright body, minimal frontal area
+Cd*Ap = 0.84 for a horizontal body, maximal frontal area
+Cd*Ap = 0.46 for a body in tuck position
+--]]
+-- http://www.math.utah.edu/~eyre/rsbfaq/physics.html
+local function UpdateCharacter()
+	local now = tick()
+	if LastUpdate == nil then
+		LastUpdate = now
+		return
+	end
+	local char = GetCharacter()
+	local torso = char and char:FindFirstChild('Torso')
+	if char and torso then
+		local groundHit, groundPart = GetGroundBelowCharacter(char)
+		if groundHit and groundPart then
+			local normal = GetNormal(groundPart, groundHit.p)
+			-- orient you so you are standing on the surface
+			if BodyGyro then
+				if normal:Dot(Vector3.new(0,1,0)) &lt; 0.7 then -- we would trip here so abort
+					BodyGyro.cframe = CFrame.new()
+				else
+					local newCFrame = CFrame.new(Vector3.new(), normal) * CFrame.Angles(-math.pi/2,0,0)
+					BodyGyro.cframe = newCFrame
+				end
+			end
+			local theta = AngleFromFlat(normal) --[[ Angle of slope --]]
+			local deltaTime = now - LastUpdate
+			-- on flat, if speed is slow need to push
+			if normal.unit:Dot(Vector3.new(0,1,0)) &gt; 0.9 and BodyVelocity.velocity.magnitude &lt; 22 then
+				-- use poles!
+				if State ~= "Poles" and tick() - LastStateTime &gt; 0.5 then
+					print'Poles State engage'
+					TuckTrack:Stop()
+					SwingTrack:Play()
+					State = "Poles"
+					LastStateTime = tick()
+				end
+				local skiOrientation = (torso.CFrame.lookVector * Vector3.new(1,0,1)).unit
+				if BodyVelocity then
+					BodyVelocity.maxForce = Vector3.new(100000000, 0, 10000000)
+					if math.abs(math.acos(skiOrientation:Dot(BodyVelocity.velocity.unit))) &gt; math.pi/3 then
+						BodyVelocity.velocity = BodyVelocity.velocity * (1 - 0.55 * deltaTime)
+					end
+					BodyVelocity.velocity = (BodyVelocity.velocity + (skiOrientation * 19 * deltaTime))
+				end
+			else -- on the slope
+				if State ~= "Tuck" and tick() - LastStateTime &gt; 0.5 and (State ~= "Poles" or BodyVelocity.velocity.magnitude &gt; 24) then
+					print'Tuck State engage'
+					SwingTrack:Stop()
+					TuckTrack:Play()
+					State = "Tuck"
+					LastStateTime = tick()
+				end
+
+				local mu = KineticSkiSnow --[[ dynamic coeff of snow --]]
+				local g = 9.81 --[[ gravity --]]
+				local CdAp = 0.65 --[[ Drag coeff with frontal area --]]
+				--[[ Density of air, http://en.wikipedia.org/wiki/Density_of_air --]]
+				local rho = 1.3413 --[[ kg*m^3 --]]
+				local V = StudsPerSToMetersPerS(torso.Velocity).magnitude --[[ current velocity --]]
+				local m = 65  --[[ mass --]]
+
+				local downhillVec = Vector3.new(0,1,0):Cross(normal):Cross(normal)
+
+				local skiOrientation = (torso.CFrame.lookVector * Vector3.new(1,0,1)).unit
+				local angleBetweenLookAndHill = math.acos((downhillVec * Vector3.new(1,0,1)).unit:Dot(skiOrientation))
+				if math.abs(angleBetweenLookAndHill) &gt; math.rad(90) then -- if we are pointed uphill, flip direction
+					skiOrientation = skiOrientation * -1
+					angleBetweenLookAndHill = math.acos((downhillVec * Vector3.new(1,0,1)).unit:Dot(skiOrientation))
+				end
+
+				local accel = g*math.sin(theta) - mu*g*math.cos(theta) - (CdAp*rho*(V*V))/(2*m)
+				if BodyVelocity then
+					BodyVelocity.maxForce = Vector3.new(100000000, 0, 10000000)
+					if math.abs(math.acos(skiOrientation:Dot(BodyVelocity.velocity.unit))) &gt; math.pi/3 then
+						BodyVelocity.velocity = BodyVelocity.velocity * (1 - 0.55 * deltaTime)
+					end
+					BodyVelocity.velocity = (BodyVelocity.velocity + ((skiOrientation + Vector3.new(0,0.0001,0)).unit * accel) * deltaTime)
+				end
+			end
+
+
+			LastUpdate = now
+		else
+			--[[
+			if State ~= "Falling" and tick() - LastStateTime &gt; 0.5 then
+				SwingTrack:Stop()
+				TuckTrack:Play()
+				State = "Falling"
+				LastStateTime = tick()
+			end
+			--]]
+			if BodyGyro then
+				BodyGyro.cframe = CFrame.new()
+			end
+			if BodyVelocity then
+				--BodyVelocity.maxForce = Vector3.new()
+			end
+		end
+
+	end
+end
+
+local function CreateSkis(leftLeg, rightLeg, leftArm, rightArm)
+	DestroySkis()
+	local leftSki = New'Part'
+	{
+		Name = 'LeftSki';
+		FormFactor = 'Custom';
+		Size = Vector3.new(0.7, 0.2, 5.5);
+		TopSurface = 'Smooth';
+		BottomSurface = 'Smooth';
+		CanCollide = false;
+		New'SpecialMesh'
+		{
+			TextureId = GetAssetUrl(SKI_TX2);
+			MeshId = GetAssetUrl(SKI_MESH);
+			Scale = Vector3.new(3,3,3);
+		}
+	}
+	local rightSki = leftSki:Clone()
+	rightSki.Name = 'RightSki';
+
+	Skis['left'] = leftSki
+	Skis['right'] = rightSki
+	--Skis['left'].CFrame = CFrame.new(0, 10, 0);
+	--Skis['right'].CFrame = CFrame.new(3, 10, 0);
+
+	local leftLegWeld = New'ManualWeld'
+	{
+		Name = 'LeftSkiWeld';
+		Part0 = leftLeg;
+		Part1 = leftSki;
+		C0 = CFrame.new(0,-leftLeg.Size.Y/2 + 0.1,-0.5);
+		Parent = leftSki;
+	}
+	local rightLegWeld = New'ManualWeld'
+	{
+		Name = 'RightSkiWeld';
+		Part0 = rightLeg;
+		Part1 = rightSki;
+		C0 = CFrame.new(0,-rightLeg.Size.Y/2 + 0.1,-0.5);
+		Parent = rightSki;
+	}
+
+	local leftPole = New'Part'
+	{
+		Name = 'LeftPole';
+		FormFactor = 'Custom';
+		Size = Vector3.new(0.3, 0.3, 4);
+		TopSurface = 'Smooth';
+		BottomSurface = 'Smooth';
+		CanCollide = false;
+		New'SpecialMesh'
+		{
+			TextureId = GetAssetUrl(SKI_TX2);
+			MeshId = GetAssetUrl(POLE_MESH);
+			Scale = Vector3.new(3,3,3);
+		}
+	}
+	local rightPole = leftPole:Clone()
+	rightPole.Name = 'RightPole';
+
+	Skis['leftPole'] = leftPole
+	Skis['rightPole'] = rightPole
+
+	local leftArmWeld = New'ManualWeld'
+	{
+		Name = 'LeftArmWeld';
+		Part0 = leftArm;
+		Part1 = leftPole;
+		C0 = CFrame.new(0,-leftArm.Size.Y/2 + 0.1,1.8);-- * CFrame.Angles(math.pi,0,0);
+		Parent = leftPole;
+	}
+	local rightArmWeld = New'ManualWeld'
+	{
+		Name = 'RightArmWeld';
+		Part0 = rightArm;
+		Part1 = rightPole;
+		C0 = CFrame.new(0,-rightArm.Size.Y/2 + 0.1,1.8);-- * CFrame.Angles(math.pi,0,0);
+		Parent = rightSki;
+	}
+
+	Skis['left'].Parent = GetCharacter()
+	Skis['right'].Parent = GetCharacter()
+	Skis['leftPole'].Parent = GetCharacter()
+	Skis['rightPole'].Parent = GetCharacter()
+end
+
+function DestroySkis()
+	for key, ski in pairs(Skis) do
+		ski:Destroy()
+		Skis[key] = nil
+	end
+end
+
+function OnTouched(hitPart)
+
+end
+
+function OnActivated()
+	if not Tool.Enabled then return end
+	Tool.Enabled = false
+
+	Tool.Enabled = true
+end
+
+function ControlLoop()
+	UpdateCharacter()
+end
+
+local Equipped = false
+
+function OnEquipped(mouse)
+	Equipped = true
+	Character, Torso, LeftLeg, RightLeg = GetCharacter(), GetTorso(), GetLeftLeg(), GetRightLeg()
+	LeftArm, RightArm = GetLA(), GetRA()
+	if LeftLeg and RightLeg then
+		-- Spawn because welds
+		Spawn(function()
+			CreateSkis(LeftLeg, RightLeg, LeftArm, RightArm)
+			BodyGyro = Instance.new('BodyGyro')
+			BodyGyro.Parent = Torso
+			BodyVelocity = Instance.new('BodyVelocity')
+			BodyVelocity.maxForce = Vector3.new(100000000, 0, 10000000)
+			BodyVelocity.velocity = Vector3.new()
+			BodyVelocity.Parent = Torso
+		end)
+	end
+	LastUpdate = nil
+	local co = coroutine.create(function() while Equipped do ControlLoop() wait() end end)
+	coroutine.resume(co)
+	local humanoid = Character:WaitForChild('Humanoid')
+	SwingTrack = humanoid:LoadAnimation(SKI_SWING_ANIM)
+	TuckTrack = humanoid:LoadAnimation(SKI_TUCK_ANIM)
+	SwingTrack:Play()
+	Handle.Transparency = 1
+end
+
+function OnUnequipped()
+	Equipped = false
+	Character, Torso, LeftLeg, RightLeg = nil, nil, nil, nil
+	DestroySkis()
+	if BodyVelocity then
+		BodyVelocity:Destroy()
+		BodyVelocity = nil
+	end
+	if BodyGyro then
+		BodyGyro:Destroy()
+		BodyGyro = nil
+	end
+	if SwingTrack then
+		SwingTrack:Stop()
+		SwingTrack = nil
+	end
+	if TuckTrack then
+		TuckTrack:Stop()
+		TuckTrack = nil
+	end
+	LastUpdate = nil
+	Handle.Transparency = 0
+end
+
+
+Tool.Activated:connect(OnActivated)
+Tool.Equipped:connect(OnEquipped)
+Tool.Unequipped:connect(OnUnequipped)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX699BABB52E404FD5B6083019706DD0AA">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>0.0400000028</X>
+							<Y>0.270000011</Y>
+							<Z>-0.0400000028</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2</X>
+							<Y>0.349999994</Y>
+							<Z>3</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX2522595F06D14BD3BB73C87B5B7BC22E">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=143613008</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>2.5999999</X>
+								<Y>2.5999999</Y>
+								<Z>2.5999999</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=142465545</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBXC8AA926E3AD740BAABDB2DEE26C42DA1">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">MouseIcon</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{EA38FCFF-85DD-4237-8726-4163BB6AE4C4}</string>
+						<ProtectedString name="Source">local MOUSE_ICON = 'rbxasset://textures/GunCursor.png'
+local RELOADING_ICON = 'rbxasset://textures/GunWaitCursor.png'
+
+local Tool = script.Parent
+
+local Mouse = nil
+
+local function UpdateIcon()
+	Mouse.Icon = Tool.Enabled and MOUSE_ICON or RELOADING_ICON
+end
+
+local function OnEquipped(mouse)
+	Mouse = mouse
+	UpdateIcon()
+end
+
+local function OnChanged(property)
+	if property == 'Enabled' then
+		UpdateIcon()
+	end
+end
+
+Tool.Equipped:connect(OnEquipped)
+Tool.Changed:connect(OnChanged)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBX845DDC53AEF7429DAC8AAB7433BC9C6A">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/asset/?id=142890086</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Swing</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBXB880DD05F0634DE9AFEBE07F6E4E367F">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/asset/?id=142890187</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Tuck</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Camera" referent="RBXC467F7A3AD1F4656AC51E40C53295357">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>-2.11846948</X>
+							<Y>2.69041324</Y>
+							<Z>-4.91491699</Z>
+							<R00>-0.907776892</R00>
+							<R01>0.138691187</R01>
+							<R02>-0.39586097</R02>
+							<R10>-7.4505806e-09</R10>
+							<R11>0.943754435</R11>
+							<R12>0.330647439</R12>
+							<R20>0.419453382</R20>
+							<R21>0.30015409</R21>
+							<R22>-0.856718421</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>-1.32674742</X>
+							<Y>2.0291183</Y>
+							<Z>-3.20147991</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

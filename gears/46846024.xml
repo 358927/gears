@@ -1,0 +1,694 @@
+<Item class="Model" referent="RBXA377BF64D708462CBAF911828CB0749C">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">46846024</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBX5449A2C1968A46A0B7B59CD16F1C9F98">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>-2</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>0</R00>
+						<R01>1</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>-0</R11>
+						<R12>1</R12>
+						<R20>1</R20>
+						<R21>0</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">Ninja Katana</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=45813693</url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>9.5</X>
+							<Y>2.40000057</Y>
+							<Z>-11.0599556</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>-1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>-0</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>-0</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBX2E379998D47D4CE79D5EF3613551862B">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>9.5</X>
+							<Y>2.40000057</Y>
+							<Z>-11.0599556</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>-1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>-0</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>-0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>4.6199975</X>
+							<Y>0.800000012</Y>
+							<Z>1</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBXC611DB19C806448796867B2853618A23">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=45813983</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>0.649999976</X>
+								<Y>0.649999976</Y>
+								<Z>0.649999976</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=45813835</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+					<Item class="Sound" referent="RBXCD3D1745F76D463192A40275C920205B">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="IsMutedForCapture">false</bool>
+							<NumberRange name="LoopRegion">0 60000 </NumberRange>
+							<bool name="Looped">false</bool>
+							<string name="Name">SlashSound</string>
+							<bool name="PlayOnRemove">false</bool>
+							<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+							<bool name="PlaybackRegionsEnabled">false</bool>
+							<float name="PlaybackSpeed">1</float>
+							<bool name="Playing">false</bool>
+							<float name="RollOffMaxDistance">10000</float>
+							<float name="RollOffMinDistance">10</float>
+							<token name="RollOffMode">0</token>
+							<Ref name="SoundGroup">null</Ref>
+							<Content name="SoundId"><url>http://www.roblox.com/asset/?id=45885030</url></Content>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<double name="TimePosition">0</double>
+							<float name="Volume">1</float>
+						</Properties>
+					</Item>
+					<Item class="Sound" referent="RBX0739E34DEBE34A5FBFCED11ABF7EA82F">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="IsMutedForCapture">false</bool>
+							<NumberRange name="LoopRegion">0 60000 </NumberRange>
+							<bool name="Looped">false</bool>
+							<string name="Name">SpinSound</string>
+							<bool name="PlayOnRemove">false</bool>
+							<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+							<bool name="PlaybackRegionsEnabled">false</bool>
+							<float name="PlaybackSpeed">1</float>
+							<bool name="Playing">false</bool>
+							<float name="RollOffMaxDistance">10000</float>
+							<float name="RollOffMinDistance">10</float>
+							<token name="RollOffMode">0</token>
+							<Ref name="SoundGroup">null</Ref>
+							<Content name="SoundId"><url>http://www.roblox.com/asset/?id=45885547</url></Content>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<double name="TimePosition">0</double>
+							<float name="Volume">1</float>
+						</Properties>
+					</Item>
+					<Item class="Sound" referent="RBX552596A496614296B4154479ECD9C9FC">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="IsMutedForCapture">false</bool>
+							<NumberRange name="LoopRegion">0 60000 </NumberRange>
+							<bool name="Looped">false</bool>
+							<string name="Name">WhackSound</string>
+							<bool name="PlayOnRemove">false</bool>
+							<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+							<bool name="PlaybackRegionsEnabled">false</bool>
+							<float name="PlaybackSpeed">1</float>
+							<bool name="Playing">false</bool>
+							<float name="RollOffMaxDistance">10000</float>
+							<float name="RollOffMinDistance">10</float>
+							<token name="RollOffMode">0</token>
+							<Ref name="SoundGroup">null</Ref>
+							<Content name="SoundId"><url>rbxasset://sounds/swordslash.wav</url></Content>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<double name="TimePosition">0</double>
+							<float name="Volume">0.5</float>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Script" referent="RBX3E2EA8EDAC6341DEB73A533293A18389">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">KatanaScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{652427E2-233A-4DFA-9111-929EA766004F}</string>
+						<ProtectedString name="Source">-- Ninja Katana FTW!!
+
+-- handle to the game service object
+r = game:service("RunService")
+
+-- Normal damage
+local nonslash_damage = 5
+
+-- special damage when the Ninja slash occurs
+local slash_damage = 10
+
+local damage = nonslash_damage
+
+-- Handle to the tool and its object
+sword = script.Parent.Handle
+Tool = script.Parent
+
+-- Called when the katana(held by a player) comes in contact with
+-- another humanoid object
+function blow(hit)
+	local humanoid = hit.Parent:findFirstChild("Humanoid")
+	local vCharacter = Tool.Parent
+	local vPlayer = game.Players:playerFromCharacter(vCharacter)
+	local hum = vCharacter:findFirstChild("Humanoid") -- non-nil if tool held by a character
+	if humanoid~=nil and humanoid ~= hum and hum ~= nil then
+		-- final check, make sure sword is in-hand
+
+		local right_arm = vCharacter:FindFirstChild("Right Arm")
+		if (right_arm ~= nil) then
+			local joint = right_arm:FindFirstChild("RightGrip")
+			if (joint ~= nil and (joint.Part0 == sword or joint.Part1 == sword)) then
+				tagHumanoid(humanoid, vPlayer)
+				humanoid:TakeDamage(damage)
+				wait(1)
+				untagHumanoid(humanoid)
+			end
+		end
+
+
+	end
+end
+
+function tagHumanoid(humanoid, player)
+	local creator_tag = Instance.new("ObjectValue")
+	creator_tag.Value = player
+	creator_tag.Name = "creator"
+	creator_tag.Parent = humanoid
+end
+
+function untagHumanoid(humanoid)
+	if humanoid ~= nil then
+		local tag = humanoid:findFirstChild("creator")
+		if tag ~= nil then
+			tag.Parent = nil
+		end
+	end
+end
+
+
+function attack()
+	--SlashSound:play()
+	local anim = Instance.new("StringValue")
+	anim.Name = "toolanim"
+	anim.Value = "Slash"
+	anim.Parent = Tool
+end
+
+local debounce = false
+function onActivated()
+	if debounce then return end
+	debounce = true
+	damage = slash_damage
+	print("A")
+	while Tool.Enabled do wait() end -- necessary to avoid debouncing conflicts between this script and LocalKatanaScript!
+	attack()
+	while not Tool.Enabled do wait() end -- necessary to avoid debouncing conflicts between this script and LocalKatanaScript!
+	damage = nonslash_damage
+	print("B")
+	debounce = false
+end
+
+script.Parent.Activated:connect(onActivated)
+script.Parent.Equipped:connect(onEquipped)
+
+connection = sword.Touched:connect(blow)
+
+
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBX4F7C924084DA4D85A245162C4B67D702">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=45828430</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Ninja Dash</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBXD6509A5CCE9540FF8DE08EC819CA187A">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">LocalKatanaScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{D1537438-BFE1-402A-A51F-4F653B3DDDB6}</string>
+						<ProtectedString name="Source">local Tool = script.Parent
+Tool.Enabled = true
+
+local r = game:GetService("RunService")
+
+local newBV = nil
+local newBG = nil
+local newBAV = nil
+local newBP = nil
+
+local slashSound = Tool.Handle.SlashSound
+local spinSound = Tool.Handle.SpinSound
+local whackSound = Tool.Handle.WhackSound
+
+function slashIt(hum, torso)
+	nsAnim = hum:LoadAnimation(Tool["Ninja Slash"])
+	if nsAnim == nil then Tool.Enabled = true return end
+
+	nsAnim:Play()
+
+	local target = hum.TargetPoint
+	local dir = (target - torso.Position) * Vector3.new(1, 0, 1)
+	newBV = nil
+	if dir.magnitude &gt; .01 then
+		-- make 'em dash forwards too
+		dir = dir.unit
+		newBV = Instance.new("BodyVelocity")
+		newBV.P = 100000
+		newBV.maxForce = Vector3.new(newBV.P, 0, newBV.P)
+		newBV.velocity = dir * 50
+		newBV.Parent = torso
+
+		torso.CFrame = CFrame.new(torso.Position, target * Vector3.new(1, 0, 1) + Vector3.new(0, torso.Position.Y, 0))
+	end
+
+	wait(.5)
+	slashSound:Play()
+	if newBV ~= nil then newBV:remove() end
+	wait(.5)
+end
+
+
+function dashIt(hum, torso)
+
+	ndAnim = hum:LoadAnimation(Tool["Ninja Dash"])
+	if ndAnim == nil then Tool.Enabled = true return end
+
+	target = hum.TargetPoint
+	local dir = (target - torso.Position) * Vector3.new(1, 0, 1)
+	if dir.magnitude &lt; .01 then Tool.Enabled = true return end
+	dir = dir.unit
+
+	newBG = Instance.new("BodyGyro")
+	newBG.P = 30000
+	newBG.maxTorque = Vector3.new(newBG.P, newBG.P, newBG.P)
+	--newBG.cframe = torso.CFrame * CFrame.Angles(-math.pi/2, 0, 0)
+	local torsoPosition = torso.Position
+	newBG.cframe = CFrame.new(torsoPosition, target*Vector3.new(1,0,1) + Vector3.new(0, torsoPosition.Y, 0) ) * CFrame.Angles(-math.pi/2, 0, 0)
+	newBG.Parent = torso
+
+	newBP = Instance.new("BodyPosition")
+	newBP.P = 100000
+	newBP.maxForce = Vector3.new(newBP.P, newBP.P, newBP.P)
+	newBP.position = torsoPosition + Vector3.new(0, 1.5, 0)
+	newBP.Parent = torso
+
+	newBAV = Instance.new("BodyAngularVelocity")
+	newBAV.P = 100000
+	newBAV.maxTorque = Vector3.new(newBAV.P, newBAV.P, newBAV.P)
+
+	newBV = Instance.new("BodyVelocity")
+	newBV.P = 100000
+	newBV.maxForce = Vector3.new(newBV.P, 0, newBV.P)
+	newBV.velocity = dir * 64
+
+	ndAnim:Play()
+	wait(.5)
+	spinSound:Play()
+	newBG.maxTorque = Vector3.new(newBP.P, 0, newBP.P)
+	newBP.maxForce = Vector3.new(0, newBP.P, 0)
+	newBV.Parent = torso
+
+	newBAV.angularvelocity = torso.CFrame:vectorToWorldSpace(Vector3.new(0, -30, 0))
+	hum.Sit = true
+	newBAV.Parent = torso
+
+	wait(1)
+
+	-- testing for fun
+--	for i = 1, 50 do
+		--target = hum.TargetPoint
+		--newdir = (target - torso.Position) * Vector3.new(1, 0, 1)
+		--if newdir.magnitude &gt; .01 then
+--			dir = newdir
+			--dir = dir.unit
+			--newBV.velocity = dir * 32
+		--end
+
+		--newBG.cframe = CFrame.new(torso.Position, target*Vector3.new(1,0,1) + Vector3.new(0, torso.Position.Y, 0) ) * CFrame.Angles(-math.pi/2, 0, 0)
+
+		--wait(.1)
+	--end
+	-- end of testing for fun
+
+
+	--for i = 1, 3 do
+--		ndAnim:Play()
+		--wait(2)
+	--end
+
+	hum.Sit = false
+	if newBAV ~= nil then newBAV:remove() end
+	if newBP ~= nil then newBP:remove() end
+	if newBV ~= nil then newBV:remove() end
+
+	if newBG ~= nil then newBG.cframe = CFrame.new(torsoPosition, target*Vector3.new(1,0,1) + Vector3.new(0, torsoPosition.Y, 0) ) end
+	if newBG ~= nil then newBG.maxTorque = Vector3.new(newBG.P, newBG.P, newBG.P) end
+	spinSound:Stop()
+	wait(.25)
+	if newBG ~= nil then newBG:remove() end
+end
+
+
+local lastKeyDown = 0
+local dashTime = 0
+local lastSlash = 0
+local amAnimating = false
+function onActivated()
+	vChar = Tool.Parent
+	if vChar == nil then return end
+	hum = vChar:FindFirstChild("Humanoid")
+	if hum == nil then return end
+	--if not Tool.Enabled then return end
+	if amAnimating then return end
+	Tool.Enabled = false
+	amAnimating = true
+
+	torso = vChar:FindFirstChild("Torso")
+	if torso == nil then Tool.Enabled = true return end
+
+	t = r.Stepped:wait()
+	if t - dashTime &lt; .2 then
+		-- dash attack
+		dashIt(hum, torso)
+		wait(.5)  -- reload time
+		amAnimating = false
+	elseif t - lastSlash &lt; .2 then
+		-- slash attack
+		slashIt(hum, torso)
+		--wait(1)
+		amAnimating = false
+		--wait(.5)  -- reload time
+	else
+		-- normal attack
+		whackSound:Play()
+		lastSlash = t
+		amAnimating = false -- here must be before the wait, to allow for double-clix
+		wait(.5)
+	end
+	if not amAnimating then Tool.Enabled = true end
+end
+
+local keyConnection = nil
+function onKeyDown(key)
+	if key:lower() == "w" then
+		t = r.Stepped:wait()
+		if (t - lastKeyDown &lt; .2) then dashTime = t end
+		lastKeyDown = t
+	end
+end
+
+function onEquippedLocal(mouse)
+	slashSound.Volume = 1
+	spinSound.Volume = 1
+	whackSound.Volume = 1
+
+	keyConnection = mouse.KeyDown:connect(onKeyDown)
+end
+
+function onUnequippedLocal()
+	if keyConnection ~= nil then keyConnection:disconnect() end
+
+	if newBV ~= nil then newBV:remove() end
+	if newBG ~= nil then newBG:remove() end
+	if newBAV ~= nil then newBAV:remove() end
+	if newBP ~= nil then newBP:remove() end
+
+	slashSound.Volume = 0
+	spinSound.Volume = 0
+	whackSound.Volume = 0
+end
+
+Tool.Equipped:connect(onEquippedLocal)
+Tool.Unequipped:connect(onUnequippedLocal)
+Tool.Activated:connect(onActivated)
+ </ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBX4134B161CB94454CB395CA62857DF868">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=45873069</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Ninja Slash</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBXE950B211F7B544199ACDD3AA6A911571">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Local Gui</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{ED7E519E-CA27-4283-97FF-D8925C8453A0}</string>
+						<ProtectedString name="Source">local Tool = script.Parent;
+
+local stillEquipped = true
+function onEquippedLocal(mouse)
+	stillEquipped = true
+	if mouse == nil then
+		print("Mouse not found")
+		return
+	end
+
+	while stillEquipped do
+		print("Setting Mouse to Go")
+		mouse.Icon = "rbxasset://textures\\GunCursor.png"
+
+		while Tool.Enabled and stillEquipped do
+			wait(.01)
+		end
+
+		print("Setting Mouse To Wait")
+		mouse.Icon = "rbxasset://textures\\GunWaitCursor.png"
+
+		while not Tool.Enabled and stillEquipped do
+			wait(.01)
+		end
+	end
+end
+
+function onUnequippedLocal()
+	stillEquipped = false
+end
+
+
+Tool.Equipped:connect(onEquippedLocal)
+Tool.Unequipped:connect(onUnequippedLocal)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

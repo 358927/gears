@@ -1,0 +1,610 @@
+<Item class="Model" referent="RBX0B67B028D6AC40A389BB60CA3EC9DCC2">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">10468797</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBXAAA5E746F5B74C4C9699EB8A6FB2FA51">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>-1</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">BanHammer</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=10684453</url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>-0.259155273</X>
+							<Y>3.43653774</Y>
+							<Z>0.389560699</Z>
+							<R00>-0.309529573</R00>
+							<R01>-0.260076046</R01>
+							<R02>0.914632022</R02>
+							<R10>0.0592671633</R10>
+							<R11>0.954722881</R11>
+							<R12>0.291533053</R12>
+							<R20>-0.94904089</R20>
+							<R21>0.144445777</R21>
+							<R22>-0.280100971</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBXDDD5F6B0C1F848B58589A8C1225BFF80">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>-0.259155273</X>
+							<Y>3.43653774</Y>
+							<Z>0.389560699</Z>
+							<R00>-0.309529573</R00>
+							<R01>-0.260076046</R01>
+							<R02>0.914632022</R02>
+							<R10>0.0592671633</R10>
+							<R11>0.954722881</R11>
+							<R12>0.291533053</R12>
+							<R20>-0.94904089</R20>
+							<R21>0.144445777</R21>
+							<R22>-0.280100971</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>1</X>
+							<Y>6</Y>
+							<Z>1</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBXE9207AA222C94D50981D3D567CC0B6A4">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=10604848</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>0.5</X>
+								<Y>0.5</Y>
+								<Z>0.5</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=10605252</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+					<Item class="Decal" referent="RBX144CA12BB70C45BF9241E962CBDDCB74">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<bool name="DefinesCapabilities">false</bool>
+							<token name="Face">2</token>
+							<string name="Name">Decal</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="Texture"><url>http://www.roblox.com/asset/?id=10605252</url></Content>
+							<float name="Transparency">0</float>
+							<int name="ZIndex">1</int>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="BoolValue" referent="RBX5DCE9403615D4844997CB863779AC35A">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">MouseClick</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="Value">false</bool>
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBXB4C92BE9A7814862B519B2E41BF195BF">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=54673790</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">HomeRun</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBXFF850DEABB724E76A7F5B459A678994A">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=48138189</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">TwoHandAnim</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBX89F3ED26566941F9A657EEF8BB1B49EB">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=32659706</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Whack</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX292CFB2A35854B55A955DA1A4C8A6676">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">_CamShake</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{FFDF266C-081C-4135-B2BF-2AB83DA6CC15}</string>
+						<ProtectedString name="Source">local cam = game.Workspace.CurrentCamera
+for i = 1, 5 do
+wait()
+local cam_rot = cam.CoordinateFrame - cam.CoordinateFrame.p --* CFrame.fromEulerAnglesXYZ(math.random(-10, 10)/10, math.random(-10, 10)/10, 0)
+local cam_scroll = (cam.CoordinateFrame.p - cam.Focus.p).magnitude
+local ncf = CFrame.new(cam.Focus.p)*cam_rot*CFrame.fromEulerAnglesXYZ(math.random(-10, 10)/40, math.random(-10, 10)/40, 0)
+cam.CoordinateFrame = ncf*CFrame.new(0, 0, cam_scroll)
+end
+script:remove()
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX6D7E825592AE4D58847A5BE667F03A77">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">_EVT</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{F3BE3BFF-D47E-4BCF-8698-63C4938BF06E}</string>
+						<ProtectedString name="Source">script.Parent.Equipped:connect(function(mouse)
+	mouse.Button1Down:connect(function()
+		script.Parent.MouseClick.Value = not script.Parent.MouseClick.Value
+	end)
+end)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBX989308EBD28F42348C9D9018AFDE633C">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">_SoundDetection</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{76A3503A-DAC2-4FD8-9999-E288D745AF60}</string>
+						<ProtectedString name="Source">hammer = script.Parent.Handle
+local HomerunSound = Instance.new("Sound")
+HomerunSound.SoundId = "http://www.roblox.com/asset/?id=21343225"
+HomerunSound.Parent = hammer
+HomerunSound.Volume = 0.5
+HomerunSound.Name = "Homerun"
+local WhackSound = Instance.new("Sound")
+WhackSound.SoundId = "http://www.roblox.com/asset/?id=10730819"
+WhackSound.Parent = hammer
+WhackSound.Volume = 1
+WhackSound.Name = "Whack"
+hammer.ChildAdded:connect(function(Child)
+	wait()
+	if Child.className == "StringValue" then
+		if Child.Name == "HomerunSound" then
+			HomerunSound:Play()
+		elseif Child.Name == "WhackSound" then
+			WhackSound:Play()
+		end
+		Child:Remove()
+	end
+end)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX4D792722F1E34F84A94501D31819FD92">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">_Main</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{58AF42B3-DFBB-4A80-8EB8-AD3FF5531A07}</string>
+						<ProtectedString name="Source">--Credits: xLEGOx for the first creation of the hammer, Luckymaxer for fixing it, BLOX31 for the ideas and animation, gkku for visual design, sounds, and various fixes
+--player
+player = nil
+--selected
+selected = false
+homerunning = false
+whacking = false
+--save shoulders
+RSH, LSH = nil, nil
+anim = "none"
+--grip
+--welds
+--what anim
+local TwoHandAnim
+local HomeRunner
+local Whacker
+--create the dustcloud object
+local prt = Instance.new("Part")
+prt.Size = Vector3.new(7.5,7.5,7.5)
+prt.BrickColor = BrickColor.new(217)
+prt.Anchored = true
+prt.CanCollide = false
+prt.Transparency = 1
+smoke=Instance.new("Smoke", prt)
+smoke.Color = BrickColor.new("Brown").Color
+smoke.RiseVelocity = -2
+smoke.Size = 4.5
+smoke.Opacity = 1
+--set variables
+hammer = script.Parent.Handle
+--[[local msh = Instance.new("SpecialMesh")
+msh.MeshId = "http://www.roblox.com/asset/?id=1095708"
+msh.MeshType = 5
+msh.Parent = prt]]
+
+----- show version ----------
+script.Parent.Name = "BanHammer V1.1"
+---------------------------------
+
+function GetFigures(Parent, Part)
+	for i, v in pairs(Parent:GetChildren()) do
+		GetFigures(v, Part)
+		if v.className == "Humanoid" then
+			if v == script.Parent.Parent:findFirstChild("Humanoid") == false then
+				if v.Parent:findFirstChild("Torso") then
+					if v.Parent:findFirstChild("Torso"):IsA("BasePart") then
+						if v.Parent:findFirstChild("Torso").Position.x &lt; Part.Position.x + Part.Size.x / 2
+						and v.Parent:findFirstChild("Torso").Position.x &gt; Part.Position.x - Part.Size.x / 2
+						and v.Parent:findFirstChild("Torso").Position.y &lt; Part.Position.y + Part.Size.y / 2
+						and v.Parent:findFirstChild("Torso").Position.y &gt; Part.Position.y - Part.Size.y / 2
+						and v.Parent:findFirstChild("Torso").Position.z &lt; Part.Position.z + Part.Size.z / 2
+						and v.Parent:findFirstChild("Torso").Position.z &gt; Part.Position.z - Part.Size.z / 2 then
+							v.Sit = true
+						end
+						if (Part.Position - v.Parent:findFirstChild("Torso").Position).magnitude &lt; 10 then
+							v.Sit = true
+						end
+					end
+				end
+			end
+		end
+	end
+end
+function Raycast(Pos, Dir, Max, Ignore)
+return game:GetService("Workspace"):FindPartOnRay(Ray.new(Pos, Dir.unit * (Max or 999.999)), Ignore)
+end
+function WaitForChild(obj, ch_n)
+	local t = time()
+	while not obj:FindFirstChild(ch_n) and time() - t &lt; 10 do wait(0.1) end
+	return obj:FindFirstChild(ch_n)
+end
+
+--onselected, save shoulders and get player
+script.Parent.Equipped:connect(function()
+	TwoHandAnim = script.Parent.Parent:findFirstChild("Humanoid"):LoadAnimation(script.Parent.TwoHandAnim)
+	HomeRunner = script.Parent.Parent:findFirstChild("Humanoid"):LoadAnimation(script.Parent.HomeRun)
+	Whacker = script.Parent.Parent:findFirstChild("Humanoid"):LoadAnimation(script.Parent.Whack)
+	repeat wait() until TwoHandAnim ~= nil and HomeRunner ~= nil and Whacker ~= nil
+	if selected then return end
+	selected = true
+	TwoHandAnim:Play()
+end)
+
+--griptcf = CFrame.new(0, -1, 0) * CFrame.fromEulerAnglesXYZ(-math.pi/2+0.5, 0, 0)
+
+script.Parent.Unequipped:connect(function()
+	selected = false
+	if TwoHandAnim ~= nil then
+		TwoHandAnim:Stop()
+	end
+	if HomeRunner ~= nil then
+		HomeRunner:Stop()
+	end
+	if Whacker ~= nil then
+		Whacker:Stop()
+	end
+end)
+
+function HomeRunHit(part)
+	if part == nil then return end
+	if part.Parent == nil then return end
+	local h = (part.Parent or game):FindFirstChild("Humanoid") --or findfirstchild optimization
+	if h then
+		if h == script.Parent.Parent:findFirstChild("Humanoid") == false then
+			--game.SoundService.Bomb:Play()
+	--		hammer.Homerun:Play()
+			hrs = Instance.new("StringValue")
+			hrs.Name = "HomerunSound"
+			hrs.Parent = hammer
+			h.Sit = true
+			h.Parent.Torso.Velocity = (CFrame.new(hammer.Position, h.Parent.Torso.Position).lookVector * 200) + Vector3.new(0, 100, 0)
+			h.Parent.Torso.RotVelocity = Vector3.new(math.random(-100, 100), math.random(-100, 100), math.random(-100, 100))
+		end
+	end
+end
+
+function HomeRun()
+	if homerunning == false then
+		homerunning = true
+		anim = "homerun"
+		TwoHandAnim:Stop()
+		HomeRunner:Play()
+		--start HomeRunhit connection--
+		local con = hammer.Touched:connect(HomeRunHit)
+		----------------------------------------
+		wait(.6)
+		HomeRunner:Stop()
+		if selected == true then
+			TwoHandAnim:Play()
+		end
+		----end HomeRun connection---
+		con:disconnect()
+	--	wait(0.15)
+		homerunning = false
+	end
+end
+function Whack()
+	if homerunning == false then
+	anim = "norm"
+	TwoHandAnim:Stop()
+	Whacker:Play()
+--	hammer.Whack:Play()
+		--insert camshake and hit nearby people
+		for _, p in pairs(game.Players:GetChildren()) do
+			if p.Character == script.Parent.Parent == false then
+				if p.Character:FindFirstChild("Torso") then
+					if (p.Character.Torso.Position - (hammer.CFrame*CFrame.new(0, 3, 0)).p).magnitude &lt; 15 then
+						local s = script.Parent._CamShake:clone()
+						s.Disabled = false
+						s.Parent = p.Backpack
+						if p ~= player then
+		--					p.Character.Humanoid.Sit = true
+		--					delay(0.1, function() p.Character.Humanoid.Jump = true end)
+							p.Character.Torso.RotVelocity = Vector3.new(math.random(-10, 10), math.random(-10, 10), math.random(-10, 10))
+						end
+					end
+				end
+			end
+		end
+		--add dust cloud
+		delay(0.25, function()
+			if anim == "norm" then
+				if selected == true then
+					whacking = true
+					p=Instance.new("Part")
+					p.CanCollide = false
+					p.Transparency = 1
+					p.Parent = script.Parent.Parent
+					p.formFactor = "Custom"
+					p.Size = Vector3.new(0.2, 0.2, 0.2)
+					p.Anchored = true
+					p.CFrame = hammer.CFrame - Vector3.new(0, script.Parent.Parent:findFirstChild("Torso").Size.y/2, 0) + script.Parent.Parent:findFirstChild("Torso").CFrame.lookVector * ((hammer.Size.y / 2) - p.Size.z)
+					p.CFrame = CFrame.new(p.CFrame.p) * CFrame.Angles(math.rad(0),math.rad(0),math.rad(0))
+					p.CFrame = p.CFrame * CFrame.fromEulerAnglesXYZ(-math.pi/2, 0,  -math.pi/2)
+					Hit, Pos = Raycast(p.Position, p.CFrame.lookVector, 4, script.Parent.Parent)
+					if Hit ~= nil then
+						if homerunning == false then
+							delay(0.35, function()
+								w = Instance.new("StringValue")
+								w.Name = "WhackSound"
+								w.Parent = hammer
+							end)
+							local pt = prt:clone()
+							pt.Parent = script.Parent.Parent
+							pt.CFrame = CFrame.new(hammer.CFrame.x, Pos.y + 0.75, hammer.CFrame.z) + script.Parent.Parent:findFirstChild("Torso").CFrame.lookVector * 1.75
+							GetFigures(pt.Parent.Parent, pt)
+							game.Debris:addItem(pt, 1.3)
+						end
+					end
+					p:Remove()
+				end
+			end
+		end)
+		wait(0.75)
+		Whacker:Stop()
+		whacking = false
+		------
+		if selected == true then
+			TwoHandAnim:Play()
+		end
+	end
+end
+local a = false
+local co = nil
+--OMGHAX mouseclick
+local last_click = 0
+script.Parent.MouseClick.Changed:connect(function()
+	if homerunning == false and whacking == false then
+		if time() - last_click &lt; 0.3 then
+			anim = "homerun"
+			last_click = time()
+			HomeRun()
+		else
+			anim = "norm"
+			last_click = time()
+			Whack()
+		end
+	end
+end)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

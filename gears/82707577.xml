@@ -1,0 +1,3012 @@
+<Item class="Model" referent="RBX2310020DA402425D8BF41C4157167F8F">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">82707577</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBX18576E097A234AEE8E66C22DB16634E4">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>-0.100000001</Y>
+						<Z>0.300000012</Z>
+						<R00>0.90270108</R00>
+						<R01>-0.182986572</R01>
+						<R02>-0.389418334</R02>
+						<R10>-0.413517714</R10>
+						<R11>-0.118885815</R11>
+						<R12>-0.90270108</R12>
+						<R20>0.11888586</R20>
+						<R21>0.97590065</R21>
+						<R22>-0.182986543</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">SnakeStaff</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=82230051</url></Content>
+					<string name="ToolTip">Snake Staff</string>
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>0.600000381</X>
+							<Y>2.79999852</Y>
+							<Z>-0.399999619</Z>
+							<R00>1</R00>
+							<R01>-0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>-0</R11>
+							<R12>1</R12>
+							<R20>0</R20>
+							<R21>-1</R21>
+							<R22>0</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBXAA156BEBD99948B5936653F0F7DC0059">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>0.600000381</X>
+							<Y>2.79999852</Y>
+							<Z>-0.399999619</Z>
+							<R00>1</R00>
+							<R01>-0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>-0</R11>
+							<R12>1</R12>
+							<R20>0</R20>
+							<R21>-1</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>0.800000012</X>
+							<Y>0.800000012</Y>
+							<Z>5.5</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX977E22C4C9A54C6BBD6A64FD01EF7213">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=82229883</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=82229891</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+					<Item class="Sound" referent="RBX6B29C9E8B17B4B03B66EDBDA919A559A">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="IsMutedForCapture">false</bool>
+							<NumberRange name="LoopRegion">0 60000 </NumberRange>
+							<bool name="Looped">false</bool>
+							<string name="Name">SlashSound</string>
+							<bool name="PlayOnRemove">false</bool>
+							<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+							<bool name="PlaybackRegionsEnabled">false</bool>
+							<float name="PlaybackSpeed">1</float>
+							<bool name="Playing">false</bool>
+							<float name="RollOffMaxDistance">10000</float>
+							<float name="RollOffMinDistance">10</float>
+							<token name="RollOffMode">0</token>
+							<Ref name="SoundGroup">null</Ref>
+							<Content name="SoundId"><url>http://www.roblox.com/asset/?id=46760716</url></Content>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<double name="TimePosition">0</double>
+							<float name="Volume">1</float>
+						</Properties>
+					</Item>
+					<Item class="Sound" referent="RBX4446DBE89BC94DE59151070A6205C503">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="IsMutedForCapture">false</bool>
+							<NumberRange name="LoopRegion">0 60000 </NumberRange>
+							<bool name="Looped">false</bool>
+							<string name="Name">FireSound</string>
+							<bool name="PlayOnRemove">false</bool>
+							<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+							<bool name="PlaybackRegionsEnabled">false</bool>
+							<float name="PlaybackSpeed">0.300000012</float>
+							<bool name="Playing">false</bool>
+							<float name="RollOffMaxDistance">10000</float>
+							<float name="RollOffMinDistance">10</float>
+							<token name="RollOffMode">0</token>
+							<Ref name="SoundGroup">null</Ref>
+							<Content name="SoundId"><url>rbxasset://sounds//Rubber band sling shot.wav</url></Content>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<double name="TimePosition">0</double>
+							<float name="Volume">1</float>
+						</Properties>
+					</Item>
+					<Item class="Sound" referent="RBX38BD79B7F79C4CE49BB8FF8953BAD523">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="IsMutedForCapture">false</bool>
+							<NumberRange name="LoopRegion">0 60000 </NumberRange>
+							<bool name="Looped">false</bool>
+							<string name="Name">FieldSound</string>
+							<bool name="PlayOnRemove">true</bool>
+							<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+							<bool name="PlaybackRegionsEnabled">false</bool>
+							<float name="PlaybackSpeed">0.600000024</float>
+							<bool name="Playing">false</bool>
+							<float name="RollOffMaxDistance">10000</float>
+							<float name="RollOffMinDistance">10</float>
+							<token name="RollOffMode">0</token>
+							<Ref name="SoundGroup">null</Ref>
+							<Content name="SoundId"><url>http://www.roblox.com/asset?id=1369158</url></Content>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<double name="TimePosition">0</double>
+							<float name="Volume">1</float>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBXB83BBB48A6F54C9AAB252E3D258CB56E">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">SnakeStaffLocal</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{3E7D9F96-3900-47D4-B3C4-88591EC4B315}</string>
+						<ProtectedString name="Source">do
+	function CreateSignal()
+		local this = {}
+		local mListeners = {}
+		local mListenerCount = 0
+		local mWaitProxy = nil
+		local mWaitReturns = nil
+		local mHasWaiters = false
+		function this:connect(func)
+			if self ~= this then error("connect must be called with `:`, not `.`", 2) end
+			if type(func) ~= 'function' then
+				error("Argument #1 of connect must be a function, got a "..type(func), 2)
+			end
+			mListenerCount = mListenerCount + 1
+			local conn = {}
+			function conn:disconnect()
+				if mListeners[conn] then
+					mListeners[conn] = nil
+					mListenerCount = mListenerCount - 1
+				end
+			end
+			mListeners[conn] = func
+			return conn
+		end
+		function this:disconnect()
+			if self ~= this then error("disconnect must be called with `:`, not `.`", 2) end
+			for k, v in pairs(mListeners) do
+				mListeners[k] = nil
+			end
+			mListenerCount = 0
+		end
+		function this:wait()
+			if self ~= this then error("wait must be called with `:`, not `.`", 2) end
+			if not mWaitProxy then
+				mWaitProxy = Instance.new('BoolValue')
+			end
+			mHasWaiters = true
+			mWaitProxy.Changed:wait()
+			return unpack(mWaitReturns)
+		end
+		function this:fire(...)
+			if self ~= this then error("fire must be called with `:`, not `.`", 2) end
+			local arguments;
+			if mListenerCount &gt; 0 or mHasWaiters then
+				arguments = {...}
+			end
+			if mHasWaiters then
+				mHasWaiters = false
+				mWaitReturns = arguments
+				mWaitProxy.Value = not mWaitProxy.Value
+				mWaitReturns = nil
+			end
+			if mListenerCount &gt; 0 then
+				for _, handlerFunc in pairs(mListeners) do
+					Spawn(function()
+						handlerFunc(unpack(arguments))
+					end)
+				end
+			end
+		end
+		function this:fireSync(...)
+			if self ~= this then error("fire must be called with `:`, not `.`", 2) end
+			local arguments;
+			if mListenerCount &gt; 0 or mHasWaiters then
+				arguments = {...}
+			end
+			if mHasWaiters then
+				mHasWaiters = false
+				mWaitReturns = arguments
+				mWaitProxy.Value = not mWaitProxy.Value
+				mWaitReturns = nil
+			end
+			if mListenerCount &gt; 0 then
+				for _, handlerFunc in pairs(mListeners) do
+					handlerFunc(unpack(arguments))
+				end
+			end
+		end
+		return this
+	end
+	local function Create_PrivImpl(objectType)
+		if type(objectType) ~= 'string' then
+			error("Argument of Create must be a string", 2)
+		end
+		return function(dat)
+			dat = dat or {}
+			local obj = Instance.new(objectType)
+			local ctor = nil
+			for k, v in pairs(dat) do
+				if type(k) == 'string' then
+					obj[k] = v
+				elseif type(k) == 'number' then
+					if type(v) ~= 'userdata' then
+						error("Bad entry in Create body: Numeric keys must be paired with children, got a: "..type(v), 2)
+					end
+					v.Parent = obj
+				elseif type(k) == 'table' and k.__eventname then
+					if type(v) ~= 'function' then
+						error("Bad entry in Create body: Key `[Create.E\'"..k.__eventname.."\']` must have a function value\
+						       got: "..tostring(v), 2)
+					end
+					obj[k.__eventname]:connect(v)
+				elseif k == Create then
+					if type(v) ~= 'function' then
+						error("Bad entry in Create body: Key `[Create]` should be paired with a constructor function, \
+						       got: "..tostring(v), 2)
+					elseif ctor then
+						error("Bad entry in Create body: Only one constructor function is allowed", 2)
+					end
+					ctor = v
+				else
+					error("Bad entry ("..tostring(k).." =&gt; "..tostring(v)..") in Create body", 2)
+				end
+			end
+			if ctor then
+				ctor(obj)
+			end
+			return obj
+		end
+	end
+	Create = setmetatable({}, {__call = function(tb, ...) return Create_PrivImpl(...) end})
+	Create.E = function(eventName)
+		return {__eventname = eventName}
+	end
+	function class(classname)
+		local classDef = {}
+		local mPublicMethods = {}
+		local mAllMethods = {}
+		local mGetters = {__ClassName = true}
+		local mSetters = {}
+		local mEvents = {}
+		local function fmtKey(key)
+			if type(key) == 'string' then
+				return '.'..key
+			else
+				return '['..tostring(key)..']'
+			end
+		end
+		return function(implementer)
+			if type(implementer) ~= 'function' then
+				error("Only functions ay be used as a class body definition, got a "..type(implementer), 2)
+			end
+			local setProxy = setmetatable({}, {
+				__index = function(tb, key)
+					return setmetatable({}, {
+						__call = function(tb, ...)
+							if #{...} &gt; 0 then
+								error('Passing arguments to classdef.set'..fmtKey(key)..'() has no meaning, \
+								       see documentation for correct usage.', 2)
+							end
+							if mSetters[key] then
+								error('Redefinition of setter for '..tostring(key), 2)
+							end
+							mSetters[key] = true
+						end;
+					})
+				end;
+				__newindex = function(tb, key, val)
+					if type(key) == 'string' and type(val) == 'function' then
+						if mSetters[key] then
+							error('Redefinition of setter for '..tostring(key), 2)
+						end
+						mSetters[key] = val
+					else
+						error('Can\'t set classdef.set'..fmtKey(key)..' = '..tostring(val), 2)
+					end
+				end;
+			})
+			local getProxy = setmetatable({}, {
+				__index = function(tb, key)
+					return setmetatable({}, {
+						__call = function(tb, ...)
+							if #{...} &gt; 0 then
+								error('Passing arguments to classdef.get'..fmtKey(key)..'() has no meaning, \
+								       see documentation for correct usage.', 2)
+							end
+							if mGetters[key] then
+								error('Redefinition of getter for '..tostring(key), 2)
+							end
+							mGetters[key] = true
+						end;
+					})
+				end;
+				__newindex = function(tb, key, val)
+					if type(key) == 'string' and type(val) == 'function' then
+						if mGetters[key] then
+							error('Redefinition of getter for '..tostring(key), 2)
+						end
+						mGetters[key] = val
+					else
+						error('Can\'t set classdef.get'..fmtKey(key)..' = '..tostring(val), 2)
+					end
+				end;
+			})
+			local getsetProxy = setmetatable({}, {
+				__index = function(tb, key)
+					return setmetatable({}, {
+						__call = function(tb, ...)
+							if #{...} &gt; 0 then
+								error('Passing arguments to classdef.getset'..fmtKey(key)..'() has no meaning, \
+								       see documentation for correct usage.', 2)
+							end
+							if mSetters[key] then
+								error('Redefinition of setter for '..tostring(key), 2)
+							end
+							if mGetters[key] then
+								error('Redefinition of getter for '..tostring(key), 2)
+							end
+							mSetters[key] = true
+							mGetters[key] = true
+						end;
+					})
+				end;
+				__newindex = function(tb, key, val)
+					error('Can\'t set classdef.set'..fmtKey(key)..' = '..tostring(val), 2)
+				end;
+			})
+			local eventProxy = setmetatable({}, {
+				__index = function(tb, key)
+					return setmetatable({}, {
+						__call = function(tb, ...)
+							if #{...} &gt; 0 then
+								error("Passing arguments to clasdef.event"..fmtKey(key).."() has no meaning, \
+								       see documentation for correct usage.", 2)
+							end
+							if type(key) ~= 'string' then
+								error("Can't create event `"..tostring(key).."` event names must be strings", 2)
+							end
+							if mEvents[key] then
+								error("Redefinition of event `"..key.."`", 2)
+							end
+							mEvents[key] = true
+							mGetters[key] = true
+						end;
+						__index = function()
+							error("classdef.event"..fmtKey(key).." can only be called, not indexed", 2)
+						end;
+						__newindex = function()
+							error("classdef.event"..fmtKey(key).." can only be called, not assigned to", 2)
+						end;
+					})
+				end;
+				__newindex = function(tb, key, val)
+					error("Can't set classdef.event"..fmtKey(key).." = "..tostring(val), 2)
+				end;
+			})
+			local staticProxy = setmetatable({}, {
+				__index = classDef,
+				__newindex = classDef,
+			})
+			local privateProxy = setmetatable({}, {
+				__newindex = function(tb, key, val)
+					if type(key) == 'string' and type(val) == 'function' then
+						mAllMethods[key] = val
+					else
+						error("Can't set classdef.private"..fmtKey(key).." = "..tostring(val), 2)
+					end
+				end;
+				__index = function(tb, key)
+					error("Can't get classdef.private"..fmtKey(key), 2)
+				end;
+			})
+			local mainImplProxy = {}
+			mainImplProxy.get = getProxy
+			mainImplProxy.set = setProxy
+			mainImplProxy.getset = getsetProxy
+			mainImplProxy.event = eventProxy
+			mainImplProxy.private = privateProxy
+			mainImplProxy.static = staticProxy
+			setmetatable(mainImplProxy, {
+				__index = function(tb, key)
+					error('Can\'t get classdef'..fmtKey(key), 2)
+				end;
+				__newindex = function(tb, key, val)
+					if type(key) == 'string' and type(val) == 'function' then
+						mPublicMethods[key] = val
+						mAllMethods[key] = val
+						mGetters[key] = true
+					else
+						error('Can\'t set classdef'..fmtKey(key)..' = '..tostring(val), 2)
+					end
+				end;
+			})
+			implementer(mainImplProxy)
+			for k, f in pairs(mAllMethods) do
+				if k ~= 'Create' then
+					mAllMethods[k] = function(self, ...)
+						if type(self) ~= 'table' or self.__ClassName ~= classname then
+							error("Methods must be called with a ':', not a '.'")
+						end
+						return f(rawget(self, '__internal'), ...)
+					end
+					if mPublicMethods[k] then
+						mPublicMethods[k] = mAllMethods[k]
+					end
+				end
+			end
+			for k, f in pairs(mGetters) do
+				if type(f) == 'function' then
+					mGetters[k] = function(self, ...)
+						return f(rawget(self, '__internal'), ...)
+					end
+				end
+			end
+			for k, f in pairs(mSetters) do
+				if type(f) == 'function' then
+					mSetters[k] = function(self, ...)
+						return f(rawget(self, '__internal'), ...)
+					end
+				end
+			end
+			local internalMT = {
+				__index = mAllMethods;
+			}
+			local rawget = rawget
+			local externalMT = {
+				__index = function(obj, key)
+					local method = mPublicMethods[key]
+					if method then
+						return method
+					elseif mGetters[key] == true then
+						return rawget(obj, '__internal')[key]
+					elseif mGetters[key] then
+						return mGetters[key](obj)
+					else
+						error("Can't get "..classname.."::"..key, 2)
+					end
+				end;
+				__newindex = function(obj, key, val)
+					if mSetters[key] == true then
+						rawget(obj, '__internal')[key] = val
+					elseif mSetters[key] then
+						mSetters[key](obj, val)
+					else
+						error("Can't set "..classname.."::"..key, 2)
+					end
+				end;
+			}
+			local constructor = function(...)
+				local internalThis = {__ClassName = classname}
+				internalThis.__internal = internalThis
+				setmetatable(internalThis, internalMT)
+				local externalThis = {__internal = internalThis}
+				setmetatable(externalThis, externalMT)
+				for eventName, _ in pairs(mEvents) do
+					internalThis[eventName] = CreateSignal()
+				end
+				if mAllMethods.Create then
+					mAllMethods.Create(internalThis, ...)
+				end
+				return externalThis
+			end
+			classDef.Create = constructor
+			getfenv(0)['Create'..classname] = constructor
+			getfenv(0)[classname] = classDef
+		end
+	end
+
+
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+
+	--===============================================================================
+	-- A tree object for quick verification of the object hierarchy that a game or
+	-- gear may need to be present. The tree returns a "filter" function which can
+	-- be called on an instance to flatten it into a tag map, so that in the future
+	-- the objects in the hierarchy can safely be accessed through the tag map
+	-- without need for extra checks of existance. If the hierarchy is not valid
+	-- then nothing is returned from the call to the filter.
+	--
+	-- Below some common examples of how to construct a tree are given, and the
+	-- Gearlib includes the most common examples which veryify various parts of
+	-- the character depending on the needs of the gear.
+	--
+	--===============================================================================
+	function tree(name)
+		if type(name) == 'string' then
+			return function(dat)
+				return function(instance, ctx)
+					local child = instance:FindFirstChild(name)
+					if not child then return false end
+					if dat.IsA and not child:IsA(dat.IsA) then return false end
+					if dat.Tag then
+						ctx[dat.Tag] = child
+					end
+					for i = 1, #dat do
+						if not dat[i](child, ctx) then return false end
+					end
+					return true
+				end
+			end
+		else
+			return function(dat)
+				return function(instance)
+					local ctx = {}
+					if dat.IsA and not instance:IsA(dat.IsA) then return nil end
+					if dat.Tag then ctx[dat.Tag] = instance end
+					for i = 1, #dat do
+						if not dat[i](instance, ctx) then return nil end
+					end
+					return ctx
+				end
+			end
+		end
+	end
+
+	--===============================================================================
+	-- A tree which verifys all parts of a character including legs.
+	-- Tags Declared:
+	--  Character: the root character model
+	--  LeftArm, RightArm, LeftLeg, RightLeg, Head: The appendages
+	--  Humanoid: The humanoid
+	--
+	local CharacterFullTree = tree{
+		IsA = 'Model';
+		Tag = 'Character';
+		--
+		tree'Left Arm'{
+			IsA = 'BasePart';
+			Tag = 'LeftArm';
+		};
+		tree'Right Arm'{
+			IsA = 'BasePart';
+			Tag = 'RightArm';
+		};
+		tree'Left Arm'{
+			IsA = 'BasePart';
+			Tag = 'LeftArm';
+		};
+		tree'Right Arm'{
+			IsA = 'BasePart';
+			Tag = 'RightArm';
+		};
+		tree'Head'{
+			IsA = 'BasePart';
+			Tag = 'Head';
+		};
+		tree'Humanoid'{
+			IsA = 'Humanoid';
+			Tag = 'Humanoid';
+		};
+	}
+
+	--===============================================================================
+	-- A tree with just the parts for a basic gear.
+	-- Tags Declared:
+	--  Character: The root character object
+	--  RightArm
+	--  Torso
+	--  Humanoid
+	local CharacterRightArmTree = tree{
+		IsA = 'Model';
+		Tag = 'Character';
+		--
+		tree'Right Arm'{
+			IsA = 'BasePart';
+			Tag = 'RightArm';
+		};
+		tree'Torso'{
+			IsA = 'BasePart';
+			Tag = 'Torso';
+		};
+		tree'Humanoid'{
+			IsA = 'BasePart';
+			Tag = 'Humanoid';
+		};
+	}
+
+
+	--===============================================================================
+	-- A class for maintaining a list of assets that the gear uses. The assets can
+	-- be added as a list or one by one, and then requested as for various purposes,
+	-- such as as individual sounds or meshes, or more specifically such as for a set
+	-- of animations on a given humanoid.
+	class'AssetProvider'(function(def)
+		function def:Create()
+			self.Model = script.Parent:FindFirstChild('assets')
+			if not self.Model then
+				self.Model = Create'Model'{
+					Name = "assets";
+					Parent = script.Parent;
+				}
+			end
+		end
+
+
+
+		--functionality to register various types of asset
+		function def:RegisterMesh(tag, id, scale)
+			if not self.Model:FindFirstChild(tag) then
+				local mesh = Create'SpecialMesh'{
+					Name = tag;
+					MeshId = self:ToAssetId(id);
+					Parent = self.Model;
+				}
+				if scale then
+					mesh.Scale = scale
+				end
+			end
+		end
+
+		function def:RegisterAnim(tag, id, speed, fadeTime)
+			if not self.Model:FindFirstChild(tag) then
+				local obj = Create'Animation'{
+					Name = tag;
+					AnimationId = self:ToAssetId(id);
+					Parent = self.Model;
+				}
+				if speed then
+					Create'NumberValue'{
+						Name = 'speed';
+						Value = speed;
+						Parent = obj;
+					}
+				end
+				if fadeTime then
+					Create'NumberValue'{
+						Name = 'fadeTime';
+						Value = fadeTime;
+						Parent = obj;
+					}
+				end
+			end
+		end
+
+		function def:RegisterSound(tag, id, volume, pitch)
+			if not self.Model:FindFirstChild(tag) then
+				local sound = Create'Sound'{
+					Name = tag;
+					SoundId = self:ToAssetId(id);
+					Parent = self.Model;
+				}
+				if volume then
+					sound.Volume = volume
+				end
+				if pitch then
+					sound.Pitch = pitch
+				end
+			end
+		end
+
+
+
+		--functionality to create instances of various asset types
+		function def:CreateSound(tag, volume, pitch)
+			if self.Model:FindFirstChild(tag) then
+				local obj = self.Model:FindFirstChild(tag):Clone()
+				if volume then
+					obj.Volume = volume
+				end
+				if pitch then
+					obj.Pitch = pitch
+				end
+				return obj
+			end
+		end
+
+		function def:CreateMesh(tag, scale)
+			if self.Model:FindFirstChild(tag) then
+				local obj = self.Model:FindFirstChild(tag):Clone()
+				if scale then
+					obj.Scale = scale
+				end
+				return obj
+			end
+		end
+
+		function def:CreateAnimator(humanoid)
+			local anims = {}
+			for _, anim in pairs(self.Model:GetChildren()) do
+				if anim:IsA('Animation') then
+					local track = humanoid:LoadAnimation(anim)
+					--
+					local proxy = {}
+					local defaultSpeed, defaultFade;
+					if anim:FindFirstChild('speed') then
+						defaultSpeed = anim:FindFirstChild('speed').Value
+					end
+					if anim:FindFirstChild('fadeTime') then
+						defaultFade = anim:FindFirstChild('fadeTime').Value
+					end
+					function proxy:Play(speed, fadeTime)
+						track:Play(fadeTime or defaultFade or 0.1, 1, speed or defaultSpeed or 1)
+					end
+					function proxy:Stop(fadeTime)
+						track:Stop(fadeTime or defaultFade or 0.1)
+					end
+					proxy.KeyframeReached = track.KeyframeReached
+					--
+					anims[anim.Name] = proxy
+				end
+			end
+			--
+			local animator = setmetatable({}, {__index=anims})
+			function animator:StopAll(fadeTime)
+				for _, anim in pairs(anims) do
+					anim:Stop(fadeTime)
+				end
+			end
+			return animator
+		end
+
+		function def.private:ToAssetId(id)
+			if type(id) == 'string' then
+				return id
+			elseif type(id) == 'number' then
+				return 'http://www.roblox.com/asset/?id='..id
+			end
+		end
+	end)
+
+
+	function CreateMutexFunction(task)
+		local running = false
+		return function(...)
+			if not running then
+				return task(...)
+			end
+		end
+	end
+
+
+	function CreateGlobalVarList()
+		local this = {}
+		local waitingOn = {}
+		--
+		local data = script.Parent:FindFirstChild('data')
+		if not data then
+			if script:IsA('LocalScript') then
+				data = Create'Model'{
+					Name = 'data';
+					Parent = script.Parent;
+				}
+			else
+				repeat wait() until script.Parent:FindFirstChild('data')
+				data = script.Parent:FindFirstChild('data')
+			end
+		end
+		--
+		function this:Create(tag, type, default)
+			if not data:FindFirstChild(tag) then
+				if script:IsA('LocalScript') then
+					Create(type..'Value'){
+						Name = tag;
+						Parent = data;
+						Value = default;
+					}
+				else
+					waitingOn[tag] = true
+					repeat wait() until data:FindFirstChild(tag)
+					waitingOn[tag] = nil
+				end
+			end
+		end
+		--
+		setmetatable(this, {
+			__index = function(tb, inx)
+				if inx == 'Create' then
+					return this.Create
+				else
+					local val = data:FindFirstChild(inx)
+					if val then
+						return val.Value
+					elseif waitingOn[inx] then
+						repeat wait() until not waitingOn[inx]
+						return data[inx].Value
+					else
+						error('Can\'t set global `'..inx..'`, does not exist.')
+					end
+				end
+			end;
+			__newindex = function(tb, inx, val)
+				local obj = data:FindFirstChild(inx)
+				if obj then
+					obj.Value = val
+				elseif waitingOn[inx] then
+					repeat wait() until not waitingOn[inx]
+					data:FindFirstChild(inx).Value = val
+				else
+					error('Can\'t get global `'..inx..'`, does not exist.')
+				end
+			end;
+		})
+		return this
+	end
+
+
+	class'Tool'(function(def)
+		function def:Create()
+			self.Tool = script.Parent
+			local tool = script.Parent
+			self.Handle = tool:FindFirstChild('Handle')
+			if not self.Handle then
+				if script:IsA('LocalScript') then
+					repeat wait() until tool:FindFirstChild('Handle')
+					self.Handle = tool.Handle
+				else
+					error("Tool has no `Handle`, did you forget to add one?")
+				end
+			end
+
+			--see which side we're on, localscript or normal script:
+			local IsLocal = script:IsA('LocalScript')
+
+			--set up the damage bin in the tool, so that damage can be inflicted
+			--from a localscript. The global script side has to create a "damagebin"
+			--in the tool, and the local side of the tool then puts notifications
+			--into that madel.
+			if IsLocal then
+				Spawn(function()
+					while not tool:FindFirstChild('damagebin') do
+						tool.ChildAdded:wait()
+					end
+					self.DamageBin = tool:FindFirstChild('damagebin')
+				end)
+			else
+				self.DamageBin = tool:FindFirstChild('damagebin')
+				if not self.DamageBin then
+					self.DamageBin = Create'Model'{
+						Name = 'damagebin';
+						Parent = tool;
+					}
+				end
+				--and listen on the damage bin
+				self.DamageBin.ChildAdded:connect(function(ch)
+					local dmg = tonumber(ch.Name)
+					--tag the humanoid
+					local creator = Create'ObjectValue'{
+						Name = 'creator';
+						Value = self.Player;
+						Parent = ch.Value;
+					}
+					wait()
+					ch.Value:TakeDamage(dmg)
+					game.Debris:AddItem(ch, 2)
+					game.Debris:AddItem(creator, 2)
+				end)
+			end
+
+			--create the asset manager
+			self.Asset = CreateAssetProvider()
+
+			--create the global var list
+			self.Var = CreateGlobalVarList()
+
+			--
+			tool.Equipped:connect(function(mouse)
+				--main properties set on selection
+				self.Mouse = mouse
+				self.MouseDown = false
+				self.Selected = true
+
+				--set up convinience properties
+				self.Character = tool.Parent
+				self.Player = game.Players:GetPlayerFromCharacter(self.Character)
+				self.Head = self.Character:FindFirstChild('Head')
+				self.Torso = self.Character:FindFirstChild('Torso')
+				self.Humanoid = self.Character:FindFirstChild('Humanoid')
+				self.LeftLeg = self.Character:FindFirstChild('Left Leg')
+				self.RightLeg = self.Character:FindFirstChild('Right Leg')
+				self.LeftArm = self.Character:FindFirstChild('Left Arm')
+				self.RightArm = self.Character:FindFirstChild('Right Arm')
+
+				--create main the animator for this instance. It won't be usefull from the
+				--global side right now, but it may be in the future, and it is an abstraction
+				--so it is possible to make it work even from the global side.
+				self.Animator = self.Asset:CreateAnimator(self.Humanoid)
+
+				--if local, set up the mouse events
+				if IsLocal then
+					mouse.Button1Down:connect(function()
+						self.MouseDown = true
+						self.Button1Down:fire()
+					end)
+					mouse.Button1Up:connect(function()
+						self.MouseDown = false
+						self.Button1Up:fire()
+					end)
+					mouse.KeyDown:connect(function(key)
+						self.KeyDown:fire(key)
+					end)
+					mouse.KeyUp:connect(function(key)
+						self.KeyUp:fire(key)
+					end)
+				end
+
+				--finally, pass off to the user
+				Spawn(function()
+					self.Equipped:fire()
+				end)
+			end)
+			tool.Unequipped:connect(function()
+				-- FIRST give the tool a chance to do stuff with these properties
+				-- before we kill them. That is, the unequipped event fires before
+				-- the thing is really unequipped.
+				self.Unequipped:fireSync()
+
+				--unset convinience properties
+				self.Selected = false
+				self.MouseDown = false
+				self.Mouse = nil
+				self.Character = nil
+				--
+				self.Head = nil
+				self.Torso = nil
+				self.Humanoid = nil
+				self.LeftArm = nil
+				self.RightArm = nil
+				self.LeftLeg = nil
+				self.RightLeg = nil
+
+				--kill the old animator. We may be able to reuse it some of the time
+				--but the most common use cases are ones where it's not possible to save, so
+				--it's not worth the extra code comlexity to figure out when we can save it.
+				self.Animator = nil
+			end)
+		end
+
+		function def:DamageHumanoid(humanoid, damage)
+			if self.DamageBin then
+				(Create'ObjectValue'{
+					Name = tostring(damage);
+					Value = humanoid;
+				}).Parent = self.DamageBin
+			else
+				Spawn(function()
+					repeat wait() until self.DamageBin
+					Create'ObjectValue'{
+						Name = tostring(damage);
+						Value = humanoid;
+					}.Parent = self.DamageBin
+				end)
+			end
+		end
+
+		--============================
+		def.get.Tool()
+		def.get.Player()
+		def.get.Mouse()
+		def.get.MouseDown()
+		def.get.Selected()
+		function def.get:MouseTarget()
+			if self.Mouse then
+				return self.Mouse.Target
+			end
+		end
+		function def.get:MouseHit()
+			if self.Mouse then
+				return self.Mouse.Hit
+			end
+		end
+		function def.get:MouseIcon()
+			if self.Mouse then
+				return self.Mouse.Icon
+			end
+		end
+		function def.set:MouseIcon(icon)
+			if not self.Mouse then
+				error("Error, Can't set MouseIcon from a global script!")
+			end
+			self.Mouse.Icon = icon
+		end
+		--
+		def.get.Character()
+		def.get.Humanoid()
+		def.get.LeftArm()
+		def.get.RightArm()
+		def.get.LeftLeg()
+		def.get.RightLeg()
+		def.get.Head()
+		def.get.Torso()
+		def.get.Handle()
+		--
+		def.get.Asset()
+		def.get.Animator()
+		def.get.Var()
+
+		--=============================
+		def.event.Equipped()
+		def.event.Unequipped()
+		--
+		def.event.Button1Down()
+		def.event.Button1Up()
+		def.event.KeyDown()
+		def.event.KeyUp()
+	end)
+
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+end
+local Tool = CreateTool()
+
+--====================================================================================--
+--                                 asset setup code
+--====================================================================================--
+
+--animations
+Tool.Asset:RegisterAnim('equip', 82272273, 4, 0.1)
+Tool.Asset:RegisterAnim('fire',  82272303, 4, 0.0)
+Tool.Asset:RegisterAnim('slash', 82272327, 3, 0.0)
+
+--sounds
+Tool.Asset:RegisterSound('slashsharp',  45885030)
+
+--settings
+local DoubleClickThreshold = 0.1
+
+local Reloading = false
+
+local function SingleClick()
+	if Reloading then return end
+	Reloading = true
+	Tool.Mouse.Icon = 'rbxasset://textures\\advCursor-default.png'
+
+	--fire a shot
+	Tool.Handle.FireSound:Play()
+	Tool.Animator.fire:Play()
+
+	--get the heading
+	local fireFrom = (Tool.RightArm.CFrame*CFrame.new(0,-2,0)).p
+	local fireTo = Tool.Mouse.Hit.p
+
+	--put in the script
+	local sc = script.Parent.ShotScript:Clone()
+	sc.cframe.Value = CFrame.new(fireFrom, fireTo)
+	sc.creator.Value = Tool.Player
+	sc.Disabled = false
+	sc.Parent = game.Workspace
+
+	wait(1.8)
+	Reloading = false
+	Tool.Mouse.Icon = 'rbxasset://textures\\advCursor-white.png'
+end
+
+local ClickId = 0
+local function DoubleClick()
+	if Reloading then return end
+	Reloading = true
+	ClickId = ClickId+1
+	local ThisClickId = ClickId
+	Tool.Mouse.Icon = 'rbxasset://textures\\advCursor-default.png'
+
+	--slash
+	Tool.Handle.SlashSound:Play()
+	Tool.Animator.slash:Play()
+
+	--put in the script
+	local sc = script.Parent.SlashScript:Clone()
+	sc.position.Value = Tool.Torso.Position
+	sc.creator.Value = Tool.Player
+	sc.Disabled = false
+	sc.Parent = game.Workspace
+
+	wait(0.2)
+	Tool.Handle.FieldSound.Volume = 1
+	Tool.Handle.FieldSound:Play()
+	Spawn(function()
+		for i = 1, 0, -0.03 do
+			wait(0.03)
+			if ClickId ~= ThisClickId then return end
+			Tool.Handle.FieldSound.Volume = i
+		end
+	end)
+
+	wait(1.2)
+	Reloading = false
+	Tool.Mouse.Icon = 'rbxasset://textures\\advCursor-white.png'
+end
+
+--handlers
+local LastClickTime = 0
+local DiddoubleClick = false
+
+--the main handler
+Tool.Button1Down:connect(function()
+	local t = tick()
+	if (t-LastClickTime) &lt; 0.25 then
+		LastClickTime = 0
+		DiddoubleClick = true
+		print("Double")
+		DoubleClick()
+	else
+		LastClickTime = t
+		wait(0.25)
+		if DiddoubleClick then
+			DiddoubleClick = false
+		else
+			print("Single")
+			SingleClick()
+		end
+	end
+end)
+
+Tool.Equipped:connect(function()
+	Tool.Mouse.Icon = 'rbxasset://textures\\advCursor-white.png'
+	Tool.Animator.equip:Play()
+end)
+
+Tool.Unequipped:connect(function()
+	Tool.Animator.equip:Stop()
+end)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="Script" referent="RBX137E15CE610E475AAE3A97EDAB191E1A">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Disabled">false</bool>
+							<Content name="LinkedSource"><null /></Content>
+							<string name="Name">MotorizeRightGrip</string>
+							<token name="RunContext">0</token>
+							<string name="ScriptGuid">{425EEDD8-4824-4926-8A75-1189EE47A22C}</string>
+							<ProtectedString name="Source">function Create(ty)
+	return function(data)
+		local obj = Instance.new(ty)
+		for k, v in pairs(data) do
+			if type(k) == 'number' then
+				v.Parent = obj
+			else
+				obj[k] = v
+			end
+		end
+		return obj
+	end
+end
+
+local Tool = script.Parent.Parent
+
+local armChildRemovedConn = nil
+local Motor6DGrip = nil
+local EquippedNum = 0
+
+Tool.Equipped:connect(function()
+	EquippedNum = EquippedNum + 1
+	local myEquip = EquippedNum
+	--some vars
+	local Player = game.Players:GetPlayerFromCharacter(Tool.Parent)
+	local Character = Player.Character
+
+	local rightarm = Character:FindFirstChild('Right Arm')
+	if rightarm and rightarm:FindFirstChild('RightGrip') then
+		local rightGrip = rightarm['RightGrip']
+		local handle = rightGrip.Part1
+
+		--kill my joint when the normal joint is removed
+		--this must be done here so that the joint is removed
+		--_right away_ after unequipping and the character doesn't
+		--glitch up.
+		local armChildRemovedConn = rightarm.ChildRemoved:connect(function(ch)
+			if ch == rightGrip then
+				Motor6DGrip:Remove()
+				Motor6DGrip = nil
+				--
+				if handle and Character:FindFirstChild('Torso') then
+					if Tool.Parent.Parent:IsA('Player') then
+						--the sword has been deselected
+						--put the sword far away so the user doesn't notice that the handle doesn't
+						--update for about 0.1 seconds after selecting the tool.
+						handle.CFrame = CFrame.new(100000, 100000, 100000)
+					else
+						--if in the workspace, position the handle where it should be dropped
+						--use the size of the handle to make sure it's dropped far enough away
+						handle.CFrame = Character.Torso.CFrame * CFrame.new(0, 0, -(handle.Size.magnitude+2))
+					end
+				end
+			end
+		end)
+
+		--make my new joint
+		Motor6DGrip = Create'Motor6D'{
+			Name = 'RightGrip_Motor',
+			Part0 = rightarm,
+			Part1 = handle,
+		}
+		--kill the old weld
+		rightGrip.Part1 = nil
+		rightGrip.Part0 = nil
+		Motor6DGrip.Parent = rightGrip.Parent
+	end
+end)
+
+Tool.Unequipped:connect(function()
+	EquippedNum = EquippedNum + 1
+	if armChildRemovedConn then
+		armChildRemovedConn:disconnect()
+		armChildRemovedConn = nil
+	end
+end)
+</ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Script" referent="RBXFFAB6F3BF34D4474AD6ABC942A0D8779">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">ShotScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{3F32C42C-ABFC-4C90-8EC6-BDD138417A28}</string>
+						<ProtectedString name="Source">function WaitFor(name)
+	while not script:FindFirstChild(name) do script.ChildAdded:wait() end
+	return script[name].Value
+end
+
+--get vars
+local cframe = WaitFor('cframe')
+local creator = WaitFor('creator')
+
+--get my humanoid
+local myHum = creator.Character:FindFirstChild('Humanoid')
+
+--main effect code
+
+--the snake bit code. We will be using a lot of 'snake bits'
+function MakeSnakeBit()
+	local part = Instance.new('Part')
+	part.FormFactor = 'Custom'
+	part.Size = Vector3.new(1,1,1)
+	part.TopSurface = 'Weld'
+	part.BottomSurface = 'Weld'
+	part.RightSurface = 'Weld'
+	part.LeftSurface = 'Weld'
+	part.FrontSurface = 'Weld'
+	part.BackSurface = 'Weld'
+	--part.Material = 'Wood'
+	part.CanCollide = false
+	part.Anchored = true
+	part.BrickColor = BrickColor.new(1021) --1021=`Camo`
+	local mesh = Instance.new('SpecialMesh', part)
+	mesh.MeshType = 'Sphere'
+	return part
+end
+
+--slerp function that I need
+local function Slerp(t, a, b)
+	local om = math.acos(a:Dot(b))
+	local sin_om = math.sin(om)
+	return (math.sin((1-t)*om)/sin_om)*a + (math.sin(t*om)/sin_om)*b
+end
+
+--first, make one bit which will be the "shot" that flies through the air
+local shot = MakeSnakeBit()
+shot.Parent = game.Workspace
+shot.CFrame = cframe --set the initial CFrame
+
+local ShotSpeed = 50
+local FlightDist = 0
+local FlightMaxDist = 300
+local HeatSeekingDistance = 20
+
+--make the shot fly using raycasting. It's also heat-seeking for nearby players
+local LastTime = tick()
+local IT = 0
+local HeatSeekingTarget = nil
+
+
+--
+function SnareHumanoid(hum, dir)
+	--make sure they have a torso
+	local torso = hum.Parent:FindFirstChild('Torso')
+	if not torso then return end
+
+	--set them to platformstanding
+	hum.PlatformStand = true
+
+	--tag them. We award KOs for shoving people off of odges
+	-- trolollololol
+	local tag = script.creator:Clone()
+	tag.Parent = hum
+	game.Debris:AddItem(tag, 4)
+
+	--and shove them in the direction we were travelling
+	local Shove = Instance.new('BodyVelocity')
+	Shove.Name = 'Shove'
+	Shove.velocity = dir*100
+	Shove.maxForce = Vector3.new(5000,5000,5000)
+	Shove.Parent = torso
+	game.Debris:AddItem(Shove, 0.2)
+
+	--also do same damage
+	hum:TakeDamage(35)
+
+	--create ensnare pieces
+	local parts = {}
+	for theta = 0, math.pi*4, math.pi/3 do
+		local dat = {}
+		dat.Part = MakeSnakeBit()
+		dat.Part.Parent = game.Workspace
+		dat.Offset = CFrame.new(math.sin(theta)*2.5, theta/2, math.cos(theta)*2.5)
+		parts[#parts+1] = dat
+	end
+	for i = 1, #parts-1 do
+		local dat = parts[i]
+		local datNext = parts[i+1]
+		--
+		dat.Part.Size = Vector3.new(0.6, 0.6, (dat.Offset.p-datNext.Offset.p).magnitude+0.4)
+		dat.HOffset = -(dat.Offset.p-datNext.Offset.p).magnitude/2
+	end
+
+	--now draw ensnace pieces
+	local startT = tick()
+	for t = 1, 45 do
+		local elapsed = tick()-startT
+		local trans = math.min(elapsed/1.5, 1)
+		local torsocf = torso.CFrame*CFrame.new(0, elapsed*2-4, 0)*CFrame.Angles(0, (tick()%10000)*6, 0)
+		local thisPos = (torsocf*parts[1].Offset).p
+		for i = 1, #parts-1 do
+			local this = parts[i]
+			local nextPos = (torsocf*parts[i+1].Offset).p
+			this.Part.CFrame = CFrame.new(thisPos, nextPos)*
+			                   CFrame.new(0, 0, this.HOffset)
+			this.Part.Transparency = trans
+			thisPos = nextPos
+		end
+		--
+		wait(0.03)
+	end
+
+	--end anim
+	for _, dat in pairs(parts) do
+		dat.Part:Destroy()
+	end
+
+	--stop standing
+	hum.PlatformStand = false
+end
+
+
+while true do
+	wait()
+	--update the iteration counter
+	IT = IT+1
+
+	--get the timestep
+	local t = tick()
+	local dt = (t-LastTime)
+	LastTime = t
+
+	--distance to travel
+	local distToTravel = dt*ShotSpeed
+	FlightDist = FlightDist + distToTravel
+
+	--max flight distance
+	if FlightDist &gt; FlightMaxDist then
+		shot:Destroy()
+		script:Destroy()
+		break
+	end
+
+	--first, cast a  ray to see if we will hit anything
+	local ray = Ray.new(shot.Position, shot.CFrame.lookVector*(distToTravel+2))
+	local part, at = game.Workspace:FindPartOnRay(ray)
+	if part and (not part.CanCollide
+		or part.Parent == creator.Character
+		or part.Parent.Parent == creator.Character)
+	then
+		--"tunnel" through cancollide false parts
+		local ignore = {}
+		while part and (not part.CanCollide
+			or part.Parent == creator.Character
+			or part.Parent.Parent == creator.Character)
+		do
+			ignore[#ignore+1] = part
+			part, at = game.Workspace:FindPartOnRayWithIgnoreList(ray, ignore)
+		end
+	end
+
+	--did we hit something?
+	if part then
+		local dir = shot.CFrame.lookVector
+		shot:Destroy() --no need for the shot anymore
+		--
+		local hum = (part.Parent or game):FindFirstChild('Humanoid')
+		if hum then
+			--entangle the humanoid
+			print("Hit, ", part.Name)
+			SnareHumanoid(hum, dir)
+			script:Destroy()
+			break
+		else
+			--get rid of us, nothing to do
+			script:Destroy()
+			break
+		end
+	end
+
+	--move the shot ahead
+	local newCF = shot.CFrame*CFrame.new(0,0,-distToTravel)
+
+	--resize the shot
+	shot.Size = Vector3.new(1+0.5*math.sin(7*t), 1+0.5*math.cos(5*t), 4+math.cos(9*t))
+
+	--clear heatseeking if the target went away
+	if HeatSeekingTarget and not HeatSeekingTarget.Parent then
+		HeatSeekingTarget = nil
+	end
+
+	--only update heat seeking every 5'th frame if we don't have a target, or
+	--every second or so if we do
+	if (not HeatSeekingTarget and IT%5 == 0) or IT%30 == 0 then
+		local dir = newCF.lookVector
+		local at = newCF.p
+		local function DistToPath(pos)
+			local relPos = pos - at
+			local proj = dir*(dir:Dot(relPos))
+			return (relPos - proj).magnitude
+		end
+		local NearestTorso = nil
+		local Distance = math.huge
+		for _, p in pairs(game.Players:GetChildren()) do
+			if p ~= creator then
+				local torso = p.Character:FindFirstChild('Torso')
+				if torso then
+					local mag = (shot.Position-torso.Position).magnitude
+					local dist = DistToPath(torso.Position)
+					if dist &lt; Distance and dist &lt; HeatSeekingDistance and mag &lt; 140 then
+						NearestTorso = torso
+						Distance = dist
+					end
+				end
+			end
+ 		end
+		--too expensive to search the workspace in a real game, just search players
+		--[[
+		for _, ob in pairs(game.Workspace:GetChildren()) do
+			if ob:FindFirstChild('Humanoid') and
+				ob:FindFirstChild('Torso') and
+				not game.Players:GetPlayerFromCharacter(ob)
+			then
+				local torso = ob.Torso
+				local mag = (shot.Position-torso.Position).magnitude
+				local dist = DistToPath(torso.Position)
+				if dist &lt; Distance and dist &lt; HeatSeekingDistance and mag &lt; 140 then
+					NearestTorso = torso
+					Distance = dist
+				end
+			end
+		end
+		]]
+		if NearestTorso then
+			HeatSeekingTarget = NearestTorso
+		end
+	end
+
+	--use heat-seeking
+	if HeatSeekingTarget then
+		--we need to bend towards the target at a fixed angular rate
+		local dir = newCF.lookVector
+		local dirToTarget = (HeatSeekingTarget.Position-newCF.p).unit
+		--get the angle between them
+		local theta = math.acos(dir:Dot(dirToTarget))
+		if theta &gt; 0.01 then
+			local thetaToTurn = dt*1.0
+			thetaToTurn = math.min(theta, thetaToTurn)
+			--now do a slerp
+			local newDir = Slerp(thetaToTurn/theta, dir, dirToTarget)
+			--and edit the CFrame
+			newCF = CFrame.new(newCF.p, newCF.p+newDir)
+		end
+	end
+
+	--and apply the new CFrame
+	shot.CFrame = newCF
+end
+
+script:Destroy()
+
+
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="ObjectValue" referent="RBXBF66296754AF4CC2AD3E5DCBF2CC17B3">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">creator</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Ref name="Value">null</Ref>
+						</Properties>
+					</Item>
+					<Item class="CFrameValue" referent="RBX3B81D154C3A44F8F8FFB821F21BFCC01">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">cframe</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<CoordinateFrame name="Value">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Script" referent="RBX3D661D0B7A2E4AFCBD61B2D696C1C17E">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">SlashScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{11233ADF-DBA4-43D1-BF8D-0DD0E9A7D2E7}</string>
+						<ProtectedString name="Source">--failsafe
+Delay(30, function()
+	script:Destroy()
+end)
+
+function WaitFor(name)
+	while not script:FindFirstChild(name) do script.ChildAdded:wait() end
+	return script[name].Value
+end
+
+--get vars
+local position = WaitFor('position')
+local creator = WaitFor('creator')
+
+--main effect code
+function MakeSnakeBit()
+	local part = Instance.new('Part')
+	part.FormFactor = 'Custom'
+	part.Size = Vector3.new(1,1,1)
+	--part.TopSurface = 'Weld'
+	--part.BottomSurface = 'Weld'
+	--part.RightSurface = 'Weld'
+	--part.LeftSurface = 'Weld'
+	--part.FrontSurface = 'Weld'
+	--part.BackSurface = 'Weld'
+	--part.Material = 'Wood'
+	part.CanCollide = false
+	part.Anchored = true
+	part.BrickColor = BrickColor.new(1021) --1021=`Camo`
+	local mesh = Instance.new('SpecialMesh', part)
+	mesh.MeshType = 'Sphere'
+	return part
+end
+
+--first, get the torso of the creator to use
+local torso = creator.Character:FindFirstChild('Torso')
+if not torso then
+	script:Destroy()
+	return
+end
+
+function RunSnake()
+	--
+	Spawn(function()
+	--
+	local startT = tick()
+	local LastT = startT
+	--
+	local baseR = 7+math.random()*4
+	local baseT = math.random()
+	--
+	local modT = LastT+baseT
+	--
+	local thetaDir = math.random(0,1)*2-1
+	local currentTheta = -1 - math.random()*2
+	local currentSnakeH = 3 + 3*math.sin(4*modT)
+	local currentRadius = baseR + 2.5*math.cos(5*modT)
+	--
+	local function getCurrentPoint()
+		return Vector3.new(math.sin(currentTheta)*currentRadius,
+		                   currentSnakeH,
+		                   math.cos(currentTheta)*currentRadius)
+	end
+
+	--now, we need to `drag arroud` the player in a circle creating a
+	--trail, and also making the trail dissappear after a certair duration
+	local currentTail = {}
+	local bit1 = MakeSnakeBit()
+	bit1.Parent = game.Workspace
+	bit1.Anchored = false
+	local bit1Weld = Instance.new('Weld', newBit)
+	bit1Weld.Part0 = centerPart
+	bit1Weld.Part1 = bit1
+	currentTail[1] = {
+		Part = bit1;
+		At = getCurrentPoint();
+		Timestamp = LastT;
+		Weld = bit1Weld;
+	}
+
+	--centerPart
+	local centerPart = Instance.new('Part', game.Workspace)
+	centerPart.CanCollide = false
+	centerPart.CFrame = CFrame.new(torso.Position)
+	centerPart.Size = Vector3.new(2,2,2)
+	centerPart.Transparency = 1
+	local hold = Instance.new('BodyPosition', centerPart)
+	hold.Name = 'Hold'
+	hold.maxForce = Vector3.new(1000000,1000000,10000000)
+	hold.position = torso.Position
+	hold.P = 1000000
+	hold.D = 1000
+	game.Debris:AddItem(centerPart, 2)
+
+	--now loop
+	while tick()-startT &lt; 1 do
+		local t = tick()
+		local dt = t-LastT
+		LastT = t
+		local modT = LastT+baseT
+		--------------------------
+		--rotate at 6 radians per second
+		currentTheta = currentTheta + 7*dt*thetaDir
+		currentSnakeH = 3 + 3*math.sin(4*modT)
+		currentRadius = baseR + 2.5*math.cos(5*modT)
+
+		--update the currently expanding function
+		local pos = getCurrentPoint()
+		local lastSeg = currentTail[#currentTail]
+		local distFromLast = (lastSeg.At-pos).magnitude
+		lastSeg.Weld.Part1 = nil
+		lastSeg.Part.Size = Vector3.new(0.6,0.6,distFromLast)
+		lastSeg.Weld.Part1 = lastSeg.Part
+		lastSeg.Weld.C0 = CFrame.new(lastSeg.At, pos)*CFrame.new(0,0,-distFromLast/2)
+
+		--make a new seg
+		if distFromLast &gt; 1.5 then
+			local newBit = MakeSnakeBit()
+			newBit.Parent = game.Workspace
+			newBit.Size = Vector3.new(0.6,0.6,0.6)
+			newBit.Anchored = false
+			--
+			local newBitWeld = Instance.new('Weld', newBit)
+			newBitWeld.Part0 = centerPart
+			newBitWeld.Part1 = newBit
+			newBitWeld.C0 = CFrame.new(pos)
+			--
+			game.Debris:AddItem(newBit, 2)
+			--
+			currentTail[#currentTail+1] = {
+				Part = newBit;
+				At = pos;
+				Timestamp = LastT;
+				Weld = newBitWeld;
+			}
+		end
+
+		--now fade the other segments
+		for _, seg in pairs(currentTail) do
+			local segTime = math.min(1, (t-seg.Timestamp)/0.5)
+			seg.Part.Transparency = segTime
+		end
+
+		--update centerpart
+		centerPart.Hold.position = torso.Position
+
+		---------------------------
+		wait()
+	end
+	--
+	for _, seg in pairs(currentTail) do
+		seg.Part:Destroy()
+	end
+	centerPart:Destroy()
+	--
+	end)
+end
+
+
+--the main script. Create 3 snakes
+RunSnake()
+wait(0.1)
+RunSnake()
+wait(0.1)
+RunSnake()
+wait(0.1)
+RunSnake()
+
+--now damage all the people around me
+for _, p in pairs(game.Players:GetChildren()) do
+	local torso = p.Character:FindFirstChild('Torso')
+	if torso and (torso.Position-position).magnitude &lt; 12 then
+		if p ~= creator then
+			local dir = (torso.Position-position).unit
+		------------ stolen from dagger of time to push the character
+			local force = Instance.new("BodyVelocity")
+			force.velocity = Vector3.new(0,1,0)
+			force.Parent = torso
+			torso.Velocity = dir*250
+			game.Debris:AddItem(force, 0.5)
+		------------
+			local hum = torso.Parent:FindFirstChild('Humanoid')
+			local tag = script.creator:Clone()
+			tag.Parent = hum
+			game.Debris:AddItem(tag, 2)
+			if hum then
+				hum:TakeDamage(100)
+			end
+		end
+	end
+end
+
+--and kill the script
+wait(2)
+script:Destroy()
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="ObjectValue" referent="RBX003433D93F0143AF8DD4DB0632342ACF">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">creator</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Ref name="Value">null</Ref>
+						</Properties>
+					</Item>
+					<Item class="Vector3Value" referent="RBX16B25A917CAF4BB8A619881B7F4EFE41">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">position</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Vector3 name="Value">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Script" referent="RBXD9481F816CDE42FFBBEBC88C5E08C43B">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">SnakeStaffGlobal</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{F75C5FDF-FA55-4DB1-AF0A-287E2AF4EF61}</string>
+						<ProtectedString name="Source">do
+	function CreateSignal()
+		local this = {}
+		local mListeners = {}
+		local mListenerCount = 0
+		local mWaitProxy = nil
+		local mWaitReturns = nil
+		local mHasWaiters = false
+		function this:connect(func)
+			if self ~= this then error("connect must be called with `:`, not `.`", 2) end
+			if type(func) ~= 'function' then
+				error("Argument #1 of connect must be a function, got a "..type(func), 2)
+			end
+			mListenerCount = mListenerCount + 1
+			local conn = {}
+			function conn:disconnect()
+				if mListeners[conn] then
+					mListeners[conn] = nil
+					mListenerCount = mListenerCount - 1
+				end
+			end
+			mListeners[conn] = func
+			return conn
+		end
+		function this:disconnect()
+			if self ~= this then error("disconnect must be called with `:`, not `.`", 2) end
+			for k, v in pairs(mListeners) do
+				mListeners[k] = nil
+			end
+			mListenerCount = 0
+		end
+		function this:wait()
+			if self ~= this then error("wait must be called with `:`, not `.`", 2) end
+			if not mWaitProxy then
+				mWaitProxy = Instance.new('BoolValue')
+			end
+			mHasWaiters = true
+			mWaitProxy.Changed:wait()
+			return unpack(mWaitReturns)
+		end
+		function this:fire(...)
+			if self ~= this then error("fire must be called with `:`, not `.`", 2) end
+			local arguments;
+			if mListenerCount &gt; 0 or mHasWaiters then
+				arguments = {...}
+			end
+			if mHasWaiters then
+				mHasWaiters = false
+				mWaitReturns = arguments
+				mWaitProxy.Value = not mWaitProxy.Value
+				mWaitReturns = nil
+			end
+			if mListenerCount &gt; 0 then
+				for _, handlerFunc in pairs(mListeners) do
+					Spawn(function()
+						handlerFunc(unpack(arguments))
+					end)
+				end
+			end
+		end
+		function this:fireSync(...)
+			if self ~= this then error("fire must be called with `:`, not `.`", 2) end
+			local arguments;
+			if mListenerCount &gt; 0 or mHasWaiters then
+				arguments = {...}
+			end
+			if mHasWaiters then
+				mHasWaiters = false
+				mWaitReturns = arguments
+				mWaitProxy.Value = not mWaitProxy.Value
+				mWaitReturns = nil
+			end
+			if mListenerCount &gt; 0 then
+				for _, handlerFunc in pairs(mListeners) do
+					handlerFunc(unpack(arguments))
+				end
+			end
+		end
+		return this
+	end
+	local function Create_PrivImpl(objectType)
+		if type(objectType) ~= 'string' then
+			error("Argument of Create must be a string", 2)
+		end
+		return function(dat)
+			dat = dat or {}
+			local obj = Instance.new(objectType)
+			local ctor = nil
+			for k, v in pairs(dat) do
+				if type(k) == 'string' then
+					obj[k] = v
+				elseif type(k) == 'number' then
+					if type(v) ~= 'userdata' then
+						error("Bad entry in Create body: Numeric keys must be paired with children, got a: "..type(v), 2)
+					end
+					v.Parent = obj
+				elseif type(k) == 'table' and k.__eventname then
+					if type(v) ~= 'function' then
+						error("Bad entry in Create body: Key `[Create.E\'"..k.__eventname.."\']` must have a function value\
+						       got: "..tostring(v), 2)
+					end
+					obj[k.__eventname]:connect(v)
+				elseif k == Create then
+					if type(v) ~= 'function' then
+						error("Bad entry in Create body: Key `[Create]` should be paired with a constructor function, \
+						       got: "..tostring(v), 2)
+					elseif ctor then
+						error("Bad entry in Create body: Only one constructor function is allowed", 2)
+					end
+					ctor = v
+				else
+					error("Bad entry ("..tostring(k).." =&gt; "..tostring(v)..") in Create body", 2)
+				end
+			end
+			if ctor then
+				ctor(obj)
+			end
+			return obj
+		end
+	end
+	Create = setmetatable({}, {__call = function(tb, ...) return Create_PrivImpl(...) end})
+	Create.E = function(eventName)
+		return {__eventname = eventName}
+	end
+	function class(classname)
+		local classDef = {}
+		local mPublicMethods = {}
+		local mAllMethods = {}
+		local mGetters = {__ClassName = true}
+		local mSetters = {}
+		local mEvents = {}
+		local function fmtKey(key)
+			if type(key) == 'string' then
+				return '.'..key
+			else
+				return '['..tostring(key)..']'
+			end
+		end
+		return function(implementer)
+			if type(implementer) ~= 'function' then
+				error("Only functions ay be used as a class body definition, got a "..type(implementer), 2)
+			end
+			local setProxy = setmetatable({}, {
+				__index = function(tb, key)
+					return setmetatable({}, {
+						__call = function(tb, ...)
+							if #{...} &gt; 0 then
+								error('Passing arguments to classdef.set'..fmtKey(key)..'() has no meaning, \
+								       see documentation for correct usage.', 2)
+							end
+							if mSetters[key] then
+								error('Redefinition of setter for '..tostring(key), 2)
+							end
+							mSetters[key] = true
+						end;
+					})
+				end;
+				__newindex = function(tb, key, val)
+					if type(key) == 'string' and type(val) == 'function' then
+						if mSetters[key] then
+							error('Redefinition of setter for '..tostring(key), 2)
+						end
+						mSetters[key] = val
+					else
+						error('Can\'t set classdef.set'..fmtKey(key)..' = '..tostring(val), 2)
+					end
+				end;
+			})
+			local getProxy = setmetatable({}, {
+				__index = function(tb, key)
+					return setmetatable({}, {
+						__call = function(tb, ...)
+							if #{...} &gt; 0 then
+								error('Passing arguments to classdef.get'..fmtKey(key)..'() has no meaning, \
+								       see documentation for correct usage.', 2)
+							end
+							if mGetters[key] then
+								error('Redefinition of getter for '..tostring(key), 2)
+							end
+							mGetters[key] = true
+						end;
+					})
+				end;
+				__newindex = function(tb, key, val)
+					if type(key) == 'string' and type(val) == 'function' then
+						if mGetters[key] then
+							error('Redefinition of getter for '..tostring(key), 2)
+						end
+						mGetters[key] = val
+					else
+						error('Can\'t set classdef.get'..fmtKey(key)..' = '..tostring(val), 2)
+					end
+				end;
+			})
+			local getsetProxy = setmetatable({}, {
+				__index = function(tb, key)
+					return setmetatable({}, {
+						__call = function(tb, ...)
+							if #{...} &gt; 0 then
+								error('Passing arguments to classdef.getset'..fmtKey(key)..'() has no meaning, \
+								       see documentation for correct usage.', 2)
+							end
+							if mSetters[key] then
+								error('Redefinition of setter for '..tostring(key), 2)
+							end
+							if mGetters[key] then
+								error('Redefinition of getter for '..tostring(key), 2)
+							end
+							mSetters[key] = true
+							mGetters[key] = true
+						end;
+					})
+				end;
+				__newindex = function(tb, key, val)
+					error('Can\'t set classdef.set'..fmtKey(key)..' = '..tostring(val), 2)
+				end;
+			})
+			local eventProxy = setmetatable({}, {
+				__index = function(tb, key)
+					return setmetatable({}, {
+						__call = function(tb, ...)
+							if #{...} &gt; 0 then
+								error("Passing arguments to clasdef.event"..fmtKey(key).."() has no meaning, \
+								       see documentation for correct usage.", 2)
+							end
+							if type(key) ~= 'string' then
+								error("Can't create event `"..tostring(key).."` event names must be strings", 2)
+							end
+							if mEvents[key] then
+								error("Redefinition of event `"..key.."`", 2)
+							end
+							mEvents[key] = true
+							mGetters[key] = true
+						end;
+						__index = function()
+							error("classdef.event"..fmtKey(key).." can only be called, not indexed", 2)
+						end;
+						__newindex = function()
+							error("classdef.event"..fmtKey(key).." can only be called, not assigned to", 2)
+						end;
+					})
+				end;
+				__newindex = function(tb, key, val)
+					error("Can't set classdef.event"..fmtKey(key).." = "..tostring(val), 2)
+				end;
+			})
+			local staticProxy = setmetatable({}, {
+				__index = classDef,
+				__newindex = classDef,
+			})
+			local privateProxy = setmetatable({}, {
+				__newindex = function(tb, key, val)
+					if type(key) == 'string' and type(val) == 'function' then
+						mAllMethods[key] = val
+					else
+						error("Can't set classdef.private"..fmtKey(key).." = "..tostring(val), 2)
+					end
+				end;
+				__index = function(tb, key)
+					error("Can't get classdef.private"..fmtKey(key), 2)
+				end;
+			})
+			local mainImplProxy = {}
+			mainImplProxy.get = getProxy
+			mainImplProxy.set = setProxy
+			mainImplProxy.getset = getsetProxy
+			mainImplProxy.event = eventProxy
+			mainImplProxy.private = privateProxy
+			mainImplProxy.static = staticProxy
+			setmetatable(mainImplProxy, {
+				__index = function(tb, key)
+					error('Can\'t get classdef'..fmtKey(key), 2)
+				end;
+				__newindex = function(tb, key, val)
+					if type(key) == 'string' and type(val) == 'function' then
+						mPublicMethods[key] = val
+						mAllMethods[key] = val
+						mGetters[key] = true
+					else
+						error('Can\'t set classdef'..fmtKey(key)..' = '..tostring(val), 2)
+					end
+				end;
+			})
+			implementer(mainImplProxy)
+			for k, f in pairs(mAllMethods) do
+				if k ~= 'Create' then
+					mAllMethods[k] = function(self, ...)
+						if type(self) ~= 'table' or self.__ClassName ~= classname then
+							error("Methods must be called with a ':', not a '.'")
+						end
+						return f(rawget(self, '__internal'), ...)
+					end
+					if mPublicMethods[k] then
+						mPublicMethods[k] = mAllMethods[k]
+					end
+				end
+			end
+			for k, f in pairs(mGetters) do
+				if type(f) == 'function' then
+					mGetters[k] = function(self, ...)
+						return f(rawget(self, '__internal'), ...)
+					end
+				end
+			end
+			for k, f in pairs(mSetters) do
+				if type(f) == 'function' then
+					mSetters[k] = function(self, ...)
+						return f(rawget(self, '__internal'), ...)
+					end
+				end
+			end
+			local internalMT = {
+				__index = mAllMethods;
+			}
+			local rawget = rawget
+			local externalMT = {
+				__index = function(obj, key)
+					local method = mPublicMethods[key]
+					if method then
+						return method
+					elseif mGetters[key] == true then
+						return rawget(obj, '__internal')[key]
+					elseif mGetters[key] then
+						return mGetters[key](obj)
+					else
+						error("Can't get "..classname.."::"..key, 2)
+					end
+				end;
+				__newindex = function(obj, key, val)
+					if mSetters[key] == true then
+						rawget(obj, '__internal')[key] = val
+					elseif mSetters[key] then
+						mSetters[key](obj, val)
+					else
+						error("Can't set "..classname.."::"..key, 2)
+					end
+				end;
+			}
+			local constructor = function(...)
+				local internalThis = {__ClassName = classname}
+				internalThis.__internal = internalThis
+				setmetatable(internalThis, internalMT)
+				local externalThis = {__internal = internalThis}
+				setmetatable(externalThis, externalMT)
+				for eventName, _ in pairs(mEvents) do
+					internalThis[eventName] = CreateSignal()
+				end
+				if mAllMethods.Create then
+					mAllMethods.Create(internalThis, ...)
+				end
+				return externalThis
+			end
+			classDef.Create = constructor
+			getfenv(0)['Create'..classname] = constructor
+			getfenv(0)[classname] = classDef
+		end
+	end
+
+
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+
+	--===============================================================================
+	-- A tree object for quick verification of the object hierarchy that a game or
+	-- gear may need to be present. The tree returns a "filter" function which can
+	-- be called on an instance to flatten it into a tag map, so that in the future
+	-- the objects in the hierarchy can safely be accessed through the tag map
+	-- without need for extra checks of existance. If the hierarchy is not valid
+	-- then nothing is returned from the call to the filter.
+	--
+	-- Below some common examples of how to construct a tree are given, and the
+	-- Gearlib includes the most common examples which veryify various parts of
+	-- the character depending on the needs of the gear.
+	--
+	--===============================================================================
+	function tree(name)
+		if type(name) == 'string' then
+			return function(dat)
+				return function(instance, ctx)
+					local child = instance:FindFirstChild(name)
+					if not child then return false end
+					if dat.IsA and not child:IsA(dat.IsA) then return false end
+					if dat.Tag then
+						ctx[dat.Tag] = child
+					end
+					for i = 1, #dat do
+						if not dat[i](child, ctx) then return false end
+					end
+					return true
+				end
+			end
+		else
+			return function(dat)
+				return function(instance)
+					local ctx = {}
+					if dat.IsA and not instance:IsA(dat.IsA) then return nil end
+					if dat.Tag then ctx[dat.Tag] = instance end
+					for i = 1, #dat do
+						if not dat[i](instance, ctx) then return nil end
+					end
+					return ctx
+				end
+			end
+		end
+	end
+
+	--===============================================================================
+	-- A tree which verifys all parts of a character including legs.
+	-- Tags Declared:
+	--  Character: the root character model
+	--  LeftArm, RightArm, LeftLeg, RightLeg, Head: The appendages
+	--  Humanoid: The humanoid
+	--
+	local CharacterFullTree = tree{
+		IsA = 'Model';
+		Tag = 'Character';
+		--
+		tree'Left Arm'{
+			IsA = 'BasePart';
+			Tag = 'LeftArm';
+		};
+		tree'Right Arm'{
+			IsA = 'BasePart';
+			Tag = 'RightArm';
+		};
+		tree'Left Arm'{
+			IsA = 'BasePart';
+			Tag = 'LeftArm';
+		};
+		tree'Right Arm'{
+			IsA = 'BasePart';
+			Tag = 'RightArm';
+		};
+		tree'Head'{
+			IsA = 'BasePart';
+			Tag = 'Head';
+		};
+		tree'Humanoid'{
+			IsA = 'Humanoid';
+			Tag = 'Humanoid';
+		};
+	}
+
+	--===============================================================================
+	-- A tree with just the parts for a basic gear.
+	-- Tags Declared:
+	--  Character: The root character object
+	--  RightArm
+	--  Torso
+	--  Humanoid
+	local CharacterRightArmTree = tree{
+		IsA = 'Model';
+		Tag = 'Character';
+		--
+		tree'Right Arm'{
+			IsA = 'BasePart';
+			Tag = 'RightArm';
+		};
+		tree'Torso'{
+			IsA = 'BasePart';
+			Tag = 'Torso';
+		};
+		tree'Humanoid'{
+			IsA = 'BasePart';
+			Tag = 'Humanoid';
+		};
+	}
+
+
+	--===============================================================================
+	-- A class for maintaining a list of assets that the gear uses. The assets can
+	-- be added as a list or one by one, and then requested as for various purposes,
+	-- such as as individual sounds or meshes, or more specifically such as for a set
+	-- of animations on a given humanoid.
+	class'AssetProvider'(function(def)
+		function def:Create()
+			self.Model = script.Parent:FindFirstChild('assets')
+			if not self.Model then
+				self.Model = Create'Model'{
+					Name = "assets";
+					Parent = script.Parent;
+				}
+			end
+		end
+
+
+
+		--functionality to register various types of asset
+		function def:RegisterMesh(tag, id, scale)
+			if not self.Model:FindFirstChild(tag) then
+				local mesh = Create'SpecialMesh'{
+					Name = tag;
+					MeshId = self:ToAssetId(id);
+					Parent = self.Model;
+				}
+				if scale then
+					mesh.Scale = scale
+				end
+			end
+		end
+
+		function def:RegisterAnim(tag, id, speed, fadeTime)
+			if not self.Model:FindFirstChild(tag) then
+				local obj = Create'Animation'{
+					Name = tag;
+					AnimationId = self:ToAssetId(id);
+					Parent = self.Model;
+				}
+				if speed then
+					Create'NumberValue'{
+						Name = 'speed';
+						Value = speed;
+						Parent = obj;
+					}
+				end
+				if fadeTime then
+					Create'NumberValue'{
+						Name = 'fadeTime';
+						Value = fadeTime;
+						Parent = obj;
+					}
+				end
+			end
+		end
+
+		function def:RegisterSound(tag, id, volume, pitch)
+			if not self.Model:FindFirstChild(tag) then
+				local sound = Create'Sound'{
+					Name = tag;
+					SoundId = self:ToAssetId(id);
+					Parent = self.Model;
+				}
+				if volume then
+					sound.Volume = volume
+				end
+				if pitch then
+					sound.Pitch = pitch
+				end
+			end
+		end
+
+
+
+		--functionality to create instances of various asset types
+		function def:CreateSound(tag, volume, pitch)
+			if self.Model:FindFirstChild(tag) then
+				local obj = self.Model:FindFirstChild(tag):Clone()
+				if volume then
+					obj.Volume = volume
+				end
+				if pitch then
+					obj.Pitch = pitch
+				end
+				return obj
+			end
+		end
+
+		function def:CreateMesh(tag, scale)
+			if self.Model:FindFirstChild(tag) then
+				local obj = self.Model:FindFirstChild(tag):Clone()
+				if scale then
+					obj.Scale = scale
+				end
+				return obj
+			end
+		end
+
+		function def:CreateAnimator(humanoid)
+			local anims = {}
+			for _, anim in pairs(self.Model:GetChildren()) do
+				if anim:IsA('Animation') then
+					local track = humanoid:LoadAnimation(anim)
+					--
+					local proxy = {}
+					local defaultSpeed, defaultFade;
+					if anim:FindFirstChild('speed') then
+						defaultSpeed = anim:FindFirstChild('speed').Value
+					end
+					if anim:FindFirstChild('fadeTime') then
+						defaultFade = anim:FindFirstChild('fadeTime').Value
+					end
+					function proxy:Play(speed, fadeTime)
+						track:Play(fadeTime or defaultFade or 0.1, 1, speed or defaultSpeed or 1)
+					end
+					function proxy:Stop(fadeTime)
+						track:Stop(fadeTime or defaultFade or 0.1)
+					end
+					proxy.KeyframeReached = track.KeyframeReached
+					--
+					anims[anim.Name] = proxy
+				end
+			end
+			--
+			local animator = setmetatable({}, {__index=anims})
+			function animator:StopAll(fadeTime)
+				for _, anim in pairs(anims) do
+					anim:Stop(fadeTime)
+				end
+			end
+			return animator
+		end
+
+		function def.private:ToAssetId(id)
+			if type(id) == 'string' then
+				return id
+			elseif type(id) == 'number' then
+				return 'http://www.roblox.com/asset/?id='..id
+			end
+		end
+	end)
+
+
+	function CreateMutexFunction(task)
+		local running = false
+		return function(...)
+			if not running then
+				return task(...)
+			end
+		end
+	end
+
+
+	function CreateGlobalVarList()
+		local this = {}
+		local waitingOn = {}
+		--
+		local data = script.Parent:FindFirstChild('data')
+		if not data then
+			if script:IsA('LocalScript') then
+				data = Create'Model'{
+					Name = 'data';
+					Parent = script.Parent;
+				}
+			else
+				repeat wait() until script.Parent:FindFirstChild('data')
+				data = script.Parent:FindFirstChild('data')
+			end
+		end
+		--
+		function this:Create(tag, type, default)
+			if not data:FindFirstChild(tag) then
+				if script:IsA('LocalScript') then
+					Create(type..'Value'){
+						Name = tag;
+						Parent = data;
+						Value = default;
+					}
+				else
+					waitingOn[tag] = true
+					repeat wait() until data:FindFirstChild(tag)
+					waitingOn[tag] = nil
+				end
+			end
+		end
+		--
+		setmetatable(this, {
+			__index = function(tb, inx)
+				if inx == 'Create' then
+					return this.Create
+				else
+					local val = data:FindFirstChild(inx)
+					if val then
+						return val.Value
+					elseif waitingOn[inx] then
+						repeat wait() until not waitingOn[inx]
+						return data[inx].Value
+					else
+						error('Can\'t set global `'..inx..'`, does not exist.')
+					end
+				end
+			end;
+			__newindex = function(tb, inx, val)
+				local obj = data:FindFirstChild(inx)
+				if obj then
+					obj.Value = val
+				elseif waitingOn[inx] then
+					repeat wait() until not waitingOn[inx]
+					data:FindFirstChild(inx).Value = val
+				else
+					error('Can\'t get global `'..inx..'`, does not exist.')
+				end
+			end;
+		})
+		return this
+	end
+
+
+	class'Tool'(function(def)
+		function def:Create()
+			self.Tool = script.Parent
+			local tool = script.Parent
+			self.Handle = tool:FindFirstChild('Handle')
+			if not self.Handle then
+				if script:IsA('LocalScript') then
+					repeat wait() until tool:FindFirstChild('Handle')
+					self.Handle = tool.Handle
+				else
+					error("Tool has no `Handle`, did you forget to add one?")
+				end
+			end
+
+			--see which side we're on, localscript or normal script:
+			local IsLocal = script:IsA('LocalScript')
+
+			--set up the damage bin in the tool, so that damage can be inflicted
+			--from a localscript. The global script side has to create a "damagebin"
+			--in the tool, and the local side of the tool then puts notifications
+			--into that madel.
+			if IsLocal then
+				Spawn(function()
+					while not tool:FindFirstChild('damagebin') do
+						tool.ChildAdded:wait()
+					end
+					self.DamageBin = tool:FindFirstChild('damagebin')
+				end)
+			else
+				self.DamageBin = tool:FindFirstChild('damagebin')
+				if not self.DamageBin then
+					self.DamageBin = Create'Model'{
+						Name = 'damagebin';
+						Parent = tool;
+					}
+				end
+				--and listen on the damage bin
+				self.DamageBin.ChildAdded:connect(function(ch)
+					local dmg = tonumber(ch.Name)
+					--tag the humanoid
+					local creator = Create'ObjectValue'{
+						Name = 'creator';
+						Value = self.Player;
+						Parent = ch.Value;
+					}
+					wait()
+					ch.Value:TakeDamage(dmg)
+					game.Debris:AddItem(ch, 2)
+					game.Debris:AddItem(creator, 2)
+				end)
+			end
+
+			--create the asset manager
+			self.Asset = CreateAssetProvider()
+
+			--create the global var list
+			self.Var = CreateGlobalVarList()
+
+			--
+			tool.Equipped:connect(function(mouse)
+				--main properties set on selection
+				self.Mouse = mouse
+				self.MouseDown = false
+				self.Selected = true
+
+				--set up convinience properties
+				self.Character = tool.Parent
+				self.Player = game.Players:GetPlayerFromCharacter(self.Character)
+				self.Head = self.Character:FindFirstChild('Head')
+				self.Torso = self.Character:FindFirstChild('Torso')
+				self.Humanoid = self.Character:FindFirstChild('Humanoid')
+				self.LeftLeg = self.Character:FindFirstChild('Left Leg')
+				self.RightLeg = self.Character:FindFirstChild('Right Leg')
+				self.LeftArm = self.Character:FindFirstChild('Left Arm')
+				self.RightArm = self.Character:FindFirstChild('Right Arm')
+
+				--create main the animator for this instance. It won't be usefull from the
+				--global side right now, but it may be in the future, and it is an abstraction
+				--so it is possible to make it work even from the global side.
+				self.Animator = self.Asset:CreateAnimator(self.Humanoid)
+
+				--if local, set up the mouse events
+				if IsLocal then
+					mouse.Button1Down:connect(function()
+						self.MouseDown = true
+						self.Button1Down:fire()
+					end)
+					mouse.Button1Up:connect(function()
+						self.MouseDown = false
+						self.Button1Up:fire()
+					end)
+					mouse.KeyDown:connect(function(key)
+						self.KeyDown:fire(key)
+					end)
+					mouse.KeyUp:connect(function(key)
+						self.KeyUp:fire(key)
+					end)
+				end
+
+				--finally, pass off to the user
+				Spawn(function()
+					self.Equipped:fire()
+				end)
+			end)
+			tool.Unequipped:connect(function()
+				-- FIRST give the tool a chance to do stuff with these properties
+				-- before we kill them. That is, the unequipped event fires before
+				-- the thing is really unequipped.
+				self.Unequipped:fireSync()
+
+				--unset convinience properties
+				self.Selected = false
+				self.MouseDown = false
+				self.Mouse = nil
+				self.Character = nil
+				--
+				self.Head = nil
+				self.Torso = nil
+				self.Humanoid = nil
+				self.LeftArm = nil
+				self.RightArm = nil
+				self.LeftLeg = nil
+				self.RightLeg = nil
+
+				--kill the old animator. We may be able to reuse it some of the time
+				--but the most common use cases are ones where it's not possible to save, so
+				--it's not worth the extra code comlexity to figure out when we can save it.
+				self.Animator = nil
+			end)
+		end
+
+		function def:DamageHumanoid(humanoid, damage)
+			if self.DamageBin then
+				(Create'ObjectValue'{
+					Name = tostring(damage);
+					Value = humanoid;
+				}).Parent = self.DamageBin
+			else
+				Spawn(function()
+					repeat wait() until self.DamageBin
+					Create'ObjectValue'{
+						Name = tostring(damage);
+						Value = humanoid;
+					}.Parent = self.DamageBin
+				end)
+			end
+		end
+
+		--============================
+		def.get.Tool()
+		def.get.Player()
+		def.get.Mouse()
+		def.get.MouseDown()
+		def.get.Selected()
+		function def.get:MouseTarget()
+			if self.Mouse then
+				return self.Mouse.Target
+			end
+		end
+		function def.get:MouseHit()
+			if self.Mouse then
+				return self.Mouse.Hit
+			end
+		end
+		function def.get:MouseIcon()
+			if self.Mouse then
+				return self.Mouse.Icon
+			end
+		end
+		function def.set:MouseIcon(icon)
+			if not self.Mouse then
+				error("Error, Can't set MouseIcon from a global script!")
+			end
+			self.Mouse.Icon = icon
+		end
+		--
+		def.get.Character()
+		def.get.Humanoid()
+		def.get.LeftArm()
+		def.get.RightArm()
+		def.get.LeftLeg()
+		def.get.RightLeg()
+		def.get.Head()
+		def.get.Torso()
+		def.get.Handle()
+		--
+		def.get.Asset()
+		def.get.Animator()
+		def.get.Var()
+
+		--=============================
+		def.event.Equipped()
+		def.event.Unequipped()
+		--
+		def.event.Button1Down()
+		def.event.Button1Up()
+		def.event.KeyDown()
+		def.event.KeyUp()
+	end)
+
+	local Tool = CreateTool()
+
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+end
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Camera" referent="RBX6B05BE894DE343DB900CE7030B1CB34B">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>0.675471067</X>
+							<Y>3.14007473</Y>
+							<Z>5.0048461</Z>
+							<R00>0.999902606</R00>
+							<R01>-0.000876689563</R01>
+							<R02>0.0139346113</R02>
+							<R10>-0</R10>
+							<R11>0.998026788</R11>
+							<R12>0.0627903789</R12>
+							<R20>-0.0139621636</R20>
+							<R21>-0.062784262</R21>
+							<R22>0.997929454</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>0.600000381</X>
+							<Y>2.79999828</Y>
+							<Z>-0.399999619</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

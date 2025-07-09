@@ -1,0 +1,1051 @@
+<Item class="Model" referent="RBX7F980F06DB1A49FBBAB453A94A112E42">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">86494914</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBX7EAD9D819CC64EE3AD8F22ED46151FDD">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>-2.0999999</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>1</R10>
+						<R11>0</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">UltraKatana</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=86290987</url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>-5.96046448e-08</X>
+							<Y>0.900000036</Y>
+							<Z>0</Z>
+							<R00>-1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>0</R20>
+							<R21>1</R21>
+							<R22>0</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Script" referent="RBX5A141655341549F7AA38216264145A87">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">SwordScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{0E1884A9-400D-4FE8-9C66-C712DDB713D9}</string>
+						<ProtectedString name="Source">-------- Ultra Katana ---------
+
+r = game:service("RunService")
+
+
+local damage = 4
+
+
+local slash_damage = 5
+local lunge_damage = 6
+
+
+local Tool = script.Parent
+local sword = Tool.Handle
+
+
+local leftSword
+
+local leftSwordWeld
+local leftSwordConnection
+
+local bodyGyro
+
+local vCharacter
+local vTorso
+local vHumanoid
+
+
+local vJumpForce
+
+
+local attackList = nil
+
+
+Tool.Enabled = true
+
+
+
+local SlashSound = Instance.new("Sound")
+SlashSound.SoundId = "rbxasset://sounds\\swordslash.wav"
+SlashSound.Parent = sword
+SlashSound.Volume = .7
+
+local LungeSound = Instance.new("Sound")
+LungeSound.SoundId = "rbxasset://sounds\\swordlunge.wav"
+LungeSound.Parent = sword
+LungeSound.Volume = .6
+
+local UnsheathSound = Instance.new("Sound")
+UnsheathSound.SoundId = "rbxasset://sounds\\unsheath.wav"
+UnsheathSound.Parent = sword
+UnsheathSound.Volume = 1
+
+local lastHitTarget = nil
+
+function blow(hit)
+	if not hit.Parent then return end
+	local humanoid = hit.Parent:findFirstChild("Humanoid")
+	local vCharacter = Tool.Parent
+	local vPlayer = game.Players:playerFromCharacter(vCharacter)
+	local hum = vCharacter:findFirstChild("Humanoid") -- non-nil if tool held by a character
+	if humanoid~=nil and humanoid ~= hum and hum ~= nil then
+		-- final check, make sure sword is in-hand
+		--[[for index, child in pairs(vTorso:GetChildren()) do
+		    if child.Name == 'BodyVelocity' then
+				child.Parent = nil
+				end
+		end]]
+		--if vJumpForce then vJumpForce.maxForce = Vector3.new(0, 0, 0) end
+
+		local right_arm = vCharacter:FindFirstChild("Right Arm")
+		if (right_arm ~= nil) then
+			local joint = right_arm:FindFirstChild("RightGrip")
+			if (joint ~= nil and (joint.Part0 == sword or joint.Part1 == sword)) then
+				tagHumanoid(humanoid, vPlayer)
+				humanoid:TakeDamage(damage)
+				lastHitTarget = humanoid
+				--if humanoid and humanoid.Health &gt; 0 then
+				--	lunge()
+				--end
+				wait(1)
+				untagHumanoid(humanoid)
+			end
+		end
+
+
+	end
+
+end
+
+
+function tagHumanoid(humanoid, player)
+	local creator_tag = Instance.new("ObjectValue")
+	creator_tag.Value = player
+	creator_tag.Name = "creator"
+	creator_tag.Parent = humanoid
+end
+
+function untagHumanoid(humanoid)
+	if humanoid ~= nil then
+		local tag = humanoid:findFirstChild("creator")
+		if tag ~= nil then
+			tag.Parent = nil
+		end
+	end
+end
+
+
+function attack()
+	damage = slash_damage
+	SlashSound:play()
+	local anim = Instance.new("StringValue")
+	anim.Name = "toolanim"
+	anim.Value = "Slash"
+	anim.Parent = Tool
+end
+
+function slamdown()
+
+
+	bothSwordsDown()
+	wait(1.5)
+	swordUp()
+
+
+end
+
+function lunge()
+	if Tool:FindFirstChild('Lunging').Value then return end
+	Tool:FindFirstChild('Lunging').Value = true
+	attackList = {}
+	local lungeDir
+
+	local vPlayer = game.Players:GetPlayerFromCharacter(vCharacter)
+	local players = game.Players:GetChildren()
+	local maxDistance = 48
+	--local neareastDist = maxDistance
+	--local nearestCharacter = nil
+	if #players &gt; 1 then
+		for i = 1, #players do
+			local currPlayer = players[i]
+			if currPlayer ~= vPlayer then
+				local tempChar = players[i].Character
+				if tempChar then
+					local tempTorso = tempChar:FindFirstChild("Torso")
+					if tempTorso then
+						local distance = (tempTorso.Position - vTorso.Position).magnitude
+						--print('distance is' .. distance)
+						if distance &lt; maxDistance then --and distance &lt; nearestDist then
+							if distance &gt; 10 then
+								table.insert(attackList, tempChar)
+
+								--nearestDist = distance
+								--neareastCharacter = tempChar
+								--print('nearestPlayer is' .. neareastCharacter.Name)
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+
+	damage = lunge_damage
+
+	LungeSound:play()
+
+	local anim = Instance.new("StringValue")
+	anim.Name = "toolanim"
+	anim.Value = "Lunge"
+	anim.Parent = Tool
+
+	if vJumpForce == nil then
+		vJumpForce = Instance.new("BodyVelocity")
+		vJumpForce.Parent = Tool.Parent.Torso
+
+		vJumpForce.Name = "JumpForce"
+	end
+
+	print(#attackList .. 'enemies in the list')
+	if attackList and #attackList &gt; 0 then
+
+		for _, v in ipairs(attackList) do
+			local nextVictim = v
+			local nextVictimTorso = nextVictim:FindFirstChild("Torso")
+			-- get the direction to the next target and normalize it to a velocity of 80
+			--print("lunging from " .. vTorso.Position .. " to " .. nextTorsoPosition)
+			lungeDir = (nextVictimTorso.Position - vTorso.Position).unit * 80
+			vTorso.CFrame = CFrame.new(vTorso.CFrame.p, nextVictimTorso.Position)
+			vJumpForce.velocity = lungeDir --Vector3.new(0,10,0) --Tool.Parent.Torso.CFrame.lookVector * 80
+			-- Let it apply a large amount of force
+			vJumpForce.maxForce = Vector3.new(1000000, 1000000, 1000000)
+			wait(0.6)
+			if vJumpForce ~= nil then
+				vJumpForce.maxForce = Vector3.new()
+			end
+			wait(0.25)
+		end
+
+	else
+		lungeDir = vTorso.CFrame.lookVector * 80
+		vJumpForce.velocity = lungeDir --Vector3.new(0,10,0) --Tool.Parent.Torso.CFrame.lookVector * 80
+		-- Let it apply a large amount of force
+		vJumpForce.maxForce = Vector3.new(1000000, 1000000, 1000000)
+		wait(1.0)
+		if vJumpForce ~= nil then
+			vJumpForce.maxForce = Vector3.new()
+		end
+		wait(.2)
+	end
+
+	wait(.2)
+	swordUp()
+
+
+	damage = slash_damage
+	Tool:FindFirstChild('Lunging').Value = false
+end
+
+function swordUp()
+	Tool.GripForward = Vector3.new(-1,0,0)
+	Tool.GripRight = Vector3.new(0,1,0)
+	Tool.GripUp = Vector3.new(0,0,1)
+	if leftSwordWeld then
+		--leftSwordWeld.C1 = leftSwordWeld.C1 * CFrame.Angles(180, 0, 0)
+		-- CFrame for pointing the sword down
+		leftSwordWeld.C1 = CFrame.new(0, 0, -2.1, 0, 0, 1, 1, 0, 0, 0, 1, 0)
+	end
+end
+
+function bothSwordsDown()
+	Tool.GripForward = Vector3.new(-1,0,0)
+	Tool.GripRight = Vector3.new(0,1,0)
+	Tool.GripUp = Vector3.new(0,0,-1)
+	if leftSwordWeld then
+		--leftSwordWeld.C1 = leftSwordWeld.C1 * CFrame.Angles(180, 0, 0)
+		-- CFrame for pointing the sword down
+		leftSwordWeld.C1 = CFrame.new(0, 0, -2.1, 0, 0, 1, -1, 0, 0, 0, -1, 0)
+	end
+end
+
+function swordOut()
+	Tool.GripForward = Vector3.new(0,0,1)
+	Tool.GripRight = Vector3.new(0,-1,0)
+	Tool.GripUp = Vector3.new(-1,0,0)
+end
+
+function swordAcross()
+	-- parry
+end
+
+
+function findNearestPlayer()
+	local vPlayer = game.Players:GetPlayerFromCharacter(vCharacter)
+	local players = game.Players:GetChildren()
+	local maxDistance = 100
+	local neareastDist = maxDistance
+	local nearestCharacter = nil
+	if #players &gt; 1 then
+		for i = 1, #players do
+			local currPlayer = players[i]
+			if currPlayer ~= vPlayer then
+				local tempChar = players[i].Character
+				if tempChar then
+					local tempTorso = tempChar:FindFirstChild("Torso")
+					if tempTorso then
+						local distance = (tempTorso.Position - vTorso.Position).magnitude
+						print('distance is' .. distance)
+						if distance &lt; maxDistance then --and distance &lt; nearestDist then
+
+							nearestDist = distance
+							neareastCharacter = tempChar
+							print('nearestPlayer is' .. neareastCharacter.Name)
+							return Vector3.new(tempTorso.Position.x, tempTorso.Position.y, tempTorso.Position.z)
+						end
+					end
+				end
+			end
+		end
+	end
+	return nearestCharacter
+end
+
+Tool.Enabled = true
+local last_attack = 0
+function onActivated()
+	--[[
+	if not Tool.Enabled then
+		return
+	end
+
+	Tool.Enabled = false
+	]]
+	local character = Tool.Parent;
+	local humanoid = character.Humanoid
+	if humanoid == nil then
+		print("Humanoid not found")
+		return
+	end
+
+	-- Pull out the swords on first use
+	if Tool:FindFirstChild('JustEquipped').Value then
+		wait(0.3)
+
+
+		--wait(0.1)
+		local rightHandWeld = vCharacter:FindFirstChild('Right Arm'):FindFirstChild('RightGrip')
+		-- These numbers grip to the hand
+		rightHandWeld.C0 = CFrame.new(0, -1, 0, 1, 0, -0, 0, 0, 1, 0, -1, -0)
+		rightHandWeld.C1 = CFrame.new(0, 0, -2.1, 0, 0, 1, 1, 0, 0, 0, 1, 0)
+		rightHandWeld.Part0 = Tool.Parent:FindFirstChild("Right Arm")
+		rightHandWeld.Part1 = sword
+		--wait(0.1)
+		if not Tool.Parent:FindFirstChild("Left Arm"):FindFirstChild("LeftGrip") then
+			-- These numbers grip to the hand
+			leftSwordWeld.C0 = CFrame.new(0, -1, 0, 1, 0, -0, 0, 0, 1, 0, -1, -0)
+			leftSwordWeld.C1 = CFrame.new(0, 0, -2.1, 0, 0, 1, 1, 0, 0, 0, 1, 0)
+			leftSwordWeld.Name = 'LeftGrip'
+			leftSwordWeld.Parent = Tool.Parent:FindFirstChild("Left Arm")
+			leftSwordWeld.Part0 = Tool.Parent:FindFirstChild("Left Arm")
+			leftSwordWeld.Part1 = leftSword
+		end
+
+		return
+	end
+
+	print('Attacking')
+	t = r.Stepped:wait()
+
+	if (t - last_attack &lt; 0.2) then
+		lastHitTarget = nil
+		lunge()
+	else
+		attack()
+	end
+
+	last_attack = t
+
+	--wait(.5)
+
+	--Tool.Enabled = true
+end
+
+
+function onEquipped()
+	--print('onEquip Called')
+	UnsheathSound:play()
+	lunging = false
+	vCharacter = Tool.Parent
+	vTorso = vCharacter:FindFirstChild("Torso")
+	bodyGyro = vTorso:FindFirstChild('BodyGyro')
+	if not bodyGyro then
+		bodyGyro = Instance.new('BodyGyro', vTorso)
+		bodyGyro.maxTorque = Vector3.new(50000000, 0, 50000000)
+	end
+	vHumanoid = vCharacter:FindFirstChild("Humanoid")
+	local vLeftArm = vCharacter:FindFirstChild("Left Arm")
+	if vTorso and vLeftArm and vCharacter:FindFirstChild("LeftSword") == nil and leftSwordWeld == nil then
+		leftSword = sword:Clone()
+		leftSword.Name = "LeftSword"
+		leftSword.Parent = vCharacter
+		leftSwordWeld = Instance.new("Weld")
+		leftSwordWeld.Part0 = vTorso
+		leftSwordWeld.Part1 = leftSword
+		-- This CFrame grips the sword to the back at a 45 degree angle
+		leftSwordWeld.C0 = CFrame.new(-0.4, 0.45, 0.65) * CFrame.Angles(math.pi / 2, math.pi / 6, math.pi)
+		leftSwordWeld.Parent = vTorso
+		leftSwordWeld.Name = "LeftGrip"
+
+		leftSwordConnection = leftSword.Touched:connect(blow)
+	end
+	--wait(0.1)
+	-- Set the Right Weapon to weld on the back
+	local rightWeld = vCharacter:FindFirstChild('Right Arm'):FindFirstChild('RightGrip')
+	rightWeld.C1 = CFrame.new()
+	rightWeld.Part0 = vTorso
+	-- This CFrame grips the sword to the back at a 45 degree angle
+	rightWeld.C0 = CFrame.new(0.4, 0.45, 0.65) * CFrame.Angles(math.pi / 2, -math.pi / 6, 0)
+	rightWeld.Part1 = sword
+
+end
+
+function onUnequipped()
+	-- RightGrip is remove automagically, but we have to remember to clean
+	-- the left sword and grip that we added
+	if leftSword then leftSword:Remove() leftSword = nil end
+	if leftSwordWeld then leftSwordWeld:Remove() leftSwordWeld = nil end
+	if vJumpForce then vJumpForce:Remove() vJumpForce = nil end
+	bodyGyro = vTorso:FindFirstChild('BodyGyro')
+	if bodyGyro then
+		bodyGyro:Remove()
+		bodyGyro = nil
+	end
+	--if slashSound then slashSound:Stop() end
+end
+
+script.Parent.Activated:connect(onActivated)
+script.Parent.Equipped:connect(onEquipped)
+script.Parent.Unequipped:connect(onUnequipped)
+
+connection = sword.Touched:connect(blow)
+
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX57A22E2342AC4655A604055659B2DCB7">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>-5.96046448e-08</X>
+							<Y>0.900000036</Y>
+							<Z>0</Z>
+							<R00>-1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>0</R20>
+							<R21>1</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">2</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>1</X>
+							<Y>0.800000012</Y>
+							<Z>6</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX880AF15906DF470BBB3F862A60351EC4">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=86297695</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>0.600000024</X>
+								<Y>0.600000024</Y>
+								<Z>0.600000024</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=86290910</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBX85DB419AFEA5466EB1726FD153DF4FDC">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Local Gui</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{7FFB8AC0-1818-4C49-8FC8-71560DFB419A}</string>
+						<ProtectedString name="Source">local Tool = script.Parent;
+
+enabled = true
+function onButton1Down(mouse)
+	if not enabled then
+		return
+	end
+
+	enabled = false
+	mouse.Icon = "rbxasset://textures\\GunWaitCursor.png"
+
+	wait(.5)
+	mouse.Icon = "rbxasset://textures\\GunCursor.png"
+	enabled = true
+
+end
+
+function slamDown(mouse, key)
+	if not Tool:FindFirstChild('JustEquipped').Value and key:lower() == "x" then
+		mouse.Icon = "rbxasset://textures\\GunWaitCursor.png"
+
+		wait(17.5)
+		mouse.Icon = "rbxasset://textures\\GunCursor.png"
+	end
+end
+
+
+function onEquippedLocal(mouse)
+
+	if mouse == nil then
+		print("Mouse not found")
+		return
+	end
+
+	mouse.Icon = "rbxasset://textures\\GunCursor.png"
+	--mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+	mouse.KeyDown:connect(function(key) slamDown(mouse, key) end)
+end
+
+
+Tool.Equipped:connect(onEquippedLocal)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBX4D0FAAD237E747AB83F56F89287A08E3">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=85875280</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">UnsheathAnim</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBXF6D41239E2604F5AB11B566E09DDE18D">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=85877138</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">HoldAnim</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX6F87C1D5996341C1B9D8BE5D49156AE8">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">LocalSwordScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{CC06FE85-9CDA-45ED-8B6D-D08E47835446}</string>
+						<ProtectedString name="Source">local Tool = script.Parent
+
+local vCharacter
+local myHumanoid
+local myTorso
+
+local leftSwordWeld
+
+local UnsheathAnim
+local holdAnim
+local slamAnim
+local thrustAnim
+local attackAnim
+
+local runService = game:service("RunService")
+local last_attack
+
+local animating = false
+
+local justEquipped =  Tool:FindFirstChild('JustEquipped')
+
+local SlashSound = Instance.new("Sound")
+SlashSound.SoundId = "rbxasset://sounds\\swordslash.wav"
+SlashSound.Parent = myTorso
+SlashSound.Volume = .7
+
+local RBX_Debris = game:GetService("Debris")
+
+local Wave_Part = Instance.new("Part")
+Wave_Part.FormFactor = 3
+Wave_Part.Size = Vector3.new(10, 0.2, 4)
+
+local Top_Decal = Instance.new("Decal")
+Top_Decal.Texture = "http://www.roblox.com/asset/?id=83658504"
+Top_Decal.Parent = Wave_Part
+Top_Decal.Face = "Top"
+
+local Bottom_Decal = Top_Decal:Clone()
+Bottom_Decal.Face = "Bottom"
+Bottom_Decal.Parent = Wave_Part
+
+local onSpecialCooldown = false
+
+
+local function waveHit(hit, wp)
+	if hit and hit.Parent then
+		local humanoid = hit.Parent:FindFirstChild("Humanoid")
+		if hit.Parent:IsA("Hat") and hit.Parent.Parent then
+			humanoid = hit.Parent.Parent:FindFirstChild("Humanoid")
+		end
+		if humanoid and humanoid ~= myHumanoid then
+			print('Hit something')
+			humanoid:TakeDamage(45)
+			wp:Destroy()
+		end
+	end
+end
+
+local function releaseTheShockWave(position)
+	local wp = Wave_Part:Clone()
+	wp.CFrame = CFrame.new(position, position + myTorso.CFrame.lookVector) * CFrame.Angles(0, 0, math.pi/2)
+	wp.Transparency = 1.0
+	wp.CanCollide = false
+	--wp.Anchored = true
+
+	local float_BodyForce = Instance.new("BodyForce")
+	float_BodyForce.Name = "Float"
+	float_BodyForce.force = Vector3.new(0, 196.1 * wp:GetMass(), 0)
+	float_BodyForce.Parent = wp
+
+	wp.Parent = game.Workspace
+
+	wp.Velocity = wp.CFrame.lookVector * 40.0
+	wp.Touched:connect(function(hit) waveHit(hit, wp) end)
+
+
+	RBX_Debris:AddItem(wp, 2.5)
+end
+
+function swordUp()
+	leftSwordWeld = vCharacter:FindFirstChild("Left Arm"):FindFirstChild("LeftGrip")
+	Tool.GripForward = Vector3.new(-1,0,0)
+	Tool.GripRight = Vector3.new(0,1,0)
+	Tool.GripUp = Vector3.new(0,0,1)
+	if leftSwordWeld then
+		--leftSwordWeld.C1 = leftSwordWeld.C1 * CFrame.Angles(180, 0, 0)
+		-- CFrame for pointing the sword down
+		leftSwordWeld.C1 = CFrame.new(0, 0, -2.1, 0, 0, 1, 1, 0, 0, 0, 1, 0)
+	end
+end
+
+function bothSwordsDown()
+	leftSwordWeld = vCharacter:FindFirstChild("Left Arm"):FindFirstChild("LeftGrip")
+	Tool.GripForward = Vector3.new(-1,0,0)
+	Tool.GripRight = Vector3.new(0,1,0)
+	Tool.GripUp = Vector3.new(0,0,-1)
+	if leftSwordWeld then
+		--leftSwordWeld.C1 = leftSwordWeld.C1 * CFrame.Angles(180, 0, 0)
+		-- CFrame for pointing the sword down
+		leftSwordWeld.C1 = CFrame.new(0, 0, -2.1, 0, 0, 1, -1, 0, 0, 0, -1, 0)
+	end
+end
+
+function slamDown(key)
+	if not onSpecialCooldown and not Tool:FindFirstChild('JustEquipped').Value and key:lower() == "x" then
+		onSpecialCooldown = true
+		print("Preparing to Slam!")
+		if thrustAnim then
+			thrustAnim:Stop()
+		end
+		if SlashSound then
+			SlashSound:Play()
+		end
+		bothSwordsDown()
+		wait()
+		slamAnim = myHumanoid:LoadAnimation(Tool.SlamAnim)
+		if slamAnim then slamAnim:Play() end
+
+		wait(0.5)
+		local rightarmPos = vCharacter:FindFirstChild('Right Arm').Position
+		releaseTheShockWave(rightarmPos)
+		local leftarmPos = vCharacter:FindFirstChild('Left Arm').Position
+		releaseTheShockWave(leftarmPos)
+		wait(2.0)
+		swordUp()
+		-- weapon cooldown
+		wait(15)
+		onSpecialCooldown = false
+	end
+end
+
+
+function blow(hit)
+end
+
+function lunge()
+	if not thrustAnim then thrustAnim = myHumanoid:LoadAnimation(Tool.ThrustAnim) thrustAnim:AdjustSpeed(0.65) end
+	if thrustAnim then thrustAnim:Play() end
+	repeat
+		wait()
+	until not Tool:FindFirstChild('Lunging').Value
+	if thrustAnim then thrustAnim:Stop() end
+end
+
+function attack()
+	if not attackAnim then attackAnim = myHumanoid:LoadAnimation(Tool.AttackAnim) end
+	if attackAnim then attackAnim:Play() end
+end
+
+
+local last_attack = 0
+function onActivated()
+	if Tool.Enabled == false then
+		return
+	end
+	Tool.Enabled = false
+	if thrustAnim then thrustAnim:Stop() end
+	if Tool:FindFirstChild('JustEquipped').Value then
+		UnsheathAnim = myHumanoid:LoadAnimation(Tool.UnsheathAnim)
+		if UnsheathAnim then UnsheathAnim:Play() end
+		holdAnim = myHumanoid:LoadAnimation(Tool.HoldAnim)
+		if holdAnim then holdAnim:Play() end
+		wait(1.5)
+		Tool:FindFirstChild('JustEquipped').Value = false
+	else
+
+		t = runService.Stepped:wait()
+		if (t - last_attack &lt; 0.2) then
+			lunge()
+		else
+			attack()
+		end
+
+		last_attack = t
+		--wait(1.0)
+	end
+	Tool.Enabled = true
+end
+
+function onEquipped(mouse)
+	Tool.Enabled = true
+	Tool:FindFirstChild('JustEquipped').Value = true
+	if mouse then
+		vCharacter = Tool.Parent
+		myHumanoid = vCharacter:FindFirstChild("Humanoid")
+		myTorso = vCharacter:FindFirstChild("Torso")
+		mouse.KeyDown:connect(slamDown)
+		--[[wait(1.0)
+		holdAnim = myHumanoid:LoadAnimation(Tool.HoldAnim)
+		if holdAnim then holdAnim:Play() end ]]
+	end
+end
+
+function onUnequipped()
+	if holdAnim then print("Stopping hold Anim") holdAnim:Stop() holdAnim:Remove() end
+	if UnsheathAnim then UnsheathAnim:Stop() end
+	if thrustAnim then thrustAnim:Stop() end
+	if attackAnim then attackAnim:Stop() end
+end
+
+Tool.Activated:connect(onActivated)
+Tool.Equipped:connect(onEquipped)
+Tool.Unequipped:connect(onUnequipped)
+
+Tool.Handle.Touched:connect(blow)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="BoolValue" referent="RBX271760DB8E94450D8B5F8B63B4EB91F1">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">JustEquipped</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="Value">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBX490C0D2737A144D0A38570C2DBD3D539">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=86146856</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">SlamAnim</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBXD69315CC045B4F53BF872632BBFF3CA1">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=86159303</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">ThrustAnim</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBX4C8DA556484A4B1E81AC9962656C0B88">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=86169319</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">AttackAnim</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="BoolValue" referent="RBXEC903D3345044731B6D98E47EDFC4053">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Lunging</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="Value">false</bool>
+					</Properties>
+				</Item>
+				<Item class="Camera" referent="RBXF8E99A448F3B4C739776A0972403B7A5">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>0.0360688679</X>
+							<Y>1.11656499</Y>
+							<Z>-5.16696167</Z>
+							<R00>-0.999975622</R00>
+							<R01>-0.000292313285</R01>
+							<R02>0.00697439117</R02>
+							<R10>-0</R10>
+							<R11>0.999122798</R11>
+							<R12>0.0418756083</R12>
+							<R20>-0.00698051462</R20>
+							<R21>0.0418745875</R21>
+							<R22>-0.99909848</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>-5.96046448e-08</X>
+							<Y>0.900000095</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

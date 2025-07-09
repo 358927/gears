@@ -1,0 +1,1937 @@
+<Item class="Model" referent="RBX40731A11AF144B3FB53FD3E70C765471">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">68603151</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBX744A93B614ED43FE8624058196F224BF">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>-1</X>
+						<Y>-2</Y>
+						<Z>1.5</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">SentryTurret</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=68414075</url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>-6.19999695</X>
+							<Y>46.4995575</Y>
+							<Z>-9.20003891</Z>
+							<R00>-1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>0</R20>
+							<R21>1</R21>
+							<R22>0</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBX0E4F03AEFC6B4DBF92E4F5332B48959D">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>-6.19999695</X>
+							<Y>46.4995575</Y>
+							<Z>-9.20003891</Z>
+							<R00>-1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>0</R20>
+							<R21>1</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4279308561</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">0</float>
+						<float name="LeftParamB">0</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">0</float>
+						<float name="RightParamB">0</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>4</X>
+							<Y>4</Y>
+							<Z>4</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX6F0ABF0F440149CE994A48CBB432AEB3">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=68388933</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>2</X>
+								<Y>2</Y>
+								<Z>2</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=68237809</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Script" referent="RBX24602FDCB8D54FCDA41599025A3151CA">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">SentryTurret_SentryCleanup</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{F6FD430F-B9D3-448F-A14F-2B5C5376FE36}</string>
+						<ProtectedString name="Source">function Create(ty)
+	return function(data)
+		local obj = Instance.new(ty)
+		for k, v in pairs(data) do
+			if type(k) == 'number' then
+				v.Parent = obj
+			else
+				obj[k] = v
+			end
+		end
+		return obj
+	end
+end
+
+local Model = script.Parent
+local Humanoid = Model:FindFirstChild("Humanoid")
+local Player = (Model:FindFirstChild("TurretOwner") or {}).Value
+local PlayerTurretValue = (Player or game):FindFirstChild("SentryValue")
+
+if not (Model and Humanoid and Player and PlayerTurretValue) then
+	print("FATAL: SentryCleaner setup failed, destroying turret!")
+	Model:Destroy()
+	Model.Parent = nil
+end
+
+game.Players.ChildRemoved:connect(function(p)
+	if p == Player then
+		--my player left, kill self
+		Humanoid.Health = 0
+	end
+end)
+
+
+Player.Changed:connect(function(prop, value)
+	if prop == "Character" then
+		local runner = script.SentryTurret_Sentry:Clone()
+		local runnerTarget = Create'ObjectValue'{
+			Name = 'MyTargetTurret',
+			Value = Model,
+			Parent = runner,
+		}
+		runner.Parent = Player.Character
+		runner.Disabled = false
+	end
+end)
+
+
+Humanoid.Died:connect(function()
+	local partsToFade = {}
+	for _, p in pairs(Model:GetChildren()) do
+		if p:IsA("BasePart") then
+			Create'Fire'{
+				Name = 'FireEffect',
+				Parent = p,
+			}
+			partsToFade[#partsToFade+1] = p
+		end
+	end
+
+	--remove this as current turret for player
+	if PlayerTurretValue.Value == model then
+		PlayerTurretValue.Value = nil
+	end
+
+	--fade stuff
+	for i = 0, 1, 0.05 do
+		for _, p in pairs(partsToFade) do
+			p.Transparency = i
+		end
+		wait()
+	end
+
+	--remove self
+	Model:Destroy()
+end)
+
+--script.Name = "RUNNING_"..script.Name
+while Humanoid.MaxHealth ~= 200 do
+	wait()
+	Humanoid.MaxHealth = 200
+end
+while Humanoid.Health ~= 200 do
+	wait()
+	local p = Humanoid.Parent
+	Humanoid.Health = 200
+	Humanoid.Parent = p
+end
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="LocalScript" referent="RBXAF6179E2A5B94D0797969305E40AD618">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Disabled">true</bool>
+							<Content name="LinkedSource"><null /></Content>
+							<string name="Name">SentryTurret_Sentry</string>
+							<token name="RunContext">0</token>
+							<string name="ScriptGuid">{791F50B2-53FA-4BC8-A99E-80A36CDD5171}</string>
+							<ProtectedString name="Source">function Create(ty)
+	return function(data)
+		local obj = Instance.new(ty)
+		for k, v in pairs(data) do
+			if type(k) == 'number' then
+				v.Parent = obj
+			else
+				obj[k] = v
+			end
+		end
+		return obj
+	end
+end
+
+local function class(name)
+	local def = {}
+	getfenv(0)[name] = def
+	return function(ctor, static)
+		local nctor = function(...)
+			local this = {}
+			if ctor then
+				ctor(this, ...)
+			end
+			return this
+		end
+		getfenv(0)['Create'..name] = nctor
+		if static then static(def) end
+	end
+end
+
+class'Bin'(function(this)
+	local mGarbage = {}
+
+	function this:add(func, ident)
+		ident = ident or '__unnamed'
+		if not mGarbage[ident] then
+			mGarbage[ident] = {}
+		end
+		mGarbage[ident][#mGarbage[ident]+1] = func
+	end
+
+	function this:clean(ident)
+		local listToCall = mGarbage[ident]
+		if listToCall then
+			for _, func in pairs(listToCall) do
+				func()
+			end
+			mGarbage[ident] = nil
+		end
+	end
+
+	function this:cleanAll()
+		for ident, list in pairs(mGarbage) do
+			for _, func in pairs(list) do
+				func()
+			end
+			mGarbage[ident] = nil
+		end
+	end
+end)
+
+local Bin = CreateBin()
+
+--------------------------------------------------
+--                    settings                  --
+local MaxRange = 30
+local ReloadTime = 0.5
+local DamagePerShot = 7
+--                                              --
+--------------------------------------------------
+
+--game.Workspace.ErrorOut.Value = game.Workspace.ErrorOut.Value.."(( SentryScript Running "
+
+while not script:FindFirstChild("MyTargetTurret") do script.ChildAdded:wait() end
+local Model = script.MyTargetTurret.Value
+local Humanoid = Model:FindFirstChild("Humanoid")
+local Player = (Model:FindFirstChild("TurretOwner") or {}).Value
+local PlayerTurretValue = (Player or game):FindFirstChild("SentryValue")
+local PlayerTurretTargetValue = (Player or game):FindFirstChild("SentryTargetValue")
+--
+local CannonPart = Model:FindFirstChild("CannonMove")
+local TorsoPart = Model:FindFirstChild("Torso")
+local HeadPart = Model:FindFirstChild("Head")
+local TorsoToHead = (TorsoPart or game):FindFirstChild("Neck")
+local HeadToCannon = (HeadPart or game):FindFirstChild("CannonAttach")
+local FireSound = (CannonPart or game):FindFirstChild("FireSound")
+
+if not (Model and Humanoid and Player and PlayerTurretValue and PlayerTurretTargetValue and
+        CannonPart and TorsoPart and HeadPart and TorsoToHead and HeadToCannon and FireSound)
+then
+	print("FATAL: Sentry setup failed, destroying turret!")
+	Model:Destroy()
+	Model.Parent = nil
+end
+
+--prevent double init
+local INITED_HACK = (Model:FindFirstChild("INITED_HACK"))
+if not INITED_HACK then
+	Create'IntValue'{
+		Name = "INITED_HACK",
+		Parent = Model,
+	}
+end
+--game.Workspace.ErrorOut.Value = game.Workspace.ErrorOut.Value.."... with"..(INITED_HACK and "out" or "").." INIT ))"
+
+
+local UnfoldAnimDef = Create'Animation'{
+	Parent = Model,
+	AnimationId = "http://www.roblox.com/asset/?id=68433924",
+}
+local FireAnim1Def = Create'Animation'{
+	Parent = Model,
+	AnimationId = "http://www.roblox.com/asset/?id=68433992",
+}
+local FireAnim2Def = Create'Animation'{
+	Parent = Model,
+	AnimationId = "http://www.roblox.com/asset/?id=68433974",
+}
+local UnfoldAnim = Humanoid:LoadAnimation(UnfoldAnimDef)
+local FireAnim1 = Humanoid:LoadAnimation(FireAnim1Def)
+local FireAnim2 = Humanoid:LoadAnimation(FireAnim2Def)
+
+if not INITED_HACK then
+	UnfoldAnim:Play(0, 1, 1)
+end
+
+function TagHumanoid(humanoid)
+	local tag = Create'ObjectValue'{
+		Name = "creator",
+		Value = Player,
+		Parent = humanoid,
+	}
+	game.Debris:AddItem(tag, 2)
+end
+
+
+Humanoid.Died:connect(function()
+	script:Destroy()
+end)
+
+
+---fire from point
+local whichFireFrom = true
+local function GetFireFrom()
+	local dir = (whichFireFrom and 1 or -1)
+	return CannonPart.CFrame*CFrame.new(0,dir*0.3,-1.8)
+end
+local function GetFireAnim()
+	if whichFireFrom then
+		return FireAnim1
+	else
+		return FireAnim2
+	end
+end
+local function SwitchFireFrom()
+	whichFireFrom = not whichFireFrom
+end
+
+
+function ShowShot(from, to)
+	local shotBlast = Create'Part'{
+		Name = "ShotBlast",
+		CanCollide = false,
+		Anchored = true,
+		Parent = Model,
+		FormFactor = 'Custom',
+		Size = Vector3.new(0.5, 0.5, 1.5),
+		BrickColor = BrickColor.new(21),
+		Transparency = 0.3,
+		Create'SpecialMesh'{
+			MeshType = 'Sphere',
+		},
+		Create'Fire'{
+			Size = 0,
+			Heat = 0,
+		},
+	}
+	local shotLance = Create'Part'{
+		Name = "ShotLance",
+		CanCollide = false,
+		Anchored = true,
+		Parent = Model,
+		FormFactor = 'Custom',
+		BrickColor = BrickColor.new(21),
+		Size = Vector3.new(0.2, 0.2, (from-to).magnitude),
+		Transparency = 0.3,
+	}
+	shotBlast.CFrame = CFrame.new(from, to)
+	shotLance.CFrame = CFrame.new(from, to)*CFrame.new(0, 0, -(from-to).magnitude/2)
+	--
+	game.Debris:AddItem(shotBlast, 0.5)
+	game.Debris:AddItem(shotLance, 0.5)
+	game.Debris:AddItem(shotBlast.Fire, 0.2)
+	--
+	Spawn(function()
+		for i = 0.3, 1, 0.05 do
+			wait()
+			shotBlast.Transparency = i
+			shotLance.Transparency = i
+		end
+		shotBlast:Destroy()
+		shotLance:Destroy()
+	end)
+end
+
+
+local PivotOffsetFromHead = CFrame.new(0, 0.4, 0.1)*CFrame.Angles(-math.pi/2, 0, 0)
+local HeadOffsetFromPivot = CFrame.new(0, 0, -1)
+local GunOffsetFromHead = CFrame.new(0, 0.6, 0.2)*CFrame.Angles(math.pi/2, 0, 0)
+function AimAt(pos)
+	--edit the swivel joint
+	--[[local originalHeadPos = (TorsoPart.CFrame*TorsoToHead.C0*TorsoToHeadAnimMod).p
+	local desiredCFrame = CFrame.new(originalHeadPos,
+	                                 Vector3.new(pos.x, originalHeadPos.y, pos.z))*
+	                      CFrame.Angles(-math.pi/2, 0, 0)
+	TorsoToHead.C1 = desiredCFrame:inverse()*
+	                 TorsoPart.CFrame*
+	                 TorsoToHead.C0*
+	                 TorsoToHeadAnimMod
+	]]
+	local headPivot = TorsoPart.CFrame*PivotOffsetFromHead
+	local desiredCF = CFrame.new(headPivot.p, Vector3.new(pos.x, headPivot.p.y, pos.z))
+	desiredCF = desiredCF*CFrame.Angles(-math.pi/2, 0, 0)
+	TorsoToHead.C1 = HeadOffsetFromPivot*(desiredCF:inverse()*headPivot)
+	--
+	local gunPivot = HeadPart.CFrame*GunOffsetFromHead
+	local desiredCF = CFrame.new(gunPivot.p, pos)
+	HeadToCannon.C1 = desiredCF:inverse()*gunPivot
+end
+
+function GetTarget(targetPos)
+	local from = GetFireFrom().p
+	local ray = Ray.new(from, (targetPos-from))
+	local part, hit = game.Workspace:FindPartOnRay(ray, Model)
+	--if part then
+	--	print("Hit part", part, "in", part.Parent)
+	--end
+	if part then
+		--if it's part of a humanoid, or a humanoid's gear/hats
+		local hum = (part.Parent or game):FindFirstChild('Humanoid')
+		hum = hum or ((part.Parent or game).Parent or game):FindFirstChild('Humanoid')
+		if hum then
+			return hum, (hit-from).magnitude, hit
+		end
+	end
+end
+
+
+function InflictDamageOn(hum)
+	TagHumanoid(hum)
+	hum:TakeDamage(DamagePerShot)
+	GetFireAnim():Play(0, 1, 5)
+	FireSound:Play()
+end
+
+
+local mLastShotTime = 0
+
+if not INITED_HACK then
+	repeat until UnfoldAnim.KeyframeReached:wait() == 'complete'
+	wait()
+end
+
+--local beforeErr = ""
+while true do
+	wait()
+
+	--local st, err = pcall(function()
+	local didAttackOnTarget = false
+
+	if PlayerTurretTargetValue.Value then
+		local hum = PlayerTurretTargetValue.Value
+		if hum.Health &gt; 0 then
+			local torso = (hum.Parent or game):FindFirstChild("Torso")
+			--find biggest part to target in the thing if no torso exists
+			if not torso and hum.Parent then
+				local largestPart = nil
+				local largestSize = -1
+				for _, p in pairs(hum.Parent:GetChildren()) do
+					if p:IsA('BasePart') then
+						--beforeErr = "281"
+						if p.Size.magnitude &gt; largestSize then
+							largestPart = p
+							largestSize = p.Size.magnitude
+						end
+					end
+				end
+				--
+				torso = largestPart
+			end
+			--beforeErr = "291"
+			--make sure there were any parts at all
+			if torso then
+				if hum ~= Humanoid then
+					AimAt(torso.Position)
+				end
+				local hum, dist, hitPos = GetTarget(torso.Position)
+				if hum and hum ~= Humanoid and dist &lt; MaxRange then
+					AimAt(hitPos)
+					didAttackOnTarget = true
+					if (tick()-mLastShotTime) &gt; ReloadTime then
+						ShowShot(GetFireFrom().p, hitPos)
+						InflictDamageOn(hum)
+						SwitchFireFrom()
+						mLastShotTime = tick()
+					end
+				end
+			end
+		end
+	end
+
+	if not didAttackOnTarget then
+		--do targeting
+		local targets = {}
+
+		--gather all possible targets
+		local fireFrom = GetFireFrom().p
+		local targetAtAll = nil --if all else fails, aim at this thing
+		for _, p in pairs(game.Players:GetChildren()) do
+			if p ~= Player then
+				if p.Character and p.Character:FindFirstChild('Torso') then
+					local targetPos = p.Character.Torso.Position
+					--skip raycasting if the target is too far away
+					--beforeErr = tostring(fireFrom)..","..tostring(targetPos)
+					if (fireFrom - targetPos).magnitude &gt; MaxRange*2 then
+						targetAtAll = targetPos
+					else
+						--beforeErr = beforeErr.."|328"
+						AimAt(targetPos)
+						--beforeErr = beforeErr.."|330"
+						local hum, dist, hit = GetTarget(targetPos)
+						if hum and hum ~= Humanoid and dist &lt; MaxRange then
+							targets[hum] = hit
+						end
+					end
+				end
+			end
+		end
+
+		--beforeErr = beforeErr.."|340"
+		--if there are any targets available
+		if next(targets) then
+			--find the lowest health one, the best to try killing
+			local lowestHealth = 10000
+			local lowestHealthHum = nil
+			for p, _ in pairs(targets) do
+				if p.Health &lt; lowestHealth then
+					lowestHealth = p.Health
+					lowestHealthHum = p
+				end
+			end
+
+			local to = targets[lowestHealthHum]
+			AimAt(to)
+			if (tick()-mLastShotTime) &gt; ReloadTime then
+				ShowShot(GetFireFrom().p, to)
+				InflictDamageOn(lowestHealthHum)
+				SwitchFireFrom()
+				mLastShotTime = tick()
+			end
+		elseif targetAtAll then
+			--all else failed, just point at something
+			AimAt(targetAtAll)
+		end
+	end
+	--end)
+	--if not st then
+	--game.Workspace.ErrorOut.Value = game.Workspace.ErrorOut.Value.."[:"..beforeErr..": "..err.."]"
+	--break
+	--end
+end
+
+--script.Name = "RUNNING_"..script.Name</ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBX027C1E17546940B396BB64F4004743B7">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">SentryTurret_Main</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{375765F2-342A-45B9-BD20-AE59B63327B2}</string>
+						<ProtectedString name="Source">--local mDebugId = game.Workspace.DebugId.Value
+--game.Workspace.DebugId.Value = game.Workspace.DebugId.Value+1
+--print("Running swordscript &lt;"..mDebugId.."&gt;")
+
+-------------------------------------
+-- Makes an RBX::Lua Instance using
+-- a table of key-value pairs to
+-- initialize it. Values with numeric
+-- keys will be parented to the object
+-- and other values will be set
+-- as members of the object.
+function Create(ty)
+	return function(data)
+		local obj = Instance.new(ty)
+		for k, v in pairs(data) do
+			if type(k) == 'number' then
+				v.Parent = obj
+			else
+				obj[k] = v
+			end
+		end
+		return obj
+	end
+end
+
+---------------------------------------
+-- Same as Make, but modifies an existing
+-- object rather than creating ones.
+function Modify(obj, data)
+	for k, v in pairs(data) do
+		if type(data) == 'number' then
+			data.Parent = obj
+		else
+			data[k] = v
+		end
+	end
+	return obj
+end
+
+-----------------------------------------
+-- Creates a class which can be instantiated
+-- using `CreateCLASSNAME( ... )`.
+---usage:
+--class'MyClass'(function(this, arg1)
+--	this.ClassMember = value
+--	function this.ClassMethod(...) ... end
+--end, function(def)
+--	def.StaticMember = value
+--	 function def.StaticMethod(...) ... end
+--end)
+--local obj = CreateMyClass(arg1)
+------------------------------------------
+local function class(name)
+	local def = {}
+	getfenv(0)[name] = def
+	return function(ctor, static)
+		local nctor = function(...)
+			local this = {}
+			if ctor then
+				ctor(this, ...)
+			end
+			return this
+		end
+		getfenv(0)['Create'..name] = nctor
+		if static then static(def) end
+	end
+end
+
+
+---------------------------------------------
+-- Signal class for custom-made events
+--API:
+-- Signal:connect(callback)
+-- Signal:fire(...)
+-- Signal:wait()
+---------------------------------------------
+class'Signal'(function(this)
+	local mListeners = {}
+	local mWaitObject = Create'BoolValue'{}
+
+	function this:connect(func)
+		local connection = {}
+		function connection:disconnect()
+			mListeners[func] = nil
+		end
+		mListeners[func] = connection
+		return connection
+	end
+
+	function this:fire(...)
+		--print("Fire evt&lt;"..tostring(this).."&gt; from script&lt;"..mDebugId.."&gt;")
+		for func, conn in pairs(mListeners) do
+			--print("-&gt; "..tostring(func).."( ... )")
+			func(...)
+		end
+		mWaitObject.Value = not mWaitObject.Value
+	end
+
+	function this:wait()
+		mWaitObject.Changed:wait()
+	end
+end)
+
+
+--------------------------------------------------
+-- Bin class for cleaning up assets
+--API:
+-- Bin:add(func: Function, ident: String)
+-- Bin:clean(ident: String)
+-- Bin:cleanAll()
+--------------------------------------------------
+class'Bin'(function(this)
+	local mGarbage = {}
+
+	function this:add(func, ident)
+		ident = ident or '__unnamed'
+		if not mGarbage[ident] then
+			mGarbage[ident] = {}
+		end
+		mGarbage[ident][#mGarbage[ident]+1] = func
+	end
+
+	function this:clean(ident)
+		local listToCall = mGarbage[ident]
+		if listToCall then
+			for _, func in pairs(listToCall) do
+				func()
+			end
+			mGarbage[ident] = nil
+		end
+	end
+
+	function this:cleanAll()
+		for ident, list in pairs(mGarbage) do
+			for _, func in pairs(list) do
+				func()
+			end
+			mGarbage[ident] = nil
+		end
+	end
+end)
+
+
+-----------------------------------------------------
+-- AnimationProvider class for easy loading of
+-- animation assets into animationtracks once
+-- a humanoid is available.
+--API:
+-- AnimationProvider:registerAnimation(ident, assetid)
+-- AnimationProvider:setHumanoid(humanoid)
+-- AnimationProvider:setTool(tool)
+-- AnimationProvider:getAnimation(ident)
+-----------------------------------------------------
+class'AnimationProvider'(function(this)
+	local mAnimations = {--[[ident =&gt; {AnimationId, CurrentTrack, CurrentAnim} ]]}
+	local mCurrentHumanoid = nil
+
+	function this:registerAnimation(ident, assetid)
+		--check for an existing copy of the anim
+		local existingAnim = Tool.Tool:FindFirstChild('ANIM_'..ident)
+
+		--make the data for this anim
+		local animdat = {
+			AnimationId = assetid,
+			CurrentAnim = existingAnim or Create'Animation'{
+				Name = "ANIM_"..ident,
+				AnimationId = assetid,
+			},
+		}
+		mAnimations[ident] = animdat
+
+		--if there's a current tool, put it in there
+		if Tool.Tool then
+			Tool.HUGE_EQUIP_HACK = true
+			animdat.CurrentAnim.Parent = Tool.Tool
+			Tool.HUGE_EQUIP_HACK = false
+		end
+
+		--if there's a humanoid load the animation track
+		if mCurrentHumanoid then
+			animdat.CurrentTrack = mCurrentHumanoid:LoadAnimation(animdat.CurrentAnim)
+		end
+	end
+
+	function this:setHumanoid(humanoid)
+		mCurrentHumanoid = humanoid
+		for _, anim in pairs(mAnimations) do
+			anim.CurrentTrack = humanoid:LoadAnimation(anim.CurrentAnim)
+		end
+	end
+
+	function this:getAnimation(ident)
+		local dat = mAnimations[ident]
+		if not dat then error("Gear Fatal Error: Animation `"..ident.."` not found") end
+		if not dat.CurrentTrack then
+			error("Gear Fatal Error: No Humanoid for animation `"..ident.."` to run in")
+		end
+		return dat.CurrentTrack
+	end
+end)
+
+
+----------------------------------------------
+-- SoundProvider class
+-- functions similarily to the animationprovider
+----------------------------------------------
+class'SoundProvider'(function(this)
+	local mSounds = {}
+
+	function this:registerSound(ident, assetid, inpart)
+		inpart = inpart or Tool.Tool:FindFirstChild('Handle')
+		if not inpart then
+			repeat
+				inpart = Tool.Tool.ChildAdded:wait()
+			until inpart.Name == 'Handle'
+		end
+		local existingSound = inpart:FindFirstChild('SOUND_'..ident)
+		local sounddat = {
+			SoundId = assetid,
+			CurrentSound = existingSound or Create'Sound'{
+				Name = 'SOUND_'..ident,
+				SoundId = assetid,
+				Parent = inpart,
+			},
+		}
+		mSounds[ident] = sounddat
+	end
+
+	function this:getSound(ident)
+		local dat = mSounds[ident]
+		if dat then
+			return dat.CurrentSound
+		end
+	end
+end)
+
+
+----------------------------------------------
+-- DebounceProvider class -- Prevent events
+-- from happening in too rapid succession
+----------------------------------------------
+class'DebounceProvider'(function(this)
+	local mFlagNameToLastTime = {}
+
+	function this:test(ident, delta)
+		local t = tick()
+		local lastTime = mFlagNameToLastTime[ident] or 0
+		if delta then
+			return (t-lastTime) &gt; delta
+		else
+			return mFlagNameToLastTime[ident]
+		end
+	end
+	function this:set(ident, state)
+		if state then
+			mFlagNameToLastTime[ident] = state
+		elseif state == false then
+			mFlagNameToLastTime[ident] = false
+		else
+			mFlagNameToLastTime[ident] = tick()
+		end
+	end
+end)
+
+
+function TagHumanoid(humanoid)
+	if Tool.Player then
+		local tag = Create'ObjectValue'{
+			Name = "creator",
+			Value = Tool.Player,
+			Parent = humanoid,
+		}
+		Tool.Bin:add(function()
+			tag:Remove()
+		end, 'HumanoidTag')
+	end
+end
+function UntagHumanoid()
+	Tool.Bin:clean('HumanoidTag')
+end
+
+
+------- wait for any event in a set of events  to fire ------
+function WaitForAny(tb)
+	local evt = tb
+	local conn = {}
+	local eventargs = nil
+	local waitProxy = Create'BoolValue'{}
+	for _, e in pairs(evt) do
+		local c = e:connect(function(...)
+			for _, c in pairs(conn) do
+				c:disconnect()
+			end
+			eventargs = {...}
+			waitProxy.Value = not waitProxy.Value
+		end)
+		conn[#conn+1] = c
+	end
+	--
+	waitProxy.Changed:wait()
+	--
+	return unpack(eventargs)
+end
+
+
+----------------------------------------------
+-- Tool singleton class
+--API:
+-- ...
+class'Tool'(nil, function(this)
+	--need this here for the animationprovider to use
+	this.HUGE_EQUIP_HACK = false
+
+	this.Bin = CreateBin()
+	this.AnimationProvider = CreateAnimationProvider()
+	this.DebounceProvider = CreateDebounceProvider()
+	this.SoundProvider = CreateSoundProvider()
+
+	--general values
+	this.Tool = script.Parent
+	this.Player = nil
+	this.Humanoid = nil
+	this.Character = nil
+
+	--============ several flags for the gear
+	--nothing
+
+	--some events
+	this.Equipped = CreateSignal()
+	this.Unequipped = CreateSignal()
+	this.OwnerChange = CreateSignal()
+
+	--mouse utility events
+	this.MouseClick = CreateSignal()
+	this.MouseDoubleClick = CreateSignal()
+	this.DoubleClickThreshold = 0.2
+	this.MouseDown = false
+	this.KeyDown = CreateSignal()
+
+	local mLastClickTime = 0
+
+	script.Parent.Equipped:connect(function(mouse)
+		--print("Internal Equipped: Time b: "..time())
+		--set up general values in the tool
+		this.Mouse = mouse
+		local curOwner = game.Players:GetPlayerFromCharacter(script.Parent.Parent)
+		if curOwner ~= this.Player then
+			this.Player = curOwner
+			this.OwnerChange:fire(this.Player)
+		end
+		this.Character = this.Player.Character
+		this.Humanoid = this.Character.Humanoid
+		this.AnimationProvider:setHumanoid(this.Humanoid)
+
+		--set up the mouse events
+		mouse.Button1Down:connect(function()
+			this.MouseDown = true
+			local t = tick()
+			if (t-mLastClickTime) &lt; this.DoubleClickThreshold then
+				--prvent multiple double-clicks in a row
+				mLastClickTime = 0
+				this.MouseDoubleClick:fire(mouse)
+			else
+				mLastClickTime = t
+				this.MouseClick:fire(mouse)
+			end
+		end)
+		mouse.Button1Up:connect(function()
+			this.MouseDown = false
+		end)
+		mouse.KeyDown:connect(function(key)
+			this.KeyDown:fire(key)
+		end)
+
+		--done setup, call the equipped function
+		if this.HUGE_EQUIP_HACK then
+			--the HUGE_EQUIP_HACK flags tells the tool that the equip is a synchronous
+			--call as a result of parenting an animation to the character, which happens
+			--when the tool is picked up from the workspace, but not during normal equips
+			--(Why does this happen???), if this is the case, the call should be rederrred
+			--one tick to ensure that all of the gear's loading can complete before it's
+			--equipped event is called.
+			--TODO: Blame John for this.
+			Delay(0, function()
+				this.Equipped:fire(mouse)
+			end)
+		else
+			--otherwise, proceed as normal
+			this.Equipped:fire(mouse)
+		end
+	end)
+
+	script.Parent.Unequipped:connect(function()
+		--before my teardown, fire the event
+		this.Unequipped:fire()
+
+		--delete all my garbage
+		this.Bin:cleanAll()
+	end)
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function CreateSentry(position)
+	local sentry = Create'Model'{
+		Name = (Tool.Player.Name.."'s Sentry"),
+		Create'Part'{
+			Name = "Torso",
+			FormFactor = 'Custom',
+			Size = Vector3.new(3.8, 1.2, 3.6),
+			Create'SpecialMesh'{
+				MeshId = 'http://www.roblox.com/asset/?id=68251550',
+				TextureId = 'http://www.roblox.com/asset/?id=68237809',
+				Scale = Vector3.new(2,2,2),
+			},
+			Create'Motor6D'{Name = "Neck",},
+		},
+		Create'Part'{
+			Name = "Head",
+			FormFactor = 'Custom',
+			Size = Vector3.new(2, 2, 2),
+			Create'SpecialMesh'{
+				MeshId = 'http://www.roblox.com/asset/?id=68237468',
+				TextureId = 'http://www.roblox.com/asset/?id=68237809',
+				Scale = Vector3.new(2,2,2),
+			},
+			Create'Motor6D'{Name = "RightAttach",},
+			Create'Motor6D'{Name = "LeftAttach",},
+			Create'Motor6D'{Name = "CannonAttach",},
+		},
+		Create'Part'{
+			Name = "CannonMove",
+			FormFactor = 'Custom',
+			Size = Vector3.new(0.2, 0.2, 0.2),
+			Create'Motor6D'{Name = "Barrel1Attach",},
+			Create'Motor6D'{Name = "Barrel2Attach",},
+			Create'Sound'{
+				Name = "FireSound",
+				SoundId = "http://www.roblox.com/asset/?id=68433873",
+			},
+		},
+		Create'Part'{
+			Name = "Barrel1",
+			FormFactor = 'Custom',
+			Size = Vector3.new(0.6, 2, 0.6),
+			Create'SpecialMesh'{
+				MeshId = 'http://www.roblox.com/asset/?id=68251580',
+				TextureId = 'http://www.roblox.com/asset/?id=68237809',
+				Scale = Vector3.new(2,2,2),
+			},
+		},
+		Create'Part'{
+			Name = "Barrel2",
+			FormFactor = 'Custom',
+			Size = Vector3.new(0.6, 2, 0.6),
+			Create'SpecialMesh'{
+				MeshId = 'http://www.roblox.com/asset/?id=68251580',
+				TextureId = 'http://www.roblox.com/asset/?id=68237809',
+				Scale = Vector3.new(2,2,2),
+			},
+		},
+		Create'Part'{
+			Name = "FlangeLeft",
+			FormFactor = 'Custom',
+			Size = Vector3.new(1.2, 0.4, 3.6),
+			Create'SpecialMesh'{
+				MeshId = 'http://www.roblox.com/asset/?id=68237502',
+				TextureId = 'http://www.roblox.com/asset/?id=68237809',
+				Scale = Vector3.new(2,2,2),
+			},
+		},
+		Create'Part'{
+			Name = "FlangeRight",
+			FormFactor = 'Custom',
+			Size = Vector3.new(1.2, 0.4, 3.6),
+			Create'SpecialMesh'{
+				MeshId = 'http://www.roblox.com/asset/?id=68237527',
+				TextureId = 'http://www.roblox.com/asset/?id=68237809',
+				Scale = Vector3.new(2,2,2),
+			},
+		},
+		Create'Part'{
+			Name = "SideLeft",
+			FormFactor = 'Custom',
+			Size = Vector3.new(1.4, 2.8, 1.2),
+			Create'SpecialMesh'{
+				MeshId = 'http://www.roblox.com/asset/?id=68237451',
+				TextureId = 'http://www.roblox.com/asset/?id=68237809',
+				Scale = Vector3.new(2,2,2),
+			},
+			Create'Motor6D'{Name = "FlangeAttach",},
+		},
+		Create'Part'{
+			Name = "SideRight",
+			FormFactor = 'Custom',
+			Size = Vector3.new(1.4, 2.8, 1.2),
+			Create'SpecialMesh'{
+				MeshId = 'http://www.roblox.com/asset/?id=68237486',
+				TextureId = 'http://www.roblox.com/asset/?id=68237809',
+				Scale = Vector3.new(2,2,2),
+			},
+			Create'Motor6D'{Name = "FlangeAttach",},
+		},
+		Create'ObjectValue'{
+			Name = "TurretOwner",
+			Value = Tool.Player,
+		},
+	}
+	---------------------------
+	local neck = sentry.Torso.Neck
+	neck.Part0 = sentry.Torso
+	neck.Part1 = sentry.Head
+	neck.C0 = CFrame.new(0, 0.4, 0.1)*CFrame.Angles(-math.pi/2, 0, 0)
+	neck.C1 = CFrame.new(0, 0, -1)
+	--
+	local cannonm = sentry.Head.CannonAttach
+	cannonm.Part0 = sentry.Head
+	cannonm.Part1 = sentry.CannonMove
+	cannonm.C0 = CFrame.new(0, 0.6, 0.2)*CFrame.Angles(math.pi/2, 0, 0)
+	--
+	local barrel1 = sentry.CannonMove.Barrel1Attach
+	barrel1.Part0 = sentry.CannonMove
+	barrel1.Part1 = sentry.Barrel1
+	barrel1.C0 = CFrame.new(0, 0.3, -1)*CFrame.Angles(-math.pi/2, 0, 0)
+	--
+	local barrel2 = sentry.CannonMove.Barrel2Attach
+	barrel2.Part0 = sentry.CannonMove
+	barrel2.Part1 = sentry.Barrel2
+	barrel2.C0 = CFrame.new(0, -0.3, -1)*CFrame.Angles(-math.pi/2, 0, 0)
+	--
+	local rightm = sentry.Head.RightAttach
+	rightm.Part0 = sentry.Head
+	rightm.Part1 = sentry.SideRight
+	rightm.C0 = CFrame.new(1.7, -0.4, 0.4)
+	--
+	local leftm = sentry.Head.LeftAttach
+	leftm.Part0 = sentry.Head
+	leftm.Part1 = sentry.SideLeft
+	leftm.C0 = CFrame.new(-1.6, -0.4, 0.4)
+	--
+	local flangel = sentry.SideLeft.FlangeAttach
+	flangel.Part0 = sentry.SideLeft
+	flangel.Part1 = sentry.FlangeLeft
+	flangel.C0 = CFrame.new(0.7, 1.4, 0.05)
+	--
+	local flanger = sentry.SideRight.FlangeAttach
+	flanger.Part0 = sentry.SideRight
+	flanger.Part1 = sentry.FlangeRight
+	flanger.C0 = CFrame.new(-0.7, 1.4, 0.05)
+	--
+	local humanoid = Create'Humanoid'{
+		MaxHealth = 200,
+		Health = 200,
+		Torso = sentry.Torso,
+		Parent = sentry,
+	}
+	--
+
+	--make the main runner script
+	local runner = Tool.Tool.SentryTurret_Sentry:Clone()
+	local runnerTarget = Create'ObjectValue'{
+		Name = 'MyTargetTurret',
+		Value = sentry,
+		Parent = runner,
+	}
+	runner.Parent = Tool.Player.Character
+
+	--make the cleaner script
+	local cleaner = Tool.Tool.SentryTurret_SentryCleanup:Clone()
+	cleaner.Parent = sentry
+
+	--now done, put it in the right place in the workspace
+	sentry.Torso.CFrame = CFrame.new(position)
+	sentry.Parent = game.Workspace
+
+	runner.Disabled = false
+	cleaner.Disabled = false
+
+	return sentry
+end
+
+
+--gui
+local Gui = Create'ScreenGui'{
+	Name = "SentryTurret_Gui",
+	Create'TextButton'{
+		Name = "DestroyButton",
+		Style = 'RobloxButton',
+		Font = 'Arial',
+		FontSize = 'Size24',
+		Text = "Destroy Current Turret\n(Press `Q`)",
+		Position = UDim2.new(0, 0, 0.5, -128),
+		Size = UDim2.new(0, 128, 0, 128),
+		TextWrap = true,
+		TextColor3 = Color3.new(1,1,1),
+	},
+}
+
+
+--create or get the value to track the current sentry (deffered to on equip)
+local SentryValue
+local SentryTargetValue
+
+
+--utility check
+function HasSentry()
+	return (SentryValue.Value ~= nil) and
+	       (SentryValue.Value:FindFirstChild("Humanoid")) and
+	       (SentryValue.Value.Humanoid.Health &gt; 0)
+end
+
+
+--create a sentry at a position and register it to this tool
+function BuildSentry(position)
+	--remove any old sentry
+	if SentryValue.Value ~= nil then
+		local humanoid = SentryValue.Value:FindFirstChild("Humanoid")
+		if humanoid then
+			--kill the turret
+			humanoid.Health = 0
+		else
+			--something terrible happened, just delete it
+			SentryValue.Value:Destroy()
+			SentryValue.Value = nil
+		end
+	end
+
+	--now create a new one
+	local new = CreateSentry(position)
+	SentryValue.Value = new
+end
+
+
+function DestroySentry()
+	if SentryValue.Value then
+		local hum = SentryValue.Value:FindFirstChild("Humanoid")
+		if hum then
+			hum.Health = 0
+		else
+			SentryValue.Value:Destroy()
+		end
+		SentryValue.Value = nil
+	end
+end
+
+
+--call on destroying code
+Gui.DestroyButton.MouseButton1Down:connect(function()
+	DestroySentry()
+end)
+Tool.KeyDown:connect(function(key)
+	if key:lower() == "q" then
+		DestroySentry()
+	end
+end)
+
+
+local Equipped = false
+
+Tool.Equipped:connect(function()
+	Gui.Parent = Tool.Player.PlayerGui
+	Equipped = true
+	if not Tool.Player:FindFirstChild("SentryValue") then
+		Create'ObjectValue'{
+			Name = "SentryValue",
+			Parent = Tool.Player,
+		}
+	end
+	if not Tool.Player:FindFirstChild("SentryTargetValue") then
+		Create'ObjectValue'{
+			Name = "SentryTargetValue",
+			Parent = Tool.Player,
+		}
+	end
+	SentryTargetValue = Tool.Player.SentryTargetValue
+	SentryValue = Tool.Player.SentryValue
+
+	while Equipped do
+		wait()
+		if SentryValue.Value then
+			local trg = Tool.Mouse.Target
+			local foundHum = false
+			if trg and trg.Parent and trg.Parent.Parent then
+				local hum = trg.Parent:FindFirstChild("Humanoid")
+				hum = hum or trg.Parent.Parent:FindFirstChild("Humanoid")
+				--
+				if hum then
+					foundHum = true
+				end
+			end
+			if foundHum then
+				--found target
+				Tool.Mouse.Icon = "http://www.roblox.com/asset/?id=68414013"
+			else
+				--no target
+				Tool.Mouse.Icon = "http://www.roblox.com/asset/?id=68414005"
+			end
+		else
+			if (Tool.Mouse.Hit.p-Tool.Character.Torso.Position).magnitude &gt; 20 then
+				--out of range
+				Tool.Mouse.Icon = "http://www.roblox.com/asset/?id=68415132"
+			else
+				--build icon
+				Tool.Mouse.Icon = "http://www.roblox.com/asset/?id=68413998"
+			end
+		end
+	end
+end)
+Tool.Unequipped:connect(function()
+	Gui.Parent = nil
+	Equipped = false
+end)
+
+
+Tool.MouseClick:connect(function()
+	if SentryValue.Value then
+		local trg = Tool.Mouse.Target
+		if trg and trg.Parent and trg.Parent.Parent then
+			local hum = trg.Parent:FindFirstChild("Humanoid")
+			hum = hum or trg.Parent.Parent:FindFirstChild("Humanoid")
+			--
+			if hum then
+				SentryTargetValue.Value = hum
+			end
+		end
+	else
+		if (Tool.Mouse.Hit.p-Tool.Character.Torso.Position).magnitude &lt; 20 then
+			BuildSentry(Tool.Mouse.Hit.p)
+		end
+	end
+end)
+
+
+script.Parent.Grip = CFrame.Angles(math.pi/2, 0, 0)*CFrame.new(-0.1, -0.7, 0.1)
+while not script.Parent:FindFirstChild("Handle") do
+	script.Parent.ChildAdded:wait()
+end
+--edit handle
+local Handle = script.Parent.Handle
+Handle.Mesh.TextureId = "http://www.roblox.com/asset/?id=16884673"
+Handle.Mesh.MeshId = "http://www.roblox.com/asset/?id=16884681"
+Handle.Mesh.Scale = Vector3.new(1, 1, 1)
+Handle.Size = Vector3.new(1, 1, 4)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX05427DEC33DD4F87B1DB11931393D37E">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">SentryTurret_Sentry</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{BBE803C8-4126-4E6C-B658-91D84C4568F1}</string>
+						<ProtectedString name="Source">function Create(ty)
+	return function(data)
+		local obj = Instance.new(ty)
+		for k, v in pairs(data) do
+			if type(k) == 'number' then
+				v.Parent = obj
+			else
+				obj[k] = v
+			end
+		end
+		return obj
+	end
+end
+
+local function class(name)
+	local def = {}
+	getfenv(0)[name] = def
+	return function(ctor, static)
+		local nctor = function(...)
+			local this = {}
+			if ctor then
+				ctor(this, ...)
+			end
+			return this
+		end
+		getfenv(0)['Create'..name] = nctor
+		if static then static(def) end
+	end
+end
+
+class'Bin'(function(this)
+	local mGarbage = {}
+
+	function this:add(func, ident)
+		ident = ident or '__unnamed'
+		if not mGarbage[ident] then
+			mGarbage[ident] = {}
+		end
+		mGarbage[ident][#mGarbage[ident]+1] = func
+	end
+
+	function this:clean(ident)
+		local listToCall = mGarbage[ident]
+		if listToCall then
+			for _, func in pairs(listToCall) do
+				func()
+			end
+			mGarbage[ident] = nil
+		end
+	end
+
+	function this:cleanAll()
+		for ident, list in pairs(mGarbage) do
+			for _, func in pairs(list) do
+				func()
+			end
+			mGarbage[ident] = nil
+		end
+	end
+end)
+
+local Bin = CreateBin()
+
+--------------------------------------------------
+--                    settings                  --
+local MaxRange = 42
+local ReloadTime = 0.45
+local DamagePerShot = 12
+--                                              --
+--------------------------------------------------
+
+--game.Workspace.ErrorOut.Value = game.Workspace.ErrorOut.Value.."(( SentryScript Running "
+
+while not script:FindFirstChild("MyTargetTurret") do script.ChildAdded:wait() end
+local Model = script.MyTargetTurret.Value
+local Humanoid = Model:FindFirstChild("Humanoid")
+local Player = (Model:FindFirstChild("TurretOwner") or {}).Value
+local PlayerTurretValue = (Player or game):FindFirstChild("SentryValue")
+local PlayerTurretTargetValue = (Player or game):FindFirstChild("SentryTargetValue")
+--
+local CannonPart = Model:FindFirstChild("CannonMove")
+local TorsoPart = Model:FindFirstChild("Torso")
+local HeadPart = Model:FindFirstChild("Head")
+local TorsoToHead = (TorsoPart or game):FindFirstChild("Neck")
+local HeadToCannon = (HeadPart or game):FindFirstChild("CannonAttach")
+local FireSound = (CannonPart or game):FindFirstChild("FireSound")
+
+if not (Model and Humanoid and Player and PlayerTurretValue and PlayerTurretTargetValue and
+        CannonPart and TorsoPart and HeadPart and TorsoToHead and HeadToCannon and FireSound)
+then
+	print("FATAL: Sentry setup failed, destroying turret!")
+	Model:Destroy()
+	Model.Parent = nil
+end
+
+--prevent double init
+local INITED_HACK = (Model:FindFirstChild("INITED_HACK"))
+if not INITED_HACK then
+	Create'IntValue'{
+		Name = "INITED_HACK",
+		Parent = Model,
+	}
+end
+--game.Workspace.ErrorOut.Value = game.Workspace.ErrorOut.Value.."... with"..(INITED_HACK and "out" or "").." INIT ))"
+
+
+local UnfoldAnimDef = Create'Animation'{
+	Parent = Model,
+	AnimationId = "http://www.roblox.com/asset/?id=68433924",
+}
+local FireAnim1Def = Create'Animation'{
+	Parent = Model,
+	AnimationId = "http://www.roblox.com/asset/?id=68433992",
+}
+local FireAnim2Def = Create'Animation'{
+	Parent = Model,
+	AnimationId = "http://www.roblox.com/asset/?id=68433974",
+}
+local UnfoldAnim = Humanoid:LoadAnimation(UnfoldAnimDef)
+local FireAnim1 = Humanoid:LoadAnimation(FireAnim1Def)
+local FireAnim2 = Humanoid:LoadAnimation(FireAnim2Def)
+
+if not INITED_HACK then
+	UnfoldAnim:Play(0, 1, 1)
+end
+
+function TagHumanoid(humanoid)
+	local tag = Create'ObjectValue'{
+		Name = "creator",
+		Value = Player,
+		Parent = humanoid,
+	}
+	game.Debris:AddItem(tag, 2)
+end
+
+
+Humanoid.Died:connect(function()
+	script:Destroy()
+end)
+
+
+---fire from point
+local whichFireFrom = true
+local function GetFireFrom()
+	local dir = (whichFireFrom and 1 or -1)
+	return CannonPart.CFrame*CFrame.new(0,dir*0.3,-1.8)
+end
+local function GetFireAnim()
+	if whichFireFrom then
+		return FireAnim1
+	else
+		return FireAnim2
+	end
+end
+local function SwitchFireFrom()
+	whichFireFrom = not whichFireFrom
+end
+
+
+function ShowShot(from, to)
+	local shotBlast = Create'Part'{
+		Name = "ShotBlast",
+		CanCollide = false,
+		Anchored = true,
+		Parent = Model,
+		FormFactor = 'Custom',
+		Size = Vector3.new(0.5, 0.5, 1.5),
+		BrickColor = BrickColor.new(21),
+		Transparency = 0.3,
+		Create'SpecialMesh'{
+			MeshType = 'Sphere',
+		},
+		Create'Fire'{
+			Size = 0,
+			Heat = 0,
+		},
+	}
+	local shotLance = Create'Part'{
+		Name = "ShotLance",
+		CanCollide = false,
+		Anchored = true,
+		Parent = Model,
+		FormFactor = 'Custom',
+		BrickColor = BrickColor.new(21),
+		Size = Vector3.new(0.2, 0.2, (from-to).magnitude),
+		Transparency = 0.3,
+	}
+	shotBlast.CFrame = CFrame.new(from, to)
+	shotLance.CFrame = CFrame.new(from, to)*CFrame.new(0, 0, -(from-to).magnitude/2)
+	--
+	game.Debris:AddItem(shotBlast, 0.5)
+	game.Debris:AddItem(shotLance, 0.5)
+	game.Debris:AddItem(shotBlast.Fire, 0.2)
+	--
+	Spawn(function()
+		for i = 0.3, 1, 0.05 do
+			wait()
+			shotBlast.Transparency = i
+			shotLance.Transparency = i
+		end
+		shotBlast:Destroy()
+		shotLance:Destroy()
+	end)
+end
+
+
+local PivotOffsetFromHead = CFrame.new(0, 0.4, 0.1)*CFrame.Angles(-math.pi/2, 0, 0)
+local HeadOffsetFromPivot = CFrame.new(0, 0, -1)
+local GunOffsetFromHead = CFrame.new(0, 0.6, 0.2)*CFrame.Angles(math.pi/2, 0, 0)
+function AimAt(pos)
+	--edit the swivel joint
+	--[[local originalHeadPos = (TorsoPart.CFrame*TorsoToHead.C0*TorsoToHeadAnimMod).p
+	local desiredCFrame = CFrame.new(originalHeadPos,
+	                                 Vector3.new(pos.x, originalHeadPos.y, pos.z))*
+	                      CFrame.Angles(-math.pi/2, 0, 0)
+	TorsoToHead.C1 = desiredCFrame:inverse()*
+	                 TorsoPart.CFrame*
+	                 TorsoToHead.C0*
+	                 TorsoToHeadAnimMod
+	]]
+	local headPivot = TorsoPart.CFrame*PivotOffsetFromHead
+	local desiredCF = CFrame.new(headPivot.p, Vector3.new(pos.x, headPivot.p.y, pos.z))
+	desiredCF = desiredCF*CFrame.Angles(-math.pi/2, 0, 0)
+	TorsoToHead.C1 = HeadOffsetFromPivot*(desiredCF:inverse()*headPivot)
+	--
+	local gunPivot = HeadPart.CFrame*GunOffsetFromHead
+	local desiredCF = CFrame.new(gunPivot.p, pos)
+	HeadToCannon.C1 = desiredCF:inverse()*gunPivot
+end
+
+function GetTarget(targetPos)
+	local from = GetFireFrom().p
+	local ray = Ray.new(from, (targetPos-from))
+	local part, hit = game.Workspace:FindPartOnRay(ray, Model)
+	--if part then
+	--	print("Hit part", part, "in", part.Parent)
+	--end
+	if part then
+		--if it's part of a humanoid, or a humanoid's gear/hats
+		local hum = (part.Parent or game):FindFirstChild('Humanoid')
+		hum = hum or ((part.Parent or game).Parent or game):FindFirstChild('Humanoid')
+		if hum then
+			return hum, (hit-from).magnitude, hit
+		end
+	end
+end
+
+
+function InflictDamageOn(hum)
+	TagHumanoid(hum)
+	hum:TakeDamage(DamagePerShot)
+	GetFireAnim():Play(0, 1, 5)
+	FireSound:Play()
+end
+
+
+local mLastShotTime = 0
+
+if not INITED_HACK then
+	repeat until UnfoldAnim.KeyframeReached:wait() == 'complete'
+	wait()
+end
+
+--local beforeErr = ""
+while true do
+	wait()
+
+	--local st, err = pcall(function()
+	local didAttackOnTarget = false
+
+	if PlayerTurretTargetValue.Value then
+		local hum = PlayerTurretTargetValue.Value
+		if hum.Health &gt; 0 then
+			local torso = (hum.Parent or game):FindFirstChild("Torso")
+			--find biggest part to target in the thing if no torso exists
+			if not torso and hum.Parent then
+				local largestPart = nil
+				local largestSize = -1
+				for _, p in pairs(hum.Parent:GetChildren()) do
+					if p:IsA('BasePart') then
+						--beforeErr = "281"
+						if p.Size.magnitude &gt; largestSize then
+							largestPart = p
+							largestSize = p.Size.magnitude
+						end
+					end
+				end
+				--
+				torso = largestPart
+			end
+			--beforeErr = "291"
+			--make sure there were any parts at all
+			if torso then
+				if hum ~= Humanoid then
+					AimAt(torso.Position)
+				end
+				local hum, dist, hitPos = GetTarget(torso.Position)
+				if hum and hum ~= Humanoid and dist &lt; MaxRange then
+					AimAt(hitPos)
+					didAttackOnTarget = true
+					if (tick()-mLastShotTime) &gt; ReloadTime then
+						ShowShot(GetFireFrom().p, hitPos)
+						InflictDamageOn(hum)
+						SwitchFireFrom()
+						mLastShotTime = tick()
+					end
+				end
+			end
+		end
+	end
+
+	if not didAttackOnTarget then
+		--do targeting
+		local targets = {}
+
+		--gather all possible targets
+		local fireFrom = GetFireFrom().p
+		local targetAtAll = nil --if all else fails, aim at this thing
+		for _, p in pairs(game.Players:GetChildren()) do
+			if p ~= Player then
+				if p.Character and p.Character:FindFirstChild('Torso') then
+					local targetPos = p.Character.Torso.Position
+					--skip raycasting if the target is too far away
+					--beforeErr = tostring(fireFrom)..","..tostring(targetPos)
+					if (fireFrom - targetPos).magnitude &gt; MaxRange*2 then
+						targetAtAll = targetPos
+					else
+						--beforeErr = beforeErr.."|328"
+						AimAt(targetPos)
+						--beforeErr = beforeErr.."|330"
+						local hum, dist, hit = GetTarget(targetPos)
+						if hum and hum ~= Humanoid and dist &lt; MaxRange then
+							targets[hum] = hit
+						end
+					end
+				end
+			end
+		end
+
+		--beforeErr = beforeErr.."|340"
+		--if there are any targets available
+		if next(targets) then
+			--find the lowest health one, the best to try killing
+			local lowestHealth = 10000
+			local lowestHealthHum = nil
+			for p, _ in pairs(targets) do
+				if p.Health &lt; lowestHealth then
+					lowestHealth = p.Health
+					lowestHealthHum = p
+				end
+			end
+
+			local to = targets[lowestHealthHum]
+			AimAt(to)
+			if (tick()-mLastShotTime) &gt; ReloadTime then
+				ShowShot(GetFireFrom().p, to)
+				InflictDamageOn(lowestHealthHum)
+				SwitchFireFrom()
+				mLastShotTime = tick()
+			end
+		elseif targetAtAll then
+			--all else failed, just point at something
+			AimAt(targetAtAll)
+		end
+	end
+	--end)
+	--if not st then
+	--game.Workspace.ErrorOut.Value = game.Workspace.ErrorOut.Value.."[:"..beforeErr..": "..err.."]"
+	--break
+	--end
+end
+
+--script.Name = "RUNNING_"..script.Name</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Camera" referent="RBX85FD540EE4CA4D3FAF1F38B509AEAEA5">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>-2.79962349</X>
+							<Y>48.1359444</Y>
+							<Z>-4.06222153</Z>
+							<R00>0.858962059</R00>
+							<R01>-0.158227146</R01>
+							<R02>0.486978948</R02>
+							<R10>-1.4901163e-08</R10>
+							<R11>0.951057792</R11>
+							<R12>0.309013635</R12>
+							<R20>-0.512039423</R20>
+							<R21>-0.265430987</R21>
+							<R22>0.816922367</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>-12.5392008</X>
+							<Y>41.9556732</Y>
+							<Z>-20.4006653</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

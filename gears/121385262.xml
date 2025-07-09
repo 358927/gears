@@ -1,0 +1,599 @@
+<Item class="Model" referent="RBXB1AA348B8BBA4495989FF6F9D7EF1C4F">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">121385262</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBXCFF65627B0DA4AE38CEFACDF77E61000">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>1.70000005</Y>
+						<Z>-0.200000003</Z>
+						<R00>0.540302277</R00>
+						<R01>0</R01>
+						<R02>-0.841470957</R02>
+						<R10>0.47513026</R10>
+						<R11>0.825335622</R11>
+						<R12>0.305077612</R12>
+						<R20>0.694495976</R20>
+						<R21>-0.564642489</R21>
+						<R22>0.445930719</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">ZombieDog</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=121544428</url></Content>
+					<string name="ToolTip">Woof woof... brains!</string>
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>35.7100029</X>
+							<Y>59.1600037</Y>
+							<Z>98.8000031</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>-1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>-0</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>-0</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Script" referent="RBX48F29127DC3C4D66A78392D13F32E945">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">ServerZombieDogMain</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{68C9CC40-8E90-4664-9EC2-4DE289AAEB99}</string>
+						<ProtectedString name="Source">local ZombieDog = script.Parent
+--
+local Player = script:WaitForChild('Creator')
+while not Player.Value do Player.Changed:wait() end
+Player = Player.Value
+
+if not Player.Character or
+	not Player.Character:FindFirstChild('Humanoid')
+	or Player.Character.Humanoid.Health &lt;= 0
+	or not ZombieDog:FindFirstChild('Humanoid')
+then
+	ZombieDog:Destroy()
+	return
+end
+
+local MyHumanoid = ZombieDog.Humanoid
+local PlayerHumanoid = Player.Character.Humanoid
+
+MyHumanoid.Died:connect(function()
+	wait(0.5)
+	ZombieDog:Destroy()
+end)
+PlayerHumanoid.Died:connect(function()
+	MyHumanoid.Health = 0
+end)
+Player.Changed:connect(function(pr)
+	if pr == 'Parent' then
+		MyHumanoid.Health = 0
+	end
+end)
+
+local PoisonScript = ZombieDog:WaitForChild('PoisonScript')
+
+ZombieDog:WaitForChild('Torso').Touched:connect(function(part)
+	if part.Parent and part.Parent:FindFirstChild('Humanoid') and
+		part.Parent:FindFirstChild('Torso') and
+		not part.Parent:FindFirstChild('PoisonScript') and
+		part.Parent:FindFirstChild('Humanoid') ~= Player.Character:FindFirstChild('Humanoid')
+	then
+		local poison = PoisonScript:Clone()
+		poison.Disabled = false
+		poison.Parent = part.Parent
+	end
+end)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="ObjectValue" referent="RBXAE5A7053A4DF402DAE33BC9EE9C40954">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">Creator</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Ref name="Value">null</Ref>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBXED35601E3DF4440B9964C307EE452DC9">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">LocalZombieDogMain</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{2244E540-12B5-4EFC-9A52-ED4A73C20A2B}</string>
+						<ProtectedString name="Source">local ZombieDog = script:WaitForChild('ZombieDog')
+while not ZombieDog.Value do ZombieDog.Changed:wait() end
+ZombieDog = ZombieDog.Value
+
+local DogTorso = ZombieDog:WaitForChild('DogTorso')
+
+local Character = script.Parent
+local Torso = Character:WaitForChild('Torso')
+
+local Humanoid = ZombieDog.Humanoid
+
+local ANIM_Idle = Humanoid:LoadAnimation(ZombieDog:WaitForChild('ANIM_Idle'))
+local ANIM_Run =  Humanoid:LoadAnimation(ZombieDog:WaitForChild('ANIM_Run'))
+local ANIM_Sit =  Humanoid:LoadAnimation(ZombieDog:WaitForChild('ANIM_Sit'))
+
+local SitValue = ZombieDog:WaitForChild('Sit')
+local SitGyro = Instance.new('BodyGyro')
+SitGyro.maxTorque = Vector3.new(10000000, 0, 10000000)
+SitGyro.Parent = ZombieDog.Torso
+SitGyro.cframe = CFrame.new(Vector3.new(0, 0, 0), Vector3.new(0, 0, 1))
+
+local DeadWeight = (CFrame.new(Torso.Position, DogTorso.Position)*CFrame.new(0, 0, -5)).p
+
+local IsRunning = false
+Spawn(function()
+	ANIM_Idle:Play()
+	while true do
+		local speed = (DogTorso.Velocity - Vector3.new(0, DogTorso.Velocity.y, 0)).magnitude
+		if speed &gt; 0.1 then
+			if not IsRunning then
+				IsRunning = true
+				print("Run")
+				ANIM_Idle:Stop()
+				ANIM_Run:Play()
+			end
+		else
+			if IsRunning then
+				IsRunning = false
+				print("Stop")
+				ANIM_Run:Stop()
+				ANIM_Idle:Play()
+			end
+		end
+		wait()
+	end
+end)
+
+SitValue.Changed:connect(function()
+	if SitValue.Value then
+		-- Go into sitting mode
+		ANIM_Sit:Play()
+		Humanoid.WalkSpeed = 0
+		SitGyro.maxTorque = Vector3.new(0, 10000000, 0)
+		SitGyro.cframe = CFrame.new(DogTorso.Position, Torso.Position)
+	else
+		-- Go into movement mode
+		ANIM_Sit:Stop()
+		SitGyro.maxTorque = Vector3.new(10000000, 0, 10000000)
+		SitGyro.cframe = CFrame.new(DogTorso.Position, Torso.Position)
+	end
+end)
+
+Spawn(function()
+	while Humanoid.Health &gt; 0 do
+		if SitValue.Value then
+			-- Update the sit gyro, pointing the dog at us.
+			SitGyro.cframe = CFrame.new(DogTorso.Position, Torso.Position)
+		else
+			-- Check if we need to jump
+			if not Humanoid.Jump and not SitValue.Value then
+				local castFrom = DogTorso.CFrame*CFrame.new(0, -1, -1.3)*CFrame.Angles(-math.pi/4+0.30, 0, 0)
+				local castRay = Ray.new(castFrom.p, castFrom.p + castFrom.lookVector)
+				local ignore = {}
+				local part, at = game.Workspace:FindPartOnRay(castRay, ZombieDog)
+				while part and (not part.CanCollide or part:IsDescendantOf(ZombieDog) or part:IsDescendantOf(Character)) do
+					table.insert(ignore, part)
+					part, at = game.Workspace:FindPartOnRayWithIgnoreList(castRay, ignore)
+				end
+				if part then
+					if (at - castFrom.p).magnitude &lt; 2.3 then
+						Humanoid.Jump = true
+						ZombieDog.Torso.Velocity = Vector3.new(ZombieDog.Torso.Velocity.x, 20, ZombieDog.Torso.Velocity.z)
+					end
+				end
+			end
+
+			-- Update deadweight.
+			DeadWeight = (CFrame.new(Torso.Position, DeadWeight)*CFrame.new(0, 0, -5)).p
+
+			-- Move dog towards deadweight.
+			Humanoid:MoveTo(DeadWeight, Torso)
+
+			-- Update dog move speed.
+			local dist = (Torso.Position - DogTorso.Position).magnitude
+			local frac = math.min(1, dist / 40)
+			Humanoid.WalkSpeed = math.sqrt(frac)*16
+			if IsRunning then
+				ANIM_Run:AdjustSpeed(math.max(1, math.sqrt(frac)*5), 0)
+			end
+		end
+		wait()
+	end
+	script:Destroy()
+end)
+
+ZombieDog.DogTorso.ClickDetector.MouseClick:connect(function(player)
+	if player == game.Players:GetPlayerFromCharacter(Character) then
+		SitValue.Value = not SitValue.Value
+	end
+end)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="ObjectValue" referent="RBXBEB37EF19F7E4CF6A77330F88B4ADFDF">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">ZombieDog</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Ref name="Value">null</Ref>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBXE382194163BB4AC182B98FD7E761C351">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">ZombieDogMain</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{9EE5CC89-FA85-4063-ADE8-B0D6FE46D686}</string>
+						<ProtectedString name="Source">local Tool = script.Parent
+local Handle = Tool:WaitForChild('Handle')
+local LocalZombieDogMain = Tool:WaitForChild('LocalZombieDogMain')
+local ServerZombieDogMain = Tool:WaitForChild('ServerZombieDogMain')
+local PoisonScript = Tool:WaitForChild('PoisonScript')
+local Torso;
+local Character;
+
+Tool.Equipped:connect(function(mouse)
+	Character = Tool.Parent
+	Torso = Character:WaitForChild('Torso')
+	local Player = game.Players:GetPlayerFromCharacter(Character)
+
+	mouse.Button1Down:connect(function()
+		if Character:FindFirstChild('LocalZombieDogMain') then return end
+		local hit = mouse.Hit.p
+		if (hit-Torso.Position).magnitude &lt; 120 then
+			local dog = game:GetService('InsertService'):LoadAsset(121605203):GetChildren()[1]
+			--
+			local dogServerScript = ServerZombieDogMain:Clone()
+			dogServerScript:WaitForChild('Creator').Value = Player
+			dogServerScript.Parent = dog
+			dogServerScript.Disabled = false
+			--
+			local dogPoison = PoisonScript:Clone()
+			dogPoison.Parent = dog
+			--
+			dog.Parent = game.Workspace
+			dog:MoveTo(hit)
+			--
+			local dogLocalScript = LocalZombieDogMain:Clone()
+			dogLocalScript:WaitForChild('ZombieDog').Value = dog
+			dogLocalScript.Disabled = false
+			dogLocalScript.Parent = Character
+		end
+	end)
+end)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX398A6C2B597E4072A5B98665D0AB493A">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>35.7100029</X>
+							<Y>59.1600037</Y>
+							<Z>98.8000031</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>-1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>-0</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>-0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>0.840000153</X>
+							<Y>1.66000319</Y>
+							<Z>1.55000067</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBXB562FED942564F2794DE20FBD0D15105">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=121605457</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=121545031</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Script" referent="RBXD2508A85B1074076910E52A459634585">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">PoisonScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{73F727C2-8703-429E-8516-F7BC66FF25BA}</string>
+						<ProtectedString name="Source">local Character = script.Parent
+local Torso = Character:WaitForChild('Torso')
+local Humanoid = Character:WaitForChild('Humanoid')
+local StartedAt = tick()
+local LastDamage = 0
+
+local EffectParts = {}
+
+Spawn(function()
+	while true do
+		if (tick()-StartedAt) &gt; 10 then
+			break
+		end
+		if (tick()-LastDamage) &gt; 1 then
+			Humanoid:TakeDamage(10)
+			LastDamage = tick()
+		end
+		for eff, _ in pairs(EffectParts) do
+			eff.Offs = eff.Offs + 0.03
+			if eff.Offs &gt; 1 then
+				EffectParts[eff] = nil
+				eff.Part:Destroy()
+			else
+				eff.Part.Transparency = eff.Offs
+				eff.Part.CFrame = CFrame.new(Torso.Position)*CFrame.new(eff.X, eff.Y + 5 * eff.Offs, eff.Z)
+			end
+		end
+		if math.random(1,7) == 1 then
+			local eff = {}
+			eff.Part = Instance.new('Part', Character)
+			eff.Part.Name = 'Effect'
+			eff.Part.CanCollide = false
+			eff.Part.Anchored = true
+			eff.Part.FormFactor = 'Custom'
+			eff.Part.Size = Vector3.new(0,math.random(10,30)/10,0)
+			eff.Part.BrickColor = BrickColor.new(1020)
+			eff.Y = math.random(-10,20)/10
+			eff.X = math.random(-20,20)/10
+			eff.Offs = 0
+			eff.Z = math.random(-20,20)/10
+			EffectParts[eff] = true
+		end
+		wait()
+	end
+	for eff, _ in pairs(EffectParts) do
+		eff.Part:Destroy()
+	end
+	script:Destroy()
+end)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Camera" referent="RBXA3C2E31948234D8A9F8779B3CFA09DE0">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>38.0269318</X>
+							<Y>61.0177956</Y>
+							<Z>100.907478</Z>
+							<R00>0.669142365</R00>
+							<R01>-0.100684538</R01>
+							<R02>0.736281991</R02>
+							<R10>-0</R10>
+							<R11>0.990779281</R11>
+							<R12>0.135486335</R12>
+							<R20>-0.74313426</R20>
+							<R21>-0.0906596482</R21>
+							<R22>0.662972331</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>36.5543442</X>
+							<Y>60.7468185</Y>
+							<Z>99.5815125</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

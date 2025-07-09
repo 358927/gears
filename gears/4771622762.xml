@@ -1,0 +1,639 @@
+<Item class="Model" referent="RBX494B4F3359654A22A6BAF17DB9EB2343">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">4771622762</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBXA91ECA4A84AA4DBD8803F83284FF2A76">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">false</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>-0.600000024</Y>
+						<Z>-0.300000012</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">DevLauncher</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>rbxgameasset://Images/devgun</url></Content>
+					<string name="ToolTip">rbxassetid://4753372121</string>
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>-2.26698494</X>
+							<Y>1.17061949</Y>
+							<Z>1.44301128</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="LocalScript" referent="RBXAEE3CD89F43C40C1A252C03C1C98874E">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Client</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{25b65349-c94b-4911-954a-9834d6d7bfa5}</string>
+						<ProtectedString name="Source">local MOUSE_ICON = "rbxasset://textures/GunCursor.png"
+local RELOAD_ICON = "rbxasset://textures/GunWaitCursor.png"
+
+local player = game.Players.LocalPlayer
+local tool = script.Parent
+local handle = tool:WaitForChild("Handle")
+local launch = tool:WaitForChild("LaunchEgg")
+local active = true
+local mouse
+
+local Settings = require(tool:WaitForChild("Settings"))
+
+local function deactivate()
+	active = false
+	if mouse then
+		mouse.Icon = RELOAD_ICON
+	end
+end
+
+local function reactivate()
+	active = true
+	if mouse then
+		mouse.Icon = MOUSE_ICON
+	end
+end
+
+local function getTargetPos(mouse)
+	local ignoreList = {}
+	local mouseRay = Ray.new(mouse.UnitRay.Origin, mouse.UnitRay.Direction * 1000)
+	local part, pos, normal
+	local noTargetFound = false
+	repeat
+		part, pos, normal = workspace:FindPartOnRayWithIgnoreList(mouseRay, ignoreList)
+		if not part then
+			noTargetFound = true
+		elseif part.CanCollide == false or part.Anchored == false then
+			table.insert(ignoreList, part)
+			part = nil
+		end
+	until part or noTargetFound
+	if noTargetFound then
+		pos = mouseRay.Origin + mouseRay.Direction
+	else
+		pos = pos + 2 * normal
+	end
+
+	if (pos - handle.Position).Magnitude &gt; Settings.MaxDist then
+		local launchRay = Ray.new(handle.Position, (mouse.Hit.Position - handle.Position).Unit * Settings.MaxDist)
+		noTargetFound = false
+		repeat
+			part, pos, normal = workspace:FindPartOnRayWithIgnoreList(launchRay, ignoreList)
+			if not part then
+				noTargetFound = true
+			elseif part.CanCollide == false or part.Anchored == false then
+				table.insert(ignoreList, part)
+				part = nil
+			end
+		until part or noTargetFound
+		if noTargetFound then
+			pos = launchRay.Origin + launchRay.Direction
+		else
+			pos = pos + 2 * normal
+		end
+	end
+
+	if not part then
+		noTargetFound = false
+		local downRay = Ray.new(pos, Vector3.new(0, -2 * Settings.MaxDist, 0))
+		repeat
+			part, pos, normal = workspace:FindPartOnRayWithIgnoreList(downRay, ignoreList)
+			if not part then
+				noTargetFound = true
+			elseif part.CanCollide == false or part.Anchored == false then
+				table.insert(ignoreList, part)
+				part = nil
+			end
+		until part or noTargetFound
+		if noTargetFound then
+			pos = downRay.Origin + downRay.Direction
+		end
+		if part then
+			pos = pos + 2 * normal
+		end
+	end
+
+	return pos
+end
+
+tool.Activated:Connect(function()
+	if mouse and active then
+		local origin = handle.Barrel.WorldPosition
+		local pos = getTargetPos(mouse)
+		local launched = launch:InvokeServer(origin, pos)
+		if launched then
+			deactivate()
+			delay(Settings.Cooldown, function()
+				reactivate()
+			end)
+		end
+	end
+end)
+
+tool.Equipped:Connect(function(m)
+	mouse = m
+	mouse.Icon = active and MOUSE_ICON or RELOAD_ICON
+end)
+
+tool.Unequipped:Connect(function()
+	mouse = nil
+end)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="RemoteFunction" referent="RBXDCE3147446B54B908C18A0CE63EE6FFF">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">LaunchEgg</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="MeshPart" referent="RBXBA2F564D1D4445DC8FD3AF80AAA739A1">
+					<Properties>
+						<SharedString name="AeroMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>30.5099964</X>
+							<Y>9.6704998</Y>
+							<Z>13.868494</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="DoubleSided">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<token name="FluidFidelityInternal">0</token>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<bool name="HasJointOffset">false</bool>
+						<bool name="HasSkinnedMesh">false</bool>
+						<bool name="InertiaMigrated">false</bool>
+						<Vector3 name="InitialSize">
+							<X>1.64003801</X>
+							<Y>2.72100806</Y>
+							<Z>5.04580402</Z>
+						</Vector3>
+						<Vector3 name="JointOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<Content name="MeshId"><url>rbxassetid://4769273869</url></Content>
+						<string name="Name">Handle</string>
+						<SharedString name="PhysicalConfigData">V8xw38DAo1llzRBLgrfkiA==</SharedString>
+						<BinaryString name="PhysicsData" />
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<token name="RenderFidelity">1</token>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<Content name="TextureID"><url>rbxassetid://4769275011</url></Content>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="UnscaledCofm">
+							<X>NAN</X>
+							<Y>NAN</Y>
+							<Z>NAN</Z>
+						</Vector3>
+						<Vector3 name="UnscaledVolInertiaDiags">
+							<X>NAN</X>
+							<Y>NAN</Y>
+							<Z>NAN</Z>
+						</Vector3>
+						<Vector3 name="UnscaledVolInertiaOffDiags">
+							<X>NAN</X>
+							<Y>NAN</Y>
+							<Z>NAN</Z>
+						</Vector3>
+						<float name="UnscaledVolume">NAN</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int name="VertexCount">0</int>
+						<Vector3 name="size">
+							<X>0.819999993</X>
+							<Y>1.36099994</Y>
+							<Z>2.523</Z>
+						</Vector3>
+					</Properties>
+					<Item class="Attachment" referent="RBXFA40274D89F74F1DBDD4EB7E5856E4A6">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<CoordinateFrame name="CFrame">
+								<X>-0.029068768</X>
+								<Y>0.0571289062</Y>
+								<Z>-0.969804764</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">Barrel</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<bool name="Visible">false</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="ModuleScript" referent="RBX52AB4A71712D4BBCB78BED9EA749EE5F">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">CollectableEgg</string>
+						<string name="ScriptGuid">{c39e33e9-0e3a-4638-b4e8-6a70eb795f75}</string>
+						<ProtectedString name="Source">local BadgeService = game:GetService("BadgeService")
+local TweenService = game:GetService("TweenService")
+
+local CollectableEgg = {}
+local methods = {}
+CollectableEgg.__index = methods
+
+function methods:Destroy()
+	self.Destroyed = true
+	self.Part:Destroy()
+	for _, tween in pairs(self.Tweens) do
+		tween:Destroy()
+	end
+end
+
+function methods:Collect(player)
+end
+
+function methods:SpawnEgg()
+	self.Part = self.Part or self.Template:Clone()
+	self.Part.CanCollide = false
+	self.Part.Anchored = false
+	self.Part.Transparency = 0
+end
+
+function methods:Launch()
+
+	self.Target = self.Target or self.Origin
+
+	local eggVelocity = Vector3.new()
+	local t = 0
+
+	if self.Target ~= self.Origin then
+		local deltaXVector = Vector3.new(self.Target.X, 0, self.Target.Z) - Vector3.new(self.Origin.X, 0, self.Origin.Z)
+		local deltaX = deltaXVector.Magnitude
+		local deltaY = self.Target.Y - self.Origin.Y
+		local theta = (math.pi + 2 * (math.atan2(deltaY, deltaX))) / 4
+		local grav = workspace.Gravity
+		local axisVelY = math.sqrt((grav * deltaX^2 * math.tan(theta)^2) / (2 * (math.tan(theta) * deltaX - deltaY)))
+		local sqrtD = math.sqrt(axisVelY^2 - 2*workspace.Gravity*deltaY)
+		t = (axisVelY + sqrtD) / workspace.Gravity
+		local axisVelX = deltaX / t
+		eggVelocity = deltaXVector.Unit * axisVelX + Vector3.new(0, axisVelY, 0)
+	end
+
+	local originalSize = self.Part.Size
+	self.Part.Size = 0.25 * originalSize
+
+	local tween = TweenService:Create(self.Part, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {
+		Size = originalSize
+	})
+	table.insert(self.Tweens, tween)
+	tween:Play()
+
+	self.Part.Velocity = eggVelocity
+	self.Part.CFrame = CFrame.new(self.Origin)
+	self.Part.Parent = workspace
+	self.Part:SetNetworkOwner(self.Owner)
+
+	delay(t, function()
+		if not self.Destroyed then
+			self.Part.Velocity = Vector3.new()
+
+			local bodyPos = Instance.new("BodyPosition")
+			bodyPos.Position = self.Target
+			bodyPos.MaxForce = Vector3.new(40000, 40000, 40000)
+			bodyPos.Parent = self.Part
+
+			local tween = TweenService:Create(bodyPos, TweenInfo.new(0.8, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, -1, true), {
+				Position = bodyPos.Position + Vector3.new(0, 2.5, 0)
+			})
+			table.insert(self.Tweens, tween)
+			tween:Play()
+
+			local bodyRot = Instance.new("BodyAngularVelocity")
+			bodyRot.AngularVelocity = Vector3.new(0, 0.5, 0)
+			bodyRot.Parent = self.Part
+
+			self.Part.Touched:Connect(function(hit)
+				local collectingPlayer = game.Players:GetPlayerFromCharacter(hit.Parent)
+				if collectingPlayer then
+
+					self.Part:Destroy()
+					self:Collect(collectingPlayer)
+					self:Destroy()
+
+				end
+			end)
+		end
+	end)
+end
+
+function CollectableEgg.new(owner, origin, target, eggTemplate, maxDist, despawnTime)
+	despawnTime = despawnTime or 300
+
+	local template = Instance.new("Part")
+	template.Size = Vector3.new(2,2,2)
+	template.Shape = "Ball"
+	local mesh = Instance.new("SpecialMesh")
+	mesh.Parent = template
+	mesh.MeshId = "rbxassetid://4827032538"
+	mesh.TextureId = "rbxassetid://4827034770"
+
+	local self = setmetatable({
+		Part = nil,
+		Owner = owner,
+		Origin = origin,
+		Target = target,
+		Template = template,
+		MaxDist = maxDist,
+		Destroyed = false,
+		Tweens = {},
+	}, CollectableEgg)
+
+	self:SpawnEgg()
+	self:Launch()
+	delay(despawnTime, function()
+		self:Destroy()
+	end)
+
+	return self
+end
+
+return CollectableEgg</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBX70384176E4BE424A862183FF5C71E5A5">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Server</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{23ec2829-e14f-46dd-9b44-41218621550b}</string>
+						<ProtectedString name="Source">local tool = script.Parent
+local launchEgg = tool:WaitForChild("LaunchEgg")
+
+local CollectableEgg = require(tool:WaitForChild("CollectableEgg"))
+local Settings = require(tool:WaitForChild("Settings"))
+
+local lastLaunch = 0
+
+tool.LaunchEgg.OnServerInvoke = function(player, origin, target)
+	if target ~= nil and typeof(target) ~= "Vector3" or typeof(origin) ~= "Vector3" then return end
+
+	if tick() - lastLaunch &gt; Settings.Cooldown then
+		local character = player.Character
+		if player.Character and player.Character.PrimaryPart then
+
+			lastLaunch = tick()
+			CollectableEgg.new(player, origin, target, Settings.Egg, Settings.MaxDist, Settings.DespawnTime)
+
+			return true
+		end
+	end
+end</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBXFC8C0E3DC617450393F483E722C52208">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Settings</string>
+						<string name="ScriptGuid">{e74eeea1-2c6e-459e-a89b-436dcff09e30}</string>
+						<ProtectedString name="Source">local Settings = {
+	Cooldown = 5,
+	MaxDist = 100,
+	DespawnTime = 300,
+}
+
+return Settings
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Configuration" referent="RBX7AD4045AD7D84558B09F487950144473">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">ThumbnailConfiguration</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="ObjectValue" referent="RBX817E059494B44D92AFACD0932FECE244">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">ThumbnailCameraTarget</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Ref name="Value">null</Ref>
+						</Properties>
+					</Item>
+					<Item class="CFrameValue" referent="RBX05FEACB340B044C78B9BD36F2127197A">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">ThumbnailCameraValue</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<CoordinateFrame name="Value">
+								<X>1.21034813</X>
+								<Y>0.61987114</Y>
+								<Z>1.6380415</Z>
+								<R00>0.700069308</R00>
+								<R01>-0.211506978</R01>
+								<R02>0.682032108</R02>
+								<R10>1.4901163e-08</R10>
+								<R11>0.955126822</R11>
+								<R12>0.296197146</R12>
+								<R20>-0.714074969</R20>
+								<R21>-0.207358509</R21>
+								<R22>0.668654919</R22>
+							</CoordinateFrame>
+						</Properties>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+		

@@ -1,0 +1,853 @@
+<Item class="Model" referent="RBX4353D403AC694755B3B7879D4D1AB235">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">75556791</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBX331BCAC31E9D465DA06510EC50794A2D">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0.800000012</Z>
+						<R00>0</R00>
+						<R01>1</R01>
+						<R02>-0</R02>
+						<R10>-1</R10>
+						<R11>0</R11>
+						<R12>-0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">SlappingGlove</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=75529562 </url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>58.3428764</X>
+							<Y>2.24081659</Y>
+							<Z>-58.0286636</Z>
+							<R00>-0.531447351</R00>
+							<R01>0.47492066</R01>
+							<R02>0.701436639</R02>
+							<R10>-0.523230195</R10>
+							<R11>0.467165738</R11>
+							<R12>-0.712731481</R12>
+							<R20>-0.666178286</R20>
+							<R21>-0.745792329</R21>
+							<R22>0.000218828616</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBXC7725A07F1D44A1293674C696B772251">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>58.3428764</X>
+							<Y>2.24081659</Y>
+							<Z>-58.0286636</Z>
+							<R00>-0.531447351</R00>
+							<R01>0.47492066</R01>
+							<R02>0.701436639</R02>
+							<R10>-0.523230195</R10>
+							<R11>0.467165738</R11>
+							<R12>-0.712731481</R12>
+							<R20>-0.666178286</R20>
+							<R21>-0.745792329</R21>
+							<R22>0.000218828616</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>1.38999748</X>
+							<Y>1.35999978</Y>
+							<Z>2.29999971</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX3ED7E0D3A5354F6A910E9CFA48B58F31">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=75529530 </url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=75529549 </url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+					<Item class="Sound" referent="RBX105243F843B5455CAE4847410062BB27">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="IsMutedForCapture">false</bool>
+							<NumberRange name="LoopRegion">0 60000 </NumberRange>
+							<bool name="Looped">false</bool>
+							<string name="Name">SlapSound</string>
+							<bool name="PlayOnRemove">false</bool>
+							<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+							<bool name="PlaybackRegionsEnabled">false</bool>
+							<float name="PlaybackSpeed">1</float>
+							<bool name="Playing">false</bool>
+							<float name="RollOffMaxDistance">10000</float>
+							<float name="RollOffMinDistance">10</float>
+							<token name="RollOffMode">0</token>
+							<Ref name="SoundGroup">null</Ref>
+							<Content name="SoundId"><url>http://www.roblox.com/asset/?id=73198604</url></Content>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<double name="TimePosition">0</double>
+							<float name="Volume">1</float>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBX1F620E66982440DB989FF262174C247D">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Local Gui</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{68C1CD1D-4C97-421B-AC16-7EBAB5628454}</string>
+						<ProtectedString name="Source">Tool = script.Parent
+
+local stillEquipped = false
+
+function onEquippedLocal(mouse)
+	stillEquipped = true
+	if mouse == nil then
+		print("Mouse not found")
+		return
+	end
+	while stillEquipped do
+		print("Setting Mouse to go")
+		mouse.Icon = "rbxasset://textures\\GunCursor.png"
+		while Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+		print("Setting Mouse to wait")
+		mouse.Icon = "rbxasset://textures\\GunWaitCursor.png"
+		while not Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+	end
+end
+
+
+function onUnequippedLocal()
+	stillEquipped = false
+end
+
+Tool.Equipped:connect(onEquippedLocal)
+Tool.Unequipped:connect(onUnequippedLocal)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX4C568C5B81104F4997AD1C6154C295A6">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">GloveScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{8FB7324E-4B3D-4200-8109-EE252B404104}</string>
+						<ProtectedString name="Source">local Tool = script.Parent
+local Glove = Tool.Handle
+
+local vCharacter
+local vPlayer
+local myTorso
+local myHumanoid
+
+local genericTextLabel
+local sg
+local frame
+
+local otherPlayer
+
+local challengeGui = Instance.new("ScreenGui")
+
+local challengeAccepted = false
+local debris = game:GetService("Debris")
+
+local cloneId = 68452456
+local cloneAsset = game:GetService("InsertService"):LoadAsset(cloneId):GetChildren()[1]
+local cloneChildren = cloneAsset:GetChildren()
+for i = 1, #cloneChildren do
+	if cloneChildren[i]:IsA("Script") then
+		cloneChildren[i].Disabled = true
+	end
+end
+
+local vClone
+local otherClone
+
+local unequipped = false
+
+local slapSound
+
+function createFloatingIcon(pos, icon, suspension, speed)
+	local p = Instance.new("Part")
+	p.Name = "FloatingPoint"
+	p.FormFactor = "Custom"
+	p.Size = Vector3.new(0.2, 0.2, 0.2)
+	p.Transparency = 1
+	p.CanCollide = false
+	p.CFrame = CFrame.new(pos)
+
+	local bf = Instance.new("BodyForce")
+	bf.force = Vector3.new(0, speed * (196.0 * p:GetMass()), 0)
+
+	local bbGui = Instance.new("BillboardGui")
+	bbGui.Size = UDim2.new(2, 0, 2,0 )
+	bbGui.Adornee = p
+
+	local imageLabel = Instance.new("ImageLabel")
+	imageLabel.Size = UDim2.new(1, 0, 1, 0)
+	imageLabel.BackgroundTransparency = 1
+	imageLabel.Image = icon
+
+	imageLabel.Parent = bbGui
+	bbGui.Parent = p
+	bf.Parent = p
+	p.Parent = game.Workspace
+	debris:AddItem(p, suspension)
+end
+
+function createFloatingText(pos, text, suspension, speed)
+	local p = Instance.new("Part")
+	p.Name = "FloatingPoint"
+	p.FormFactor = "Custom"
+	p.Size = Vector3.new(0.2, 0.2, 0.2)
+	p.Transparency = 1
+	p.CanCollide = false
+	p.CFrame = CFrame.new(pos)
+
+	local bf = Instance.new("BodyForce")
+	bf.force = Vector3.new(0, speed * (196.0 * p:GetMass()), 0)
+
+	local bbGui = Instance.new("BillboardGui")
+	bbGui.Size = UDim2.new(2, 0, 1, 0)
+	bbGui.Adornee = p
+
+	local textLabel = Instance.new("TextLabel")
+	textLabel.Size = UDim2.new(1, 0, 1, 0)
+	textLabel.BackgroundTransparency = 1
+	textLabel.FontSize = Enum.FontSize.Size18
+	textLabel.TextColor3 = Color3.new(0, 1, 0)
+	textLabel.Text = text
+
+	textLabel.Parent = bbGui
+	bbGui.Parent = p
+	bf.Parent = p
+	p.Parent = game.Workspace
+	debris:AddItem(p, suspension)
+end
+
+function createClone(character)
+	if character then
+		local thisClone = cloneAsset:Clone()
+		local children = character:GetChildren()
+		for i = 1, #children do
+			if children[i] then
+				if children[i].ClassName == "Hat" then
+					-- Special
+					local hat = Instance.new("Hat")
+					local Hpart = children[i].Handle:Clone()
+					Hpart.Parent = hat
+					Hpart.Position = thisClone.Head.Position
+					hat.Name = children[i].Name
+					hat.Parent = thisClone
+					hat.AttachmentPos = children[i].AttachmentPos
+					hat.AttachmentRight = children[i].AttachmentRight
+					hat.AttachmentUp = children[i].AttachmentUp
+					hat.AttachmentForward = children[i].AttachmentForward
+				elseif children[i].Name == "Head" then
+					local headChildren = children[i]:GetChildren()
+					local cloneHead = thisClone:FindFirstChild("Head")
+					local cloneHeadChildren = cloneHead:GetChildren()
+					for j = 1, #cloneHeadChildren do
+						if cloneHeadChildren then cloneHeadChildren[j]:Destroy() end
+					end
+					for k = 1, #headChildren do
+						if headChildren[k] then
+							local c = headChildren[k]:Clone()
+							if c then c.Parent = cloneHead end
+						end
+					end
+				elseif children[i].ClassName == "ForceField" or children[i].ClassName == "Script" or children[i].ClassName == "LocalScript" or children[i]:IsA("Humanoid") then
+						-- Ignore it
+				elseif children[i]:IsA("BasePart") then
+					if thisClone[children[i].Name] then
+						thisClone[children[i].Name].BrickColor = children[i].BrickColor
+					end
+				else
+					children[i]:Clone().Parent = thisClone
+				end
+			end
+		end
+		return thisClone
+	end
+end
+
+function createGame()
+	if otherPlayer then
+		if frame then frame.Visible = false end
+		vClone = createClone(vPlayer.Character)
+		otherClone = createClone(otherPlayer.Character)
+
+		if vClone and otherClone then
+			vClone.Name = vCharacter.Name
+			otherClone.Name = otherPlayer.Character.Name
+			vClone.Torso.CFrame = myTorso.CFrame
+			vClone.Parent = game.Workspace
+
+			game.Workspace.CurrentCamera.CameraSubject = vClone
+			game.Workspace.CurrentCamera.CameraType = "Custom"
+
+			myTorso.CFrame = CFrame.new(Vector3.new(0, 65000, 0) )
+			myTorso.Anchored = true
+
+			local deployScript = Tool.CameraHijackScript:Clone()
+			deployScript.Parent = otherPlayer.Character
+
+			local cameraFocus = Instance.new("ObjectValue")
+			cameraFocus.Name = "CamJam"
+			cameraFocus.Value = otherClone
+			cameraFocus.Parent = deployScript
+
+			local endGame = Instance.new("BoolValue")
+			endGame.Name = "End"
+			endGame.Parent = deployScript
+
+			local otherJam = Instance.new("ObjectValue")
+			otherJam.Name = "OtherJam"
+			otherJam.Value = vClone
+			otherJam.Parent = deployScript
+
+			deployScript.Disabled = false
+
+			otherClone.Parent = game.Workspace
+			otherClone.Torso.CFrame = CFrame.new(vClone.Torso.Position + vClone.Torso.CFrame.lookVector * 3, vClone.Torso.Position)
+
+			print("Let the slapping begin")
+			local c1 = Tool:Clone()
+			c1.Parent = game.Workspace
+			local c2 = Tool:Clone()
+			c2.Parent = game.Workspace
+			local vCloneHumanoid = vClone.Humanoid
+			local otherCloneHumanoid = otherClone.Humanoid
+			vCloneHumanoid:EquipTool(c1)
+			otherCloneHumanoid:EquipTool(c2)
+
+			local vCloneAnim = vCloneHumanoid:LoadAnimation(Tool.SlapAnim)
+			local otherCloneAnim = otherCloneHumanoid:LoadAnimation(Tool.SlapAnim)
+
+			slapSound = Glove:FindFirstChild("SlapSound")
+
+			while vCloneHumanoid.Health &gt; 1 and otherCloneHumanoid.Health &gt; 1 and not unequipped do
+				if vCloneAnim then vCloneAnim:Play() end
+				if slapSound then slapSound:Play() end
+				wait(0.25)
+				if math.random() &gt; 0.25 then
+					if otherCloneHumanoid.Health - 10 &gt; 1 then otherCloneHumanoid.Health = otherCloneHumanoid.Health - 10
+					else
+						otherCloneHumanoid.Health = 1
+					end
+					createFloatingIcon(vClone.Head.Position + Vector3.new(0, 5, 0), "http://www.roblox.com/asset/?id=75554763", 1.5, 1.025)
+				else
+					createFloatingIcon(vClone.Head.Position + Vector3.new(0, 5, 0), "http://www.roblox.com/asset/?id=75554701", 1.5, 1.025)
+				end
+				wait(0.25)
+				if slapSound then slapSound:Play() end
+				if otherCloneAnim then otherCloneAnim:Play() end
+				if math.random() &gt; 0.25 then
+					if vCloneHumanoid.Health - 10 &gt; 1 then vCloneHumanoid.Health = vCloneHumanoid.Health - 10
+					else
+						vCloneHumanoid.Health = 1
+					end
+					createFloatingIcon(otherClone.Head.Position + Vector3.new(0, 5, 0), "http://www.roblox.com/asset/?id=75554763", 1.5, 1.025)
+				else
+					createFloatingIcon(otherClone.Head.Position + Vector3.new(0, 5, 0), "http://www.roblox.com/asset/?id=75554701", 1.5, 1.025)
+				end
+				wait(0.45)
+			end
+
+			if vCloneHumanoid.Health == otherCloneHumanoid.Health then
+				createFloatingText((vClone.Torso.Position + vClone.Torso.CFrame.lookVector * 3.0) + Vector3.new(0, 5, 0), "Its a tie", 5, 1.005)
+			elseif vCloneHumanoid.Health &gt; otherCloneHumanoid.Health then
+				createFloatingText((vClone.Torso.Position + vClone.Torso.CFrame.lookVector * 3.0) + Vector3.new(0, 5, 0), vClone.Name .. " won the contest" , 5, 1.005)
+			else
+				createFloatingText((vClone.Torso.Position + vClone.Torso.CFrame.lookVector * 3.0) + Vector3.new(0, 5, 0), otherClone.Name .. "  won the contest", 5, 1.005)
+			end
+			wait(5.5)
+			if frame then frame.Visible = true end
+			if endGame then endGame.Value = true end
+			myTorso.CFrame = vClone.Torso.CFrame
+			myTorso.Anchored = false
+
+			game.Workspace.CurrentCamera.CameraSubject = vCharacter
+			game.Workspace.CurrentCamera.CameraType = "Custom"
+			if vClone then vClone:Destroy() end
+			if otherClone then otherClone:Destroy() end
+		end
+	end
+end
+
+function createChallengeGui()
+	local sGui = Instance.new("ScreenGui")
+	sGui.Name = "SlapChallengeGui"
+
+	local sFrame = Instance.new("Frame")
+	sFrame.Name = "Challenge Frame"
+	sFrame.Size = UDim2.new(0, 150, 0, 50)
+	sFrame.Position = UDim2.new(0, 10, 0.5, 0)
+	sFrame.Parent = sGui
+	sFrame.BackgroundTransparency = 1.0
+
+	local sButton = Instance.new("TextButton")
+	sButton.Name = "Challenge Button"
+	sButton.Size = UDim2.new(1, 0, 1, 0)
+	sButton.Text = "Click to accept slap challenge!"
+	sButton.Position = UDim2.new(0, 0, 0, 0)
+	sButton.Size = UDim2.new(1, 0, 1, 0)
+	sButton.Parent = sFrame
+	sButton.BackgroundColor3 = Color3.new(1, 1, 1)
+
+	return sGui
+end
+
+function onEquipped(mouse)
+	unequipped = false
+	vCharacter = Tool.Parent
+	myTorso = vCharacter:FindFirstChild("Torso")
+	myHumanoid = vCharacter:FindFirstChild("Humanoid")
+	vPlayer = game.Players:GetPlayerFromCharacter(vCharacter)
+	if vPlayer then
+		local playerGui = vPlayer:FindFirstChild("PlayerGui")
+		if playerGui and playerGui:FindFirstChild("GloveGui") == nil then
+			sg = Instance.new("ScreenGui")
+			sg.Name = "GloveGui"
+			sg.Parent = playerGui
+
+			frame = Instance.new("Frame")
+			frame.Parent = sg
+			frame.Size = UDim2.new(0, 360, 0, 30)
+			frame.Position = UDim2.new(0.5, -180, 1, -130)
+			frame.Style = Enum.FrameStyle.RobloxRound
+
+			genericTextLabel = Instance.new("TextLabel")
+			genericTextLabel.BackgroundTransparency = 1.0
+			genericTextLabel.Size = UDim2.new(1, 0, 1, 0)
+			genericTextLabel.Visible = true
+			genericTextLabel.ZIndex = 10
+			genericTextLabel.FontSize = Enum.FontSize.Size10
+			genericTextLabel.Font = Enum.Font.Legacy
+			genericTextLabel.TextColor3 = Color3.new(1, 1, 0)
+			genericTextLabel.TextXAlignment = Enum.TextXAlignment.Center
+			genericTextLabel.TextYAlignment = Enum.TextYAlignment.Top
+			genericTextLabel.Parent = frame
+			genericTextLabel.Text = "Click on someone to challenge them to a duel!"
+		end
+	end
+	if mouse then
+		mouse.Button1Down:connect(function()
+			if mouse.Target then
+				print(mouse.Target)
+				local target = mouse.Target
+				if target.Parent then
+					local otherHumanoid = target.Parent:FindFirstChild("Humanoid")
+					if target.Parent:IsA("Hat") and target.Parent.Parent then
+						otherHumanoid = target.Parent.Parent:FindFirstChild("Humanoid")
+					end
+					if otherHumanoid then
+						otherPlayer = game.Players:GetPlayerFromCharacter(otherHumanoid.Parent)
+						if otherPlayer and otherPlayer:FindFirstChild("PlayerGui") and not challengeGui.Parent then
+							challengeGui = createChallengeGui()
+							--debris:AddItem(challengeGui, 15)
+							challengeGui.Parent = otherPlayer.PlayerGui
+
+							print(challengeGui, challengeGui.Parent, otherPlayer)
+
+							local acceptScript = Tool.AcceptanceScript:Clone()
+							acceptScript.Parent = challengeGui
+
+							while acceptScript:FindFirstChild("Accept") == nil do wait() end
+							acceptVal = acceptScript.Accept
+
+							acceptVal.Changed:connect(function()
+								if acceptVal and acceptVal.Value == true then
+									print("Creating Game")
+									createGame()
+								end
+							end)
+
+							acceptScript.Disabled = false
+							print("Enabled")
+
+							if genericTextLabel then
+								genericTextLabel.Text = "Waiting on " .. otherPlayer.Name .. " to accept"
+								coroutine.resume(coroutine.create(function()
+									wait(16.0)
+									if not challengeAccepted then
+										genericTextLabel.Text = "Click on someone to challenge them to a slapping contest!"
+									end
+								end))
+							end
+						end
+					end
+				end
+			end
+		end)
+	end
+end
+
+function onUnequipped()
+	if sg then sg:Remove() end
+	challengeAccepted = false
+	if challengeGui then challengeGui:Destroy() end
+	unequipped = true
+	if slapSound then slapSound:Stop() end
+end
+
+Tool.Equipped:connect(onEquipped)
+Tool.Unequipped:connect(onUnequipped)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX27B373978C8E4C0885ACC763B20C89C4">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">AcceptanceScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{402B3535-1771-47E0-AD93-903EAC58E619}</string>
+						<ProtectedString name="Source">function waitForChild(parent, instance)
+	while parent:FindFirstChild(instance) == nil do
+		wait()
+	end
+	return parent:FindFirstChild(instance)
+end
+
+local sGui = script.Parent
+
+local frame = waitForChild(sGui, "Challenge Frame")
+local button = waitForChild(frame, "Challenge Button")
+
+local accepted = waitForChild(script, "Accept")
+
+button.MouseButton1Click:connect(function()
+	print("Accept!")
+	accepted.Value = true
+
+	wait(3.0)
+
+	if sGui then sGui:Destroy() end
+end)
+
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="BoolValue" referent="RBX48B03C8BAA104EF696E2124B147E04BB">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">Accept</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<bool name="Value">false</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBXB68CE23DFFFD4654A80133EE715A741A">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">CameraHijackScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{7F252E15-C9EE-4BE5-831E-41A4CF445DE7}</string>
+						<ProtectedString name="Source">while script:FindFirstChild("CamJam") == nil do wait() end
+while script:FindFirstChild("SlapAnim") == nil do wait() end
+
+
+local character = script.Parent
+
+local torso = character:FindFirstChild("Torso")
+
+local initCF = torso.CFrame
+
+local camJam = script.CamJam
+
+local slapAnim = script.SlapAnim
+
+if camJam.Value then
+	print(camJam.Value)
+	game.Workspace.CurrentCamera.CameraSubject = camJam.Value
+	game.Workspace.CurrentCamera.CameraType = "Custom"
+
+	if torso then
+		torso.Anchored = true
+		torso.CFrame = CFrame.new(0, 65000, 0)
+	end
+end
+
+local ended = false
+
+while script:FindFirstChild("End") == nil do wait() end
+local endVal = script.End
+endVal.Changed:connect(function()
+	ended = true
+	if endVal and endVal.Value == true then
+		torso.CFrame = initCF
+		torso.Anchored = false
+		game.Workspace.CurrentCamera.CameraSubject = character
+		game.Workspace.CurrentCamera.CameraType = "Custom"
+	end
+end)
+
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="Animation" referent="RBXA65DAE2A866341D29BEC7E522FBC173C">
+						<Properties>
+							<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=75549420</url></Content>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">SlapAnim</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Animation" referent="RBX2A7DC5CD351546179F4E3EFE4DD9C6D8">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=75549420</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">SlapAnim</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Camera" referent="RBX3A3492F5549C4C8BB61C4D37BCEAC35D">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>59.41745</X>
+							<Y>3.50377655</Y>
+							<Z>-59.2170639</Z>
+							<R00>-0.801573157</R00>
+							<R01>-0.414316058</R01>
+							<R02>0.431071758</R02>
+							<R10>1.4901163e-08</R10>
+							<R11>0.720980227</R11>
+							<R12>0.692955732</R12>
+							<R20>-0.597896874</R20>
+							<R21>0.555454731</R21>
+							<R22>-0.577918291</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>58.5245438</X>
+							<Y>2.0684135</Y>
+							<Z>-58.0199852</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

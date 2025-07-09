@@ -1,0 +1,2251 @@
+<Item class="Model" referent="RBXE7353184EB12438C8D2C3FD9DEA50828">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">56561607</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBX6B086420975643B683281FB12828B8ED">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>0.0199999996</Y>
+						<Z>-0.579999983</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>-0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>1</R12>
+						<R20>0</R20>
+						<R21>1</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">WizardWand</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=56180032</url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>-18.9122314</X>
+							<Y>14.5599308</Y>
+							<Z>19.4299812</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBX7C03B1BE989042AFB7D5DD02149E92F1">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>-18.9122314</X>
+							<Y>14.5599308</Y>
+							<Z>19.4299812</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>0.200000003</X>
+							<Y>0.200000003</Y>
+							<Z>1.14000094</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX0633080601E2450E98FB5FFAE35EFF39">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=56180192</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=56180133</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBX7237EBB635F345C09C9AE5337DE43C9A">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Local Gui</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{62498F4A-8E83-4EB3-8E78-5BE352562A43}</string>
+						<ProtectedString name="Source">Tool = script.Parent
+
+local stillEquipped = false
+
+function onEquippedLocal(mouse)
+	stillEquipped = true
+	if mouse == nil then
+		print("Mouse not found")
+		return
+	end
+	while stillEquipped do
+		print("Setting Mouse to go")
+		mouse.Icon = "rbxasset://textures\\GunCursor.png"
+		while Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+		print("Setting Mouse to wait")
+		mouse.Icon = "rbxasset://textures\\GunWaitCursor.png"
+		while not Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+	end
+end
+
+
+function onUnequippedLocal()
+	stillEquipped = false
+end
+
+Tool.Equipped:connect(onEquippedLocal)
+Tool.Unequipped:connect(onUnequippedLocal)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX293650EAEADF471199EFFF519B08460E">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">WizardWand LS</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{764FAE4E-4B4C-4D1B-B0CA-EE47CA9F6EEF}</string>
+						<ProtectedString name="Source">math.randomseed(tick()); math.random()
+
+local Tool = script.Parent
+local Wand = Tool.Handle
+
+local CloneScript
+local ScriptToRemove
+local GuiToRemove
+
+local debris = game:GetService("Debris")
+
+local myMouse = Tool.Mouse
+
+local myCharacter
+local myPlayer
+local ScreenGui
+local FakeShoulder
+local Torso
+local RightShoulder
+
+local Sparkles = Instance.new("Sparkles")
+Sparkles.Name = "Wizard Wand Sparkles"
+Sparkles.SparkleColor = Color3.new(1, 0, 0)
+
+local Tip = Instance.new("Part")
+Tip.Name = "Wizard Wand Tip"
+Tip.formFactor = Enum.FormFactor.Custom
+Tip.CanCollide = false
+Tip.Locked = true
+Tip.Size = Vector3.new(0.2, 0.2, 0.2)
+Tip.Transparency = 1.0
+
+local TipWeld = Instance.new("Weld")
+TipWeld.Name = "Wizard Wand Tip Weld"
+TipWeld.Part0 = Wand
+TipWeld.Part1 = Tip
+TipWeld.C1 = CFrame.new(0, 0, -0.54)
+
+local HelpGui = Tool:FindFirstChild("WizardWandHelpGui")
+if HelpGui then HelpGui = HelpGui:Clone() end
+
+local HelpedBoolValue = Instance.new("BoolValue")
+HelpedBoolValue.Name = "WizardWandHelped"
+HelpedBoolValue.Value = true
+
+function instantiateTip()
+	Tip.Parent = game.Workspace
+	TipWeld.Parent = game.Workspace
+	Sparkles.Parent = Tip
+end
+
+function changeSpell(key)
+	-- You can only switch spells when you're not in the middle of casting one. This helps other
+	--  users know what to prepare for.
+	if not Tool.Enabled then return end
+	local newKey = key:lower()
+	if (newKey == "f" or newKey == "x" or newKey == "e") then
+		Tool.SpellKey.Value = newKey
+		if newKey == "x" then Sparkles.SparkleColor = Color3.new(0, 1, 1)
+		elseif newKey == "e" then Sparkles.SparkleColor = Color3.new(75/255, 0, 130/255)
+		else	--[[newKey == "f"]] Sparkles.SparkleColor = Color3.new(1, 0, 0)
+		end
+	end
+end
+
+function onLeftMouseDown()
+	CloneScript = Tool:FindFirstChild("DrawSpell")
+	if CloneScript then
+		-- Changing tool's Grip:
+		Tool.GripForward = Vector3.new(0, 0, 1)
+		Tool.GripPos = Vector3.new(0, 0, -0.48)
+		Tool.GripRight = Vector3.new(0, 1, 0)
+		Tool.GripUp = Vector3.new(1, 0, 0)
+		CloneScript = CloneScript:Clone()
+		CloneScript.Parent = Tool
+		CloneScript.Name = "RunningDrawSpell"
+		CloneScript.Disabled = false
+	end
+end
+
+function onEquipped(mouse)
+	if mouse then
+		myMouse.Value = mouse
+		mouse.KeyDown:connect(changeSpell)
+		mouse.Button1Down:connect(onLeftMouseDown)
+	end
+	-- Get references to myCharacter and RightShoulder, to be used later
+	myCharacter = Tool.Parent
+	if myCharacter then
+		Torso = myCharacter:FindFirstChild("Torso")
+		if Torso then
+			RightShoulder = Torso:FindFirstChild("Right Shoulder")
+		end
+		-- Also display help message if necessary.
+		myPlayer = game.Players:GetPlayerFromCharacter(myCharacter)
+		if myPlayer then
+			if not myPlayer:FindFirstChild("WizardWandHelped") then
+				HelpGui.Parent = myPlayer.PlayerGui
+				debris:AddItem(HelpGui, 5)
+				HelpedBoolValue.Parent = myPlayer
+			end
+		end
+	end
+
+	instantiateTip()
+end
+
+function onUnequipped()
+	Tip.Parent = nil
+	TipWeld.Parent = nil
+	Sparkles.Parent = nil
+	if Tool.Parent == game.Workspace then	--i.e. if the tool was backspaced, then...
+		if myCharacter then
+			Torso = myCharacter:FindFirstChild("Torso")
+			if Torso then
+				Wand.Position = Torso.Position + 8 * Torso.CFrame.lookVector + Vector3.new(0, 7, 0)
+			end
+		end
+		if Tool:FindFirstChild("SpellKey") then Tool.SpellKey.Value = "f" end
+	end
+end
+
+Tool.Equipped:connect(onEquipped)
+Tool.Unequipped:connect(onUnequipped)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="StringValue" referent="RBXB5AB74B301854D35955AE1ED5C3C445B">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">SpellKey</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<string name="Value">f</string>
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX4BFAC1BEA74946C28ADC246DC6789DE7">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">DrawSpell</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{243A3555-76B1-4EBA-8CDA-6A89C945DB55}</string>
+						<ProtectedString name="Source">---------CHECKS/VARIABLES-------------------
+local Tool = script.Parent
+local myCharacter = Tool.Parent
+if not myCharacter then script:Remove() end
+local  Torso = myCharacter:FindFirstChild("Torso")
+local RightArm = myCharacter:FindFirstChild("Right Arm")
+local myPlayer = game.Players:GetPlayerFromCharacter(myCharacter)
+if not (myPlayer and Torso and RightArm) then script:Remove() end
+
+local myHumanoid
+local TargetPoint
+
+local myMouse = Tool.Mouse.Value
+if not myMouse then script:Remove() end
+
+if not Tool.Enabled then script:Remove() end
+
+Tool.Enabled = false
+
+local key = "f"
+if Tool:FindFirstChild("SpellKey") then
+	key = Tool.SpellKey.Value
+end
+
+local moveConnection
+local upConnection
+
+local DingSound = Tool:FindFirstChild("DingSound")
+local ShotSound = Tool:FindFirstChild("ShotSound")
+if ShotSound then print "ShotSound exists" end
+
+local buttonUpdateConnections = {}
+
+local RightShoulder = Torso:FindFirstChild("Right Shoulder")
+
+local XOffset
+local YOffset
+
+local NewShoulder = Instance.new("Weld")
+NewShoulder.Name = "Right Shoulder"	--LOL HAX
+NewShoulder.Part0 = Torso
+NewShoulder.Part1 = RightArm
+NewShoulder.C0 = CFrame.new(1, 0.5, 0)
+NewShoulder.C1 = CFrame.new(-0.5, 0.5, 0) * CFrame.Angles(-math.pi/2, 0, 0)
+-- (That CFrame is the standard "weapon equipped" position, w/ weld location at the shoulder.)
+
+NewShoulder.Parent = Torso
+if RightShoulder then RightShoulder.Parent = nil end
+
+local SpellScript
+
+local ScreenGui = Tool.WizardWandSpellGui:Clone()
+ScreenGui.Parent = myPlayer.PlayerGui
+local Frame = ScreenGui.SpellFrame
+local Background = Frame.SpellBackground
+local Button1 = Frame.Button1
+local Button2 = Frame.Button2
+local Button3 = Frame.Button3
+local Button4 = Frame.Button4
+local Button5 = Frame.Button5
+local Button6 = Frame.Button6
+local Button7 = Frame.Button7
+
+local prevButton = nil
+local finalButton
+
+local initialBackgroundImage
+
+local Buttons = {
+	Button1, Button2, Button3,
+	Button4, Button5, Button6,
+	Button7}
+
+local initialButtonImages = {
+	Button1.Image, Button2.Image, Button3.Image,
+	Button4.Image, Button5.Image, Button6.Image,
+	Button7.Image}
+
+local glowingButtonImages = {
+	"http://www.roblox.com/asset/?id=56484059",
+	"http://www.roblox.com/asset/?id=56485109",
+	"http://www.roblox.com/asset/?id=56484129",
+	"http://www.roblox.com/asset/?id=56484170",
+	"http://www.roblox.com/asset/?id=56484211",
+	"http://www.roblox.com/asset/?id=56484252",
+	"http://www.roblox.com/asset/?id=56484282"}
+
+
+-- Change buttons' positions and the overall background image based on spell chosen, which we determine from Tool.SpellKey
+-- ...
+-- For now:
+if key == "f" then
+	Button1.Position = UDim2.new(0, 258, 0, 346)
+	Button2.Position = UDim2.new(0, 82, 0, 320)
+	Button3.Position = UDim2.new(0, 201, 0, 220)
+	Button4.Position = UDim2.new(0, 277, 0, 148)
+	Button5.Position = UDim2.new(0, 109, 0, 103)
+	Button6.Position = UDim2.new(0, 246, 0, 27)
+	Button7.Visible = false
+	finalButton = Button6
+	Background.Image = "http://www.roblox.com/asset/?id=56478450"
+elseif key == "x" then
+	Button1.Position = UDim2.new(0, 15, 0, 101)
+	Button2.Position = UDim2.new(0, 216, 0, -7)
+	Button3.Position = UDim2.new(0, 414, 0, 106)
+	Button4.Position = UDim2.new(0, 415, 0, 324)
+	Button5.Position = UDim2.new(0, 216, 0, 433)
+	Button6.Position = UDim2.new(0, 11, 0, 323)
+	Button7.Position = UDim2.new(0, 215, 0, 215)
+	finalButton = Button7
+	Background.Image = "http://www.roblox.com/asset/?id=56479374"
+else	-- key == "e"
+	Button1.Position = UDim2.new(0, 130, 0, 220)
+	Button2.Position = UDim2.new(0, 75, 0, 312)
+	Button3.Position = UDim2.new(0, 314, 0, 253)
+	Button4.Position = UDim2.new(0, 174, 0, 118)
+	Button5.Position = UDim2.new(0, 316, 0, 142)
+	Button6.Visible = false
+	Button7.Visible = false
+	finalButton = Button5
+	Background.Image = "http://www.roblox.com/asset/?id=56479482"
+end
+
+initialBackgroundImage = Background.Image
+
+---------FUNCTIONS-------------
+function moveArmWithMouse()
+	LookVector = Torso.CFrame.lookVector
+	XOffset = (myMouse.X - Frame.AbsolutePosition.X - 175) / 175
+	YOffset = (myMouse.Y - Frame.AbsolutePosition.Y - 175) / 175
+	NewShoulder.C1 = CFrame.new(-0.5, 0.5, 0) * CFrame.Angles(-math.pi/2 + math.atan(YOffset/2), math.atan(XOffset/2), 0)
+end
+
+function moveArmWithMouseOnButton(x, y)
+	LookVector = Torso.CFrame.lookVector
+	XOffset = (x - Frame.AbsolutePosition.X - 175) / 175
+	YOffset = (y - Frame.AbsolutePosition.Y - 175) / 175
+	NewShoulder.C1 = CFrame.new(-0.5, 0.5, 0) * CFrame.Angles(-math.pi/2 + math.atan(YOffset/2), math.atan(XOffset/2), 0)
+end
+
+-- This function updates the background to its spell-ready version.
+function updateBackground()
+	if (key == "f") then Background.Image = "http://www.roblox.com/asset/?id=56478556"
+	elseif (key == "x") then Background.Image = "http://www.roblox.com/asset/?id=56479425"
+	else	--[[key == "e"]] Background.Image = "http://www.roblox.com/asset/?id=56479531"
+	end
+end
+
+function endDrawing()
+	-- Erase the Gui...
+	ScreenGui:Remove()
+	-- Re-enable the tool...
+	Tool.Enabled = true
+	-- Change grip back to normal...
+	Tool.GripForward = Vector3.new(0, -1, 0)
+	Tool.GripPos = Vector3.new(0, 0.02, -0.58)
+	Tool.GripRight = Vector3.new(-1, 0, 0)
+	Tool.GripUp = Vector3.new(0, 0, 1)
+	-- And replace the shoulder.
+	if RightShoulder then
+		RightShoulder.Parent = Torso
+		NewShoulder.Parent = nil
+	end
+	script:Remove()
+end
+
+function castSpell()
+	if (key == "f") then SpellScript = script:FindFirstChild("FireScript")
+	elseif (key == "x") then SpellScript = script:FindFirstChild("IceScript")
+	else	--[[key == "e"]] SpellScript = script:FindFirstChild("PoisonScript")
+	end
+
+	if ShotSound then ShotSound:Play() end
+	if SpellScript then
+		SpellScript = SpellScript:Clone()
+		SpellScript.Parent = Tool
+		SpellScript.Disabled = false
+	end
+
+	endDrawing()
+end
+
+-- This function, combined with a bunch of event connections, ensures that all the buttons are traversed,
+--  in order, before the spell is cast.
+function buttonUpdate(currButtonIndex, idealPrevButtonIndex)
+	if prevButton == Buttons[idealPrevButtonIndex] then
+		if DingSound then DingSound:Play() end
+		local currButton = Buttons[currButtonIndex]
+		local newLabel = Instance.new("ImageLabel")
+		newLabel.Size = currButton.Size
+		newLabel.Position = currButton.Position
+		newLabel.BackgroundTransparency = 1.0
+		newLabel.Image = glowingButtonImages[currButtonIndex]
+		currButton:Remove()
+		newLabel.Parent = Frame
+		prevButton = currButton
+		if prevButton == finalButton then
+			updateBackground()
+			upConnection:disconnect()
+			for i = 1, #buttonUpdateConnections do
+				buttonUpdateConnections[i]:disconnect()
+			end
+			myMouse.Button1Up:connect(castSpell)
+		end
+	end
+end
+
+--------CONNECTIONS------------------------
+buttonUpdateConnections[1] = Button1.MouseEnter:connect(function() buttonUpdate(1, 0) end)
+for i = 2, #Buttons do
+	buttonUpdateConnections[i] = Buttons[i].MouseEnter:connect(function() buttonUpdate(i,i-1) end)
+end
+for i = 1, #Buttons do
+	Buttons[i].MouseButton1Up:connect(endDrawing)
+	Buttons[i].MouseMoved:connect(moveArmWithMouseOnButton)
+end
+moveConnection = myMouse.Move:connect(moveArmWithMouse)
+upConnection = myMouse.Button1Up:connect(endDrawing)
+
+Tool.Unequipped:connect(endDrawing)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="Script" referent="RBX4225F0467AAB40B5B599022EC49B75BD">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Disabled">true</bool>
+							<Content name="LinkedSource"><null /></Content>
+							<string name="Name">FireScript</string>
+							<token name="RunContext">0</token>
+							<string name="ScriptGuid">{F43DE038-185A-4C16-B4FE-6ED236CBC80E}</string>
+							<ProtectedString name="Source">local Tool = script.Parent
+local myCharacter = Tool.Parent
+if not myCharacter then script:Remove() end
+local Torso = myCharacter:FindFirstChild("Torso")
+local myHumanoid = myCharacter:FindFirstChild("Humanoid")
+if not (Torso and myHumanoid) then script:Remove() end
+
+local myPlayer
+
+local debris = game:GetService("Debris")
+
+function tagAndUntagHumanoid(humanoid, player)
+	local Tag = Instance.new("ObjectValue")
+	Tag.Name = "creator"
+	Tag.Value = player
+	Tag.Parent = humanoid
+	debris:AddItem(Tag, 8)	-- Extra time to include time-based fire damage.
+end
+
+-- Again, multiple triggers are an issue -&gt; basic debounce.
+function fireBlow(hit)
+	if hit:FindFirstChild("WizardWandFireHit") then return end
+	local hitThing = hit.Parent
+	if (hitThing == myCharacter)then return end
+	if (hitThing.ClassName == "Hat" or hitThing.ClassName == "Tool") and hitThing.Parent == myCharacter then return end
+	if hit.Name == "Wizard Wand Tip" then return end
+
+	local HitRegisterer = Instance.new("BoolValue")
+	HitRegisterer.Name = "WizardWandFireHit"
+	HitRegisterer.Parent = hit
+	debris:AddItem(HitRegisterer, 0.2)
+
+	local hitHumanoid = hitThing:FindFirstChild("Humanoid")
+	if hitHumanoid then
+		myPlayer = game.Players:GetPlayerFromCharacter(myCharacter)
+		if myPlayer then
+			tagAndUntagHumanoid(hitHumanoid, myPlayer)
+			hitHumanoid:TakeDamage(10)
+		end
+	end
+	local HitFireScript = script:FindFirstChild("LitOnFire")
+	if HitFireScript then
+		HitFireScript = HitFireScript:Clone()
+		HitFireScript.Parent = hit
+		HitFireScript.Disabled = false
+	end
+end
+
+local FlamingPart = Instance.new("Part")
+FlamingPart.Shape = Enum.PartType.Ball
+FlamingPart.Size = Vector3.new(5, 5, 5)
+FlamingPart.CanCollide = false
+FlamingPart.Transparency = 1.0
+FlamingPart.Locked = true
+FlamingPart.CFrame = Torso.CFrame
+FlamingPart.Velocity = 100 * (myHumanoid.TargetPoint - Torso.Position).unit
+FlamingPart.Name = "WizardWandFireball"
+FlamingPart.Parent = game.Workspace
+
+local AntiGrav = Instance.new("BodyForce")
+AntiGrav.force = Vector3.new(0, 196.2 * FlamingPart:GetMass(), 0)
+AntiGrav.Parent = FlamingPart
+
+local Fire = Instance.new("Fire")
+Fire.Size = 20
+Fire.Heat = 20
+Fire.Parent = FlamingPart
+
+FlamingPart.Touched:connect(fireBlow)
+
+wait(10)
+FlamingPart:Remove()
+script:Remove()</ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+						</Properties>
+						<Item class="Script" referent="RBXF91087E584F149828D3A3B7E88B3CBE9">
+							<Properties>
+								<BinaryString name="AttributesSerialize" />
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Disabled">true</bool>
+								<Content name="LinkedSource"><null /></Content>
+								<string name="Name">LitOnFire</string>
+								<token name="RunContext">0</token>
+								<string name="ScriptGuid">{83E73DF9-D47D-4B40-85A2-F54F96F93E49}</string>
+								<ProtectedString name="Source">local Part = script.Parent
+local hitCharacter = Part.Parent
+local hitHumanoid = hitCharacter:FindFirstChild("Humanoid")
+
+local Fire = Instance.new("Fire")
+Fire.Size = Part:GetMass() * 2
+Fire.Heat = Part:GetMass() * 2
+Fire.Parent = Part
+
+if hitHumanoid then
+	for i = 1, 5 do
+		hitHumanoid:TakeDamage(1)
+		wait(1)
+	end
+else
+	wait(5)
+end
+
+Fire:Remove()
+script:Remove()
+</ProtectedString>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags" />
+							</Properties>
+						</Item>
+					</Item>
+					<Item class="Script" referent="RBX840EA98A0EA84A2BBC6424D40D83AE73">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Disabled">true</bool>
+							<Content name="LinkedSource"><null /></Content>
+							<string name="Name">IceScript</string>
+							<token name="RunContext">0</token>
+							<string name="ScriptGuid">{62E8FB44-884E-463D-B3F2-05AF9E5A927D}</string>
+							<ProtectedString name="Source">local Tool = script.Parent
+local myCharacter = Tool.Parent
+if not myCharacter then script:Remove() end
+local Torso = myCharacter:FindFirstChild("Torso")
+local myHumanoid = myCharacter:FindFirstChild("Humanoid")
+if not (Torso and myHumanoid) then script:Remove() end
+
+local myPlayer
+
+local debris = game:GetService("Debris")
+
+local IceBall = Instance.new("Part")
+IceBall.Shape = Enum.PartType.Ball
+IceBall.Material = "Ice"
+IceBall.BrickColor = BrickColor.new("Pastel blue-green")
+IceBall.Size = Vector3.new(3, 3, 3)
+IceBall.Locked = true
+IceBall.CanCollide = false
+IceBall.Name = "WizardWandIceBall"
+IceBall.Parent = game.Workspace
+IceBall.CFrame = Torso.CFrame
+IceBall.Velocity = 100 * (myHumanoid.TargetPoint - Torso.Position).unit
+
+local AntiGrav = Instance.new("BodyForce")
+AntiGrav.force = Vector3.new(0, 196.2 * IceBall:GetMass(), 0)
+AntiGrav.Parent = IceBall
+
+local IceFire = Instance.new("Fire")
+IceFire.Color = IceBall.BrickColor.Color
+IceFire.SecondaryColor = Color3.new(1, 1, 1)
+IceFire.Size = 6
+IceFire.Heat = 10
+IceFire.Parent = IceBall
+
+function tagAndUntagHumanoid(humanoid, player)
+	local Tag = Instance.new("ObjectValue")
+	Tag.Name = "creator"
+	Tag.Value = player
+	Tag.Parent = humanoid
+	debris:AddItem(Tag, 1)
+end
+
+-- Some issues with multiple triggers on this one, so some basic debouncing included
+function iceBlow(hit)
+	if hit:FindFirstChild("WizardWandIceHit") then return end
+	print(hit.Name)
+   local hitThing = hit.Parent
+   -- Checks to make sure the ice only affects things that aren't us
+   --   or attached to us.
+   if (hitThing == myCharacter) or (hitThing == Tool)
+           or (hitThing.ClassName == "Hat" and hitThing.Parent == myCharacter)
+           or (hit.Name == "Wizard Wand Tip") then return end
+
+	-- Add a BoolValue for debounce purposes
+	local HitRegisterer = Instance.new("BoolValue")
+	HitRegisterer.Name = "WizardWandIceHit"
+	HitRegisterer.Parent = hit
+	debris:AddItem(HitRegisterer, 0.2)
+
+   -- Delete any meshes underneath the thing we hit, and turn it to ice.
+	local hitChildren = hit:GetChildren()
+	local meshTable = {}
+	for index, instance in pairs(hitChildren) do
+		local className = instance.ClassName
+		if (className == "SpecialMesh" or className == "BlockMesh" or className == "CylinderMesh") then
+			instance.Parent = nil
+			table.insert(meshTable, instance)
+		end
+	end
+	local oldMaterial = hit.Material
+	local oldBrickColor = hit.BrickColor
+	hit.Material = "Ice"
+	hit.BrickColor = BrickColor.new("Pastel blue-green")
+
+	-- Have a chance of removing the hit part if it was attached to a character -- frostbite FTL.
+	local hitHumanoid = hitThing:FindFirstChild("Humanoid")
+	if hitThing.ClassName == "Hat" then hitHumanoid = hitThing.Parent:FindFirstChild("Humanoid") end
+	if hitHumanoid then
+		if myCharacter then
+			myPlayer = game.Players:GetPlayerFromCharacter(myCharacter)
+			tagAndUntagHumanoid(hitHumanoid, myPlayer)
+		end
+		hitHumanoid:TakeDamage(10)
+		if (math.random() &gt; 0.85) then
+			hitHumanoid:TakeDamage(15)
+			local hitCharacter = hitHumanoid.Parent
+			local hitTorso = hitCharacter:FindFirstChild("Torso")
+
+			local MotorToRemove
+			if hitThing.ClassName == "Hat" or hit.Name == "Head" or hit.Name == "Torso" then
+				MotorToRemove = hitTorso:FindFirstChild("Neck")
+			elseif hit.Name == "Right Arm" then
+				MotorToRemove = hitTorso:FindFirstChild("Right Shoulder")
+			elseif hit.Name == "Right Leg" then
+				MotorToRemove = hitTorso:FindFirstChild("Right Hip")
+			elseif hit.Name == "Left Arm" then
+				MotorToRemove = hitTorso:FindFirstChild("Left Shoulder")
+			else --[[ hit.Name == "Left Leg"]]
+				MotorToRemove = hitTorso:FindFirstChild("Left Hip")
+			end
+
+			if MotorToRemove then
+				MotorToRemove.Parent = nil
+			end
+		end
+	end
+
+	-- Wait for the ice to thaw...
+	wait(10)
+	-- Then set things back to normal.
+	if hit then
+		-- We just need to check that the "old" material and color aren't those of ice, which
+		--   they would be if we hit the same target twice in a row. (We don't want to accidentally
+		--   freeze things forever!)
+		if oldMaterial ~= hit.Material then hit.Material = oldMaterial end
+		if oldBrickColor ~= hit.BrickColor then hit.BrickColor = oldBrickColor end
+		for i = 1, #meshTable do
+			meshTable[i].Parent = hit
+		end
+	end
+end
+
+IceBall.Touched:connect(iceBlow)
+
+wait(10)
+if IceBall then IceBall:Remove() end
+wait(11)	-- To give the effects of iceBlow time to wear off.
+script:Remove()</ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+						</Properties>
+					</Item>
+					<Item class="Script" referent="RBXBFC84DF53EE04276B6B71AE78E2D1CB1">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Disabled">true</bool>
+							<Content name="LinkedSource"><null /></Content>
+							<string name="Name">PoisonScript</string>
+							<token name="RunContext">0</token>
+							<string name="ScriptGuid">{72C5AC3B-C83B-4BE9-B583-67B9268AA021}</string>
+							<ProtectedString name="Source">local Tool = script.Parent
+local myCharacter = Tool.Parent
+if not myCharacter then script:Remove() end
+local myHumanoid = myCharacter:FindFirstChild("Humanoid")
+local Torso = myCharacter:FindFirstChild("Torso")
+if not (myHumanoid and Torso) then script:Remove() end
+
+local myPlayer
+
+local debris = game:GetService("Debris")
+
+local PoisonBall = Instance.new("Part")
+PoisonBall.Shape = Enum.PartType.Ball
+PoisonBall.BrickColor = BrickColor.new("Earth green")
+PoisonBall.Size = Vector3.new(3, 3, 3)
+PoisonBall.Material = "Concrete"
+PoisonBall.Locked = true
+PoisonBall.CanCollide = false
+PoisonBall.Name = "WizardWandPoisonBall"
+PoisonBall.Parent = game.Workspace
+PoisonBall.CFrame = Torso.CFrame
+PoisonBall.Velocity = 100 * (myHumanoid.TargetPoint - Torso.Position).unit
+
+local AntiGrav = Instance.new("BodyForce")
+AntiGrav.force = Vector3.new(0, 196.2 * PoisonBall:GetMass(), 0)
+AntiGrav.Parent = PoisonBall
+
+local PoisonFire = Instance.new("Fire")
+PoisonFire.Color = Color3.new(75/255, 0, 130/255)
+PoisonFire.SecondaryColor = Color3.new(75/255, 0, 130/255)
+PoisonFire.Size = 6
+PoisonFire.Heat = 10
+PoisonFire.Parent = PoisonBall
+
+function tagAndUntagHumanoid(humanoid, player)
+	local Tag = Instance.new("ObjectValue")
+	Tag.Name = "creator"
+	Tag.Value = player
+	Tag.Parent = humanoid
+	debris:AddItem(Tag, 17)	--Extra time to include the time-based poison damage.
+end
+
+function poisonBlow(hit)
+	local hitThing = hit.Parent
+	if (hitThing == myCharacter) or (hitThing == Tool)
+           or (hitThing.ClassName == "Hat" and hitThing.Parent == myCharacter)
+           or (hit.Name == "Wizard Wand Tip") then return end
+	-- Don't poison the same part twice at the same time:
+	if hit:FindFirstChild("WizardWandPoisoned") then return end
+	local hitHumanoid = hitThing:FindFirstChild("Humanoid")
+	if hitHumanoid then
+		myPlayer = game.Players:GetPlayerFromCharacter(myCharacter)
+		if myPlayer then
+			tagAndUntagHumanoid(hitHumanoid, myPlayer)
+		end
+		local PoisonedScript = script:FindFirstChild("WizardWandPoisoned")
+		if PoisonedScript then
+			PoisonedScript = PoisonedScript:Clone()
+			PoisonedScript.Parent = hit
+			PoisonedScript.Disabled = false
+		end
+	end
+end
+
+PoisonBall.Touched:connect(poisonBlow)
+
+wait(10)
+PoisonBall:Remove()
+wait(5)
+script:Remove()</ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+						</Properties>
+						<Item class="Script" referent="RBX43F9E40AC913498EB056F53920647A37">
+							<Properties>
+								<BinaryString name="AttributesSerialize" />
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Disabled">true</bool>
+								<Content name="LinkedSource"><null /></Content>
+								<string name="Name">WizardWandPoisoned</string>
+								<token name="RunContext">0</token>
+								<string name="ScriptGuid">{CB9FA9A6-772A-4988-B3D3-7FD6D9AE4450}</string>
+								<ProtectedString name="Source">local Part = script.Parent
+local hitCharacter = Part.Parent
+if not hitCharacter then script:Remove() end
+local hitHumanoid = hitCharacter:FindFirstChild("Humanoid")
+
+if hitHumanoid then
+	local oldBrickColor = Part.BrickColor
+	Part.BrickColor = BrickColor.new("Bright violet")
+	for i = 1, 15 do
+		hitHumanoid:TakeDamage(1.3)
+		wait(1)
+	end
+	Part.BrickColor = oldBrickColor
+end
+
+script:Remove()</ProtectedString>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags" />
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+				<Item class="ScreenGui" referent="RBX19B44140E1FD4C61B49EF24ABD904B31">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AutoLocalize">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="ClipToDeviceSafeArea">true</bool>
+						<bool name="DefinesCapabilities">false</bool>
+						<int name="DisplayOrder">0</int>
+						<bool name="Enabled">true</bool>
+						<string name="Name">WizardWandSpellGui</string>
+						<bool name="ResetOnSpawn">true</bool>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<token name="SafeAreaCompatibility">1</token>
+						<token name="ScreenInsets">2</token>
+						<token name="SelectionBehaviorDown">0</token>
+						<token name="SelectionBehaviorLeft">0</token>
+						<token name="SelectionBehaviorRight">0</token>
+						<token name="SelectionBehaviorUp">0</token>
+						<bool name="SelectionGroup">false</bool>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<token name="ZIndexBehavior">0</token>
+					</Properties>
+					<Item class="Frame" referent="RBXDE204698069B4734BB32B0DE1B3724F1">
+						<Properties>
+							<bool name="Active">false</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<BinaryString name="AttributesSerialize" />
+							<bool name="AutoLocalize">true</bool>
+							<token name="AutomaticSize">0</token>
+							<Color3 name="BackgroundColor3">
+								<R>0.639215708</R>
+								<G>0.635294139</G>
+								<B>0.647058845</B>
+							</Color3>
+							<float name="BackgroundTransparency">1</float>
+							<Color3 name="BorderColor3">
+								<R>0.105882362</R>
+								<G>0.164705887</G>
+								<B>0.207843155</B>
+							</Color3>
+							<token name="BorderMode">0</token>
+							<int name="BorderSizePixel">1</int>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Draggable">false</bool>
+							<bool name="Interactable">true</bool>
+							<int name="LayoutOrder">0</int>
+							<string name="Name">SpellFrame</string>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0.5</XS>
+								<XO>-250</XO>
+								<YS>0.5</YS>
+								<YO>-250</YO>
+							</UDim2>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<float name="Rotation">0</float>
+							<bool name="Selectable">false</bool>
+							<token name="SelectionBehaviorDown">0</token>
+							<token name="SelectionBehaviorLeft">0</token>
+							<token name="SelectionBehaviorRight">0</token>
+							<token name="SelectionBehaviorUp">0</token>
+							<bool name="SelectionGroup">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<int name="SelectionOrder">0</int>
+							<UDim2 name="Size">
+								<XS>0</XS>
+								<XO>500</XO>
+								<YS>0</YS>
+								<YO>500</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<int64 name="SourceAssetId">-1</int64>
+							<token name="Style">0</token>
+							<BinaryString name="Tags" />
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+						</Properties>
+						<Item class="ImageButton" referent="RBX95E0BAF3CF494A21ADB6B278A94AD0C3">
+							<Properties>
+								<bool name="Active">true</bool>
+								<Vector2 name="AnchorPoint">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<BinaryString name="AttributesSerialize" />
+								<bool name="AutoButtonColor">true</bool>
+								<bool name="AutoLocalize">true</bool>
+								<token name="AutomaticSize">0</token>
+								<Color3 name="BackgroundColor3">
+									<R>0.639215708</R>
+									<G>0.635294139</G>
+									<B>0.647058845</B>
+								</Color3>
+								<float name="BackgroundTransparency">1</float>
+								<Color3 name="BorderColor3">
+									<R>0.105882362</R>
+									<G>0.164705887</G>
+									<B>0.207843155</B>
+								</Color3>
+								<token name="BorderMode">0</token>
+								<int name="BorderSizePixel">1</int>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="ClipsDescendants">false</bool>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Draggable">false</bool>
+								<Ref name="HoverHapticEffect">null</Ref>
+								<Content name="HoverImage"><null /></Content>
+								<Content name="Image"><url>http://www.roblox.com/asset/?id=56483665</url></Content>
+								<Color3 name="ImageColor3">
+									<R>1</R>
+									<G>1</G>
+									<B>1</B>
+								</Color3>
+								<Vector2 name="ImageRectOffset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<Vector2 name="ImageRectSize">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="ImageTransparency">0</float>
+								<bool name="Interactable">true</bool>
+								<int name="LayoutOrder">0</int>
+								<bool name="Modal">false</bool>
+								<string name="Name">Button1</string>
+								<Ref name="NextSelectionDown">null</Ref>
+								<Ref name="NextSelectionLeft">null</Ref>
+								<Ref name="NextSelectionRight">null</Ref>
+								<Ref name="NextSelectionUp">null</Ref>
+								<UDim2 name="Position">
+									<XS>0</XS>
+									<XO>0</XO>
+									<YS>0</YS>
+									<YO>0</YO>
+								</UDim2>
+								<Ref name="PressHapticEffect">null</Ref>
+								<Content name="PressedImage"><null /></Content>
+								<token name="ResampleMode">0</token>
+								<Ref name="RootLocalizationTable">null</Ref>
+								<float name="Rotation">0</float>
+								<token name="ScaleType">0</token>
+								<bool name="Selectable">true</bool>
+								<bool name="Selected">false</bool>
+								<token name="SelectionBehaviorDown">0</token>
+								<token name="SelectionBehaviorLeft">0</token>
+								<token name="SelectionBehaviorRight">0</token>
+								<token name="SelectionBehaviorUp">0</token>
+								<bool name="SelectionGroup">false</bool>
+								<Ref name="SelectionImageObject">null</Ref>
+								<int name="SelectionOrder">0</int>
+								<UDim2 name="Size">
+									<XS>0</XS>
+									<XO>70</XO>
+									<YS>0</YS>
+									<YO>70</YO>
+								</UDim2>
+								<token name="SizeConstraint">0</token>
+								<Rect2D name="SliceCenter">
+									<min>
+										<X>0</X>
+										<Y>0</Y>
+									</min>
+									<max>
+										<X>0</X>
+										<Y>0</Y>
+									</max>
+								</Rect2D>
+								<float name="SliceScale">1</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<token name="Style">0</token>
+								<BinaryString name="Tags" />
+								<UDim2 name="TileSize">
+									<XS>1</XS>
+									<XO>0</XO>
+									<YS>1</YS>
+									<YO>0</YO>
+								</UDim2>
+								<bool name="Visible">true</bool>
+								<int name="ZIndex">1</int>
+							</Properties>
+						</Item>
+						<Item class="ImageButton" referent="RBX088A453C214B436FA8FAB06A5732C29D">
+							<Properties>
+								<bool name="Active">true</bool>
+								<Vector2 name="AnchorPoint">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<BinaryString name="AttributesSerialize" />
+								<bool name="AutoButtonColor">true</bool>
+								<bool name="AutoLocalize">true</bool>
+								<token name="AutomaticSize">0</token>
+								<Color3 name="BackgroundColor3">
+									<R>0.639215708</R>
+									<G>0.635294139</G>
+									<B>0.647058845</B>
+								</Color3>
+								<float name="BackgroundTransparency">1</float>
+								<Color3 name="BorderColor3">
+									<R>0.105882362</R>
+									<G>0.164705887</G>
+									<B>0.207843155</B>
+								</Color3>
+								<token name="BorderMode">0</token>
+								<int name="BorderSizePixel">1</int>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="ClipsDescendants">false</bool>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Draggable">false</bool>
+								<Ref name="HoverHapticEffect">null</Ref>
+								<Content name="HoverImage"><null /></Content>
+								<Content name="Image"><url>http://www.roblox.com/asset/?id=56483733</url></Content>
+								<Color3 name="ImageColor3">
+									<R>1</R>
+									<G>1</G>
+									<B>1</B>
+								</Color3>
+								<Vector2 name="ImageRectOffset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<Vector2 name="ImageRectSize">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="ImageTransparency">0</float>
+								<bool name="Interactable">true</bool>
+								<int name="LayoutOrder">0</int>
+								<bool name="Modal">false</bool>
+								<string name="Name">Button2</string>
+								<Ref name="NextSelectionDown">null</Ref>
+								<Ref name="NextSelectionLeft">null</Ref>
+								<Ref name="NextSelectionRight">null</Ref>
+								<Ref name="NextSelectionUp">null</Ref>
+								<UDim2 name="Position">
+									<XS>0</XS>
+									<XO>0</XO>
+									<YS>0</YS>
+									<YO>0</YO>
+								</UDim2>
+								<Ref name="PressHapticEffect">null</Ref>
+								<Content name="PressedImage"><null /></Content>
+								<token name="ResampleMode">0</token>
+								<Ref name="RootLocalizationTable">null</Ref>
+								<float name="Rotation">0</float>
+								<token name="ScaleType">0</token>
+								<bool name="Selectable">true</bool>
+								<bool name="Selected">false</bool>
+								<token name="SelectionBehaviorDown">0</token>
+								<token name="SelectionBehaviorLeft">0</token>
+								<token name="SelectionBehaviorRight">0</token>
+								<token name="SelectionBehaviorUp">0</token>
+								<bool name="SelectionGroup">false</bool>
+								<Ref name="SelectionImageObject">null</Ref>
+								<int name="SelectionOrder">0</int>
+								<UDim2 name="Size">
+									<XS>0</XS>
+									<XO>70</XO>
+									<YS>0</YS>
+									<YO>70</YO>
+								</UDim2>
+								<token name="SizeConstraint">0</token>
+								<Rect2D name="SliceCenter">
+									<min>
+										<X>0</X>
+										<Y>0</Y>
+									</min>
+									<max>
+										<X>0</X>
+										<Y>0</Y>
+									</max>
+								</Rect2D>
+								<float name="SliceScale">1</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<token name="Style">0</token>
+								<BinaryString name="Tags" />
+								<UDim2 name="TileSize">
+									<XS>1</XS>
+									<XO>0</XO>
+									<YS>1</YS>
+									<YO>0</YO>
+								</UDim2>
+								<bool name="Visible">true</bool>
+								<int name="ZIndex">1</int>
+							</Properties>
+						</Item>
+						<Item class="ImageButton" referent="RBXE8D03F9C1BE74BAD837541514722C792">
+							<Properties>
+								<bool name="Active">true</bool>
+								<Vector2 name="AnchorPoint">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<BinaryString name="AttributesSerialize" />
+								<bool name="AutoButtonColor">true</bool>
+								<bool name="AutoLocalize">true</bool>
+								<token name="AutomaticSize">0</token>
+								<Color3 name="BackgroundColor3">
+									<R>0.639215708</R>
+									<G>0.635294139</G>
+									<B>0.647058845</B>
+								</Color3>
+								<float name="BackgroundTransparency">1</float>
+								<Color3 name="BorderColor3">
+									<R>0.105882362</R>
+									<G>0.164705887</G>
+									<B>0.207843155</B>
+								</Color3>
+								<token name="BorderMode">0</token>
+								<int name="BorderSizePixel">1</int>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="ClipsDescendants">false</bool>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Draggable">false</bool>
+								<Ref name="HoverHapticEffect">null</Ref>
+								<Content name="HoverImage"><null /></Content>
+								<Content name="Image"><url>http://www.roblox.com/asset/?id=56483773</url></Content>
+								<Color3 name="ImageColor3">
+									<R>1</R>
+									<G>1</G>
+									<B>1</B>
+								</Color3>
+								<Vector2 name="ImageRectOffset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<Vector2 name="ImageRectSize">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="ImageTransparency">0</float>
+								<bool name="Interactable">true</bool>
+								<int name="LayoutOrder">0</int>
+								<bool name="Modal">false</bool>
+								<string name="Name">Button3</string>
+								<Ref name="NextSelectionDown">null</Ref>
+								<Ref name="NextSelectionLeft">null</Ref>
+								<Ref name="NextSelectionRight">null</Ref>
+								<Ref name="NextSelectionUp">null</Ref>
+								<UDim2 name="Position">
+									<XS>0</XS>
+									<XO>0</XO>
+									<YS>0</YS>
+									<YO>0</YO>
+								</UDim2>
+								<Ref name="PressHapticEffect">null</Ref>
+								<Content name="PressedImage"><null /></Content>
+								<token name="ResampleMode">0</token>
+								<Ref name="RootLocalizationTable">null</Ref>
+								<float name="Rotation">0</float>
+								<token name="ScaleType">0</token>
+								<bool name="Selectable">true</bool>
+								<bool name="Selected">false</bool>
+								<token name="SelectionBehaviorDown">0</token>
+								<token name="SelectionBehaviorLeft">0</token>
+								<token name="SelectionBehaviorRight">0</token>
+								<token name="SelectionBehaviorUp">0</token>
+								<bool name="SelectionGroup">false</bool>
+								<Ref name="SelectionImageObject">null</Ref>
+								<int name="SelectionOrder">0</int>
+								<UDim2 name="Size">
+									<XS>0</XS>
+									<XO>70</XO>
+									<YS>0</YS>
+									<YO>70</YO>
+								</UDim2>
+								<token name="SizeConstraint">0</token>
+								<Rect2D name="SliceCenter">
+									<min>
+										<X>0</X>
+										<Y>0</Y>
+									</min>
+									<max>
+										<X>0</X>
+										<Y>0</Y>
+									</max>
+								</Rect2D>
+								<float name="SliceScale">1</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<token name="Style">0</token>
+								<BinaryString name="Tags" />
+								<UDim2 name="TileSize">
+									<XS>1</XS>
+									<XO>0</XO>
+									<YS>1</YS>
+									<YO>0</YO>
+								</UDim2>
+								<bool name="Visible">true</bool>
+								<int name="ZIndex">1</int>
+							</Properties>
+						</Item>
+						<Item class="ImageButton" referent="RBX00A2BCBD306C465FB6A8110595C133FF">
+							<Properties>
+								<bool name="Active">true</bool>
+								<Vector2 name="AnchorPoint">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<BinaryString name="AttributesSerialize" />
+								<bool name="AutoButtonColor">true</bool>
+								<bool name="AutoLocalize">true</bool>
+								<token name="AutomaticSize">0</token>
+								<Color3 name="BackgroundColor3">
+									<R>0.639215708</R>
+									<G>0.635294139</G>
+									<B>0.647058845</B>
+								</Color3>
+								<float name="BackgroundTransparency">1</float>
+								<Color3 name="BorderColor3">
+									<R>0.105882362</R>
+									<G>0.164705887</G>
+									<B>0.207843155</B>
+								</Color3>
+								<token name="BorderMode">0</token>
+								<int name="BorderSizePixel">1</int>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="ClipsDescendants">false</bool>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Draggable">false</bool>
+								<Ref name="HoverHapticEffect">null</Ref>
+								<Content name="HoverImage"><null /></Content>
+								<Content name="Image"><url>http://www.roblox.com/asset/?id=56483840</url></Content>
+								<Color3 name="ImageColor3">
+									<R>1</R>
+									<G>1</G>
+									<B>1</B>
+								</Color3>
+								<Vector2 name="ImageRectOffset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<Vector2 name="ImageRectSize">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="ImageTransparency">0</float>
+								<bool name="Interactable">true</bool>
+								<int name="LayoutOrder">0</int>
+								<bool name="Modal">false</bool>
+								<string name="Name">Button4</string>
+								<Ref name="NextSelectionDown">null</Ref>
+								<Ref name="NextSelectionLeft">null</Ref>
+								<Ref name="NextSelectionRight">null</Ref>
+								<Ref name="NextSelectionUp">null</Ref>
+								<UDim2 name="Position">
+									<XS>0</XS>
+									<XO>0</XO>
+									<YS>0</YS>
+									<YO>0</YO>
+								</UDim2>
+								<Ref name="PressHapticEffect">null</Ref>
+								<Content name="PressedImage"><null /></Content>
+								<token name="ResampleMode">0</token>
+								<Ref name="RootLocalizationTable">null</Ref>
+								<float name="Rotation">0</float>
+								<token name="ScaleType">0</token>
+								<bool name="Selectable">true</bool>
+								<bool name="Selected">false</bool>
+								<token name="SelectionBehaviorDown">0</token>
+								<token name="SelectionBehaviorLeft">0</token>
+								<token name="SelectionBehaviorRight">0</token>
+								<token name="SelectionBehaviorUp">0</token>
+								<bool name="SelectionGroup">false</bool>
+								<Ref name="SelectionImageObject">null</Ref>
+								<int name="SelectionOrder">0</int>
+								<UDim2 name="Size">
+									<XS>0</XS>
+									<XO>70</XO>
+									<YS>0</YS>
+									<YO>70</YO>
+								</UDim2>
+								<token name="SizeConstraint">0</token>
+								<Rect2D name="SliceCenter">
+									<min>
+										<X>0</X>
+										<Y>0</Y>
+									</min>
+									<max>
+										<X>0</X>
+										<Y>0</Y>
+									</max>
+								</Rect2D>
+								<float name="SliceScale">1</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<token name="Style">0</token>
+								<BinaryString name="Tags" />
+								<UDim2 name="TileSize">
+									<XS>1</XS>
+									<XO>0</XO>
+									<YS>1</YS>
+									<YO>0</YO>
+								</UDim2>
+								<bool name="Visible">true</bool>
+								<int name="ZIndex">1</int>
+							</Properties>
+						</Item>
+						<Item class="ImageButton" referent="RBXF66BD42612B0467AAF85D3F1F8D75567">
+							<Properties>
+								<bool name="Active">true</bool>
+								<Vector2 name="AnchorPoint">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<BinaryString name="AttributesSerialize" />
+								<bool name="AutoButtonColor">true</bool>
+								<bool name="AutoLocalize">true</bool>
+								<token name="AutomaticSize">0</token>
+								<Color3 name="BackgroundColor3">
+									<R>0.639215708</R>
+									<G>0.635294139</G>
+									<B>0.647058845</B>
+								</Color3>
+								<float name="BackgroundTransparency">1</float>
+								<Color3 name="BorderColor3">
+									<R>0.105882362</R>
+									<G>0.164705887</G>
+									<B>0.207843155</B>
+								</Color3>
+								<token name="BorderMode">0</token>
+								<int name="BorderSizePixel">1</int>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="ClipsDescendants">false</bool>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Draggable">false</bool>
+								<Ref name="HoverHapticEffect">null</Ref>
+								<Content name="HoverImage"><null /></Content>
+								<Content name="Image"><url>http://www.roblox.com/asset/?id=56483873 </url></Content>
+								<Color3 name="ImageColor3">
+									<R>1</R>
+									<G>1</G>
+									<B>1</B>
+								</Color3>
+								<Vector2 name="ImageRectOffset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<Vector2 name="ImageRectSize">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="ImageTransparency">0</float>
+								<bool name="Interactable">true</bool>
+								<int name="LayoutOrder">0</int>
+								<bool name="Modal">false</bool>
+								<string name="Name">Button5</string>
+								<Ref name="NextSelectionDown">null</Ref>
+								<Ref name="NextSelectionLeft">null</Ref>
+								<Ref name="NextSelectionRight">null</Ref>
+								<Ref name="NextSelectionUp">null</Ref>
+								<UDim2 name="Position">
+									<XS>0</XS>
+									<XO>0</XO>
+									<YS>0</YS>
+									<YO>0</YO>
+								</UDim2>
+								<Ref name="PressHapticEffect">null</Ref>
+								<Content name="PressedImage"><null /></Content>
+								<token name="ResampleMode">0</token>
+								<Ref name="RootLocalizationTable">null</Ref>
+								<float name="Rotation">0</float>
+								<token name="ScaleType">0</token>
+								<bool name="Selectable">true</bool>
+								<bool name="Selected">false</bool>
+								<token name="SelectionBehaviorDown">0</token>
+								<token name="SelectionBehaviorLeft">0</token>
+								<token name="SelectionBehaviorRight">0</token>
+								<token name="SelectionBehaviorUp">0</token>
+								<bool name="SelectionGroup">false</bool>
+								<Ref name="SelectionImageObject">null</Ref>
+								<int name="SelectionOrder">0</int>
+								<UDim2 name="Size">
+									<XS>0</XS>
+									<XO>70</XO>
+									<YS>0</YS>
+									<YO>70</YO>
+								</UDim2>
+								<token name="SizeConstraint">0</token>
+								<Rect2D name="SliceCenter">
+									<min>
+										<X>0</X>
+										<Y>0</Y>
+									</min>
+									<max>
+										<X>0</X>
+										<Y>0</Y>
+									</max>
+								</Rect2D>
+								<float name="SliceScale">1</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<token name="Style">0</token>
+								<BinaryString name="Tags" />
+								<UDim2 name="TileSize">
+									<XS>1</XS>
+									<XO>0</XO>
+									<YS>1</YS>
+									<YO>0</YO>
+								</UDim2>
+								<bool name="Visible">true</bool>
+								<int name="ZIndex">1</int>
+							</Properties>
+						</Item>
+						<Item class="ImageButton" referent="RBX6385301EF85144999011B93FF9D16EE2">
+							<Properties>
+								<bool name="Active">true</bool>
+								<Vector2 name="AnchorPoint">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<BinaryString name="AttributesSerialize" />
+								<bool name="AutoButtonColor">true</bool>
+								<bool name="AutoLocalize">true</bool>
+								<token name="AutomaticSize">0</token>
+								<Color3 name="BackgroundColor3">
+									<R>0.639215708</R>
+									<G>0.635294139</G>
+									<B>0.647058845</B>
+								</Color3>
+								<float name="BackgroundTransparency">1</float>
+								<Color3 name="BorderColor3">
+									<R>0.105882362</R>
+									<G>0.164705887</G>
+									<B>0.207843155</B>
+								</Color3>
+								<token name="BorderMode">0</token>
+								<int name="BorderSizePixel">1</int>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="ClipsDescendants">false</bool>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Draggable">false</bool>
+								<Ref name="HoverHapticEffect">null</Ref>
+								<Content name="HoverImage"><null /></Content>
+								<Content name="Image"><url>http://www.roblox.com/asset/?id=56483928</url></Content>
+								<Color3 name="ImageColor3">
+									<R>1</R>
+									<G>1</G>
+									<B>1</B>
+								</Color3>
+								<Vector2 name="ImageRectOffset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<Vector2 name="ImageRectSize">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="ImageTransparency">0</float>
+								<bool name="Interactable">true</bool>
+								<int name="LayoutOrder">0</int>
+								<bool name="Modal">false</bool>
+								<string name="Name">Button6</string>
+								<Ref name="NextSelectionDown">null</Ref>
+								<Ref name="NextSelectionLeft">null</Ref>
+								<Ref name="NextSelectionRight">null</Ref>
+								<Ref name="NextSelectionUp">null</Ref>
+								<UDim2 name="Position">
+									<XS>0</XS>
+									<XO>0</XO>
+									<YS>0</YS>
+									<YO>0</YO>
+								</UDim2>
+								<Ref name="PressHapticEffect">null</Ref>
+								<Content name="PressedImage"><null /></Content>
+								<token name="ResampleMode">0</token>
+								<Ref name="RootLocalizationTable">null</Ref>
+								<float name="Rotation">0</float>
+								<token name="ScaleType">0</token>
+								<bool name="Selectable">true</bool>
+								<bool name="Selected">false</bool>
+								<token name="SelectionBehaviorDown">0</token>
+								<token name="SelectionBehaviorLeft">0</token>
+								<token name="SelectionBehaviorRight">0</token>
+								<token name="SelectionBehaviorUp">0</token>
+								<bool name="SelectionGroup">false</bool>
+								<Ref name="SelectionImageObject">null</Ref>
+								<int name="SelectionOrder">0</int>
+								<UDim2 name="Size">
+									<XS>0</XS>
+									<XO>70</XO>
+									<YS>0</YS>
+									<YO>70</YO>
+								</UDim2>
+								<token name="SizeConstraint">0</token>
+								<Rect2D name="SliceCenter">
+									<min>
+										<X>0</X>
+										<Y>0</Y>
+									</min>
+									<max>
+										<X>0</X>
+										<Y>0</Y>
+									</max>
+								</Rect2D>
+								<float name="SliceScale">1</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<token name="Style">0</token>
+								<BinaryString name="Tags" />
+								<UDim2 name="TileSize">
+									<XS>1</XS>
+									<XO>0</XO>
+									<YS>1</YS>
+									<YO>0</YO>
+								</UDim2>
+								<bool name="Visible">true</bool>
+								<int name="ZIndex">1</int>
+							</Properties>
+						</Item>
+						<Item class="ImageButton" referent="RBX06593D5A025C49419E70E7F9FA52C4E0">
+							<Properties>
+								<bool name="Active">true</bool>
+								<Vector2 name="AnchorPoint">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<BinaryString name="AttributesSerialize" />
+								<bool name="AutoButtonColor">true</bool>
+								<bool name="AutoLocalize">true</bool>
+								<token name="AutomaticSize">0</token>
+								<Color3 name="BackgroundColor3">
+									<R>0.639215708</R>
+									<G>0.635294139</G>
+									<B>0.647058845</B>
+								</Color3>
+								<float name="BackgroundTransparency">1</float>
+								<Color3 name="BorderColor3">
+									<R>0.105882362</R>
+									<G>0.164705887</G>
+									<B>0.207843155</B>
+								</Color3>
+								<token name="BorderMode">0</token>
+								<int name="BorderSizePixel">1</int>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="ClipsDescendants">false</bool>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Draggable">false</bool>
+								<Ref name="HoverHapticEffect">null</Ref>
+								<Content name="HoverImage"><null /></Content>
+								<Content name="Image"><url>http://www.roblox.com/asset/?id=56484002</url></Content>
+								<Color3 name="ImageColor3">
+									<R>1</R>
+									<G>1</G>
+									<B>1</B>
+								</Color3>
+								<Vector2 name="ImageRectOffset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<Vector2 name="ImageRectSize">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="ImageTransparency">0</float>
+								<bool name="Interactable">true</bool>
+								<int name="LayoutOrder">0</int>
+								<bool name="Modal">false</bool>
+								<string name="Name">Button7</string>
+								<Ref name="NextSelectionDown">null</Ref>
+								<Ref name="NextSelectionLeft">null</Ref>
+								<Ref name="NextSelectionRight">null</Ref>
+								<Ref name="NextSelectionUp">null</Ref>
+								<UDim2 name="Position">
+									<XS>0</XS>
+									<XO>0</XO>
+									<YS>0</YS>
+									<YO>0</YO>
+								</UDim2>
+								<Ref name="PressHapticEffect">null</Ref>
+								<Content name="PressedImage"><null /></Content>
+								<token name="ResampleMode">0</token>
+								<Ref name="RootLocalizationTable">null</Ref>
+								<float name="Rotation">0</float>
+								<token name="ScaleType">0</token>
+								<bool name="Selectable">true</bool>
+								<bool name="Selected">false</bool>
+								<token name="SelectionBehaviorDown">0</token>
+								<token name="SelectionBehaviorLeft">0</token>
+								<token name="SelectionBehaviorRight">0</token>
+								<token name="SelectionBehaviorUp">0</token>
+								<bool name="SelectionGroup">false</bool>
+								<Ref name="SelectionImageObject">null</Ref>
+								<int name="SelectionOrder">0</int>
+								<UDim2 name="Size">
+									<XS>0</XS>
+									<XO>70</XO>
+									<YS>0</YS>
+									<YO>70</YO>
+								</UDim2>
+								<token name="SizeConstraint">0</token>
+								<Rect2D name="SliceCenter">
+									<min>
+										<X>0</X>
+										<Y>0</Y>
+									</min>
+									<max>
+										<X>0</X>
+										<Y>0</Y>
+									</max>
+								</Rect2D>
+								<float name="SliceScale">1</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<token name="Style">0</token>
+								<BinaryString name="Tags" />
+								<UDim2 name="TileSize">
+									<XS>1</XS>
+									<XO>0</XO>
+									<YS>1</YS>
+									<YO>0</YO>
+								</UDim2>
+								<bool name="Visible">true</bool>
+								<int name="ZIndex">1</int>
+							</Properties>
+						</Item>
+						<Item class="ImageLabel" referent="RBXE332AEA9F2BC418E95E31B1F33C6A2E0">
+							<Properties>
+								<bool name="Active">false</bool>
+								<Vector2 name="AnchorPoint">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<BinaryString name="AttributesSerialize" />
+								<bool name="AutoLocalize">true</bool>
+								<token name="AutomaticSize">0</token>
+								<Color3 name="BackgroundColor3">
+									<R>0.639215708</R>
+									<G>0.635294139</G>
+									<B>0.647058845</B>
+								</Color3>
+								<float name="BackgroundTransparency">1</float>
+								<Color3 name="BorderColor3">
+									<R>0.105882362</R>
+									<G>0.164705887</G>
+									<B>0.207843155</B>
+								</Color3>
+								<token name="BorderMode">0</token>
+								<int name="BorderSizePixel">1</int>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="ClipsDescendants">false</bool>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Draggable">false</bool>
+								<Content name="Image"><url>http://www.roblox.com/asset/?id=56478450</url></Content>
+								<Color3 name="ImageColor3">
+									<R>1</R>
+									<G>1</G>
+									<B>1</B>
+								</Color3>
+								<Vector2 name="ImageRectOffset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<Vector2 name="ImageRectSize">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="ImageTransparency">0</float>
+								<bool name="Interactable">true</bool>
+								<int name="LayoutOrder">0</int>
+								<string name="Name">SpellBackground</string>
+								<Ref name="NextSelectionDown">null</Ref>
+								<Ref name="NextSelectionLeft">null</Ref>
+								<Ref name="NextSelectionRight">null</Ref>
+								<Ref name="NextSelectionUp">null</Ref>
+								<UDim2 name="Position">
+									<XS>0</XS>
+									<XO>0</XO>
+									<YS>0</YS>
+									<YO>0</YO>
+								</UDim2>
+								<token name="ResampleMode">0</token>
+								<Ref name="RootLocalizationTable">null</Ref>
+								<float name="Rotation">0</float>
+								<token name="ScaleType">0</token>
+								<bool name="Selectable">false</bool>
+								<token name="SelectionBehaviorDown">0</token>
+								<token name="SelectionBehaviorLeft">0</token>
+								<token name="SelectionBehaviorRight">0</token>
+								<token name="SelectionBehaviorUp">0</token>
+								<bool name="SelectionGroup">false</bool>
+								<Ref name="SelectionImageObject">null</Ref>
+								<int name="SelectionOrder">0</int>
+								<UDim2 name="Size">
+									<XS>1</XS>
+									<XO>0</XO>
+									<YS>1</YS>
+									<YO>0</YO>
+								</UDim2>
+								<token name="SizeConstraint">0</token>
+								<Rect2D name="SliceCenter">
+									<min>
+										<X>0</X>
+										<Y>0</Y>
+									</min>
+									<max>
+										<X>0</X>
+										<Y>0</Y>
+									</max>
+								</Rect2D>
+								<float name="SliceScale">1</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags" />
+								<UDim2 name="TileSize">
+									<XS>1</XS>
+									<XO>0</XO>
+									<YS>1</YS>
+									<YO>0</YO>
+								</UDim2>
+								<bool name="Visible">true</bool>
+								<int name="ZIndex">0</int>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+				<Item class="ObjectValue" referent="RBXC46A41CF731A46AA8801C2CCACAA0D8A">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Mouse</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<Ref name="Value">null</Ref>
+					</Properties>
+				</Item>
+				<Item class="ScreenGui" referent="RBXA52ABBB221BB4326B2AF37FE5396739B">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AutoLocalize">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="ClipToDeviceSafeArea">true</bool>
+						<bool name="DefinesCapabilities">false</bool>
+						<int name="DisplayOrder">0</int>
+						<bool name="Enabled">true</bool>
+						<string name="Name">WizardWandHelpGui</string>
+						<bool name="ResetOnSpawn">true</bool>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<token name="SafeAreaCompatibility">1</token>
+						<token name="ScreenInsets">2</token>
+						<token name="SelectionBehaviorDown">0</token>
+						<token name="SelectionBehaviorLeft">0</token>
+						<token name="SelectionBehaviorRight">0</token>
+						<token name="SelectionBehaviorUp">0</token>
+						<bool name="SelectionGroup">false</bool>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<token name="ZIndexBehavior">0</token>
+					</Properties>
+					<Item class="Frame" referent="RBXC6FB3D5AE13D44348E83A1B87F3C39E7">
+						<Properties>
+							<bool name="Active">false</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<BinaryString name="AttributesSerialize" />
+							<bool name="AutoLocalize">true</bool>
+							<token name="AutomaticSize">0</token>
+							<Color3 name="BackgroundColor3">
+								<R>0.639215708</R>
+								<G>0.635294139</G>
+								<B>0.647058845</B>
+							</Color3>
+							<float name="BackgroundTransparency">1</float>
+							<Color3 name="BorderColor3">
+								<R>0.105882362</R>
+								<G>0.164705887</G>
+								<B>0.207843155</B>
+							</Color3>
+							<token name="BorderMode">0</token>
+							<int name="BorderSizePixel">1</int>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Draggable">false</bool>
+							<bool name="Interactable">true</bool>
+							<int name="LayoutOrder">0</int>
+							<string name="Name">HelpFrame</string>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0.5</XS>
+								<XO>-200</XO>
+								<YS>0.5</YS>
+								<YO>-25</YO>
+							</UDim2>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<float name="Rotation">0</float>
+							<bool name="Selectable">false</bool>
+							<token name="SelectionBehaviorDown">0</token>
+							<token name="SelectionBehaviorLeft">0</token>
+							<token name="SelectionBehaviorRight">0</token>
+							<token name="SelectionBehaviorUp">0</token>
+							<bool name="SelectionGroup">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<int name="SelectionOrder">0</int>
+							<UDim2 name="Size">
+								<XS>0</XS>
+								<XO>400</XO>
+								<YS>0</YS>
+								<YO>50</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<int64 name="SourceAssetId">-1</int64>
+							<token name="Style">0</token>
+							<BinaryString name="Tags" />
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+						</Properties>
+						<Item class="TextLabel" referent="RBX139E720CEAF248AFAA1531D96A849EED">
+							<Properties>
+								<bool name="Active">false</bool>
+								<Vector2 name="AnchorPoint">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<BinaryString name="AttributesSerialize" />
+								<bool name="AutoLocalize">true</bool>
+								<token name="AutomaticSize">0</token>
+								<Color3 name="BackgroundColor3">
+									<R>0.639215708</R>
+									<G>0.635294139</G>
+									<B>0.647058845</B>
+								</Color3>
+								<float name="BackgroundTransparency">1</float>
+								<Color3 name="BorderColor3">
+									<R>0.105882362</R>
+									<G>0.164705887</G>
+									<B>0.207843155</B>
+								</Color3>
+								<token name="BorderMode">0</token>
+								<int name="BorderSizePixel">1</int>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="ClipsDescendants">false</bool>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Draggable">false</bool>
+								<Font name="FontFace">
+									<Family><url>rbxasset://fonts/families/LegacyArial.json</url></Family>
+									<Weight>400</Weight>
+									<Style>Normal</Style>
+									<CachedFaceId><url>rbxasset://fonts/Arimo-Regular.ttf</url></CachedFaceId>
+								</Font>
+								<bool name="Interactable">true</bool>
+								<int name="LayoutOrder">0</int>
+								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier" />
+								<string name="LocalizationMatchedSourceText" />
+								<int name="MaxVisibleGraphemes">-1</int>
+								<string name="Name">TextLabel</string>
+								<Ref name="NextSelectionDown">null</Ref>
+								<Ref name="NextSelectionLeft">null</Ref>
+								<Ref name="NextSelectionRight">null</Ref>
+								<Ref name="NextSelectionUp">null</Ref>
+								<string name="OpenTypeFeatures" />
+								<UDim2 name="Position">
+									<XS>0</XS>
+									<XO>0</XO>
+									<YS>0</YS>
+									<YO>0</YO>
+								</UDim2>
+								<bool name="RichText">false</bool>
+								<Ref name="RootLocalizationTable">null</Ref>
+								<float name="Rotation">0</float>
+								<bool name="Selectable">false</bool>
+								<token name="SelectionBehaviorDown">0</token>
+								<token name="SelectionBehaviorLeft">0</token>
+								<token name="SelectionBehaviorRight">0</token>
+								<token name="SelectionBehaviorUp">0</token>
+								<bool name="SelectionGroup">false</bool>
+								<Ref name="SelectionImageObject">null</Ref>
+								<int name="SelectionOrder">0</int>
+								<UDim2 name="Size">
+									<XS>1</XS>
+									<XO>0</XO>
+									<YS>1</YS>
+									<YO>0</YO>
+								</UDim2>
+								<token name="SizeConstraint">0</token>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags" />
+								<string name="Text">Hold down the mouse button and touch the numbers in order to cast spells!</string>
+								<Color3 name="TextColor3">
+									<R>0.105882362</R>
+									<G>0.164705887</G>
+									<B>0.207843155</B>
+								</Color3>
+								<token name="TextDirection">0</token>
+								<bool name="TextScaled">false</bool>
+								<float name="TextSize">18</float>
+								<Color3 name="TextStrokeColor3">
+									<R>0</R>
+									<G>0</G>
+									<B>0</B>
+								</Color3>
+								<float name="TextStrokeTransparency">1</float>
+								<float name="TextTransparency">0</float>
+								<token name="TextTruncate">0</token>
+								<bool name="TextWrapped">false</bool>
+								<token name="TextXAlignment">2</token>
+								<token name="TextYAlignment">1</token>
+								<bool name="Visible">true</bool>
+								<int name="ZIndex">1</int>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+				<Item class="Sound" referent="RBX91DB6E245EEE4C8A88F0B8E43E040F1C">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="IsMutedForCapture">false</bool>
+						<NumberRange name="LoopRegion">0 60000 </NumberRange>
+						<bool name="Looped">false</bool>
+						<string name="Name">DingSound</string>
+						<bool name="PlayOnRemove">false</bool>
+						<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+						<bool name="PlaybackRegionsEnabled">false</bool>
+						<float name="PlaybackSpeed">1</float>
+						<bool name="Playing">false</bool>
+						<float name="RollOffMaxDistance">10000</float>
+						<float name="RollOffMinDistance">10</float>
+						<token name="RollOffMode">0</token>
+						<Ref name="SoundGroup">null</Ref>
+						<Content name="SoundId"><url>http://www.roblox.com/asset/?id=56524816</url></Content>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<double name="TimePosition">0</double>
+						<float name="Volume">0.200000003</float>
+					</Properties>
+				</Item>
+				<Item class="Sound" referent="RBX8627BB4B59C246B6B6F39233EE8D1D3D">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="IsMutedForCapture">false</bool>
+						<NumberRange name="LoopRegion">0 60000 </NumberRange>
+						<bool name="Looped">false</bool>
+						<string name="Name">ShotSound</string>
+						<bool name="PlayOnRemove">false</bool>
+						<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+						<bool name="PlaybackRegionsEnabled">false</bool>
+						<float name="PlaybackSpeed">1</float>
+						<bool name="Playing">false</bool>
+						<float name="RollOffMaxDistance">10000</float>
+						<float name="RollOffMinDistance">10</float>
+						<token name="RollOffMode">0</token>
+						<Ref name="SoundGroup">null</Ref>
+						<Content name="SoundId"><url>http://www.roblox.com/asset/?id=56533997</url></Content>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<double name="TimePosition">0</double>
+						<float name="Volume">1</float>
+					</Properties>
+				</Item>
+				<Item class="Camera" referent="RBX51060EF3BAF646E282E8AF81EC2A97EA">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>-18.7983723</X>
+							<Y>17.3006363</Y>
+							<Z>18.681881</Z>
+							<R00>-0.999901533</R00>
+							<R01>0.0137158269</R01>
+							<R02>-0.00299072196</R02>
+							<R10>2.32830671e-10</R10>
+							<R11>0.213043198</R11>
+							<R12>0.977042735</R12>
+							<R20>0.0140381036</R20>
+							<R21>0.976946533</R21>
+							<R22>-0.213022187</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>-18.7385578</X>
+							<Y>-2.24022293</Y>
+							<Z>22.9423256</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

@@ -1,0 +1,758 @@
+<Item class="Model" referent="RBX853A193298804E5B8E27B8A149A66F44">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">63721732</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBX325A203243FF415F9B7AAF06CAB9FD1E">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>-0.5</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>-0</R02>
+						<R10>0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>0</R20>
+						<R21>1</R21>
+						<R22>-0</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">BatPotion</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=63617943 </url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>1.01000023</X>
+							<Y>13.6100016</Y>
+							<Z>-1.04999447</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>0</R20>
+							<R21>-1</R21>
+							<R22>0</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBXF3AD3D37BA7549F8A30029FC964C859C">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>1.01000023</X>
+							<Y>13.6100016</Y>
+							<Z>-1.04999447</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>0</R20>
+							<R21>-1</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>0.5</X>
+							<Y>0.50000006</Y>
+							<Z>1.46000373</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBXA3B62C53A0154009A6142AA966DDABD0">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=63617899 </url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>0.699999988</X>
+								<Y>0.699999988</Y>
+								<Z>0.699999988</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=63617919 </url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Script" referent="RBXA909EB6C61B94B5CB01F24FB794441BE">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">FlyScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{6FE169F1-564E-466D-81A8-7CA234676A5C}</string>
+						<ProtectedString name="Source">-- Very fast flight
+-- 20 second duration
+-- 15 second cooldown
+-- 20% lifesteal from wing damage
+-- 25% increase in strength i.e hp
+
+local Tool = script.Parent
+local Potion = Tool.Handle
+
+local flightSpin
+local flightPower
+local flightHold
+
+local wing = Instance.new("Part")
+wing.CanCollide = false
+wing.Shape = "Block"
+wing.FormFactor = 3
+wing.Size = Vector3.new(3, 1, 3)
+
+local wingM = Instance.new("SpecialMesh")
+wingM.TextureId = "http://www.roblox.com/asset/?id=63617919"
+wingM.Scale = Vector3.new(3.5, 3.5, 3.5)
+wingM.Parent = wing
+
+local leftWing
+local rightWing
+local leftWeld
+local rightWeld
+
+local leftW1
+local rightW1
+
+local wingCo
+local cooldownCo
+
+local vCharacter
+local myTorso
+local myHumanoid
+
+local wingActive
+
+local debris = game:GetService("Debris")
+
+Tool.Enabled = true
+
+local playAnim
+
+function blow(hit)
+	if hit.Parent then
+		humanoid = hit.Parent:FindFirstChild("Humanoid")
+	end
+	vPlayer = game.Players:GetPlayerFromCharacter(vCharacter)
+	if humanoid ~= nil and humanoid ~= myHumanoid then
+		tagHumanoid(humanoid, vPlayer)
+		humanoid:TakeDamage(5)
+		-- 20% lifesteal
+		if myHumanoid.Health + 1 &lt; myHumanoid.MaxHealth then
+			myHumanoid.Health = myHumanoid.Health + 1
+		end
+	end
+end
+
+function tagHumanoid(humanoid, player)
+	if humanoid ~= nil then
+		creator = Instance.new("ObjectValue")
+		creator.Parent = humanoid
+		creator.Value = player
+		creator.Name = "creator"
+		debris:AddItem(creator, 1)
+	end
+end
+
+function wingUpdate()
+	local count = 1
+	local anglePerFrame = -0.030
+	if leftWing and rightWing then
+		leftWeld = leftWing:FindFirstChild("LeftWeld")
+		rightWeld = rightWing:FindFirstChild("RightWeld")
+		if leftWeld then leftW1 = leftWeld.C1  end
+		if rightWeld then rightW1 = rightWeld.C1 end
+	end
+	while leftWing and rightWing do
+		leftWeld.C1 = leftWeld.C1 * CFrame.Angles(0, anglePerFrame * (count%4), 0)
+		rightWeld.C1 = rightWeld.C1 * CFrame.Angles(0, -anglePerFrame * (count%4), 0)
+		if count%4 == 0 then anglePerFrame = -anglePerFrame end
+		count = count + 1
+		wait(0.03)
+	end
+	print("Ending coroutine")
+end
+
+function cooldown()
+	wait(20.0)
+	if leftWing then leftWing:Remove() leftWing = nil end
+	if rightWing then rightWing:Remove() rightWing = nil end
+	if flightSpin then flightSpin:Remove() end
+	if flightPower then flightPower:Remove() end
+	if flightHold then flightHold:Remove() end
+	ratio = myHumanoid.Health/myHumanoid.MaxHealth
+	myHumanoid.MaxHealth = 100
+	wait(0.1)
+	myHumanoid.Health = ratio * 100
+	wait(15.0)
+	if leftWeld and leftW1 then leftWeld.C1 = leftW1 end
+	if rightWeld and rightW1 then rightWeld.C1 = rightW1 end
+	Tool.Enabled = true
+	Potion.Transparency = 0.0
+	if wingActive then wingActive.Value = 0 end
+end
+
+function onActivated()
+	vCharacter = Tool.Parent
+	if vCharacter ~= nil then
+		myHumanoid = vCharacter:FindFirstChild("Humanoid")
+		if myHumanoid then
+			myTorso = vCharacter:FindFirstChild("Torso")
+			wingActive = Tool:FindFirstChild("WingActive")
+			if myTorso then
+				if cooldownCo == nil or coroutine.status(cooldownCo) == 'dead' then
+					local playAnim = Tool:FindFirstChild("PlayAnim")
+					if playAnim and playAnim.Value == 0 then playAnim.Value = 1 end
+					wait(1.5)
+					if playAnim then playAnim.Value = 0 end
+					Potion.Transparency = 1.0
+
+					ratio = myHumanoid.Health/myHumanoid.MaxHealth
+					myHumanoid.MaxHealth = 125
+					wait(0.1)
+					myHumanoid.Health = ratio * 125
+
+					flightSpin = myTorso:FindFirstChild("FlightSpin")
+					flightPower = myTorso:FindFirstChild("FlightPower")
+					flightHold = myTorso:FindFirstChild("FlightHold")
+					if flightSpin ~= nil or flightPower ~= nil or flightHold ~= nil then debounce = false return end
+					Tool.Enabled = false
+					if wingActive then wingActive.Value = 1 end
+					leftWing = wing:Clone()
+					leftWing.Name = "LeftWing"
+					leftWing.Mesh.MeshId = "http://www.roblox.com/asset/?id=63690095"
+					leftWing.Parent = vCharacter
+
+					rightWing = wing:Clone()
+					rightWing.Name = "RightWing"
+					rightWing.Mesh.MeshId = "http://www.roblox.com/asset/?id=63689883"
+					rightWing.Parent = vCharacter
+
+					leftWeld = Instance.new("Weld")
+					leftWeld.Name = "LeftWeld"
+					leftWeld.Part0 = myTorso
+					leftWeld.Part1 = leftWing
+					leftWeld.C1 = CFrame.new(Vector3.new(-1.4, -0.5, 0.5)) * CFrame.Angles(math.pi/2, math.pi, 0)
+					leftWeld.Parent = leftWing
+
+					rightWeld = leftWeld:Clone()
+					rightWeld.Name = "RightWeld"
+					rightWeld.Part1 = rightWing
+					rightWeld.Parent = rightWing
+					rightWeld.C1 = CFrame.new(Vector3.new(1.4, -0.5, 0.5)) * CFrame.Angles(math.pi/2, math.pi, 0)
+
+					flightSpin = Instance.new("BodyGyro")
+					flightPower = Instance.new("BodyVelocity")
+
+					flightHold = Instance.new("BodyPosition")
+					flightHold.Name = "FlightHold"
+					flightHold.P = 100000
+					flightHold.maxForce = Vector3.new(0,0,0)
+
+
+					flightPower.Name = "FlightPower"
+					flightPower.velocity = Vector3.new(0,0,0)
+					flightPower.P = 1000000
+					flightPower.maxForce = Vector3.new(flightPower.P, flightPower.P, flightPower.P)
+					flightPower.P = 10000
+
+					flightSpin.Name = "FlightSpin"
+					flightSpin.P = 1000000
+					flightSpin.maxTorque = Vector3.new(flightSpin.P, flightSpin.P, flightSpin.P)
+
+					flightSpin.cframe = myTorso.CFrame
+					flightSpin.Parent = myTorso
+					flightHold.position = myTorso.Position
+					flightHold.Parent = myTorso
+					flightPower.Parent = myTorso
+
+					myTorso.Velocity = Vector3.new(0,0,0)
+					myTorso.RotVelocity = Vector3.new(0,0,0)
+
+					wingCo = coroutine.create(wingUpdate)
+					coroutine.resume(wingCo)
+
+					cooldownCo = coroutine.create(cooldown)
+					coroutine.resume(cooldownCo)
+
+					leftWing.Touched:connect(blow)
+					rightWing.Touched:connect(blow)
+				end
+			end
+		end
+	end
+end
+
+function onUnequipped()
+	if flightPower then flightPower:remove() end
+	if flightSpin then flightSpin:remove() end
+	if flightHold then flightHold:remove() end
+
+	if leftWing then leftWing:Remove() leftWing = nil end
+	if rightWing then rightWing:Remove() rightWing = nil end
+
+	if myHumanoid then
+		ratio = myHumanoid.Health/myHumanoid.MaxHealth
+		myHumanoid.MaxHealth = 100
+		wait(0.1)
+		myHumanoid.Health = ratio * 100
+	end
+end
+
+
+Tool.Activated:connect(onActivated)
+Tool.Unequipped:connect(onUnequipped)
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBXDE8E11F3A7A247BAB5766229A4A39713">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">FlightControl</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{164964C1-40B8-473B-9FC1-D89D489052FE}</string>
+						<ProtectedString name="Source">local Tool = script.Parent
+
+local flightPower
+local flightSpin
+local flightHold
+
+local camSpeedZ = 60
+local camSpeedX = 40
+
+local forwards = false
+local back = false
+local left = false
+local right = false
+
+local movementHandlerCo
+
+local hover = -.1
+
+local wingActive
+
+local myTorso
+local myHumanoid
+local vCharacter
+
+local drinkAnim
+
+local playAnim = Tool:FindFirstChild("PlayAnim")
+while playAnim == nil do
+	wait()
+	playAnim = Tool:FindFirstChild("PlayAnim")
+end
+
+print("Done waiting")
+
+function playAnimation()
+	playAnim = Tool:FindFirstChild("PlayAnim")
+	if playAnim and playAnim.Value == 1 and myHumanoid then
+		drinkAnim = myHumanoid:LoadAnimation(Tool:FindFirstChild("Drink"))
+		if drinkAnim then drinkAnim:Play() end
+	end
+end
+
+playAnim.Changed:connect(playAnimation)
+
+function handleMovementFrame()
+	local newPush = Vector3.new(0,0,0)
+	local forwardVector = game.Workspace.CurrentCamera.CoordinateFrame:vectorToWorldSpace(Vector3.new(0, 0, -1))
+
+	if forwards and not back then newPush = forwardVector * camSpeedZ end
+	if back and not forwards then newPush = newPush + forwardVector * -camSpeedZ end
+	if left and not right then newPush = newPush + game.Workspace.CurrentCamera.CoordinateFrame:vectorToWorldSpace(Vector3.new(-1, 0, 0)) * camSpeedX end
+	if right and not left then newPush = newPush + game.Workspace.CurrentCamera.CoordinateFrame:vectorToWorldSpace(Vector3.new(1, 0, 0)) * camSpeedX end
+
+	flightSpin.cframe = CFrame.new(Vector3.new(0,0,0), forwardVector) -- have torso face forwards
+	if newPush.magnitude &lt; 1 then
+		flightHold.maxForce = Vector3.new(flightHold.P, flightHold.P, flightHold.P)
+		flightPower.maxForce = Vector3.new(0, 0, 0)
+		if myTorso then flightHold.position = myTorso.Position end
+	else
+		flightHold.maxForce = Vector3.new(0, 0, 0)
+		flightPower.maxForce = Vector3.new(flightPower.P*100, flightPower.P*100, flightPower.P*100)
+	end
+		flightPower.velocity = newPush
+end
+
+function handleMovement()
+	wingActive = Tool:FindFirstChild("WingActive")
+	if wingActive then
+		while wingActive.Value == 1 do
+			handleMovementFrame()
+			wait()
+		end
+	end
+end
+
+function keyUpFunc(key)
+	if key == nil then return end
+	local key = key:lower()
+	if key == "w" then
+		forwards = false
+	elseif key == "a" then
+		left = false
+	elseif key == "s" then
+		back = false
+	elseif key == "d" then
+		right = false
+	end
+end
+
+function keyDownFunc(key)
+	if key == nil then return end
+	local key = key:lower()
+	if key == "w" then
+		forwards = true
+	elseif key == "a" then
+		left = true
+	elseif key == "s" then
+		back = true
+	elseif key == "d" then
+		right = true
+	end
+end
+
+function wingActivate()
+	wingActive = Tool:FindFirstChild("WingActive")
+	if wingActive then
+		if wingActive.Value == 0 then return end
+	end
+	local vCharacter = Tool.Parent
+	myTorso = vCharacter:FindFirstChild("Torso")
+	if myTorso == nil then return end
+
+	flightPower = vCharacter.Torso:FindFirstChild("FlightPower")
+	flightSpin = vCharacter.Torso:FindFirstChild("FlightSpin")
+	flightHold = vCharacter.Torso:FindFirstChild("FlightHold")
+
+	while flightPower == nil or flightSpin == nil or flightHold == nil do
+		Tool.Parent.Torso.ChildAdded:wait()
+		flightPower = Tool.Parent.Torso:FindFirstChild("FlightPower")
+		flightSpin = Tool.Parent.Torso:FindFirstChild("FlightSpin")
+		flightHold = Tool.Parent.Torso:FindFirstChild("FlightHold")
+	end
+	movementHandlerCo = coroutine.create(handleMovement)
+	coroutine.resume(movementHandlerCo)
+end
+
+function onEquipped(mouse)
+	vCharacter = Tool.Parent
+	myTorso = vCharacter:FindFirstChild("Torso")
+	myHumanoid = vCharacter:FindFirstChild("Humanoid")
+	if mouse then
+		forwards = false
+		back = false
+		left = false
+		right = false
+		mouse.KeyDown:connect(keyDownFunc)
+		mouse.KeyUp:connect(keyUpFunc)
+	end
+	wingActive = Tool:FindFirstChild("WingActive")
+	if wingActive then wingActive.Changed:connect(wingActivate) end
+end
+
+function onUnequipped()
+	if drinkAnim then drinkAnim:Stop() end
+end
+
+Tool.Equipped:connect(onEquipped)
+Tool.Unequipped:connect(onUnequipped)
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="NumberValue" referent="RBX8A690D9783A04D9098D93587C606D311">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">WingActive</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<double name="Value">0</double>
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBXF6D11F33806042A0ACB8DC0CC1CE911F">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Local Gui</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{AF77A327-DE8D-47FE-9892-62E1B37D7D95}</string>
+						<ProtectedString name="Source">Tool = script.Parent
+
+local stillEquipped = false
+
+function onEquippedLocal(mouse)
+	stillEquipped = true
+	if mouse == nil then
+		print("Mouse not found")
+		return
+	end
+	while stillEquipped do
+		print("Setting Mouse to go")
+		mouse.Icon = "rbxasset://textures\\GunCursor.png"
+		while Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+		print("Setting Mouse to wait")
+		mouse.Icon = "rbxasset://textures\\GunWaitCursor.png"
+		while not Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+	end
+end
+
+
+function onUnequippedLocal()
+	stillEquipped = false
+end
+
+Tool.Equipped:connect(onEquippedLocal)
+Tool.Unequipped:connect(onUnequippedLocal)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBX1103A9E3BAC441EAB65A2E8335F1681E">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=55306564</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Drink</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="NumberValue" referent="RBXAF423699DA994D049BC94CCE31CBE5A6">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">PlayAnim</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<double name="Value">0</double>
+					</Properties>
+				</Item>
+				<Item class="Camera" referent="RBX037648DF181E445BB60EFD517E423207">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>0.567029238</X>
+							<Y>13.7781601</Y>
+							<Z>-5.20574713</Z>
+							<R00>-0.999390721</R00>
+							<R01>-0.000265129551</R01>
+							<R02>-0.0349027514</R02>
+							<R10>-0</R10>
+							<R11>0.999971211</R11>
+							<R12>-0.00759601593</R12>
+							<R20>0.0349037647</R20>
+							<R21>-0.00759138772</R21>
+							<R22>-0.999361813</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>1.26508427</X>
+							<Y>13.9300804</Y>
+							<Z>14.7814884</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

@@ -1,0 +1,599 @@
+<Item class="Model" referent="RBXF7100B20EF9848818532D6EA42B8508C">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">54130537</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBXD2968A85CD3B46959D76A7F2C8E31A72">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">ClamTrap</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=54031132</url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>10.5426188</X>
+							<Y>10.2550011</Y>
+							<Z>-0.594999969</Z>
+							<R00>0.99986428</R00>
+							<R01>0.0164276138</R01>
+							<R02>0</R02>
+							<R10>-0.0164276138</R10>
+							<R11>0.99986428</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBXEF79A7513825426CB7075051D29FED08">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>10.5426188</X>
+							<Y>10.2550011</Y>
+							<Z>-0.594999969</Z>
+							<R00>0.99986428</R00>
+							<R01>0.0164276138</R01>
+							<R02>0</R02>
+							<R10>-0.0164276138</R10>
+							<R11>0.99986428</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2.46999669</X>
+							<Y>2.04999948</Y>
+							<Z>1.20999992</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX4EF62216265B4A298A3EF59408C5CD6F">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=54031359</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>5</X>
+								<Y>5</Y>
+								<Z>5</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=54031415</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+					<Item class="Sound" referent="RBXE74B86EE00324272A4265604B42B3CA9">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="IsMutedForCapture">false</bool>
+							<NumberRange name="LoopRegion">0 60000 </NumberRange>
+							<bool name="Looped">false</bool>
+							<string name="Name">ChompSound</string>
+							<bool name="PlayOnRemove">false</bool>
+							<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+							<bool name="PlaybackRegionsEnabled">false</bool>
+							<float name="PlaybackSpeed">1</float>
+							<bool name="Playing">false</bool>
+							<float name="RollOffMaxDistance">10000</float>
+							<float name="RollOffMinDistance">10</float>
+							<token name="RollOffMode">0</token>
+							<Ref name="SoundGroup">null</Ref>
+							<Content name="SoundId"><url>http://www.roblox.com/asset/?id=54061314</url></Content>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<double name="TimePosition">0</double>
+							<float name="Volume">0.5</float>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBXA3B61F009471463F8EEC938EB76156CF">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Local Gui</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{8A395BA3-A4E9-4E17-B826-123089FCD4A7}</string>
+						<ProtectedString name="Source">Tool = script.Parent
+
+local stillEquipped = false
+
+function onEquippedLocal(mouse)
+	stillEquipped = true
+	if mouse == nil then
+		print("Mouse not found")
+		return
+	end
+	while stillEquipped do
+		print("Setting Mouse to go")
+		mouse.Icon = "rbxasset://textures\\GunCursor.png"
+		while Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+		print("Setting Mouse to wait")
+		mouse.Icon = "rbxasset://textures\\GunWaitCursor.png"
+		while not Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+	end
+end
+
+
+function onUnequippedLocal()
+	stillEquipped = false
+end
+
+Tool.Equipped:connect(onEquippedLocal)
+Tool.Unequipped:connect(onUnequippedLocal)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBXD6E70900B8F94E17BA623EDD2D147155">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">ClamScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{1D9BE141-C207-4C2A-A119-96871A53D60B}</string>
+						<ProtectedString name="Source">-- Code for a Clam Trap, based on code for the Korblox Tripmine.
+
+-- Variables for the tool and its handle
+local Tool = script.Parent
+local Clam = Tool.Handle
+
+Tool.Enabled = true
+
+local myCharacter
+local numberOfTraps
+local screenGui
+local buzzer = Tool.NoTrapsBuzzer
+
+local clamCFrame
+
+-- Runs when tool is activated
+function onActivated()
+	-- Don't forget to check to make sure that the tool isn't still reloading!
+	if not Tool.Enabled then return end
+
+	-- Check to make sure the user hasn't already used all of his traps...
+	numberOfTraps = Tool:FindFirstChild("NumberOfTraps")
+	if numberOfTraps then
+		if numberOfTraps.Value &lt;= 0 then
+			if buzzer then buzzer:Play() end
+		return end
+	end
+
+	numberOfTraps.Value = numberOfTraps.Value - 1
+	-- And make sure the tool does know it has to reload for next time.
+	Tool.Enabled = false
+
+	-- Get variables for the tool's creator character and player, and make sure the character is still alive (?)
+	myCharacter = Tool.Parent
+	local myTorso = myCharacter:FindFirstChild("Torso")
+	if not myTorso then return end
+	local myPlayer = game.Players:GetPlayerFromCharacter(myCharacter)
+	if not myPlayer then return end
+
+	-- Strategy: Create a clone and let it do all the dirty work. Make the "actual" clam invisible (and unusable) for a while.
+	local ClonedClam = Clam:Clone()
+
+	bodyGyro = Instance.new("BodyGyro")
+	bodyGyro.P = 10000
+	bodyGyro.maxTorque = Vector3.new(bodyGyro.P, bodyGyro.P, bodyGyro.P)
+	--bodyGyro.cframe = ClonedClam.CFrame * CFrame.Angles(-math.pi/2, 0, 0)
+	bodyGyro.cframe = (myTorso.CFrame + (myTorso.CFrame.lookVector * 2.0)) * CFrame.Angles(-math.pi/2, 0, 0)
+	bodyGyro.Parent = ClonedClam
+
+	ClonedClam.Parent = Workspace
+	ClonedClam.CanCollide = true
+	Clam.Transparency = 1.0
+
+	-- Add a script to make the new, cloned clam work as a trap.
+	CloneScript = Tool.TrapScript:Clone()
+	CloneScript.Parent = ClonedClam
+	CloneScript.Disabled = false
+
+	-- Also add a creator tag so the player gets his kill(s), if any, on the leaderboard
+	Tag = Instance.new("ObjectValue")
+	Tag.Value = myPlayer
+	Tag.Name = "creator"
+	Tag.Parent = ClonedClam
+
+	-- After the reload time, make sure the clam is visible again, and let the user use it.
+	wait(2.0)
+	Clam.Transparency = 0.0
+	Tool.Enabled = true
+end
+
+-- Runs when tool is equipped; creates the GUI that tells the user how many traps they have left.
+function onEquipped()
+	myCharacter = Tool.Parent
+	myPlayer = game.Players:GetPlayerFromCharacter(myCharacter)
+
+	numberOfTraps = Tool:FindFirstChild("NumberOfTraps")
+
+	screenGui = Instance.new("ScreenGui")
+	screenGui.Name = "TrapsGui"
+	if myPlayer then
+		screenGui.Parent = myPlayer.PlayerGui
+	end
+	frame = Instance.new("Frame")
+	frame.Name = "TrapContainer"
+	frame.Position = UDim2.new(0, 0, 0.75, 0)
+	frame.Size = UDim2.new(0, 75, 0, 75)
+	frame.Parent = screenGui
+	frame.BackgroundTransparency = 1.0
+
+	image = Instance.new("ImageLabel")
+	image.Name = "Trap"
+	image.Image = "http://www.roblox.com/asset/?id=54031132"
+	image.Parent = frame
+	image.Size = UDim2.new(0, 75, 0, 75)
+	image.BackgroundTransparency = 1.0
+
+	text = Instance.new("TextLabel")
+	text.Text = numberOfTraps.Value
+
+	numberOfTraps.Changed:connect(function() text.Text = numberOfTraps.Value end)
+	text.Position = UDim2.new(0.75, 0, 0.75, 0)
+	text.Size = UDim2.new(0.5, 0, 0.5, 0)
+	text.Parent = frame
+	text.BackgroundTransparency = 1.0
+	text.TextColor = BrickColor.new("Bright red")
+	text.FontSize = 7
+
+end
+
+-- Runs when tool is unequipped
+function onUnequipped()
+	Clam.Transparency = 0.0
+	if screenGui then screenGui:Remove() end
+end
+
+Tool.Activated:connect(onActivated)
+Tool.Equipped:connect(onEquipped)
+Tool.Unequipped:connect(onUnequipped)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBXCED6CF4BA5B44D9093CAE65E0E4F4FBF">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">TrapScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{39B57778-A179-4118-97B2-F6826AA10351}</string>
+						<ProtectedString name="Source">-- Variables for the trap and its meshes.
+local Trap = script.Parent
+local Mesh = Trap.Mesh
+local ChompSound = Trap.ChompSound
+TRAP_DAMAGE = 30
+CLOSED_MESH = "http://www.roblox.com/asset/?id=54031359"
+OPEN_MESH = "http://www.roblox.com/asset/?id=54036937"
+CLOSED_SIZE = Vector3.new(2.47, 2.05, 1.21)
+OPEN_SIZE = Vector3.new(2.25, 3.01, 2.24)
+
+-- Give the trap a little while to fall,
+wait(0.5)
+-- make it almost invisible,
+--Trap.Transparency = 0.9
+-- then open it and change its size.
+Mesh.MeshId = OPEN_MESH
+Trap.Size = OPEN_SIZE
+
+-- Give the person who dropped it time to get away.
+wait(1.5)
+
+-- Connection
+local connection
+
+-- This semi-cheating counter is to make sure only one clamp call runs at a time, so a single person
+-- doesn't get multiple limbs hit by the same clam at the same time.
+local count = 0
+
+-- clamp: Makes the clam slam, injuring whoever touched it.
+function clamp(hit)
+	if count == 0 then
+		-- Make sure the hit was by someone who's still alive!
+		local hitHum = hit.Parent:FindFirstChild("Humanoid")
+		if not hitHum then print("Not a human") print(hit.Name) print(hit.Parent.Name) return end
+		count = 1
+		if not hit.Parent then return end
+
+		-- Disconnect this function (temporarily) so the trap doesn't go off again anytime soon.
+		--if connection then connection:disconnect() end
+
+		-- Make the trap visible, close the clam, make a sound...
+		Trap.Transparency = 0.0
+		Mesh.MeshId = CLOSED_MESH
+		Trap.Size = CLOSED_SIZE
+		if ChompSound then ChompSound:Play() end
+
+		-- ... and damage whoever touched it.
+		hitHum:TakeDamage(TRAP_DAMAGE)
+
+		-- Wait a little while, then open again, reconnecting clamp.
+		wait(5)
+		--Trap.Transparency = 0.9
+		Mesh.MeshId = OPEN_MESH
+		Trap.Size = OPEN_SIZE
+		count = count + 1
+		count = 0
+	end
+end
+
+connection = Trap.Touched:connect(clamp)
+
+
+
+
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX1F5BDC368C4649BCA2B4EC710CFC2998">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">NumberOfTraps</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<int64 name="Value">10</int64>
+					</Properties>
+				</Item>
+				<Item class="Sound" referent="RBX343173F551684AF5992AC9B3447662D4">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="IsMutedForCapture">false</bool>
+						<NumberRange name="LoopRegion">0 60000 </NumberRange>
+						<bool name="Looped">false</bool>
+						<string name="Name">NoTrapsBuzzer</string>
+						<bool name="PlayOnRemove">false</bool>
+						<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+						<bool name="PlaybackRegionsEnabled">false</bool>
+						<float name="PlaybackSpeed">1</float>
+						<bool name="Playing">false</bool>
+						<float name="RollOffMaxDistance">10000</float>
+						<float name="RollOffMinDistance">10</float>
+						<token name="RollOffMode">0</token>
+						<Ref name="SoundGroup">null</Ref>
+						<Content name="SoundId"><url>http://www.roblox.com/asset/?id=54068096</url></Content>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<double name="TimePosition">0</double>
+						<float name="Volume">0.300000012</float>
+					</Properties>
+				</Item>
+				<Item class="Camera" referent="RBXAAB145131A8047458DD971420A856BFD">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>10.5320396</X>
+							<Y>10.8306866</Y>
+							<Z>-5.28532696</Z>
+							<R00>-0.998440385</R00>
+							<R01>0.0133169629</R01>
+							<R02>-0.0542163923</R02>
+							<R10>9.31322464e-10</R10>
+							<R11>0.971133709</R11>
+							<R12>0.238535821</R12>
+							<R20>0.0558279343</R20>
+							<R21>0.238163799</R21>
+							<R22>-0.969619155</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>11.6163673</X>
+							<Y>6.05997086</Y>
+							<Z>14.1070528</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

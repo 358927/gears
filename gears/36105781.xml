@@ -1,0 +1,475 @@
+<Item class="Model" referent="RBX2DECA5CA62B1408D8104EB333B9DDE3A">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">36105781</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBXAF49EAD556F34682BC950C5137576908">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>1.20000005</X>
+						<Y>-0.5</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>-0</R02>
+						<R10>-0</R10>
+						<R11>0</R11>
+						<R12>-1</R12>
+						<R20>0</R20>
+						<R21>1</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">WitchCauldron</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=35955988 </url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>0.5</X>
+							<Y>1.20000005</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBX47B2513C6D534A698438E3C9807FF3BF">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>0.5</X>
+							<Y>1.20000005</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4278226844</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>3</X>
+							<Y>2.4000001</Y>
+							<Z>4</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBXC957315D2A5A4775A4340E84CF4FA9F9">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=35955816</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>2.20000005</X>
+								<Y>2.20000005</Y>
+								<Z>2.20000005</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id= 35955976 </url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Script" referent="RBXA010D45EFDC14F48BD1A8F6EE652B359">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">CauldronScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{60C2EF9D-46F8-4BD6-9ED5-322C2FB837A1}</string>
+						<ProtectedString name="Source">local Tool = script.Parent
+
+
+Tool.Enabled = true
+function onActivated()
+	vCharacter = Tool.Parent
+	if vCharacter == nil then return end
+	humanoid = vCharacter:FindFirstChild("Humanoid")
+	if humanoid == nil then return end
+	if not Tool.Enabled or humanoid.Jump then return end
+	Tool.Enabled = false
+	print("started activation")
+	rightArm = Tool.Parent:FindFirstChild("Right Arm")
+	if rightArm == nil then return end
+	fog = {}
+	newBF = {}
+
+	magicSound = Tool.Handle:FindFirstChild("MagicSound")
+	if magicSound == nil then
+		magicSound = Instance.new("Sound")
+		magicSound.Parent = Tool.Handle
+		magicSound.Volume = 1
+		magicSound.SoundId = "http://www.roblox.com/asset/?id=35895627"
+		-- 35895627 is cauldronFire
+		-- 35895661 is cauldronWater
+		magicSound.Name = "MagicSound"
+	end
+	slushy = Tool.Handle:FindFirstChild("SlushySound")
+	if slushy == nil then
+		slushy = Instance.new("Sound")
+		slushy.Parent = Tool.Handle
+		slushy.Volume = 1
+		slushy.SoundId = "http://www.roblox.com/asset/?id=35895661"
+		slushy.Name = "SlushySound"
+	end
+	magicSound.Looped = true
+	slushy.Looped = true
+	magicSound:Play()
+	slushy:Play()
+
+	for i = 1,10 do
+		fog[i] = rightArm:Clone()
+		fog[i].Name = "Fog"
+		fog[i].Velocity = Vector3.new(5*math.sin(i*math.pi/5),5,5*math.cos(i*math.pi/5))
+		fog[i].Transparency = 1
+		fog[i].CanCollide = false
+		fog[i].Parent = Tool.Parent -- for now
+		foggy = Instance.new("Smoke")
+		foggy.Color = Color3.new(1,1,1)
+		foggy.Size = Vector3.new(27,27,27)
+		foggy.Parent = fog[i]
+		newBF[i] = Instance.new("BodyForce")
+		newBF[i].force = Vector3.new(0, 195*fog[i]:GetMass(), 0)
+		newBF[i].Name = "FogLift"
+		newBF[i].Parent = fog[i]
+		foggy.Enabled = true
+		wait(.1)
+	end
+
+
+
+	wait(1)
+	for i = 1, 10 do
+		fog[i].Velocity = Vector3.new(0,0,0)
+		wait(.1)
+	end
+
+	wait(2)
+	magicSound:Stop()
+	slushy:Stop()
+	wait(2)
+	for i = 1, 10 do
+		fog[i].Velocity = Vector3.new(0,0,0)
+		newBF[i].force = Vector3.new(0, 196*fog[i]:GetMass(), 0)
+		wait (.1)
+	end
+	wait(6)
+	for i = 1, 10 do
+		fog[i].Parent = nil
+		wait(.1)
+	end
+	print("ended activation")
+	Tool.Enabled = true
+end
+
+function onEquipped()
+	print("started equipping")
+	magicSound = Tool.Handle:FindFirstChild("MagicSound")
+	if magicSound == nil then
+		magicSound = Instance.new("Sound")
+		magicSound.Parent = Tool.Handle
+		magicSound.Volume = 1
+		magicSound.SoundId = "http://www.roblox.com/asset/?id=35895627"
+		-- 35895627 is cauldronFire
+		-- 35895661 is cauldronWater
+		magicSound.Name = "MagicSound"
+	end
+	slushy = Tool.Handle:FindFirstChild("SlushySound")
+	if slushy == nil then
+		slushy = Instance.new("Sound")
+		slushy.Parent = Tool.Handle
+		slushy.Volume = 1
+		slushy.SoundId = "http://www.roblox.com/asset/?id=35895661"
+		slushy.Name = "SlushySound"
+	end
+	print("finished equipping")
+end
+
+function onUnequip()
+	magicSound = Tool.Handle:FindFirstChild("MagicSound")
+	slushy = Tool.Handle:FindFirstChild("SlushySound")
+	if magicSound ~= nil then
+		magicSound:Stop()
+		magicSound.Parent = nil
+	end
+	if slushy ~= nil then
+		slushy:Stop()
+		slushy.Parent = nil
+	end
+end
+
+Tool.Activated:connect(onActivated)
+Tool.Equipped:connect(onEquipped)
+Tool.Unequipped:connect(onUnequip)
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBXBE6840AC3B994F9B808C0672E5F239DC">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Local Gui</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{8ECB2A59-49EF-4B05-86F3-D563ACAE9214}</string>
+						<ProtectedString name="Source">local Tool = script.Parent;
+
+enabled = true
+function onButton1Down(mouse)
+	if not enabled then
+		return
+	end
+	print("ending")
+	enabled = false
+
+	while Tool.Enabled do
+		wait(.01)
+	end
+
+	print("Setting Mouse To Wait")
+	mouse.Icon = "rbxasset://textures\\GunWaitCursor.png"
+
+	while not Tool.Enabled do
+		wait(.01)
+	end
+
+	print("Setting Mouse to Go")
+	mouse.Icon = "rbxasset://textures\\GunCursor.png"
+
+	enabled = true
+end
+
+function onEquippedLocal(mouse)
+
+	if mouse == nil then
+		print("Mouse not found")
+		return
+	end
+
+	mouse.Icon = "rbxasset://textures\\GunCursor.png"
+	mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+end
+
+
+Tool.Equipped:connect(onEquippedLocal)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Camera" referent="RBXCD21BDCFB4B348B8A18D97F322D2E33E">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>0.481265098</X>
+							<Y>7.42243576</Y>
+							<Z>-0.985358894</Z>
+							<R00>-0.999819279</R00>
+							<R01>0.0187757984</R01>
+							<R02>-0.00297379447</R02>
+							<R10>-0</R10>
+							<R11>0.156434461</R11>
+							<R12>0.987688363</R12>
+							<R20>0.0190098397</R20>
+							<R21>0.987509847</R21>
+							<R22>-0.156406194</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>0.5</X>
+							<Y>1.20000005</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

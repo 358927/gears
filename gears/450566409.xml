@@ -1,0 +1,1054 @@
+<Item class="Model" referent="RBX16341024D5B94ACCA8D3BF35C4485109">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">450566409</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBX8FCD350720CB408688645C6E71825882">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>0.704466343</R00>
+						<R01>-0.593363762</R01>
+						<R02>0.389418334</R02>
+						<R10>0.511039078</R10>
+						<R11>0.0433256626</R11>
+						<R12>-0.858464837</R12>
+						<R20>0.49251011</R20>
+						<R21>0.803767562</R21>
+						<R22>0.333753556</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">SummerGlider</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=450537515</url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>-4.76837158e-07</X>
+							<Y>17.375</Y>
+							<Z>22</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Animation" referent="RBX61CD41C5D9A845B4866CE6475522EDFB">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/asset/?id=90872539</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Fly</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBX6E3F2399E41F43DBBBC2E59DAAE8C2C2">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/asset/?id=90872566</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Hold</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBXB437DFA7924D46E9AAE7587EACF4DA29">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>0</X>
+							<Y>17</Y>
+							<Z>22</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>5</X>
+							<Y>0.200000003</Y>
+							<Z>2</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBXB34BB353C919495BB3A79ED316CC94E8">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=92163941</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=450535798</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+					<Item class="Attachment" referent="RBX6DF7FDF1FA1E48CFB7E47A2A1C9AA58D">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<CoordinateFrame name="CFrame">
+								<X>1.25</X>
+								<Y>-1.75</Y>
+								<Z>1.25</Z>
+								<R00>0.923879504</R00>
+								<R01>-0.382683456</R01>
+								<R02>0</R02>
+								<R10>0.382683456</R10>
+								<R11>0.923879504</R11>
+								<R12>-0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">RightGripAttachment</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<bool name="Visible">false</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBX70091E14613749E98DAA3A1DEE31D27B">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">LocalScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{8F3F18AB-0D99-4810-8BB3-7ADEA00D4E11}</string>
+						<ProtectedString name="Source">--Made by Luckymaxer
+
+Tool = script.Parent
+Handle = Tool:WaitForChild("Handle")
+
+Players = game:GetService("Players")
+Debris = game:GetService("Debris")
+RunService = game:GetService("RunService")
+
+local function Create_PrivImpl(objectType)
+	if type(objectType) ~= 'string' then
+		error("Argument of Create must be a string", 2)
+	end
+	--return the proxy function that gives us the nice Create'string'{data} syntax
+	--The first function call is a function call using Lua's single-string-argument syntax
+	--The second function call is using Lua's single-table-argument syntax
+	--Both can be chained together for the nice effect.
+	return function(dat)
+		--default to nothing, to handle the no argument given case
+		dat = dat or {}
+
+		--make the object to mutate
+		local obj = Instance.new(objectType)
+		local parent = nil
+
+		--stored constructor function to be called after other initialization
+		local ctor = nil
+
+		for k, v in pairs(dat) do
+			--add property
+			if type(k) == 'string' then
+				if k == 'Parent' then
+					-- Parent should always be set last, setting the Parent of a new object
+					-- immediately makes performance worse for all subsequent property updates.
+					parent = v
+				else
+					obj[k] = v
+				end
+
+
+			--add child
+			elseif type(k) == 'number' then
+				if type(v) ~= 'userdata' then
+					error("Bad entry in Create body: Numeric keys must be paired with children, got a: "..type(v), 2)
+				end
+				v.Parent = obj
+
+
+			--event connect
+			elseif type(k) == 'table' and k.__eventname then
+				if type(v) ~= 'function' then
+					error("Bad entry in Create body: Key `[Create.E\'"..k.__eventname.."\']` must have a function value\
+							got: "..tostring(v), 2)
+				end
+				obj[k.__eventname]:connect(v)
+
+
+			--define constructor function
+			elseif k == t.Create then
+				if type(v) ~= 'function' then
+					error("Bad entry in Create body: Key `[Create]` should be paired with a constructor function, \
+							got: "..tostring(v), 2)
+				elseif ctor then
+					--ctor already exists, only one allowed
+					error("Bad entry in Create body: Only one constructor function is allowed", 2)
+				end
+				ctor = v
+
+
+			else
+				error("Bad entry ("..tostring(k).." =&gt; "..tostring(v)..") in Create body", 2)
+			end
+		end
+
+		--apply constructor function if it exists
+		if ctor then
+			ctor(obj)
+		end
+
+		if parent then
+			obj.Parent = parent
+		end
+
+		--return the completed object
+		return obj
+	end
+end
+
+--now, create the functor:
+Create = setmetatable({}, {__call = function(tb, ...) return Create_PrivImpl(...) end})
+
+--and create the "Event.E" syntax stub. Really it's just a stub to construct a table which our Create
+--function can recognize as special.
+Create.E = function(eventName)
+	return {__eventname = eventName}
+end
+
+
+Animations = {}
+
+AnimationObjs = {
+	Fly = {Animation = Tool:WaitForChild("Fly"), FadeTime = 0.3, Weight = nil, Speed = nil},
+	--Hold = {Animation = Tool:WaitForChild("Hold"), FadeTime = nil, Weight = nil, Speed = nil},
+	R15Fly = {Animation = Tool:WaitForChild("R15Fly"), FadeTime = 0.3, Weight = nil, Speed = nil},
+}
+
+Rate = (1 / 60)
+
+IND = tostring(0 / 0)
+
+Flying = false
+ToolEquipped = false
+
+function BeginFlight()
+	local Camera = game:GetService("Workspace").CurrentCamera
+	Humanoid.Jump = true
+	wait(0.2)
+	if Flying then
+		return
+	end
+	if Character then
+		local RightArm = Character:FindFirstChild('Right Arm') or Character:FindFirstChild('RightHand')
+		if RightArm then
+			local RightGrip = RightArm:FindFirstChild('RightGrip')
+			if RightGrip then
+				RightGrip.C1 = Handle.RightGripAttachment.CFrame
+			end
+		end
+	end
+	Flying = true
+	Camera.CameraSubject = Handle
+	Camera.CameraType = Enum.CameraType.Track
+	Humanoid.Sit = true
+	FlyingGyro = Create("BodyGyro"){
+		maxTorque = Vector3.new(0, 0, 0),
+		cframe = Torso.CFrame,
+		Parent = Torso,
+	}
+	FlyingForce = Create("BodyForce"){
+		force = Vector3.new(0, 0, 0),
+		Parent = Torso,
+	}
+	for i = 0, 1, 0.1 do
+		FlyingGyro.maxTorque = Vector3.new((i * 10000), (i * 10000), (i * 10000))
+	end
+	if Humanoid then
+		if Humanoid.RigType == Enum.HumanoidRigType.R15 then
+			SetAnimation("PlayAnimation", AnimationObjs.R15Fly)
+		else
+			SetAnimation("PlayAnimation", AnimationObjs.Fly)
+		end
+	end
+	DesiredFlightCFrame = (Torso.CFrame * CFrame.Angles(0, 0, 0.01))
+	Gui.Frame.Message.Text =
+		"Click and Hold to direct yourself.\n"..
+		"Jump to stop gliding."
+end
+
+function EndFlight()
+	Flying = false
+	local Camera = game:GetService("Workspace").CurrentCamera
+	Camera.CameraSubject = Character
+	Camera.CameraType = Enum.CameraType.Custom
+	if Humanoid then
+		if Humanoid.RigType == Enum.HumanoidRigType.R15 then
+			SetAnimation("StopAnimation", AnimationObjs.R15Fly)
+		else
+			SetAnimation("StopAnimation", AnimationObjs.Fly)
+		end
+	end
+	if Character then
+		local RightArm = Character:FindFirstChild('Right Arm') or Character:FindFirstChild('RightHand')
+		if RightArm then
+			local RightGrip = RightArm:FindFirstChild('RightGrip')
+			if RightGrip then
+				RightGrip.C1 = Tool.Grip
+			end
+		end
+	end
+	Humanoid.Sit = false
+	for i, v in pairs({FlyingGyro, FlyingForce}) do
+		if v and v.Parent then
+			Debris:AddItem(v, 0)
+		end
+	end
+	--Torso.Velocity = Vector3.new(0,0,0)
+	Torso.RotVelocity = Vector3.new(0,0,0)
+	Humanoid:ChangeState(Enum.HumanoidStateType.Freefall)
+	Gui.Frame.Message.Text = "Click to Glide."
+end
+
+Handle.Touched:connect(function(part)
+	if ToolEquipped and not part:IsDescendantOf(Character) and Flying then
+		EndFlight()
+	end
+end)
+
+function GetMassOf(model)
+	if model:IsA("BasePart") then
+		return model:GetMass()
+	else
+		local mass = 0
+		for _, ch in pairs(model:GetChildren()) do
+			mass = mass + GetMassOf(ch)
+		end
+		return mass
+	end
+end
+
+function Slerp(t, a, b)
+	local om = math.acos(math.min(1, a:Dot(b)))
+	if om &lt; 0.01 then
+		return ((1 - t) * a + t * b)
+	else
+		return ((math.sin((1 - t) * om ) / math.sin(om)) * a + (math.sin(t * om) / math.sin(om)) * b)
+	end
+end
+
+function SetAnimation(mode, value)
+	if not CheckIfAlive() then
+		return
+	end
+	if mode == "PlayAnimation" and value and ToolEquipped then
+		for i, v in pairs(Animations) do
+			if v.Animation == value.Animation then
+				v.AnimationTrack:Stop()
+				table.remove(Animations, i)
+			end
+		end
+		local AnimationTrack = Humanoid:LoadAnimation(value.Animation)
+		table.insert(Animations, {Animation = value.Animation, AnimationTrack = AnimationTrack})
+		AnimationTrack:Play(value.FadeTime, value.Weight, value.Speed)
+	elseif mode == "StopAnimation" and value then
+		for i, v in pairs(Animations) do
+			if v.Animation == value.Animation then
+				v.AnimationTrack:Stop(value.FadeTime)
+				table.remove(Animations, i)
+			end
+		end
+	end
+end
+
+function KeyPressed(Key, Down)
+end
+
+function CheckIfAlive()
+	return (((Character and Character.Parent and Humanoid and Humanoid.Parent and Humanoid.Health &gt; 0 and Torso and Torso.Parent and Player and Player.Parent) and true) or false)
+end
+
+function Equipped(Mouse)
+	Character = Tool.Parent
+	Player = Players:GetPlayerFromCharacter(Character)
+	Humanoid = Character:FindFirstChild("Humanoid")
+	Torso = Character:FindFirstChild("HumanoidRootPart")
+	PlayerGui = Player:FindFirstChild("PlayerGui")
+	ToolEquipped = true
+	if not CheckIfAlive() then
+		return
+	end
+	PlayerMouse = Mouse
+	PlayerMouse.KeyDown:connect(function(Key)
+		KeyPressed(Key, true)
+	end)
+	PlayerMouse.KeyUp:connect(function(Key)
+		KeyPressed(Key, false)
+	end)
+	--SetAnimation("PlayAnimation", AnimationObjs.Hold)
+	local CurrentlyEquipped = true
+	ToolUnequipped = Tool.Unequipped:connect(function()
+		CurrentlyEquipped = false
+		if ToolUnequipped then
+			ToolUnequipped:disconnect()
+		end
+	end)
+	local MouseDown = false
+	local KeyState
+	PlayerMouse.Button1Down:connect(function()
+		MouseDown = true
+		if not Flying then
+			BeginFlight()
+		end
+	end)
+	PlayerMouse.Button1Up:connect(function()
+		MouseDown = false
+	end)
+	PlayerMouse.KeyDown:connect(function(key)
+		if key == " " then
+			if Flying then
+				EndFlight()
+			end
+		end
+	end)
+	--
+	Gui = Create("ScreenGui"){
+		Create("Frame"){
+			Name = "Frame",
+			Style = "RobloxRound",
+			Position = UDim2.new(0.5, -125, 1, -170),
+			Size = UDim2.new(0, 250, 0, 80),
+			Create("TextLabel"){
+				Name = "Message",
+				TextWrapped = true,
+				BackgroundTransparency = 1,
+				Font = Enum.Font.Arial,
+				FontSize = Enum.FontSize.Size14,
+				TextColor3 = Color3.new(0.9, 0.9, 0.9),
+				Text = "Click to Glide",
+				Size = UDim2.new(1, 0, 1, 0),
+			},
+		},
+	}
+	if PlayerGui then
+		Gui.Parent = PlayerGui
+	end
+	--
+	local LastTime = tick()
+	local Origin = Vector3.new(0, 0, 0)
+	while ToolEquipped and CurrentlyEquipped and CheckIfAlive() do
+		local Now = tick()
+		local dt = Now - LastTime
+		LastTime = Now
+		--
+		if Flying then
+			local Camera = game:GetService("Workspace").CurrentCamera
+			local moveDir = (Camera.CFrame * CFrame.Angles(0.6, 0.6, 0.6))
+			moveDir = CFrame.new(moveDir.p, Mouse.Hit.p)
+			if MouseDown then
+				local theta = math.acos(DesiredFlightCFrame.lookVector:Dot(moveDir.lookVector))
+				local frac = math.min(1, (1.5 * dt / theta))
+				unit = Slerp(frac, DesiredFlightCFrame.lookVector, moveDir.lookVector)
+				DesiredFlightCFrame = CFrame.new(Camera.CFrame.p, PlayerMouse.Hit.p)
+			end
+			if tostring(unit.X) == IND or tostring(unit.Y) == IND or tostring(unit.Z) == IND then
+			else
+				--
+				local velo = Torso.Velocity
+				local veloXZ = (velo - Vector3.new(0, velo.y, 0))
+				--
+				local dir = DesiredFlightCFrame.lookVector
+				local dirXZ = (dir - Vector3.new(0, dir.y, 0)).unit
+				--
+				FlyingGyro.cframe = DesiredFlightCFrame *
+				CFrame.Angles(0, 0, Torso.RotVelocity.y/3 * (1-math.abs(dir.y)^2))*
+				CFrame.Angles(-math.pi/2, 0, 0)
+				--
+				local headingForceFactor = -dir.y -- heading up =&gt; negative force
+				local liftForceFactor = dir.y --hading up =&gt; positive lift
+				--
+				local forwardsSpeed = math.max(0, velo.magnitude)
+				--
+				local weight = (GetMassOf(Character) * 20 * 9.81)
+				--
+				local dragForce = ((velo.magnitude/10)^2 * weight)
+				local dragForceY = ((velo.y/15)^2 * weight)
+				local dragForceXZ = ((veloXZ.magnitude/35)^2 * weight)
+				--
+				local suspendFactor = 0
+				if dir.y &lt; 0 then
+					suspendFactor = (-dir.y)^2
+				end
+				--
+				local force = Vector3.new(0, weight*(1.0 - suspendFactor + 0.3*liftForceFactor), 0)
+				+ (dirXZ * (weight*1.0 * math.max(0, (0.5*headingForceFactor+0.6))))
+				- (veloXZ.unit * dragForceXZ)
+				- (Vector3.new(0, velo.y, 0).unit * dragForceY)
+				if tostring(force.X) == IND or tostring(force.Y) == IND or tostring(force.Z) == IND then
+				else
+					FlyingForce.force = force
+				end
+			end
+		end
+		RunService.RenderStepped:wait()
+	end
+end
+
+function Unequipped()
+	for i, v in pairs(Animations) do
+		if v and v.AnimationTrack then
+			v.AnimationTrack:Stop()
+		end
+	end
+	if Flying then
+		EndFlight()
+	end
+	if Gui then
+		Gui:Destroy()
+	end
+	Animations = {}
+	ToolEquipped = false
+end
+
+Tool.Equipped:connect(Equipped)
+Tool.Unequipped:connect(Unequipped)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Model" referent="RBX2B5766FBEC7C4B8D8612BF65F9A1747E">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<token name="LevelOfDetail">0</token>
+						<CoordinateFrame name="ModelMeshCFrame">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+						<Vector3 name="ModelMeshSize">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="ModelStreamingMode">0</token>
+						<string name="Name">DisplayModel</string>
+						<bool name="NeedsPivotMigration">false</bool>
+						<Ref name="PrimaryPart">null</Ref>
+						<float name="ScaleFactor">1</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<OptionalCoordinateFrame name="WorldPivotData">
+							<CFrame>
+								<X>4.76837158e-07</X>
+								<Y>17.75</Y>
+								<Z>21.1000023</Z>
+								<R00>1.00000012</R00>
+								<R01>-2.23517418e-08</R01>
+								<R02>1.49011612e-08</R02>
+								<R10>-2.23517418e-08</R10>
+								<R11>1.00000012</R11>
+								<R12>-2.98023224e-08</R12>
+								<R20>1.49011612e-08</R20>
+								<R21>-2.98023224e-08</R21>
+								<R22>1.00000012</R22>
+							</CFrame>
+						</OptionalCoordinateFrame>
+					</Properties>
+					<Item class="Part" referent="RBX56E5053D305C4D4D8D45642A9B7963A2">
+						<Properties>
+							<bool name="Anchored">false</bool>
+							<BinaryString name="AttributesSerialize" />
+							<bool name="AudioCanCollide">true</bool>
+							<float name="BackParamA">-0.5</float>
+							<float name="BackParamB">0.5</float>
+							<token name="BackSurface">0</token>
+							<token name="BackSurfaceInput">0</token>
+							<float name="BottomParamA">-0.5</float>
+							<float name="BottomParamB">0.5</float>
+							<token name="BottomSurface">4</token>
+							<token name="BottomSurfaceInput">0</token>
+							<CoordinateFrame name="CFrame">
+								<X>-5.40000153</X>
+								<Y>17.7500019</Y>
+								<Z>21.1000023</Z>
+								<R00>1.00000012</R00>
+								<R01>-2.23517418e-08</R01>
+								<R02>1.49011612e-08</R02>
+								<R10>-2.23517418e-08</R10>
+								<R11>1.00000012</R11>
+								<R12>-2.98023224e-08</R12>
+								<R20>1.49011612e-08</R20>
+								<R21>-2.98023224e-08</R21>
+								<R22>1.00000012</R22>
+							</CoordinateFrame>
+							<bool name="CanCollide">true</bool>
+							<bool name="CanQuery">true</bool>
+							<bool name="CanTouch">true</bool>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="CastShadow">true</bool>
+							<string name="CollisionGroup">Default</string>
+							<int name="CollisionGroupId">0</int>
+							<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+							<PhysicalProperties name="CustomPhysicalProperties">
+								<CustomPhysics>false</CustomPhysics>
+							</PhysicalProperties>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="EnableFluidForces">true</bool>
+							<float name="FrontParamA">-0.5</float>
+							<float name="FrontParamB">0.5</float>
+							<token name="FrontSurface">0</token>
+							<token name="FrontSurfaceInput">0</token>
+							<float name="LeftParamA">-0.5</float>
+							<float name="LeftParamB">0.5</float>
+							<token name="LeftSurface">0</token>
+							<token name="LeftSurfaceInput">0</token>
+							<bool name="Locked">false</bool>
+							<bool name="Massless">false</bool>
+							<token name="Material">256</token>
+							<string name="MaterialVariantSerialized" />
+							<string name="Name">Part</string>
+							<CoordinateFrame name="PivotOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<float name="Reflectance">0</float>
+							<float name="RightParamA">-0.5</float>
+							<float name="RightParamB">0.5</float>
+							<token name="RightSurface">0</token>
+							<token name="RightSurfaceInput">0</token>
+							<int name="RootPriority">0</int>
+							<Vector3 name="RotVelocity">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<float name="TopParamA">-0.5</float>
+							<float name="TopParamB">0.5</float>
+							<token name="TopSurface">3</token>
+							<token name="TopSurfaceInput">0</token>
+							<float name="Transparency">1</float>
+							<Vector3 name="Velocity">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<token name="formFactorRaw">3</token>
+							<token name="shape">1</token>
+							<Vector3 name="size">
+								<X>0.200000003</X>
+								<Y>0.200000003</Y>
+								<Z>0.200000003</Z>
+							</Vector3>
+						</Properties>
+						<Item class="Weld" referent="RBX29DC652449974757966F9277484B6154">
+							<Properties>
+								<BinaryString name="AttributesSerialize" />
+								<CoordinateFrame name="C0">
+									<X>17.0420742</X>
+									<Y>-7.98989916</Y>
+									<Z>-22.8090038</Z>
+									<R00>0.778182745</R00>
+									<R01>-0.570874751</R01>
+									<R02>-0.261789382</R02>
+									<R10>0.471112341</R10>
+									<R11>0.806258202</R11>
+									<R12>-0.357772171</R12>
+									<R20>0.415312946</R20>
+									<R21>0.155079916</R21>
+									<R22>0.896362364</R22>
+								</CoordinateFrame>
+								<CoordinateFrame name="C1">
+									<X>22.4420757</X>
+									<Y>-8.73990154</Y>
+									<Z>-21.9090042</Z>
+									<R00>0.778182745</R00>
+									<R01>-0.570874751</R01>
+									<R02>-0.261789382</R02>
+									<R10>0.471112341</R10>
+									<R11>0.806258202</R11>
+									<R12>-0.357772171</R12>
+									<R20>0.415312946</R20>
+									<R21>0.155079916</R21>
+									<R22>0.896362364</R22>
+								</CoordinateFrame>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Enabled">true</bool>
+								<string name="Name">Weld</string>
+								<Ref name="Part0">RBXB437DFA7924D46E9AAE7587EACF4DA29</Ref>
+								<Ref name="Part1">RBX56E5053D305C4D4D8D45642A9B7963A2</Ref>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags" />
+							</Properties>
+						</Item>
+					</Item>
+					<Item class="Part" referent="RBX223529F22C474AB58007692F6974EE26">
+						<Properties>
+							<bool name="Anchored">false</bool>
+							<BinaryString name="AttributesSerialize" />
+							<bool name="AudioCanCollide">true</bool>
+							<float name="BackParamA">-0.5</float>
+							<float name="BackParamB">0.5</float>
+							<token name="BackSurface">0</token>
+							<token name="BackSurfaceInput">0</token>
+							<float name="BottomParamA">-0.5</float>
+							<float name="BottomParamB">0.5</float>
+							<token name="BottomSurface">4</token>
+							<token name="BottomSurfaceInput">0</token>
+							<CoordinateFrame name="CFrame">
+								<X>5.40000057</X>
+								<Y>17.75</Y>
+								<Z>21.1000004</Z>
+								<R00>1.00000012</R00>
+								<R01>-2.23517418e-08</R01>
+								<R02>1.49011612e-08</R02>
+								<R10>-2.23517418e-08</R10>
+								<R11>1.00000012</R11>
+								<R12>-2.98023224e-08</R12>
+								<R20>1.49011612e-08</R20>
+								<R21>-2.98023224e-08</R21>
+								<R22>1.00000012</R22>
+							</CoordinateFrame>
+							<bool name="CanCollide">true</bool>
+							<bool name="CanQuery">true</bool>
+							<bool name="CanTouch">true</bool>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="CastShadow">true</bool>
+							<string name="CollisionGroup">Default</string>
+							<int name="CollisionGroupId">0</int>
+							<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+							<PhysicalProperties name="CustomPhysicalProperties">
+								<CustomPhysics>false</CustomPhysics>
+							</PhysicalProperties>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="EnableFluidForces">true</bool>
+							<float name="FrontParamA">-0.5</float>
+							<float name="FrontParamB">0.5</float>
+							<token name="FrontSurface">0</token>
+							<token name="FrontSurfaceInput">0</token>
+							<float name="LeftParamA">-0.5</float>
+							<float name="LeftParamB">0.5</float>
+							<token name="LeftSurface">0</token>
+							<token name="LeftSurfaceInput">0</token>
+							<bool name="Locked">false</bool>
+							<bool name="Massless">false</bool>
+							<token name="Material">256</token>
+							<string name="MaterialVariantSerialized" />
+							<string name="Name">Part</string>
+							<CoordinateFrame name="PivotOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<float name="Reflectance">0</float>
+							<float name="RightParamA">-0.5</float>
+							<float name="RightParamB">0.5</float>
+							<token name="RightSurface">0</token>
+							<token name="RightSurfaceInput">0</token>
+							<int name="RootPriority">0</int>
+							<Vector3 name="RotVelocity">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<float name="TopParamA">-0.5</float>
+							<float name="TopParamB">0.5</float>
+							<token name="TopSurface">3</token>
+							<token name="TopSurfaceInput">0</token>
+							<float name="Transparency">1</float>
+							<Vector3 name="Velocity">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<token name="formFactorRaw">3</token>
+							<token name="shape">1</token>
+							<Vector3 name="size">
+								<X>0.200000003</X>
+								<Y>0.200000003</Y>
+								<Z>0.200000003</Z>
+							</Vector3>
+						</Properties>
+						<Item class="Weld" referent="RBXBB5F5457EBA94D7B902B94DDE21F7303">
+							<Properties>
+								<BinaryString name="AttributesSerialize" />
+								<CoordinateFrame name="C0">
+									<X>17.0420742</X>
+									<Y>-7.98989916</Y>
+									<Z>-22.8090038</Z>
+									<R00>0.778182745</R00>
+									<R01>-0.570874751</R01>
+									<R02>-0.261789382</R02>
+									<R10>0.471112341</R10>
+									<R11>0.806258202</R11>
+									<R12>-0.357772171</R12>
+									<R20>0.415312946</R20>
+									<R21>0.155079916</R21>
+									<R22>0.896362364</R22>
+								</CoordinateFrame>
+								<CoordinateFrame name="C1">
+									<X>11.6420727</X>
+									<Y>-8.73989868</Y>
+									<Z>-21.9090023</Z>
+									<R00>0.778182745</R00>
+									<R01>-0.570874751</R01>
+									<R02>-0.261789382</R02>
+									<R10>0.471112341</R10>
+									<R11>0.806258202</R11>
+									<R12>-0.357772171</R12>
+									<R20>0.415312946</R20>
+									<R21>0.155079916</R21>
+									<R22>0.896362364</R22>
+								</CoordinateFrame>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Enabled">true</bool>
+								<string name="Name">Weld</string>
+								<Ref name="Part0">RBXB437DFA7924D46E9AAE7587EACF4DA29</Ref>
+								<Ref name="Part1">RBX223529F22C474AB58007692F6974EE26</Ref>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags" />
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+				<Item class="Script" referent="RBX354B79EB4E0F40478F2DE68D64C64EFC">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Script</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{31CAF1F1-1845-4CA0-A198-8E18C2D8DEC2}</string>
+						<ProtectedString name="Source">--Made by Luckymaxer
+
+Tool = script.Parent
+Handle = Tool:WaitForChild("Handle")
+
+DisplayModel = Tool:FindFirstChild("DisplayModel")
+if DisplayModel then
+	DisplayModel:Destroy()
+end</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBX6F62B9C6D92A4047B7F701917658013E">
+					<Properties>
+						<Content name="AnimationId"><url>rbxassetid://718076987</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">R15Fly</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

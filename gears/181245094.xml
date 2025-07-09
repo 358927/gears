@@ -1,0 +1,812 @@
+<Item class="Model" referent="RBX8BFE31DE54564B029091F9ACC2D2FFDE">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">181245094</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBXf3f55376ebf648d68171cc299d044498">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">false</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>-1</Y>
+						<Z>0.100000001</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">TrollSummoner</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset?id=179628574</url></Content>
+					<string name="ToolTip">Troll Summoner</string>
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>-1.28500009</X>
+							<Y>1.20000005</Y>
+							<Z>-0.504999995</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBX3309d1c614be4b38b57a0dc2e2446817">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>-1.28500009</X>
+							<Y>1.20000005</Y>
+							<Z>-0.504999995</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>1.42999995</X>
+							<Y>3.5999999</Y>
+							<Z>0.99000001</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX7b4f6c964c764adfa382b27c2f29e59b">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset?id=179628648</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset?id=179628621</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBX27fd13672d634e72a89866cd0904ab13">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">TrollSummonerLocalScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{08EB3E4F-F8E5-4489-AD77-E6E5E5BF738B}</string>
+						<ProtectedString name="Source">-- Made by SolarCrane
+
+
+
+local COOLDOWN = 60.0 * 5
+
+local EXIT_CODES =
+{
+	SUCCESS = "SUCCESS";
+	BAD_LOC = "Invalid Spawn Location";
+	COOLDOWN = "On Cooldown";
+	INVALID_ARG = "Invalid Arguements";
+	ERROR = "Error";
+}
+
+local COLORFUL_TROLL_FACE = "http://www.roblox.com/asset/?id=180506286"
+local COLORLESS_TROLL_FACE = "http://www.roblox.com/asset/?id=180506414"
+local TROLL_FACE_SIZE = UDim2.new(0,228,0,229)
+
+local RS = game:GetService('ReplicatedStorage')
+local PlayersService = game:GetService("Players")
+
+local Utility = require(RS:WaitForChild('Utility'))
+local Signal = require(RS:WaitForChild('Signal'))
+local CreateLocalWelder = require(RS:WaitForChild('LocalEquipWeld'))
+
+
+local LocalPlayer = PlayersService.LocalPlayer
+local PlayerGui = LocalPlayer.PlayerGui
+
+local Tool = script.Parent
+local Handle = Tool:WaitForChild('Handle')
+local RequestShootServer = Tool:WaitForChild('RequestShootServer')
+local TimeLeftUntilSummon = Tool:WaitForChild('TimeLeftUntilSummon')
+local LastActivation = 0 --tick()
+
+CreateLocalWelder(Tool)
+
+local TrollSummoningGui = nil
+
+
+local function CreateGui()
+	local this = {}
+
+	function this:Show()
+		this.Container.Visible = true
+	end
+
+	function this:Hide()
+		this.Container.Visible = false
+	end
+
+	function this:Update()
+		local now = tick()
+		local elapsedTime = now - LastActivation
+		local remainingTime = COOLDOWN - elapsedTime
+		local alpha = Utility.Clamp(0, 1, elapsedTime / COOLDOWN)
+		if this.ColorfulOccluder then
+			this.ColorfulOccluder.Size = UDim2.new(1,0,-alpha,0);
+		end
+		if this.CountdownTime then
+			if remainingTime &gt;= 1 then
+				local seconds = math.floor(remainingTime % 60)
+				local minutes = math.floor(remainingTime / 60)
+				if minutes &gt; 0 then
+					this.CountdownTime.Text = tostring(minutes) .. "m"
+				else
+					this.CountdownTime.Text = tostring(seconds) .. "s"
+				end
+				if this.Title then
+					this.Title.Visible = true
+				end
+			else
+				this.CountdownTime.Text = "READY"
+				if this.Title then
+					this.Title.Visible = false
+				end
+			end
+		end
+	end
+
+	local function Init()
+
+		this.ScreenGui = Utility.Create'ScreenGui'
+		{
+			Name = "TrollSummonerGui";
+			Parent = PlayerGui;
+		}
+			this.Container = Utility.Create'Frame'
+			{
+				Name = "Container";
+				Size = UDim2.new(0.3,0,1,-225);
+				Position = UDim2.new(0.35, 0, 0, 100);
+				BackgroundTransparency = 1;
+				Parent = this.ScreenGui;
+			};
+				this.Title = Utility.Create'TextLabel'
+				{
+					Name = "Title";
+					ZIndex = 2;
+					Text = "The Troll Is Feeding";
+					BackgroundTransparency = 1;
+					Position = UDim2.new(0,30,0,60);
+					Size = UDim2.new(1,-60,0,50);
+					--TextColor3 = Color3.new(177/255,70/255,35/255);
+					TextColor3 = Color3.new(246/255,146/255,29/255);
+					Font = Enum.Font.SourceSansBold;
+					FontSize = Enum.FontSize.Size36;
+					TextYAlignment = Enum.TextYAlignment.Center;
+					Parent = this.Container;
+				}
+				this.CountdownTime = Utility.Create'TextLabel'
+				{
+					Name = "CountdownTime";
+					ZIndex = 2;
+					Text = "";
+					BackgroundTransparency = 1;
+					Position = UDim2.new(0,30,0.5,-25);
+					Size = UDim2.new(1,-60,0,50);
+					TextColor3 = Color3.new(177/255,70/255,35/255);
+					--TextColor3 = Color3.new(246/255,146/255,29/255);
+					Font = Enum.Font.SourceSansBold;
+					FontSize = Enum.FontSize.Size48;
+					TextYAlignment = Enum.TextYAlignment.Center;
+					Parent = this.Container;
+				}
+				this.ErrorMsg = Utility.Create'TextLabel'
+				{
+					Name = "ErrorMsg";
+					ZIndex = 2;
+					Text = "";
+					BackgroundTransparency = 1;
+					Position = UDim2.new(0,30,0,90);
+					Size = UDim2.new(1,-60,0,50);
+					--TextColor3 = Color3.new(177/255,70/255,35/255);
+					TextColor3 = Color3.new(246/255,146/255,29/255);
+					Font = Enum.Font.SourceSansBold;
+					FontSize = Enum.FontSize.Size48;
+					TextYAlignment = Enum.TextYAlignment.Center;
+					Visible = false;
+					Parent = this.Container;
+				}
+				--[[
+				this.CloseButton = Utility.Create'TextButton'
+				{
+					Name = "CloseButton";
+					ZIndex = 2;
+					Text = "X";
+					BackgroundTransparency = 1;
+					TextColor3 = Color3.new(246/255,146/255,29/255);
+					Position = UDim2.new(1,-50,0,3);
+					Size = UDim2.new(0,45,0,45);
+					Font = Enum.Font.Arial;
+					FontSize = Enum.FontSize.Size36;
+					Style = Enum.ButtonStyle.RobloxRoundDefaultButton;
+					Parent = this.Container;
+				}
+				--]]
+				this.ColorLessImage = Utility.Create'ImageLabel'
+				{
+					Name = "Colorless";
+					Size = TROLL_FACE_SIZE;
+					Image = COLORLESS_TROLL_FACE;
+					Position = UDim2.new(0.5, -TROLL_FACE_SIZE.X.Offset/2, 0.5, -TROLL_FACE_SIZE.Y.Offset/2);
+					ImageTransparency = 0.5;
+					BackgroundTransparency = 1;
+					Parent = this.Container;
+				};
+					this.ColorfulOccluder = Utility.Create'Frame'
+					{
+						Name = "ColorfulOccluder";
+						Size = UDim2.new(1,0,-0.5,0);
+						Position = UDim2.new(0, 0, 1, 0);
+						BackgroundTransparency = 1;
+						ClipsDescendants = true;
+						Parent = this.ColorLessImage;
+					}
+						this.ColorfulImage = Utility.Create'ImageLabel'
+						{
+							Name = "Colorful";
+							Size = TROLL_FACE_SIZE;
+							Image = COLORFUL_TROLL_FACE;
+							Position = UDim2.new(0, 0, 1, -TROLL_FACE_SIZE.Y.Offset);
+							BackgroundTransparency = 1;
+							Parent = this.ColorfulOccluder;
+						};
+					--[[
+				this.CloseButton.MouseButton1Click:connect(function()
+					this:Hide()
+				end)
+				--]]
+	end
+
+	Init()
+
+	return this
+end
+
+
+local function TrySummonTheTrolls()
+	local now = tick()
+	if now - LastActivation &lt; COOLDOWN then
+		-- Still on cooldown
+		return
+	end
+	local humanoid = Utility.GetHumanoid(LocalPlayer)
+	local targetPoint = humanoid and humanoid.TargetPoint
+	spawn(function()
+		local exitCode = RequestShootServer:InvokeServer(targetPoint, tick() + (_G.ClientTimeDiff or 0))
+		local timeRemaining = TimeLeftUntilSummon:InvokeServer()
+		LastActivation = tick() - (COOLDOWN - timeRemaining)
+		if exitCode and exitCode ~= EXIT_CODES.SUCCESS then
+			if TrollSummoningGui and TrollSummoningGui.ErrorMsg then
+				TrollSummoningGui.ErrorMsg.Text = "The Troll Requires a Valid Spawn Location"
+
+				TrollSummoningGui.ErrorMsg.Visible = true
+				delay(3, function()
+					TrollSummoningGui.ErrorMsg.Visible = false
+				end)
+			end
+		end
+	end)
+end
+
+
+local Equipped = false
+local function OnEquip()
+	Equipped = true
+	Handle.Transparency = 0
+	local humanoid = Utility.GetHumanoid(LocalPlayer)
+	if humanoid then
+		--local FireReloadAnim = Tool:FindFirstChild('FireAndReload')
+		--FireReloadAnimTrack = FireReloadAnim and humanoid:LoadAnimation(FireReloadAnim)
+	end
+	if not TrollSummoningGui then
+		TrollSummoningGui = CreateGui()
+	end
+	local timeRemaining = TimeLeftUntilSummon:InvokeServer()
+	LastActivation = tick() - (COOLDOWN - timeRemaining)
+	TrollSummoningGui:Show()
+	spawn(function()
+		while Equipped do
+			if TrollSummoningGui then
+				TrollSummoningGui:Update()
+			end
+			wait()
+		end
+	end)
+end
+
+local function OnUnequip()
+	Equipped = false
+	if TrollSummoningGui then
+		TrollSummoningGui:Hide()
+	end
+end
+
+local function OnActivated()
+	if Equipped then
+		TrySummonTheTrolls()
+	end
+end
+
+CreateLocalWelder(Tool)
+
+Tool.Equipped:connect(OnEquip)
+Tool.Unequipped:connect(OnUnequip)
+Tool.Activated:connect(OnActivated)
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX2dde5fa44d344e04949c0069878c31d4">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">MouseIcon</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{9443FAD1-4995-4A8B-B489-7802987E511C}</string>
+						<ProtectedString name="Source">local MOUSE_ICON = 'rbxasset://textures/GunCursor.png'
+local RELOADING_ICON = 'rbxasset://textures/GunWaitCursor.png'
+
+local Tool = script.Parent
+
+local Mouse = nil
+
+local function UpdateIcon()
+	Mouse.Icon = Tool.Enabled and MOUSE_ICON or RELOADING_ICON
+end
+
+local function OnEquipped(mouse)
+	Mouse = mouse
+	UpdateIcon()
+end
+
+local function OnChanged(property)
+	if property == 'Enabled' then
+		UpdateIcon()
+	end
+end
+
+Tool.Equipped:connect(OnEquipped)
+Tool.Changed:connect(OnChanged)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="RemoteFunction" referent="RBXf05bfb87f272439b85fdaf896afe0de0">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">RequestShootServer</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBXcafb40667c7d47f4b38633ead56f4d8e">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">TrollSummonerServerScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{F96763ED-CA0C-4681-8B76-1ECDCF3E35D4}</string>
+						<ProtectedString name="Source">-- Made by SolarCrane
+
+local RS = game:GetService('ReplicatedStorage')
+local PlayersService = game:GetService("Players")
+local Debris = game:GetService('Debris')
+local ServerScriptService = game:GetService('ServerScriptService')
+
+local Utility = require(RS:WaitForChild('Utility'))
+local Signal = require(RS:WaitForChild('Signal'))
+local Pathfinding = require(ServerScriptService.Pathfinding)
+local MonsterManager = require(ServerScriptService.MonsterManager)
+
+local TrollManager = require(ServerScriptService.TrollManager)
+
+local DEBRIS_TIME = 6
+local COOLDOWN = 60.0 * 5
+local MAX_SPAWN_DISTANCE = 150
+
+local LastShot = 0
+local Equipped = false
+local MyPlayer = nil
+local Character = nil
+local Tool = script.Parent
+local Handle = Tool:WaitForChild('Handle')
+local Boom = script:WaitForChild('Boom')
+local RequestShootServer = Tool:WaitForChild('RequestShootServer')
+local TimeLeftUntilSummon = Tool:WaitForChild('TimeLeftUntilSummon')
+
+local EXIT_CODES =
+{
+	SUCCESS = "SUCCESS";
+	BAD_LOC = "Invalid Spawn Location";
+	COOLDOWN = "On Cooldown";
+	INVALID_ARG = "Invalid Arguements";
+	ERROR = "Error";
+}
+
+-- Pure functional
+local function DoSpawnEffects(point)
+	local pillar = Utility.Create'Part'
+	{
+		Name = 'SpawnPillar';
+		TopSurface = 'Smooth';
+		BottomSurface = 'Smooth';
+		CanCollide = false;
+		Anchored = true;
+	}
+	pillar.FormFactor = 'Custom'
+	pillar.Size = Vector3.new(1, 50, 1)
+	pillar.CFrame = CFrame.new(point + Vector3.new(0,25,0));
+
+	delay(0.1, function()
+		local boomClone = Boom:Clone()
+		boomClone.Parent = pillar
+		boomClone:Play()
+	end)
+
+	local mesh = Utility.Create'CylinderMesh'{
+			Scale = Vector3.new(1,1,1);
+			Parent = pillar;
+		};
+
+	Utility.PropertyTweener(mesh, "Scale", Vector3.new(0.1,1,0.1), Vector3.new(18,1,18), 0.3, Utility.EaseInOutQuad, function()
+		wait(3)
+		if mesh then
+			Utility.PropertyTweener(mesh, "Scale", mesh.Scale, Vector3.new(0,1,0), 0.3, Utility.EaseOutQuad)
+		end
+	end)
+	spawn(function()
+		for i = 1, 10 do
+			if pillar then
+				-- flicker it on and off
+				pillar.Transparency = i % 2
+			end
+			wait(0.3/10)
+		end
+		if pillar then
+			pillar.Transparency = 0
+		end
+	end)
+
+	local numProjectiles = 10
+	for i = 1, numProjectiles do
+		local shootOffDirection = (CFrame.Angles(0, i * ((2*math.pi)/10), 0) * Vector3.new(0,0,1)).unit + Vector3.new(0,1,0)
+			local projectile = Utility.Create'Part'
+			{
+				Name = 'Effect';
+				TopSurface = 'Smooth';
+				BottomSurface = 'Smooth';
+				CanCollide = false;
+			}
+			projectile.CFrame = CFrame.new(point) + shootOffDirection.unit
+			projectile.FormFactor = 'Custom'
+			projectile.Size = Vector3.new(.2,.2,.2)
+			projectile.Velocity = shootOffDirection.unit * 80
+			-- Add fire
+			local fire = Instance.new('Fire', projectile)
+			fire.Heat = 20
+			fire.Size = 20
+			Debris:AddItem(projectile, 3)
+			projectile.Parent = workspace
+			local touchConn = nil
+			touchConn = projectile.Touched:connect(function(other)
+				if other.CanCollide == true then
+					touchConn:disconnect()
+					local explosion = Utility.Create'Explosion'
+					{
+						BlastPressure = 0;
+						BlastRadius = 10;
+						Position = projectile.CFrame.p;
+						Parent = workspace;
+					}
+				end
+			end)
+	end
+
+	Debris:AddItem(pillar, 5)
+	pillar.Parent = workspace
+
+	return pillar
+end
+
+local function OnShoot(player, desiredSpawnPoint, localTime)
+	-- Someone else is trying to call shoot on my weapon; GET DENIED
+	if player ~= MyPlayer then
+		return EXIT_CODES.INVALID_ARG
+	end
+	if not desiredSpawnPoint then
+		return EXIT_CODES.INVALID_ARG
+	end
+
+	local oldActivation = TrollManager:GetLastActivation(player)
+	local now = tick()
+	TrollManager:SetLastActivation(player, now)
+	if now - oldActivation &lt; COOLDOWN then
+		TrollManager:SetLastActivation(player, oldActivation)
+		return EXIT_CODES.COOLDOWN
+	end
+	if Equipped and Handle and Utility.CanFire(MyPlayer) then
+		local character = MyPlayer.Character
+		if MyPlayer:DistanceFromCharacter(desiredSpawnPoint) &gt; MAX_SPAWN_DISTANCE then
+			TrollManager:SetLastActivation(player, oldActivation)
+			return EXIT_CODES.BAD_LOC
+		end
+
+		local characterCframe = character and character:GetModelCFrame()
+		local foundPath = characterCframe and Pathfinding:GetPath(desiredSpawnPoint, characterCframe.p)
+		-- Check if it is a legit spawning locations
+		if characterCframe and foundPath then
+			if foundPath then
+				DoSpawnEffects(desiredSpawnPoint)
+				-- Spawn the troll
+				local spawnSuccess = MonsterManager:SpawnTroll(desiredSpawnPoint + Vector3.new(0,4,0))
+				if spawnSuccess then
+					return EXIT_CODES.SUCCESS
+				else
+					TrollManager:SetLastActivation(player, oldActivation)
+					return EXIT_CODES.ERROR
+				end
+			end
+		else
+			TrollManager:SetLastActivation(player, oldActivation)
+			return EXIT_CODES.BAD_LOC
+		end
+	end
+	TrollManager:SetLastActivation(player, oldActivation)
+	return EXIT_CODES.ERROR
+end
+
+local function OnEquipped()
+	Equipped = true
+	Character = Tool.Parent
+	if Character then
+		MyPlayer = PlayersService:GetPlayerFromCharacter(Character)
+	end
+end
+
+local function OnUnequipped()
+	Equipped = false
+end
+
+--------------------
+--| Script Logic |--
+--------------------
+
+RequestShootServer.OnServerInvoke = OnShoot
+TimeLeftUntilSummon.OnServerInvoke = function(player)
+	return COOLDOWN - (tick() - TrollManager:GetLastActivation(player))
+end
+
+
+Tool.Equipped:connect(OnEquipped)
+Tool.Unequipped:connect(OnUnequipped)
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="Sound" referent="RBX0c01fbaab010437896d487522ad954c6">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="IsMutedForCapture">false</bool>
+							<NumberRange name="LoopRegion">0 60000 </NumberRange>
+							<bool name="Looped">false</bool>
+							<string name="Name">Boom</string>
+							<bool name="PlayOnRemove">false</bool>
+							<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+							<bool name="PlaybackRegionsEnabled">false</bool>
+							<float name="PlaybackSpeed">0.649999976</float>
+							<bool name="Playing">false</bool>
+							<float name="RollOffMaxDistance">10000</float>
+							<float name="RollOffMinDistance">10</float>
+							<token name="RollOffMode">0</token>
+							<Ref name="SoundGroup">null</Ref>
+							<Content name="SoundId"><url>http://www.roblox.com/asset/?id=106018135</url></Content>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<double name="TimePosition">0</double>
+							<float name="Volume">1</float>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="RemoteFunction" referent="RBXd7573a0974d84841a50938b3276fe20a">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">TimeLeftUntilSummon</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

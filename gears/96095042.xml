@@ -1,0 +1,916 @@
+<Item class="Model" referent="RBX67D563467F4C4AE5AA9A45D7D44B7436">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">96095042</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBXE37C41FBC60C4FC4B1AE0B651BD15B3A">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">false</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>2</X>
+						<Y>3</Y>
+						<Z>1</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">SorcusChair</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=96089539</url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>-0.0999984741</X>
+							<Y>0</Y>
+							<Z>-0.599999428</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>-1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBX9085ADB75CB741429444E0115F106450">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>-0.0999984741</X>
+							<Y>0</Y>
+							<Z>-0.599999428</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>-1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">816</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>1.27999938</X>
+							<Y>0.410003483</Y>
+							<Z>1.76999938</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX3BBC921FD25D4C8F85BC266D7DE468BA">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=96065544</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>1.5</X>
+								<Y>1.5</Y>
+								<Z>1.5</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=96065600</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+					<Item class="Sound" referent="RBX03A39E3F153146D78C4DA8DD22AB6BB6">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="IsMutedForCapture">false</bool>
+							<NumberRange name="LoopRegion">0 60000 </NumberRange>
+							<bool name="Looped">false</bool>
+							<string name="Name">DaggerSound</string>
+							<bool name="PlayOnRemove">false</bool>
+							<NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+							<bool name="PlaybackRegionsEnabled">false</bool>
+							<float name="PlaybackSpeed">1</float>
+							<bool name="Playing">false</bool>
+							<float name="RollOffMaxDistance">10000</float>
+							<float name="RollOffMinDistance">10</float>
+							<token name="RollOffMode">0</token>
+							<Ref name="SoundGroup">null</Ref>
+							<Content name="SoundId"><url>http://www.roblox.com/asset/?id=62337944 </url></Content>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<double name="TimePosition">0</double>
+							<float name="Volume">0.5</float>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBX0D5440B98B574B9D8BDE8FB18F62026E">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Local Gui</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{5EA6CFEC-522C-43CB-9ACB-84479D48E212}</string>
+						<ProtectedString name="Source">Tool = script.Parent
+
+local stillEquipped = true
+
+function onEquippedLocal(mouse)
+	stillEquipped = true
+	if mouse == nil then
+		print("Mouse not found")
+		return
+	end
+	while stillEquipped do
+		print("Setting Mouse to go")
+		mouse.Icon = "rbxasset://textures\\GunCursor.png"
+		while Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+		print("Setting Mouse to wait")
+		mouse.Icon = "rbxasset://textures\\GunWaitCursor.png"
+		while not Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+	end
+end
+
+function onUnequippedLocal()
+	stillEquipped = false
+end
+
+Tool.Equipped:connect(onEquippedLocal)
+Tool.Unequipped:connect(onUnequippedLocal)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBXE619A2FAB8154769AE0EBAB07F9C23D5">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=62323186</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">HoldAnim</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX0102D38F5BBA4305AAF13B7D897ABBE7">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">TransportScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{37D4C982-35E8-4B78-B8A7-3240DFA9BC22}</string>
+						<ProtectedString name="Source">print('Transport Script')
+local function WaitForChild(parent, childName)
+	print(parent, childName)
+	while parent:FindFirstChild(childName) == nil do
+		wait()
+	end
+	return parent[childName]
+end
+
+local Tool = script.Parent
+
+local FlightPower
+local FlightSpin
+local FlightHold
+
+local CamSpeedZ = 50
+local CamSpeedX = 40
+
+local Forwards = false
+local Back = false
+local Left = false
+local Right = false
+
+local MovementHandlerCo
+
+local Hover = -0.1
+
+local ChairActivate
+
+local Player = Game.Players.LocalPlayer
+while Player.Character == nil or Player.Character.Parent~=game.Workspace do wait() end
+local Character = Player.Character
+local Torso = WaitForChild(Character, 'Torso')
+
+function HandleMovementFrame()
+	local newPush = Vector3.new(0, 0, 0)
+	local forwardVector = game.Workspace.CurrentCamera.CoordinateFrame:vectorToWorldSpace(Vector3.new(0, 0, -1))
+
+	if Forwards and not Back then newPush = forwardVector * CamSpeedZ end
+	if Back and not Forwards then newPush = newPush + forwardVector * -CamSpeedZ end
+	if Left and not Right then newPush = newPush + game.Workspace.CurrentCamera.CoordinateFrame:vectorToWorldSpace(Vector3.new(-1, 0, 0)) * CamSpeedX end
+	if Right and not Left then newPush = newPush + game.Workspace.CurrentCamera.CoordinateFrame:vectorToWorldSpace(Vector3.new(1, 0, 0)) * CamSpeedX end
+
+	FlightSpin.cframe = CFrame.new(Vector3.new(0, 0, 0), forwardVector) -- have torso face Forwards
+	if newPush.magnitude &lt; 1 then
+		FlightHold.maxForce = Vector3.new(0, 0, 0)
+		FlightPower.maxForce = Vector3.new(0, 0, 0)
+		if Torso then FlightHold.position = Torso.Position end
+	else
+		FlightHold.maxForce = Vector3.new(0, FlightHold.P/100, 0)
+		FlightPower.maxForce = Vector3.new(FlightPower.P * 100, 0, FlightPower.P * 100)
+	end
+	FlightPower.velocity = newPush
+end
+
+function HandleMovement()
+	ChairActivate = Tool:FindFirstChild("ChairActivate")
+	if ChairActivate then
+		while ChairActivate.Value do
+			HandleMovementFrame()
+			wait()
+		end
+	end
+end
+
+function KeyUpFunc(key)
+	if key == nil then return end
+	local key = key:lower()
+	if key == "w" then
+		Forwards = false
+	elseif key == "a" then
+		Left = false
+	elseif key == "s" then
+		Back = false
+	elseif key == "d" then
+		Right = false
+	end
+end
+
+function KeyDownFunc(key)
+	if key == nil then return end
+	local key = key:lower()
+	if key == "w" then
+		Forwards = true
+	elseif key == "a" then
+		Left = true
+	elseif key == "s" then
+		Back = true
+	elseif key == "d" then
+		Right = true
+	end
+end
+
+function Transport()
+	ChairActivate = Tool:FindFirstChild("ChairActivate")
+	if ChairActivate then
+		if ChairActivate.Value == 0 then return end
+	end
+	if Torso == nil then return end
+
+	FlightPower = Torso:FindFirstChild("FlightPower")
+	FlightSpin = Torso:FindFirstChild("FlightSpin")
+	FlightHold = Torso:FindFirstChild("FlightHold")
+
+	while FlightPower == nil or FlightSpin == nil or FlightHold == nil do
+		Torso.ChildAdded:wait()
+		FlightPower = Torso:FindFirstChild("FlightPower")
+		FlightSpin = Torso:FindFirstChild("FlightSpin")
+		FlightHold = Torso:FindFirstChild("FlightHold")
+	end
+	MovementHandlerCo = coroutine.create(HandleMovement)
+	coroutine.resume(MovementHandlerCo)
+end
+
+function OnEquipped(mouse)
+	Character = Tool.Parent
+	Torso = WaitForChild(Character, 'Torso')
+	if mouse then
+		Forwards = false
+		Back = false
+		Left = false
+		Right = false
+		mouse.KeyDown:connect(KeyDownFunc)
+		mouse.KeyUp:connect(KeyUpFunc)
+	end
+	ChairActivate = WaitForChild(Tool, "ChairActivate")
+	if ChairActivate then ChairActivate.Changed:connect(Transport) end
+end
+
+Tool.Equipped:connect(OnEquipped)
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX0AE47D7D74524734BBC86659D6D3A2B8">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">ChairScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{DF8C748C-4CE5-43CE-8B52-3DEDEABFB2AE}</string>
+						<ProtectedString name="Source">print('Chair Script')
+local function WaitForChild(parent, childName)
+	print(parent, childName)
+	while parent:FindFirstChild(childName) == nil do
+		wait()
+	end
+	return parent[childName]
+end
+
+local Tool = script.Parent
+local Chair = Tool.Handle
+
+local Player = Game.Players.LocalPlayer
+
+while Player.Character == nil or Player.Character.Parent~=game.Workspace do wait() end
+local Character = Player.Character
+local Torso = WaitForChild(Character, 'Torso')
+local Humanoid = WaitForChild(Character, 'Humanoid')
+
+Spawn(function()
+	while true do
+		print(Player.Parent, Player.Character)
+		if Player.Character then print(Player.Character.Parent) print(Character.Parent) end
+		wait(4.5)
+	end
+end)
+
+local FlightSpin
+local FlightPower
+local FlightHold
+
+local DebrisService = Game:GetService('Debris')
+
+local RightLeg = WaitForChild(Character, 'Right Leg')
+local LeftLeg = WaitForChild(Character, 'Left Leg')
+
+local LeftLegClone
+local RightLegClone
+
+local ChairActivate = WaitForChild(Tool, 'ChairActivate')
+
+local Factor = 177
+local Riding = false
+
+local AnimateScript = WaitForChild(Character, 'Animate')
+
+local Gui = Instance.new('ScreenGui')
+local RbxGui = LoadLibrary('RbxGui')
+
+local TorsoConnection
+
+local Mouse
+
+local RightArm
+local RightGrip
+
+local Gravity = 196.2
+local TimeTaken = 0
+local Velocity = 200.0
+
+local SitAnim
+
+local TrollWords_List = {
+						"Haters gonna hate",
+						"That's how you roll",
+						"YESSSSSSS",
+						"CHAIR POWAH",
+						"SITTING IN THE FRONT SEAT",
+						"TROLOLOLOLOLO",
+						"COME AT ME BRUH",
+						"CHAIR to the face",
+						"Faster than a speeding stool"
+					}
+
+local function CreateCloneLegs()
+	LeftLegClone = LeftLeg:Clone()
+	RightLegClone = RightLeg:Clone()
+
+	local lMotor = WaitForChild(Torso, 'Left Hip'):Clone()
+	local rMotor = WaitForChild(Torso, 'Right Hip'):Clone()
+
+	lMotor.Part1 = LeftLegClone
+	rMotor.Part1 = RightLegClone
+
+	lMotor.Name = 'Fake Left Hip'
+	rMotor.Name = 'Fake Right Hip'
+
+	lMotor.Parent = LeftLegClone
+	rMotor.Parent = RightLegClone
+
+	lMotor.C1 = lMotor.C1 * CFrame.Angles(0, 0, math.pi/2)
+	rMotor.C1 = rMotor.C1 * CFrame.Angles(0, 0, -math.pi/2)
+
+	LeftLegClone.Parent = Character
+	RightLegClone.Parent = Character
+
+	AnimateScript.Disabled = true
+end
+
+local function DestroyCloneLegs()
+	if LeftLegClone then LeftLegClone:Destroy() end
+	if RightLegClone then RightLegClone:Destroy() end
+	AnimateScript.Disabled = false
+end
+
+local TrollStack = {}
+
+local function CreateBBGui(text, head)
+	if #TrollStack &gt; 3 then return end
+	if head and number ~= 0 then
+		local bbGui = Instance.new('BillboardGui')
+		bbGui.Name = 'BoneBillboard'
+		bbGui.Adornee = head
+		bbGui.Parent = head
+		bbGui.Size = UDim2.new(1, 0, 1, 0)
+
+		local tLabel = Instance.new('TextLabel')
+		tLabel.Name = 'Damage'
+		tLabel.Text = text
+		tLabel.BackgroundTransparency = 1.0
+		--tLabel.TextScaled = true
+		tLabel.Font = Enum.Font.ArialBold
+		tLabel.FontSize = Enum.FontSize.Size14
+		tLabel.TextStrokeColor3 = Color3.new(1, 1, 1)
+		tLabel.TextStrokeTransparency = 0.5
+		tLabel.Size = UDim2.new(2, 0, 1, 0)
+		tLabel.Parent = bbGui
+		tLabel.TextColor3 = Color3.new(0.63, 0.3, 0.37)
+		Spawn(function()
+			local maxHeight = 5.0
+			local index = #TrollStack + 1
+			TrollStack[#TrollStack + 1] = bbGui
+			while bbGui and bbGui.StudsOffset.Y &lt; maxHeight do
+				bbGui.StudsOffset = bbGui.StudsOffset + Vector3.new(0, 0.2, 0)
+				wait(0.05)
+			end
+			bbGui:Destroy()
+			bbGui = nil
+			TrollStack[index] = nil
+		end)
+	end
+end
+
+local function LetTheTrollingBegin(hitPart)
+	if hitPart and hitPart.Parent and hitPart.Parent:FindFirstChild('Humanoid') then
+		hitPart.Parent.Humanoid.Sit = true
+		CreateBBGui(TrollWords_List[math.random(1, #TrollWords_List)], Character:FindFirstChild('Head'))
+	end
+end
+
+function ComputeLaunchAngle(dx, dy, grav)
+	-- This function is nasty or what? :P
+	-- There are ways to solve launch angle of a projectile given a point in 3D space
+	-- This one solves for tan(theta)
+
+	-- Simplify the distance formula of a projectile
+	local g = math.abs(grav)
+	local inRoot = (Velocity * Velocity * Velocity * Velocity) - (g * ((g * dx * dx) + (2 * dy * Velocity * Velocity)))
+	if inRoot &lt;= 0 then
+		return 0.25 * math.pi
+	end
+	local root = math.sqrt(inRoot)
+	local inATan1 = ((Velocity * Velocity) + root) / (g*dx)
+
+	local inATan2 = ((Velocity * Velocity) - root) / (g*dx)
+	local a1 = math.atan(inATan1)
+	local a2 = math.atan(inATan2)
+	if a1 &lt; a2 then return a1 end
+	return a2
+end
+
+local function ThrowChair()
+	Tool.Enabled = false
+	local cClone = Chair:Clone()
+	Chair.Transparency = 1.0
+
+	local spawnPos = Torso.Position + Torso.CFrame.lookVector * 3.0
+	cClone.CFrame = CFrame.new(spawnPos)
+	local target = Mouse.Hit.p
+
+	local toTarget = target - spawnPos
+	local dY = toTarget.Y
+	toTarget = Vector3.new(toTarget.X, 0, toTarget.Z)
+	local dXZ = toTarget.magnitude
+	toTarget = toTarget.unit
+	local theta = ComputeLaunchAngle(dXZ, dY, Gravity)
+
+	local angleY = math.sin(theta)
+	local angleXZ = math.cos(theta)
+
+	local vY = angleY *  Velocity
+	local vX = toTarget.X * angleXZ * Velocity
+	local vZ = toTarget.Z * angleXZ * Velocity
+
+	cClone.Velocity = Vector3.new(vX, vY, vZ)
+	cClone.Parent = Game.Workspace
+	cClone.Touched:connect(function(hitPart)
+		if hitPart and hitPart.Parent and hitPart.Parent ~= Character and cClone and cClone:FindFirstChild('Welded') == nil and hitPart.Parent:FindFirstChild('Humanoid') then
+			cClone.Size = Vector3.new(6, 6, 6)
+			local cWeld = Instance.new('Weld')
+			cWeld.Name = 'Welded'
+			cWeld.Part0 = hitPart
+			cWeld.Part1 = cClone
+			cWeld.Parent = cClone
+			cWeld.C1 = cClone.CFrame * hitPart.CFrame:inverse()
+
+			DebrisService:AddItem(cClone, 4.5)
+		end
+	end)
+	Spawn(function()
+		wait(3.5)
+		if cClone:FindFirstChild('Welded') == nil then
+			cClone:Destroy()
+		end
+	end)
+	cClone.CanCollide = true
+	wait(3.5)
+
+	Chair.Transparency = 0.0
+	Tool.Enabled = true
+end
+
+local function OnActivated()
+	if not Tool.Enabled then
+		return
+	end
+
+	if ChairActivate.Value == false then
+		Riding = true
+
+		FlightSpin = Instance.new("BodyGyro")
+		FlightPower = Instance.new("BodyVelocity")
+		FlightHold = Instance.new("BodyPosition")
+
+		FlightHold.Name = "FlightHold"
+		FlightHold.P = 100000
+		FlightHold.maxForce = Vector3.new(0, 0, 0)
+
+
+		FlightPower.Name = "FlightPower"
+		FlightPower.velocity = Vector3.new(0, 0, 0)
+		FlightPower.P = 1000000
+		FlightPower.maxForce = Vector3.new(FlightPower.P, FlightPower.P, FlightPower.P)
+		FlightPower.P = 10000
+
+		FlightSpin.Name = "FlightSpin"
+		FlightSpin.P = 1000000
+		FlightSpin.maxTorque = Vector3.new(0, FlightSpin.P, 0)
+
+		FlightSpin.cframe = Torso.CFrame
+		FlightHold.position = Torso.Position
+
+		FlightSpin.Parent = Torso
+		FlightHold.Parent = Torso
+		FlightPower.Parent = Torso
+
+		ChairActivate.Value = true
+
+		RightArm = WaitForChild(Character, 'Right Arm')
+		print(Character, RightArm, Character.Parent)
+		--Game.Selection:Set({RightArm})
+		RightGrip = WaitForChild(RightArm, 'RightGrip')
+		RightGrip.Part0 = Torso
+		RightGrip.Part1 = Chair
+		Chair.Size = Vector3.new(5, 3, 5)
+		RightGrip.Parent = Torso
+		RightGrip.C1 = CFrame.new(0, 0.6, 0, 1, -1.36735394e-014, 1.74845582e-007, -1.74845553e-007, 1.31134186e-007, 1, -2.34655502e-014, -1, 1.31134186e-007)
+
+		--CreateCloneLegs()
+
+		SitAnim = Humanoid:LoadAnimation(Tool.SitAnim)
+		if SitAnim then SitAnim:Play() end
+
+		--RightLeg.Transparency = 1.0
+		--LeftLeg.Transparency = 1.0
+
+		--local rMotor = WaitForChild(Torso, 'Right Shoulder')
+		--rMotor.C1 = rMotor.C1 * CFrame.Angles(0, 0, math.pi/2)
+		TorsoConnection = Torso.Touched:connect(LetTheTrollingBegin)
+		Chair.Touched:connect(LetTheTrollingBegin)
+	end
+end
+
+local function SetHealth(factor)
+	local ratio = Humanoid.Health/Humanoid.MaxHealth
+	Humanoid.MaxHealth = Humanoid.MaxHealth + factor
+
+	print('setting', Humanoid.MaxHealth, ratio, factor)
+
+	if factor &gt; 0 then
+		while Humanoid.Health &lt; ratio * Humanoid.MaxHealth do
+			Humanoid.Health = ratio * Humanoid.MaxHealth
+			wait()
+		end
+	else
+		while Humanoid.Health &gt; ratio * Humanoid.MaxHealth do
+			Humanoid.Health = ratio * Humanoid.MaxHealth
+			wait()
+		end
+	end
+end
+
+local function CreateHelpText()
+	if Gui.Parent then return end
+	Gui = Instance.new('ScreenGui')
+	Gui.Parent = WaitForChild(Player, 'PlayerGui')
+
+	local sText = Instance.new('TextLabel')
+	sText.Parent = Gui
+	sText.Text = "Can't throw your chair while you are riding it! Please unequip and reequip to throw."
+	sText.FontSize = Enum.FontSize.Size18
+	sText.Font = Enum.Font.ArialBold
+	sText.BackgroundTransparency = 1.0
+	sText.Size = UDim2.new(0, 500, 0, 100)
+	sText.TextWrapped = true
+	sText.Position = UDim2.new(0.5, -200, 0, -100)
+	sText.TextColor3 = Color3.new(1, 0, 0)
+	sText.TextStrokeColor3 = Color3.new(1, 1, 1)
+	sText.TextStrokeTransparency = 0.5
+
+	sText:TweenPosition(UDim2.new(0.5, -250, 0, 70), 1, 1, 1, true)
+
+	wait(7.5)
+	Gui:ClearAllChildren()
+	Gui.Parent = nil
+end
+
+local function OnEquipped(mouse)
+	Character = Tool.Parent
+	Torso = WaitForChild(Character, 'Torso')
+	Mouse = mouse
+	--SetHealth(Factor)
+	if mouse then
+		mouse.KeyDown:connect(function(key)
+			key = key:lower()
+			if key == 'q' then
+				if Riding == true then
+					CreateHelpText()
+				elseif Tool.Enabled then
+					ThrowChair()
+				end
+			end
+		end)
+	end
+	Tool.GripPos = Vector3.new(0, 1, 1)
+end
+
+local function OnUnequipped()
+	if FlightSpin then FlightSpin:Destroy() end
+	if FlightPower then FlightPower:Destroy() end
+	if FlightHold then FlightHold:Destroy() end
+
+	--RightLeg.Transparency = 0.0
+	--LeftLeg.Transparency = 0.0
+
+	--DestroyCloneLegs()
+	--SetHealth(-Factor)
+	Riding = false
+	if TorsoConnection then TorsoConnection:disconnect() end
+
+	Chair.Size = Vector3.new(2.5, 0.8, 3.5)
+
+	if SitAnim then SitAnim:Stop() end
+	ChairActivate.Value = false
+end
+
+Tool.Equipped:connect(OnEquipped)
+Tool.Unequipped:connect(OnUnequipped)
+Tool.Activated:connect(OnActivated)
+
+
+
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="BoolValue" referent="RBX8BD3B7D012FF4207B300BB2E6B3949A8">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">ChairActivate</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="Value">false</bool>
+					</Properties>
+				</Item>
+				<Item class="Animation" referent="RBX91FE476C260B417A921ED83457042833">
+					<Properties>
+						<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=96090042</url></Content>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">SitAnim</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Camera" referent="RBX12CAC6E755E2407488516A75CCF57BE5">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>4.16177797</X>
+							<Y>0.666955054</Y>
+							<Z>-3.24317884</Z>
+							<R00>-0.535828173</R00>
+							<R01>-0.0221012235</R01>
+							<R02>0.844037771</R02>
+							<R10>-0</R10>
+							<R11>0.999657393</R11>
+							<R12>0.0261761378</R12>
+							<R20>-0.844327152</R20>
+							<R21>0.0140259117</R21>
+							<R22>-0.535644531</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>3.0645299</X>
+							<Y>0.632926106</Y>
+							<Z>-2.54684162</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

@@ -1,0 +1,576 @@
+<Item class="Model" referent="RBX84F16560EFD84AA5AEFB5D8E3F6CB9D9">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">181245141</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBX2a73c2d70257486ba6c8afae42b4c207">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">false</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0.300000012</X>
+						<Y>-0.400000006</Y>
+						<Z>0.699999988</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>0.866025388</R11>
+						<R12>0.5</R12>
+						<R20>0</R20>
+						<R21>-0.5</R21>
+						<R22>0.866025388</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">MonsterCompass</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset?id=180288212</url></Content>
+					<string name="ToolTip">Monster Compass</string>
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>0.400000095</X>
+							<Y>0.200000018</Y>
+							<Z>-4.80000019</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBX242db32fb78845dfa38cbe6e192500b4">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>0.400000095</X>
+							<Y>0.200000018</Y>
+							<Z>-4.80000019</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>1.60000002</X>
+							<Y>0.244000003</Y>
+							<Z>1.60000002</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX7e09473058ae4c6b8af404277671ac7f">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset?id=180288400</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset?id=180288263</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBXacbd65ac60a44bd781940e7afc9b4798">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">MonsterCompassLocalScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{E6BB2DD6-A721-4AEC-9AB1-60D15A5CE9BD}</string>
+						<ProtectedString name="Source">-- Made by SolarCrane
+
+local RS = game:GetService('ReplicatedStorage')
+local RunService = game:GetService('RunService')
+local PlayersService = game:GetService("Players")
+
+local Utility = require(RS:WaitForChild('Utility'))
+local Signal = require(RS:WaitForChild('Signal'))
+local CreateLocalWelder = require(RS:WaitForChild('LocalEquipWeld'))
+local MonsterData = require(RS:WaitForChild('MonsterData'))
+
+
+local MonsterGearGui = require(RS:WaitForChild('MonsterGearGui'))
+
+
+local LocalPlayer = PlayersService.LocalPlayer
+local Character = nil
+local PlayerGui = LocalPlayer:WaitForChild('PlayerGui')
+
+local MonsterInfoGui = nil
+
+local Tool = script.Parent
+local Handle = Tool:WaitForChild('Handle')
+local CompassGuiPrefab = Tool:WaitForChild('CompassSurfaceGui')
+local Equipped = false
+local MonsterCompassGui = nil
+
+
+local MESH_ARM = 180288381
+local MESH_COMPASS_COMPASS = 180288400
+local MESH_COMPASS = 180288413
+
+-- Speed is in degrees per second
+local CANT_FIND_TARGET_SPEED = 300
+local ZERO_VECTOR = Vector3.new()
+local XZ_VECTOR = Vector3.new(1,0,1)
+CreateLocalWelder(Tool)
+
+local MosterTargetType = nil
+
+local MonsterContainer = workspace:FindFirstChild('MonsterContainer')
+
+local CachedTarget = nil
+local LastCacheLook = 0
+local function FindCompassTarget(cacheBust)
+	MonsterContainer = MonsterContainer or workspace:FindFirstChild('MonsterContainer')
+	if tick() - LastCacheLook &gt; 2.5 or cacheBust then
+		local nearestDistance = math.huge
+		local nearestGuy = nil
+		if MonsterContainer and LocalPlayer and LocalPlayer.Character and MosterTargetType and MosterTargetType.DisplayName then
+			for _, child in pairs(MonsterContainer:GetChildren()) do
+				if child:IsA('Model') and child.Name == MosterTargetType.DisplayName then
+					local distance = LocalPlayer:DistanceFromCharacter(child:GetModelCFrame().p)
+					if distance &lt; nearestDistance then
+						nearestDistance = distance
+						nearestGuy = child
+					end
+				end
+			end
+		end
+		if nearestGuy then
+			CachedTarget = nearestGuy
+		end
+		LastCacheLook = tick()
+	end
+
+
+	if CachedTarget and CachedTarget:IsA('Model') then
+		return CachedTarget and CachedTarget:GetModelCFrame()
+	end
+end
+
+local function DestroyGui()
+	if MonsterCompassGui then
+		MonsterCompassGui:Destroy()
+		MonsterCompassGui = nil
+	end
+end
+
+local function CreateGui()
+	DestroyGui()
+	local thisGui = CompassGuiPrefab:Clone()
+	MonsterCompassGui = thisGui
+	MonsterCompassGui.Enabled = true
+	MonsterCompassGui.Adornee = Handle
+	MonsterCompassGui.Parent = PlayerGui
+
+	local ArmLabel = MonsterCompassGui:FindFirstChild('Arm')
+	spawn(function()
+		local now = tick()
+		local lastTick = now
+		while thisGui and thisGui == MonsterCompassGui and Equipped do
+			now = tick()
+			if ArmLabel then
+				if Character then
+					local newTarget = FindCompassTarget()
+					if newTarget then
+						local humanoid = Utility.GetHumanoid(LocalPlayer)
+						local torso = humanoid and humanoid.Torso
+
+						local torsoLookVector = (torso.CFrame.lookVector * XZ_VECTOR).unit
+						local toTargetVector = ((torso.CFrame.p - newTarget.p) * XZ_VECTOR).unit
+						local rotatedVector = CFrame.new(ZERO_VECTOR, torsoLookVector):vectorToObjectSpace(toTargetVector)
+
+						local theta = math.atan2(rotatedVector.z,rotatedVector.x)
+
+						-- Check for NaN
+						if theta and theta == theta then
+							ArmLabel.Rotation = math.deg(theta)
+						end
+					else
+						ArmLabel.Rotation = ArmLabel.Rotation + CANT_FIND_TARGET_SPEED * (now - lastTick)
+					end
+				end
+			end
+			lastTick = now
+			RunService.RenderStepped:wait()
+		end
+	end)
+end
+
+local function OnEquip()
+	Equipped = true
+	Character = LocalPlayer.Character
+	CreateGui()
+	if not MonsterInfoGui then
+		MonsterInfoGui = MonsterGearGui(true)
+		MonsterInfoGui:SetName("Monster Compass")
+		MonsterInfoGui.MonsterTypeSelected:connect(function(monsterInfo)
+			MosterTargetType = monsterInfo
+			MonsterInfoGui:Hide()
+			FindCompassTarget(true)
+		end)
+	end
+	MonsterInfoGui:Show()
+end
+
+local function OnUnequip()
+	Equipped = false
+	Character = nil
+	DestroyGui()
+	if MonsterInfoGui then
+		MonsterInfoGui:Hide()
+	end
+end
+
+Tool.Equipped:connect(OnEquip)
+Tool.Unequipped:connect(OnUnequip)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="SurfaceGui" referent="RBX792e86a079a847dbbfd1ee084c80ca01">
+					<Properties>
+						<bool name="Active">true</bool>
+						<Ref name="Adornee">null</Ref>
+						<bool name="AlwaysOnTop">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AutoLocalize">true</bool>
+						<float name="Brightness">1</float>
+						<Vector2 name="CanvasSize">
+							<X>680</X>
+							<Y>680</Y>
+						</Vector2>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Enabled">false</bool>
+						<token name="Face">1</token>
+						<float name="LightInfluence">0</float>
+						<float name="MaxDistance">0</float>
+						<string name="Name">CompassSurfaceGui</string>
+						<float name="PixelsPerStud">50</float>
+						<bool name="ResetOnSpawn">true</bool>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<token name="SelectionBehaviorDown">0</token>
+						<token name="SelectionBehaviorLeft">0</token>
+						<token name="SelectionBehaviorRight">0</token>
+						<token name="SelectionBehaviorUp">0</token>
+						<bool name="SelectionGroup">false</bool>
+						<token name="SizingMode">0</token>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="ToolPunchThroughDistance">0</float>
+						<token name="ZIndexBehavior">0</token>
+						<float name="ZOffset">0</float>
+					</Properties>
+					<Item class="ImageLabel" referent="RBX9fbb51862f5740e58f9512471c7767c2">
+						<Properties>
+							<bool name="Active">false</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<BinaryString name="AttributesSerialize" />
+							<bool name="AutoLocalize">true</bool>
+							<token name="AutomaticSize">0</token>
+							<Color3 name="BackgroundColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<float name="BackgroundTransparency">1</float>
+							<Color3 name="BorderColor3">
+								<R>0.105882362</R>
+								<G>0.164705887</G>
+								<B>0.207843155</B>
+							</Color3>
+							<token name="BorderMode">0</token>
+							<int name="BorderSizePixel">1</int>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Draggable">false</bool>
+							<Content name="Image"><url>http://www.roblox.com/asset?id=180301190</url></Content>
+							<Color3 name="ImageColor3">
+								<R>0.588235319</R>
+								<G>0.588235319</G>
+								<B>0.588235319</B>
+							</Color3>
+							<Vector2 name="ImageRectOffset">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<Vector2 name="ImageRectSize">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<float name="ImageTransparency">0</float>
+							<bool name="Interactable">true</bool>
+							<int name="LayoutOrder">0</int>
+							<string name="Name">Arm</string>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0.5</XS>
+								<XO>-29</XO>
+								<YS>0.5</YS>
+								<YO>-280</YO>
+							</UDim2>
+							<token name="ResampleMode">0</token>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<float name="Rotation">220</float>
+							<token name="ScaleType">0</token>
+							<bool name="Selectable">false</bool>
+							<token name="SelectionBehaviorDown">0</token>
+							<token name="SelectionBehaviorLeft">0</token>
+							<token name="SelectionBehaviorRight">0</token>
+							<token name="SelectionBehaviorUp">0</token>
+							<bool name="SelectionGroup">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<int name="SelectionOrder">0</int>
+							<UDim2 name="Size">
+								<XS>0</XS>
+								<XO>58</XO>
+								<YS>0</YS>
+								<YO>560</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<Rect2D name="SliceCenter">
+								<min>
+									<X>0</X>
+									<Y>0</Y>
+								</min>
+								<max>
+									<X>0</X>
+									<Y>0</Y>
+								</max>
+							</Rect2D>
+							<float name="SliceScale">1</float>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<UDim2 name="TileSize">
+								<XS>1</XS>
+								<XO>0</XO>
+								<YS>1</YS>
+								<YO>0</YO>
+							</UDim2>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Camera" referent="RBX65E7A17B83B54FEA8B06E1EB2E48E70E">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<CoordinateFrame name="CFrame">
+							<X>0.435628325</X>
+							<Y>1.76327574</Y>
+							<Z>-4.4610157</Z>
+							<R00>0.994522035</R00>
+							<R01>-0.102127776</R01>
+							<R02>0.0222676154</R02>
+							<R10>1.86264515e-09</R10>
+							<R11>0.213031843</R11>
+							<R12>0.977045238</R12>
+							<R20>-0.104527175</R20>
+							<R21>-0.971693039</R21>
+							<R22>0.211864859</R22>
+						</CoordinateFrame>
+						<Ref name="CameraSubject">null</Ref>
+						<token name="CameraType">0</token>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<float name="FieldOfView">70</float>
+						<token name="FieldOfViewMode">0</token>
+						<CoordinateFrame name="Focus">
+							<X>0.400000066</X>
+							<Y>0.200000018</Y>
+							<Z>-4.80000019</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="HeadLocked">true</bool>
+						<float name="HeadScale">1</float>
+						<string name="Name">ThumbnailCamera</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<bool name="VRTiltAndRollEnabled">false</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		

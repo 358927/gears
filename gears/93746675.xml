@@ -1,0 +1,1289 @@
+<Item class="Model" referent="RBX66E0F1343B3E40BBAE6C1A72D65C2045">
+			<Properties>
+				<BinaryString name="AttributesSerialize" />
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="LevelOfDetail">0</token>
+				<CoordinateFrame name="ModelMeshCFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+				<Vector3 name="ModelMeshSize">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="ModelStreamingMode">0</token>
+				<string name="Name">93746675</string>
+				<bool name="NeedsPivotMigration">false</bool>
+				<Ref name="PrimaryPart">null</Ref>
+				<float name="ScaleFactor">1</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags" />
+				<OptionalCoordinateFrame name="WorldPivotData" />
+			</Properties>
+			<Item class="Tool" referent="RBX2ACA3C95F33A4A1E98DF1A84DC3D85FA">
+				<Properties>
+					<BinaryString name="AttributesSerialize" />
+					<bool name="CanBeDropped">true</bool>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0.25</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<token name="LevelOfDetail">0</token>
+					<bool name="ManualActivationOnly">false</bool>
+					<CoordinateFrame name="ModelMeshCFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					<Vector3 name="ModelMeshSize">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="ModelStreamingMode">0</token>
+					<string name="Name">CrashBernstein</string>
+					<bool name="NeedsPivotMigration">false</bool>
+					<Ref name="PrimaryPart">null</Ref>
+					<bool name="RequiresHandle">true</bool>
+					<float name="ScaleFactor">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags" />
+					<Content name="TextureId"><url>http://www.roblox.com/asset/?id=93589140</url></Content>
+					<string name="ToolTip" />
+					<OptionalCoordinateFrame name="WorldPivotData">
+						<CFrame>
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-1</R00>
+							<R01>0</R01>
+							<R02>-0</R02>
+							<R10>-0</R10>
+							<R11>1</R11>
+							<R12>-0</R12>
+							<R20>-0</R20>
+							<R21>0</R21>
+							<R22>-1</R22>
+						</CFrame>
+					</OptionalCoordinateFrame>
+				</Properties>
+				<Item class="Part" referent="RBX3A942D4C0B3F4A3CBBF89DC1E317CF9E">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<BinaryString name="AttributesSerialize" />
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-1</R00>
+							<R01>0</R01>
+							<R02>-0</R02>
+							<R10>-0</R10>
+							<R11>1</R11>
+							<R12>-0</R12>
+							<R20>-0</R20>
+							<R21>0</R21>
+							<R22>-1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">true</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">true</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">true</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized" />
+						<string name="Name">Handle</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>1.83999956</X>
+							<Y>3.43999958</Y>
+							<Z>0.849999964</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX44569D290A8641EDA7E1FC8BD98984F6">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<Content name="MeshId"><url>http://www.roblox.com/asset/?id=93589363</url></Content>
+							<token name="MeshType">5</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>1.21500003</X>
+								<Y>1.21500003</Y>
+								<Z>1.21500003</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Content name="TextureId"><url>http://www.roblox.com/asset/?id=93589165</url></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBXF1F1A126521E402CA6F9F8B102B23554">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">Local Gui</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{ED49623A-A62E-49B7-AE04-66DA306DD7D1}</string>
+						<ProtectedString name="Source">local Tool = script.Parent
+
+local sg = nil
+local frame = nil
+
+local stillEquipped = false
+
+local function onEquippedLocal(mouse)
+	stillEquipped = true
+
+	local vPlayer = game.Players.LocalPlayer
+	local playerGui = vPlayer:FindFirstChild("PlayerGui")
+	if playerGui and playerGui:FindFirstChild("PetGui") == nil then
+		sg = Instance.new("ScreenGui")
+		sg.Name = "PetGui"
+		sg.Parent = playerGui
+
+		frame = Instance.new("Frame")
+		frame.Parent = sg
+		frame.Style = Enum.FrameStyle.RobloxRound
+		frame.Size = UDim2.new(0, 120, 0, 30)
+		frame.Position = UDim2.new(0.5, -60, 1, -130)
+
+		local genericTextLabel = Instance.new("TextLabel")
+		genericTextLabel.BackgroundTransparency = 1.0
+		genericTextLabel.Size = UDim2.new(1, 0, 1, 0)
+		genericTextLabel.Visible = true
+		genericTextLabel.ZIndex = 10
+		genericTextLabel.FontSize = Enum.FontSize.Size10
+		genericTextLabel.Font = Enum.Font.Legacy
+		genericTextLabel.TextColor3 = Color3.new(1, 0, 1)
+		genericTextLabel.TextXAlignment = Enum.TextXAlignment.Center
+		genericTextLabel.TextYAlignment = Enum.TextYAlignment.Top
+		genericTextLabel.Parent = frame
+		genericTextLabel.Text = "Click to call Crash!"
+	end
+
+	if not mouse then return end
+
+	while stillEquipped do
+		mouse.Icon = "rbxasset://textures\\GunCursor.png"
+		while Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+		mouse.Icon = "rbxasset://textures\\GunWaitCursor.png"
+		while not Tool.Enabled and stillEquipped do
+			wait(0.01)
+		end
+	end
+end
+
+local function onActivatedLocal()
+	if frame and frame:FindFirstChild("TextLabel") then
+		frame.Size = UDim2.new(0, 300, 0, 30)
+		frame.Position = UDim2.new(0.5, -150, 1, -130)
+		frame.TextLabel.Text = "Click players to see Crash do something crazy!"
+	end
+end
+
+local function onUnequippedLocal()
+	if sg then sg:Remove() end
+	stillEquipped = false
+end
+
+Tool.Equipped:connect(onEquippedLocal)
+Tool.Activated:connect(onActivatedLocal)
+Tool.Unequipped:connect(onUnequippedLocal)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBXCB83EEE4156F4DE7BA4C636707DED6F3">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">PetToolScript</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{6A07077B-AE4A-4120-844E-9EFE3735959B}</string>
+						<ProtectedString name="Source">-----------------
+--| Constants |--
+-----------------
+
+local COOLDOWN = 0.5 --TODO: 4 -- Seconds until Tool can be used again
+local TIME_TO_LIVE = 300 -- Seconds until the pet is destroyed
+local RESPAWN_TIME = 4 -- Seconds until pet can be re-summoned (only after death)
+
+--------------------
+--| WaitForChild |--
+--------------------
+
+-- Waits for parent.child to exist, then returns it
+local function WaitForChild(parent, childName)
+	assert(parent, "ERROR: WaitForChild: parent is nil")
+	while not parent:FindFirstChild(childName) do parent.ChildAdded:wait() end
+	return parent[childName]
+end
+
+-----------------
+--| Variables |--
+-----------------
+
+local InsertService = Game:GetService('InsertService')
+local DebrisService = Game:GetService('Debris')
+local PlayersService = Game:GetService('Players')
+
+local Tool = script.Parent
+local ToolHandle = Tool.Handle
+
+local AiScript = WaitForChild(script, 'CrashAi')
+local OwnerTag = WaitForChild(AiScript, 'Owner')
+
+local SummonSound --TODO: = WaitForChild(ToolHandle, 'Laugh1')
+
+local AnimationScript = WaitForChild(Tool, 'PetAnimation')
+local PetObject = WaitForChild(AnimationScript, 'Pet')
+
+local MyModel = nil
+local MyTorso = nil
+local MyHumanoid = nil
+
+local Pet = nil
+local AnimationScriptClone = nil
+
+-----------------
+--| Functions |--
+-----------------
+
+local function OnEquipped()
+	MyModel = Tool.Parent
+	MyTorso = MyModel:FindFirstChild('Torso')
+	MyHumanoid = MyModel:FindFirstChild('Humanoid')
+	OwnerTag.Value = MyModel
+end
+
+local function Summon()
+	if not MyTorso or not MyHumanoid then return end
+
+	local superModel = InsertService:LoadAsset(93746797):GetChildren()[1]
+	if not superModel then return end
+
+	Pet = superModel:FindFirstChild('Crash')
+	local pickleJar = superModel:FindFirstChild('PickleJar')
+	local dynamite = superModel:FindFirstChild('Dynamite')
+
+	if Pet and pickleJar and dynamite then
+		DebrisService:AddItem(Pet, TIME_TO_LIVE) -- Make sure it will get deleted
+
+		local humanoid = Instance.new('Humanoid')
+		humanoid.MaxHealth = 1000
+		humanoid.Health = 1000
+		humanoid.WalkSpeed = 24
+		humanoid.Parent = Pet
+
+		Pet.Parent = Workspace
+		ToolHandle.Transparency = 1.0
+
+		local torso = WaitForChild(Pet, 'Torso')
+		torso.Anchored = false
+
+		-- Play the summoning sound
+		if SummonSound then SummonSound:Play() end
+
+		-- Send pet object to AnimationScript
+		PetObject.Value = Pet
+
+		-- Clone AnimationScript to MyModel
+		local animationScriptClone = AnimationScript:Clone()
+		AnimationScriptClone = animationScriptClone
+		DebrisService:AddItem(animationScriptClone, TIME_TO_LIVE)
+		animationScriptClone.Parent = MyModel
+		animationScriptClone.Disabled = false
+
+		-- Clone AiScript to Pet
+		local aiScriptClone = AiScript:Clone()
+		aiScriptClone.Parent = Pet
+		do -- Send the attachments
+			local pickleJarObject = Instance.new('ObjectValue', aiScriptClone)
+			pickleJarObject.Name = 'PickleJar'
+			pickleJarObject.Value = pickleJar
+			local dynamiteObject = Instance.new('ObjectValue', aiScriptClone)
+			dynamiteObject.Name = 'Dynamite'
+			dynamiteObject.Value = dynamite
+		end
+		aiScriptClone.Disabled = false
+
+		-- On Pet death, clean up and show the handle
+		humanoid.Died:connect(function()
+			if AnimationScriptClone then AnimationScriptClone:Destroy() end
+			DebrisService:AddItem(Pet, RESPAWN_TIME)
+			wait(RESPAWN_TIME)
+			ToolHandle.Transparency = 0.0
+		end)
+
+		-- After TIME_TO_LIVE, show the handle
+		coroutine.resume(coroutine.create(function()
+			wait(TIME_TO_LIVE + 0.1)
+			if not Pet:FindFirstChild('Humanoid') then
+				ToolHandle.Transparency = 0.0
+			end
+		end))
+
+		-- Health has problems being set directly
+		Delay(5, function() if humanoid then humanoid:TakeDamage(-900) end end)
+		--[[Spawn(function()
+			while Pet and humanoid do
+				humanoid.MaxHealth = 1000
+				humanoid.Health = 1000
+				wait(1)
+			end
+		end)]]
+
+		Pet:MoveTo(MyTorso.Position + Vector3.new(math.random(-3, 3), 0, math.random(-3, 3)))
+	end
+end
+
+local function OnActivated()
+	if not Tool.Enabled or not MyTorso or not MyHumanoid then return end
+
+	Tool.Enabled = false
+
+	if not Pet or not Pet.Parent then
+		Summon()
+	end
+
+	-- Raycast to click location for ClickTarget setting
+	local target = MyHumanoid.TargetPoint
+	local direction = (target - MyTorso.Position).unit
+	local hit = Game.Workspace:FindPartOnRay(Ray.new(MyTorso.Position, direction * 150), MyModel)
+	if hit and Pet and Pet:FindFirstChild('ClickTarget') then
+		local clickedHumanoid = hit.Parent:FindFirstChild('Humanoid')
+		if clickedHumanoid and clickedHumanoid.Health &gt; 0 then
+			if Pet.ClickTarget.Value == clickedHumanoid then
+				Pet.ClickTarget.Value = nil -- Ensures a changed event
+			end
+			Pet.ClickTarget.Value = clickedHumanoid
+			wait(COOLDOWN) -- Only wait if they clicked a valid target
+		else
+			Pet.ClickTarget.Value = nil
+		end
+	end
+
+	Tool.Enabled = true
+end
+
+local function OnUnequipped()
+	if Pet then Pet:Destroy() end
+	if SummonSound then SummonSound:Stop() end
+	if AnimationScriptClone then AnimationScriptClone:Destroy() end
+	ToolHandle.Transparency = 0.0
+end
+
+--------------------
+--| Script Logic |--
+--------------------
+
+Tool.Equipped:connect(OnEquipped)
+Tool.Unequipped:connect(OnUnequipped)
+Tool.Activated:connect(OnActivated)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="Script" referent="RBX5F85F33E13314F2FB1C4275EDB69BF03">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Disabled">true</bool>
+							<Content name="LinkedSource"><null /></Content>
+							<string name="Name">CrashAi</string>
+							<token name="RunContext">0</token>
+							<string name="ScriptGuid">{CECDB154-2E06-4D5C-A3F9-5C7E3C902856}</string>
+							<ProtectedString name="Source">-----------------
+--| Constants |--
+-----------------
+
+local RBX_GRAVITY = -9.81 * 20
+local ONE_STEP = 1 / 30
+local OFFSET = Vector3.new(5, 0, 5) -- Distance from player or target
+local MAX_DISTANCE = 240 -- The pet will stay within this distance of player
+local JARS_TO_THROW = 3 -- Number of jars to throw
+local DYNAMITE_TO_THROW = 1 -- Number of dynamite to throw
+local MIN_GAP = 1.5 -- Seconds that must pass before the next mode can begin
+local LAUNCH_SPEED = 60
+
+--------------------
+--| WaitForChild |--
+--------------------
+
+-- Waits for parent.child to exist, then returns it
+local function WaitForChild(parent, childName)
+	assert(parent, "ERROR: WaitForChild: parent is nil")
+	while not parent:FindFirstChild(childName) do parent.ChildAdded:wait() end
+	return parent[childName]
+end
+
+-----------------
+--| Variables |--
+-----------------
+
+local DebrisService = Game:GetService('Debris')
+
+local Pet = script.Parent
+local PetHumanoid = WaitForChild(Pet, 'Humanoid')
+
+local ClickTargetObject = WaitForChild(Pet, 'ClickTarget')
+local NextTargetHumanoid = ClickTargetObject.Value
+
+local MyModel = WaitForChild(script, 'Owner').Value
+local MyHumanoid = WaitForChild(MyModel, 'Humanoid')
+
+local RightArm = WaitForChild(Pet, 'Right Arm')
+local SwooshSound = WaitForChild(RightArm, 'Swoosh')
+
+local AnimationScript = WaitForChild(MyModel, 'PetAnimation')
+local AnimationToPlayObject = WaitForChild(AnimationScript, 'AnimationToPlay')
+
+local PetMode = 0
+local StopTime = time()
+
+local PickleJar = nil
+local Dynamite = nil
+local NinjaStar = nil
+
+do -- Pick up the attachments, create the NinjaStar
+	local pickleJarObject = WaitForChild(script, 'PickleJar')
+	PickleJar = pickleJarObject.Value
+	pickleJarObject:Destroy()
+
+	local dynamiteObject = WaitForChild(script, 'Dynamite')
+	Dynamite = dynamiteObject.Value
+	dynamiteObject:Destroy()
+
+	NinjaStar = Instance.new('Part')
+	NinjaStar.Name = 'NinjaStar'
+	local mesh = Instance.new('SpecialMesh', NinjaStar)
+	mesh.MeshId = "http://www.roblox.com/asset/?id=92531211"
+	mesh.TextureId = "http://www.roblox.com/asset/?id=92531141"
+	NinjaStar.Size = Vector3.new(1.5, 1.5, 0.5)
+
+	WaitForChild(PickleJar, 'Script'):Clone().Parent = NinjaStar
+end
+
+-----------------
+--| Functions |--
+-----------------
+
+local function Start(modeOverride)
+	PetMode = modeOverride or math.random(3)
+
+	--[[
+	if NextTargetHumanoid and NextTargetHumanoid.Torso and PetHumanoid and PetHumanoid.Torso then
+		if NextTargetHumanoid.Torso.Position.y &gt; 80 then
+			PetMode = 3
+		elseif (NextTargetHumanoid.Torso.Position - PetHumanoid.Torso.Position).magnitude &lt; 10 then
+			PetMode = 1
+		else
+			PetMode = 2
+		end
+	end
+	PetMode = modeOverride or PetMode
+	--]]
+
+	if NextTargetHumanoid then
+		TargetHumanoid = NextTargetHumanoid
+	end
+end
+
+local function Stop()
+	PetMode = 0
+	StopTime = time()
+end
+
+-- When the player clicks, update the target
+ClickTargetObject.Changed:connect(function(newValue)
+	print("Changed!", newValue)
+	if newValue and newValue:IsA("Humanoid") and newValue ~= PetHumanoid then
+		NextTargetHumanoid = newValue
+		if PetMode == 0 and (time() - StopTime &gt; MIN_GAP) then
+			print("Manual Start")
+			Start()
+		end
+	end
+end)
+
+-- Returns the closest living Humanoid to position who isn't in excludeList
+local function FindClosestHumanoid(position, excludeList) -- (Vector3, table)
+	if not position then print("Need a Vector3 position") return nil end
+
+	-- Change list values to keys so we can use indexing
+	local excludeSet = {}
+	if excludeList and type(excludeList) == "table" then
+		for _, l in ipairs(excludeList) do
+			excludeSet[l] = true
+		end
+	end
+
+	-- Search through Workspace children
+	local closestHumanoid = nil
+	for _, child in pairs(Game.Workspace:GetChildren()) do
+		if (child and child:FindFirstChild("Humanoid") and child.Humanoid.Health &gt; 0 and not excludeSet[child.Humanoid])
+		and (not closestHumanoid or (child.Humanoid.Torso.Position - position).magnitude &lt; (closestHumanoid.Torso.Position - position).magnitude) then
+			closestHumanoid = child.Humanoid
+		end
+	end
+	return closestHumanoid --NOTE: Can be nil
+end
+
+-- Coroutine to decide when to automatically start
+coroutine.resume(coroutine.create(function()
+	wait(4)
+	while Pet do
+		if PetMode == 0 and math.random() &lt; 0.33 then
+			NextTargetHumanoid = FindClosestHumanoid(MyHumanoid.Torso.Position, {MyHumanoid, PetHumanoid})
+			if NextTargetHumanoid and NextTargetHumanoid.Torso then
+				local myDistanceToTarget = (NextTargetHumanoid.Torso.Position - MyHumanoid.Torso.Position).magnitude
+				if myDistanceToTarget &lt;= MAX_DISTANCE then
+					Start(1)
+				end
+			end
+		end
+		wait(6)
+	end
+end))
+
+-- Rotates the pet horizontally to face the target
+local function FaceTarget()
+	if PetHumanoid and PetHumanoid.Torso then
+		local position = PetHumanoid.Torso.Position
+		local lookPoint = TargetHumanoid.Torso.Position
+		PetHumanoid.Torso.CFrame = CFrame.new(position, Vector3.new(lookPoint.x, position.y, lookPoint.z)) -- Face target but stay horizontal
+	end
+end
+
+-- Returns total mass of instance and all children
+local function GetMassRecursive(instance)
+	local mass = 0
+	if instance:IsA('BasePart') then
+		mass = mass + instance:GetMass()
+	end
+	for _, child in pairs(instance:getChildren()) do
+		if child then
+			mass = mass + GetMassRecursive(child)
+		end
+	end
+	return mass
+end
+
+local function Throw(part)
+	--local distanceToTarget = (TargetHumanoid.Torso.Position - PetHumanoid.Torso.Position).magnitude
+
+	--local angle = math.asin((RBX_GRAVITY * distanceToTarget) / (LAUNCH_SPEED * LAUNCH_SPEED)) / 2
+	--print(math.deg(angle), "degrees")
+
+	local relativePositionsTable = {}
+	for _, child in pairs(part:GetChildren()) do
+		if child and child:IsA('Part') then
+			relativePositionsTable[child] = child.Position - part.Position
+		end
+	end
+
+	part.CFrame = CFrame.new(RightArm.Position, TargetHumanoid.Torso.Position)
+	--part.Velocity = PetHumanoid.Torso.CFrame.lookVector * LAUNCH_SPEED
+
+	for child, relativePosition in pairs(relativePositionsTable) do
+		child.CFrame = part.CFrame + relativePosition
+	end
+
+	local mass =  GetMassRecursive(part)
+	local bodyForce = Instance.new('BodyForce', part)
+	bodyForce.force = Vector3.new(0, mass * 196.2, 0) -- Antigravity
+
+	if part.Name ~= 'Dynamite' then -- pleaselookawaypleaselookawaypleaselookawaypleaselookaway
+		local launchForce = (TargetHumanoid.Torso.Position - part.Position).unit * LAUNCH_SPEED
+		bodyForce.force = bodyForce.force + launchForce
+		if part.Name == 'PickleJar' then bodyForce.force = bodyForce.force + (launchForce * 3) end
+		if part.Name == 'NinjaStar' then bodyForce.force = bodyForce.force + (launchForce * 5) end
+		Delay(0.3, function() bodyForce.force = bodyForce.force - launchForce end)
+	else
+		bodyForce.force = (bodyForce.force * 6) + (PetHumanoid.Torso.CFrame.lookVector * 100)
+		Delay(0.1, function() bodyForce:Destroy() end)
+	end
+
+	local partScript = part:FindFirstChild('Script')
+	if partScript then
+		partScript.Disabled = false
+	end
+
+	SwooshSound:Play()
+
+	DebrisService:AddItem(part, 10)
+	part.Parent = Workspace
+end
+
+------------------------
+--| Main Pet AI Loop |--
+------------------------
+
+while true do
+	if not MyHumanoid or not MyHumanoid.Torso or not PetHumanoid or not PetHumanoid.Torso then break end
+
+	-- Jumping over obstacles
+	local hit = Game.Workspace:FindPartOnRay(Ray.new(PetHumanoid.Torso.Position, PetHumanoid.Torso.CFrame.lookVector * 3.0), MyModel)
+	if hit then
+		PetHumanoid.Jump = true
+	end
+
+	if not TargetHumanoid or not TargetHumanoid.Torso then
+		print("TargetHumanoid is nil")
+		PetMode = 0
+	end
+
+	if PetMode == 0 then -- Default: Follow the player
+		PetHumanoid:MoveTo(MyHumanoid.Torso.Position + OFFSET, MyHumanoid.Torso)
+	elseif PetMode == 1 then -- Mode 1: Give the target a noogie
+		local distanceToPlayer = (MyHumanoid.Torso.Position - PetHumanoid.Torso.Position).magnitude
+		local distanceToTarget = (TargetHumanoid.Torso.Position - PetHumanoid.Torso.Position).magnitude
+		if distanceToPlayer &gt; MAX_DISTANCE then -- Give up trying to get to target
+			Stop()
+		elseif distanceToTarget &gt; OFFSET.magnitude then -- Get up close
+			PetHumanoid:MoveTo(TargetHumanoid.Torso.Position, TargetHumanoid.Torso)
+		else -- We've reached the player, noogie 'em
+			PetHumanoid.Jump = true
+			wait(0.25) -- Airtime
+			if TargetHumanoid and TargetHumanoid.Torso then
+				TargetHumanoid.Torso.Anchored = true
+				PetHumanoid.Torso.Anchored = true
+				local height = (TargetHumanoid.Torso.Size.y / 2)
+				if TargetHumanoid.Parent and TargetHumanoid.Parent:FindFirstChild('Head') then
+					height = height + (TargetHumanoid.Parent.Head.Size.y / 2)
+				end
+				local position = TargetHumanoid.Torso.CFrame:pointToWorldSpace(Vector3.new(0, height + 0.3, 1))
+				local facing = TargetHumanoid.Torso.CFrame.lookVector
+				PetHumanoid.Torso.CFrame = CFrame.new(position, position + facing)
+				AnimationToPlayObject.Value = 'NewNoogieLoop'
+				wait(3)
+				AnimationToPlayObject.Value = ''
+				if TargetHumanoid and TargetHumanoid.Torso then
+					TargetHumanoid.Torso.Anchored = false
+					local targetHeight = 0 do -- get target height
+						targetHeight = TargetHumanoid.Torso.Size.y / 2
+						if TargetHumanoid.RightLeg then
+							targetHeight = targetHeight + TargetHumanoid.RightLeg.Size.y
+						elseif TargetHumanoid.LeftLeg then
+							targetHeight = targetHeight + TargetHumanoid.LeftLeg.Size.y
+						end
+					end
+					local crashHeight = 0 do -- get Crash height
+						crashHeight = PetHumanoid.Torso.Size.y / 2
+						if PetHumanoid.RightLeg then
+							crashHeight = crashHeight + PetHumanoid.RightLeg.Size.y
+						elseif PetHumanoid.LeftLeg then
+							crashHeight = crashHeight + PetHumanoid.LeftLeg.Size.y
+						end
+					end
+					position = TargetHumanoid.Torso.CFrame:pointToWorldSpace(Vector3.new(0, (-targetHeight + crashHeight), 1.7))
+					PetHumanoid.Torso.CFrame = CFrame.new(position, position + facing)
+				end
+				PetHumanoid.Torso.Anchored = false
+			end
+			Stop()
+		end
+	elseif PetMode == 2 then -- Mode 2: Throw pickle jars (or ninja stars!)
+		for i = 1, JARS_TO_THROW do
+			FaceTarget()
+			if math.random(2) == 1 then
+				Throw(PickleJar:Clone())
+			else -- Throw a ninja star instead!
+				local ninjaStarClone = NinjaStar:Clone()
+				Throw(ninjaStarClone)
+				--[[ninjaStarClone.Touched:connect(function(otherPart)
+					if otherPart then
+						if Pet and Pet:IsAncestorOf(otherPart) then return end
+						Delay(1, function() ninjaStarClone:Destroy() end)
+					end
+				end)]]
+				ninjaStarClone.CFrame = CFrame.Angles(math.pi/2, 0, 0) + ninjaStarClone.Position
+			end
+			wait(1)
+		end
+		Stop()
+	elseif PetMode == 3 then -- Mode 3: Throw Dynamite
+		for i = 1, DYNAMITE_TO_THROW do
+			FaceTarget()
+			Throw(Dynamite:Clone())
+			wait(1)
+		end
+		Stop()
+	end
+
+	wait(ONE_STEP)
+end
+
+DebrisService:AddItem(script.Parent, 5)
+</ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+						</Properties>
+						<Item class="ObjectValue" referent="RBX24EA898C56DE4DD48362FA7EC2EFF5A7">
+							<Properties>
+								<BinaryString name="AttributesSerialize" />
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<string name="Name">Owner</string>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags" />
+								<Ref name="Value">null</Ref>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBX304B8C7B582C439F868636AA016522AC">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">PetAnimation</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{F5B5D284-03AF-4B58-B49B-EB25E286B412}</string>
+						<ProtectedString name="Source">-- Waits for parent.child to exist, then returns it
+local function WaitForChild(parent, childName)
+	assert(parent, "ERROR: WaitForChild: parent is nil")
+	while not parent:FindFirstChild(childName) do parent.ChildAdded:wait() end
+	return parent[childName]
+end
+
+local PlayersService = Game:GetService('Players')
+local DebrisService = Game:GetService('Debris')
+
+local MyModel = script.Parent
+
+local Pet = WaitForChild(script, 'Pet').Value
+local PetHumanoid = WaitForChild(Pet, 'Humanoid')
+
+local AnimationToPlayObject = WaitForChild(script, 'AnimationToPlay')
+
+local ReplicationScript = WaitForChild(script, 'ReplicateNpcAnimation')
+local AnimToReplicateObject = WaitForChild(ReplicationScript, 'AnimationToReplicate')
+local PlayOrStopObject = WaitForChild(ReplicationScript, 'PlayOrStop')
+
+WaitForChild(ReplicationScript, 'PetHumanoid').Value = PetHumanoid
+
+WaitForChild(script, 'NewNoogieLoop') -- Hardcoded or we'll never see it
+
+local AnimationTupleTable = {}
+local LastAnimationTrack = nil
+
+-- Take any child animations and add them and their tracks to AnimationTupleTable
+for _, child in pairs(script:GetChildren()) do
+	if child and child:IsA('Animation') then
+		AnimationTupleTable[child.Name] = {child, PetHumanoid:LoadAnimation(child)}
+		print("Animation pre-loaded:", child.Name) --DEBUG
+	end
+end
+
+-- When AnimationToPlay is changed, try to play the animation or stop the last
+AnimationToPlayObject.Changed:connect(function(newValue)
+	if newValue ~= '' then
+		local animationTuple = AnimationTupleTable[newValue]
+		if animationTuple then
+			animationTuple[2]:Play()
+			AnimToReplicateObject.Value = animationTuple[1]
+			PlayOrStopObject.Value = true
+			LastAnimationTrack = animationTuple[2]
+
+			-- Replicate the child script to all other players so they can see the NPC animating
+			for _, player in pairs(PlayersService:GetPlayers()) do
+				if player.Character and player.Character ~= MyModel then
+					local replicationScriptClone = ReplicationScript:Clone()
+					DebrisService:AddItem(replicationScriptClone, 10) -- Just in case
+					replicationScriptClone.Parent = player.Character
+					replicationScriptClone.Disabled = false
+				end
+			end
+
+		end
+	else
+		if LastAnimationTrack then
+			LastAnimationTrack:Stop()
+		end
+		PlayOrStopObject.Value = false
+	end
+
+end)
+
+--NOTE: This script would be much nicer if AnimationTracks could be sent using ObjectValues. (Or directly sent through some other means)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="Animation" referent="RBXC4ACBB646D8B46C8B30A9847C658946F">
+						<Properties>
+							<Content name="AnimationId"><url>http://www.roblox.com/Asset?ID=93604135</url></Content>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">NewNoogieLoop</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+						</Properties>
+					</Item>
+					<Item class="StringValue" referent="RBXF69945E5986D4B3EA01B69EF3F43F613">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">AnimationToPlay</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<string name="Value" />
+						</Properties>
+					</Item>
+					<Item class="ObjectValue" referent="RBX96EE19DB22CF4D44A213AAB16F85A593">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">Pet</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<Ref name="Value">null</Ref>
+						</Properties>
+					</Item>
+					<Item class="LocalScript" referent="RBXF2D76CF64A0A4026817433C829C2009F">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Disabled">true</bool>
+							<Content name="LinkedSource"><null /></Content>
+							<string name="Name">ReplicateNpcAnimation</string>
+							<token name="RunContext">0</token>
+							<string name="ScriptGuid">{860D44ED-9AA3-41C7-8A36-E42D59195BB8}</string>
+							<ProtectedString name="Source">-- Waits for parent.child to exist, then returns it
+local function WaitForChild(parent, childName)
+	assert(parent, "ERROR: WaitForChild: parent is nil")
+	while not parent:FindFirstChild(childName) do parent.ChildAdded:wait() end
+	return parent[childName]
+end
+
+local DebrisService = Game:GetService('Debris')
+
+local MyModel = script.Parent
+
+local PlayOrStop = WaitForChild(script, 'PlayOrStop').Value
+local AnimToReplicate = WaitForChild(script, 'AnimationToReplicate').Value
+local PetHumanoid = WaitForChild(script, 'PetHumanoid').Value
+
+local TrackToReplicate = PetHumanoid:LoadAnimation(AnimToReplicate)
+
+--[[
+if PlayOrStop then
+	print("Play:", TrackToReplicate)
+	TrackToReplicate:Play()
+else
+	print("Stop:", TrackToReplicate)
+	TrackToReplicate:Stop()
+end
+
+DebrisService:AddItem(script, 0)
+--]]
+
+TrackToReplicate:Play()
+wait(3)
+TrackToReplicate:Stop()
+DebrisService:AddItem(script, 0)</ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+						</Properties>
+						<Item class="BoolValue" referent="RBX91A78994272D44B5BBDCA93167DBEFDD">
+							<Properties>
+								<BinaryString name="AttributesSerialize" />
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<string name="Name">PlayOrStop</string>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags" />
+								<bool name="Value">false</bool>
+							</Properties>
+						</Item>
+						<Item class="ObjectValue" referent="RBX3C319756F79E4C83BE6559A9540B670F">
+							<Properties>
+								<BinaryString name="AttributesSerialize" />
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<string name="Name">AnimationToReplicate</string>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags" />
+								<Ref name="Value">null</Ref>
+							</Properties>
+						</Item>
+						<Item class="ObjectValue" referent="RBX911B1FDC02274A1193BC13112A93FB31">
+							<Properties>
+								<BinaryString name="AttributesSerialize" />
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<string name="Name">PetHumanoid</string>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags" />
+								<Ref name="Value">null</Ref>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBXCAAA97BE87E0442B87E3C0CEA4ADB8CA">
+					<Properties>
+						<BinaryString name="AttributesSerialize" />
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null /></Content>
+						<string name="Name">PopupGui</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{AA29040F-7170-49C8-A5AC-AAA6A371065E}</string>
+						<ProtectedString name="Source">-- Waits for parent.child to exist, then returns it
+local function WaitForChild(parent, childName)
+	assert(parent, "ERROR: WaitForChild: parent is nil")
+	while not parent:FindFirstChild(childName) do parent.ChildAdded:wait() end
+	return parent[childName]
+end
+
+local PlayersService = Game:GetService('Players')
+local MyPlayer = PlayersService.LocalPlayer
+
+local Tool = script.Parent
+
+local ScreenGui = WaitForChild(script, 'ScreenGui')
+local ClonedFrame = nil
+
+local NeverEquipped = true
+
+local function OnEquipped(mouse)
+	if NeverEquipped then
+		NeverEquipped = false
+
+		local guiClone = ScreenGui:Clone()
+		guiClone.Parent = MyPlayer.PlayerGui
+
+		ClonedFrame = WaitForChild(guiClone, 'Frame')
+	end
+end
+
+local function OnActivated()
+	ClonedFrame.Visible = false
+end
+
+Tool.Equipped:connect(OnEquipped)
+Tool.Activated:connect(OnActivated)
+</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags" />
+					</Properties>
+					<Item class="ScreenGui" referent="RBX95CBE0576BA74E73B8384CA77E790C51">
+						<Properties>
+							<BinaryString name="AttributesSerialize" />
+							<bool name="AutoLocalize">true</bool>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="ClipToDeviceSafeArea">true</bool>
+							<bool name="DefinesCapabilities">false</bool>
+							<int name="DisplayOrder">0</int>
+							<bool name="Enabled">true</bool>
+							<string name="Name">ScreenGui</string>
+							<bool name="ResetOnSpawn">true</bool>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<token name="SafeAreaCompatibility">1</token>
+							<token name="ScreenInsets">2</token>
+							<token name="SelectionBehaviorDown">0</token>
+							<token name="SelectionBehaviorLeft">0</token>
+							<token name="SelectionBehaviorRight">0</token>
+							<token name="SelectionBehaviorUp">0</token>
+							<bool name="SelectionGroup">false</bool>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags" />
+							<token name="ZIndexBehavior">0</token>
+						</Properties>
+						<Item class="Frame" referent="RBX5F6A6CA1F51B44889F83E84373F308BE">
+							<Properties>
+								<bool name="Active">false</bool>
+								<Vector2 name="AnchorPoint">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<BinaryString name="AttributesSerialize" />
+								<bool name="AutoLocalize">true</bool>
+								<token name="AutomaticSize">0</token>
+								<Color3 name="BackgroundColor3">
+									<R>0.639215708</R>
+									<G>0.635294139</G>
+									<B>0.647058845</B>
+								</Color3>
+								<float name="BackgroundTransparency">1</float>
+								<Color3 name="BorderColor3">
+									<R>0.105882362</R>
+									<G>0.164705887</G>
+									<B>0.207843155</B>
+								</Color3>
+								<token name="BorderMode">0</token>
+								<int name="BorderSizePixel">1</int>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="ClipsDescendants">false</bool>
+								<bool name="DefinesCapabilities">false</bool>
+								<bool name="Draggable">false</bool>
+								<bool name="Interactable">true</bool>
+								<int name="LayoutOrder">0</int>
+								<string name="Name">Frame</string>
+								<Ref name="NextSelectionDown">null</Ref>
+								<Ref name="NextSelectionLeft">null</Ref>
+								<Ref name="NextSelectionRight">null</Ref>
+								<Ref name="NextSelectionUp">null</Ref>
+								<UDim2 name="Position">
+									<XS>0.5</XS>
+									<XO>-284</XO>
+									<YS>0.5</YS>
+									<YO>-257</YO>
+								</UDim2>
+								<Ref name="RootLocalizationTable">null</Ref>
+								<float name="Rotation">0</float>
+								<bool name="Selectable">false</bool>
+								<token name="SelectionBehaviorDown">0</token>
+								<token name="SelectionBehaviorLeft">0</token>
+								<token name="SelectionBehaviorRight">0</token>
+								<token name="SelectionBehaviorUp">0</token>
+								<bool name="SelectionGroup">false</bool>
+								<Ref name="SelectionImageObject">null</Ref>
+								<int name="SelectionOrder">0</int>
+								<UDim2 name="Size">
+									<XS>0</XS>
+									<XO>568</XO>
+									<YS>0</YS>
+									<YO>515</YO>
+								</UDim2>
+								<token name="SizeConstraint">0</token>
+								<int64 name="SourceAssetId">-1</int64>
+								<token name="Style">0</token>
+								<BinaryString name="Tags" />
+								<bool name="Visible">true</bool>
+								<int name="ZIndex">10</int>
+							</Properties>
+							<Item class="ImageLabel" referent="RBX1C5CAD07C8074EA8827A1E76EC980AB3">
+								<Properties>
+									<bool name="Active">false</bool>
+									<Vector2 name="AnchorPoint">
+										<X>0</X>
+										<Y>0</Y>
+									</Vector2>
+									<BinaryString name="AttributesSerialize" />
+									<bool name="AutoLocalize">true</bool>
+									<token name="AutomaticSize">0</token>
+									<Color3 name="BackgroundColor3">
+										<R>0.639215708</R>
+										<G>0.635294139</G>
+										<B>0.647058845</B>
+									</Color3>
+									<float name="BackgroundTransparency">1</float>
+									<Color3 name="BorderColor3">
+										<R>0.105882362</R>
+										<G>0.164705887</G>
+										<B>0.207843155</B>
+									</Color3>
+									<token name="BorderMode">0</token>
+									<int name="BorderSizePixel">1</int>
+									<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+									<bool name="ClipsDescendants">false</bool>
+									<bool name="DefinesCapabilities">false</bool>
+									<bool name="Draggable">false</bool>
+									<Content name="Image"><url>http://www.roblox.com/Asset?ID=93747474</url></Content>
+									<Color3 name="ImageColor3">
+										<R>1</R>
+										<G>1</G>
+										<B>1</B>
+									</Color3>
+									<Vector2 name="ImageRectOffset">
+										<X>0</X>
+										<Y>0</Y>
+									</Vector2>
+									<Vector2 name="ImageRectSize">
+										<X>0</X>
+										<Y>0</Y>
+									</Vector2>
+									<float name="ImageTransparency">0</float>
+									<bool name="Interactable">true</bool>
+									<int name="LayoutOrder">0</int>
+									<string name="Name">ImageLabel</string>
+									<Ref name="NextSelectionDown">null</Ref>
+									<Ref name="NextSelectionLeft">null</Ref>
+									<Ref name="NextSelectionRight">null</Ref>
+									<Ref name="NextSelectionUp">null</Ref>
+									<UDim2 name="Position">
+										<XS>0</XS>
+										<XO>0</XO>
+										<YS>0</YS>
+										<YO>0</YO>
+									</UDim2>
+									<token name="ResampleMode">0</token>
+									<Ref name="RootLocalizationTable">null</Ref>
+									<float name="Rotation">0</float>
+									<token name="ScaleType">0</token>
+									<bool name="Selectable">false</bool>
+									<token name="SelectionBehaviorDown">0</token>
+									<token name="SelectionBehaviorLeft">0</token>
+									<token name="SelectionBehaviorRight">0</token>
+									<token name="SelectionBehaviorUp">0</token>
+									<bool name="SelectionGroup">false</bool>
+									<Ref name="SelectionImageObject">null</Ref>
+									<int name="SelectionOrder">0</int>
+									<UDim2 name="Size">
+										<XS>1</XS>
+										<XO>0</XO>
+										<YS>1</YS>
+										<YO>0</YO>
+									</UDim2>
+									<token name="SizeConstraint">0</token>
+									<Rect2D name="SliceCenter">
+										<min>
+											<X>0</X>
+											<Y>0</Y>
+										</min>
+										<max>
+											<X>0</X>
+											<Y>0</Y>
+										</max>
+									</Rect2D>
+									<float name="SliceScale">1</float>
+									<int64 name="SourceAssetId">-1</int64>
+									<BinaryString name="Tags" />
+									<UDim2 name="TileSize">
+										<XS>1</XS>
+										<XO>0</XO>
+										<YS>1</YS>
+										<YO>0</YO>
+									</UDim2>
+									<bool name="Visible">true</bool>
+									<int name="ZIndex">10</int>
+								</Properties>
+							</Item>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+		
